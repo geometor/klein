@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 320" width="660" height="320" class="euclid-graphic" data-graphic-id="fig_erlangen_hierarchy">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-muted: #71717a;
+      --geom-point-stroke: #ffffff;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+      --geom-danger: #dc2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-muted: #a1a1aa;
+        --geom-point-stroke: #1e1e20;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+        --geom-danger: #f87171;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.6; fill: none; }
+    .geom-muted { stroke: var(--geom-muted); stroke-width: 1.1; stroke-dasharray: 4, 3; fill: none; }
+    .geom-accent { stroke: var(--geom-accent); stroke-width: 2.1; fill: none; }
+    .geom-assert { stroke: var(--geom-assert); stroke-width: 2.0; fill: none; }
+    .geom-danger { stroke: var(--geom-danger); stroke-width: 1.8; fill: none; }
+    .geom-poly-ok { fill: var(--geom-assert); fill-opacity: 0.14; stroke: var(--geom-assert); stroke-width: 1.8; }
+    .geom-poly-no { fill: var(--geom-danger); fill-opacity: 0.10; stroke: var(--geom-danger); stroke-width: 1.5; stroke-dasharray: 4, 2.5; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.2; }
+    .geom-title { fill: var(--geom-fg); font-size: 13px; font-weight: 700; }
+    .geom-sub { fill: var(--geom-muted); font-size: 11px; font-weight: 600; }
+    .geom-label { fill: var(--geom-fg); font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text x="330" y="22" text-anchor="middle" class="geom-title">Klein’s Erlangen Hierarchy: Progressive Shedding of Geometric Invariants</text>
+  <rect x="16" y="36" width="144" height="266" rx="6" class="geom-muted"/>
+  <text x="88" y="54" text-anchor="middle" class="geom-label">1. Principal Group</text>
+  <text x="88" y="69" text-anchor="middle" class="geom-sub">Similarities (§ 1)</text>
+  <text x="88" y="290" text-anchor="middle" class="geom-sub">Angles &amp; Q-ratios</text>
+  <rect x="176" y="36" width="144" height="266" rx="6" class="geom-muted"/>
+  <text x="248" y="54" text-anchor="middle" class="geom-label">2. Affine Group</text>
+  <text x="248" y="69" text-anchor="middle" class="geom-sub">Linear Shears (§ 2)</text>
+  <text x="248" y="290" text-anchor="middle" class="geom-sub">Parallelism &amp; Area ratio</text>
+  <rect x="336" y="36" width="144" height="266" rx="6" class="geom-muted"/>
+  <text x="408" y="54" text-anchor="middle" class="geom-label">3. Projective Group</text>
+  <text x="408" y="69" text-anchor="middle" class="geom-sub">Collineations (§ 3)</text>
+  <text x="408" y="290" text-anchor="middle" class="geom-sub">Collinear Cross-Ratio</text>
+  <rect x="496" y="36" width="144" height="266" rx="6" class="geom-muted"/>
+  <text x="568" y="54" text-anchor="middle" class="geom-label">4. Reciprocal Radii</text>
+  <text x="568" y="69" text-anchor="middle" class="geom-sub">Möbius Inversion (§ 6)</text>
+  <text x="568" y="290" text-anchor="middle" class="geom-sub">Generalized Circles &amp; Q-CR</text>
+  <polygon points="52,195 112,175 132,115 72,135" class="geom-poly-ok"/>
+  <circle cx="92" cy="155" r="31.6" class="geom-line"/>
+  <line x1="42" y1="242" x2="136" y2="215" class="geom-accent"/>
+  <circle cx="42.0" cy="242.0" r="3.2" class="geom-point-accent"/>
+  <circle cx="68.3" cy="234.4" r="3.2" class="geom-point-accent"/>
+  <circle cx="100.3" cy="225.3" r="3.2" class="geom-point-accent"/>
+  <circle cx="136.0" cy="215.0" r="3.2" class="geom-point-accent"/>
+  <polygon points="196,195 256,195 298,120 238,120" class="geom-poly-ok"/>
+  <ellipse cx="247" cy="157" rx="44" ry="25" transform="rotate(-24 247 157)" class="geom-danger"/>
+  <line x1="194" y1="242" x2="302" y2="215" class="geom-accent"/>
+  <circle cx="194.0" cy="242.0" r="3.2" class="geom-point-accent"/>
+  <circle cx="224.2" cy="234.4" r="3.2" class="geom-point-accent"/>
+  <circle cx="261.0" cy="225.3" r="3.2" class="geom-point-accent"/>
+  <circle cx="302.0" cy="215.0" r="3.2" class="geom-point-accent"/>
+  <polygon points="358,198 448,188 462,126 382,112" class="geom-poly-ok"/>
+  <ellipse cx="412" cy="156" rx="38" ry="27" transform="rotate(14 412 156)" class="geom-line"/>
+  <line x1="354" y1="244" x2="462" y2="212" class="geom-accent"/>
+  <circle cx="354.0" cy="244.0" r="3.2" class="geom-point-accent"/>
+  <circle cx="375.6" cy="237.6" r="3.2" class="geom-point-accent"/>
+  <circle cx="412.3" cy="226.7" r="3.2" class="geom-point-accent"/>
+  <circle cx="462.0" cy="212.0" r="3.2" class="geom-point-accent"/>
+  <circle cx="585" cy="142" r="34" class="geom-assert"/>
+  <circle cx="556" cy="212" r="36" class="geom-accent"/>
+  <circle cx="520" cy="212" r="3.6" class="geom-point"/>
+  <text x="520" y="230" text-anchor="middle" class="geom-sub">O_inv</text>
+  <circle cx="578.4" cy="183.8" r="3.2" class="geom-point-accent"/>
+  <circle cx="590.9" cy="203.1" r="3.2" class="geom-point-accent"/>
+  <circle cx="588.4" cy="227.7" r="3.2" class="geom-point-accent"/>
+  <circle cx="570.7" cy="244.9" r="3.2" class="geom-point-accent"/>
+</svg>

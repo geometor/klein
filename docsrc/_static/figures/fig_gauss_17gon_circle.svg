@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 420" width="460" height="420" class="euclid-graphic" data-graphic-id="fig_gauss_17gon_circle">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-muted: #71717a;
+      --geom-point-stroke: #ffffff;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+      --geom-danger: #dc2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-muted: #a1a1aa;
+        --geom-point-stroke: #1e1e20;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+        --geom-danger: #f87171;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.6; fill: none; }
+    .geom-muted { stroke: var(--geom-muted); stroke-width: 1.1; stroke-dasharray: 4, 3; fill: none; }
+    .geom-accent { stroke: var(--geom-accent); stroke-width: 2.1; fill: none; }
+    .geom-assert { stroke: var(--geom-assert); stroke-width: 2.0; fill: none; }
+    .geom-danger { stroke: var(--geom-danger); stroke-width: 1.8; fill: none; }
+    .geom-poly-ok { fill: var(--geom-assert); fill-opacity: 0.14; stroke: var(--geom-assert); stroke-width: 1.8; }
+    .geom-poly-no { fill: var(--geom-danger); fill-opacity: 0.10; stroke: var(--geom-danger); stroke-width: 1.5; stroke-dasharray: 4, 2.5; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.2; }
+    .geom-title { fill: var(--geom-fg); font-size: 13px; font-weight: 700; }
+    .geom-sub { fill: var(--geom-muted); font-size: 11px; font-weight: 600; }
+    .geom-label { fill: var(--geom-fg); font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text x="230" y="24" text-anchor="middle" class="geom-title">Exact Regular Heptadecagon (V₀..V₁₆) &amp; Gaussian 2-Period Chords</text>
+  <line x1="45" y1="222.0" x2="415" y2="222.0" class="geom-muted"/>
+  <line x1="230.0" y1="46" x2="230.0" y2="396" class="geom-muted"/>
+  <circle cx="230.0" cy="222.0" r="152.0" class="geom-line"/>
+  <polygon points="382.00,222.00 371.74,167.09 342.33,119.60 297.75,85.94 244.02,70.65 188.40,75.80 138.40,100.70 100.77,141.98 80.59,194.07 80.59,249.93 100.77,302.02 138.40,343.30 188.40,368.20 244.02,373.35 297.75,358.06 342.33,324.40 371.74,276.91" class="geom-poly-ok"/>
+  <line x1="371.74" y1="167.09" x2="371.74" y2="276.91" class="geom-accent"/>
+  <line x1="342.33" y1="119.60" x2="342.33" y2="324.40" class="geom-muted"/>
+  <line x1="297.75" y1="85.94" x2="297.75" y2="358.06" class="geom-muted"/>
+  <line x1="244.02" y1="70.65" x2="244.02" y2="373.35" class="geom-accent"/>
+  <line x1="188.40" y1="75.80" x2="188.40" y2="368.20" class="geom-muted"/>
+  <line x1="138.40" y1="100.70" x2="138.40" y2="343.30" class="geom-muted"/>
+  <line x1="100.77" y1="141.98" x2="100.77" y2="302.02" class="geom-muted"/>
+  <line x1="80.59" y1="194.07" x2="80.59" y2="249.93" class="geom-muted"/>
+  <circle cx="382.00" cy="222.00" r="3.6" class="geom-point-accent"/>
+  <text x="402.0" y="226.0" text-anchor="middle" class="geom-label">V0</text>
+  <circle cx="371.74" cy="167.09" r="3.6" class="geom-point-accent"/>
+  <text x="390.4" y="163.9" text-anchor="middle" class="geom-label">V1</text>
+  <circle cx="342.33" cy="119.60" r="3.6" class="geom-point"/>
+  <text x="357.1" y="110.1" text-anchor="middle" class="geom-label">V2</text>
+  <circle cx="297.75" cy="85.94" r="3.6" class="geom-point"/>
+  <text x="306.7" y="72.0" text-anchor="middle" class="geom-label">V3</text>
+  <circle cx="244.02" cy="70.65" r="3.6" class="geom-point-accent"/>
+  <text x="245.9" y="54.7" text-anchor="middle" class="geom-label">V4</text>
+  <circle cx="188.40" cy="75.80" r="3.6" class="geom-point"/>
+  <text x="182.9" y="60.6" text-anchor="middle" class="geom-label">V5</text>
+  <circle cx="138.40" cy="100.70" r="3.6" class="geom-point"/>
+  <text x="126.3" y="88.7" text-anchor="middle" class="geom-label">V6</text>
+  <circle cx="100.77" cy="141.98" r="3.6" class="geom-point"/>
+  <text x="83.8" y="135.5" text-anchor="middle" class="geom-label">V7</text>
+  <circle cx="80.59" cy="194.07" r="3.6" class="geom-point"/>
+  <text x="60.9" y="194.4" text-anchor="middle" class="geom-label">V8</text>
+  <circle cx="80.59" cy="249.93" r="3.6" class="geom-point"/>
+  <text x="60.9" y="257.6" text-anchor="middle" class="geom-label">V9</text>
+  <circle cx="100.77" cy="302.02" r="3.6" class="geom-point"/>
+  <text x="83.8" y="316.5" text-anchor="middle" class="geom-label">V10</text>
+  <circle cx="138.40" cy="343.30" r="3.6" class="geom-point"/>
+  <text x="126.3" y="363.3" text-anchor="middle" class="geom-label">V11</text>
+  <circle cx="188.40" cy="368.20" r="3.6" class="geom-point"/>
+  <text x="182.9" y="391.4" text-anchor="middle" class="geom-label">V12</text>
+  <circle cx="244.02" cy="373.35" r="3.6" class="geom-point-accent"/>
+  <text x="245.9" y="397.3" text-anchor="middle" class="geom-label">V13</text>
+  <circle cx="297.75" cy="358.06" r="3.6" class="geom-point"/>
+  <text x="306.7" y="380.0" text-anchor="middle" class="geom-label">V14</text>
+  <circle cx="342.33" cy="324.40" r="3.6" class="geom-point"/>
+  <text x="357.1" y="341.9" text-anchor="middle" class="geom-label">V15</text>
+  <circle cx="371.74" cy="276.91" r="3.6" class="geom-point-accent"/>
+  <text x="390.4" y="288.1" text-anchor="middle" class="geom-label">V16</text>
+</svg>

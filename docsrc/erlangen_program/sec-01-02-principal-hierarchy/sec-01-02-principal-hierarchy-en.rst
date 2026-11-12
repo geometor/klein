@@ -1,0 +1,57 @@
+:title: §§ 1–2: The Principal Group & Transformation Hierarchy (1893 English)
+:layout: book
+
+.. _ep-sec-01-02-principal-hierarchy-en:
+
+§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy
+====================================================================================
+
+.. rubric:: *A Comparative Review of Recent Researches in Geometry* — §§ 1–2 (Trans. :person:`M. W. Haskell <haskell>`, 1893, pp. 217–220)
+
+§ 1. Groups of Space-Transformations. Principal Group. Formulation of a General Problem
+---------------------------------------------------------------------------------------
+
+The most essential idea required in the following discussion is that of a *group* of space-transformations.
+
+The combination of any number of transformations of space [#ep_u2_en7]_ is always equivalent to a single transformation. If now a given system of transformations has the property that any transformation obtained by combining any transformations of the system belongs to that system, it shall be called a :term:`group of transformations <transformation-group>` [#ep_u2_en8]_.
+
+An example of a group of transformations is afforded by the totality of motions, every motion being regarded as an operation performed on the whole of space. A group contained in this group is formed, say, by the rotations about one point [#ep_u2_en9]_. On the other hand, a group containing the group of motions is presented by the totality of the collineations. But the totality of the dualistic transformations does not form a group; for the combination of two dualistic transformations is equivalent to a collineation. A group is, however, formed by adding the totality of the dualistic to that of the collinear transformations [#ep_u2_en10]_.
+
+Now there are space-transformations by which the geometric properties of configurations in space remain entirely unchanged. For geometric properties are, from their very idea, independent of the position occupied in space by the configuration in question, of its absolute magnitude, and finally of the *sense* [#ep_u2_en11]_ in which its parts are arranged. The properties of a configuration remain therefore unchanged by any motions of space, by transformation into similar configurations, by transformation into symmetrical configurations with regard to a plane (reflection), as well as by any combination of these transformations. The totality of all these transformations we designate as the :term:`principal group <principal-group>` [#ep_u2_en12]_ of space-transformations; *geometric properties are not changed by the transformations of the principal group*. And, conversely, *geometric properties are characterized by their remaining invariant under the transformations of the principal group*. For, if we regard space for the moment as immovable, etc., as a rigid manifoldness, then every figure has an individual character; of all the properties possessed by it as an individual, only the properly geometric ones are preserved in the transformations of the principal group. The idea, here formulated somewhat indefinitely, will be brought out more clearly in the course of the exposition.
+
+Let us now dispense with the concrete conception of space, which for the mathematician is not essential, and regard it only as a :term:`manifoldness <manifold>` of $n$ dimensions, that is to say, of three dimensions, if we hold to the usual idea of the point as space element. By analogy with the transformations of space we speak of transformations of the manifoldness; they also form *groups*. But there is no longer, as there is in space, one group distinguished above the rest by its signification; each group is of equal importance with every other. As a generalization of geometry arises then the following comprehensive problem:
+
+   *Given a manifoldness and a group of transformations of the same; to investigate the configurations belonging to the manifoldness with regard to such properties as are not altered by the transformations of the group.*
+
+To make use of a modern form of expression, which to be sure is ordinarily used only with reference to a particular group, the group of all the linear transformations, the problem might be stated as follows:
+
+   *Given a manifoldness and a group of transformations of the same; to develop the* :term:`theory of invariants <invariant-theory>` *relating to that group.*
+
+This is the general problem, and it comprehends not alone ordinary geometry, but also and in particular the more recent geometrical theories which we propose to discuss, and the different methods of treating manifoldnesses of $n$ dimensions. Particular stress is to be laid upon the fact that the choice of the group of transformations to be adjoined is quite arbitrary, and that consequently all the methods of treatment satisfying our general condition are in this sense of equal value.
+
+§ 2. Groups of Transformations, One of Which Includes the Other, Are Successively Adjoined. The Different Types of Geometrical Investigation and Their Relation to Each Other
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+As the geometrical properties of configurations in space remain unaltered under *all* the transformations of the :term:`principal group <principal-group>`, it is by the nature of the question absurd to inquire for such properties as would remain unaltered under only a part of those transformations. This inquiry becomes justified, however, as soon as we investigate the configurations of space in their relation to elements regarded as fixed. Let us, for instance, consider the configurations of space with reference to one particular point, as in spherical trigonometry. The problem then is to develop the properties remaining invariant under the transformations of the principal group, not for the configurations taken independently, but for the system consisting of these configurations together with the given point. But we can state this problem in this other form: to examine configurations in space with regard to such properties as remain unchanged by those transformations of the principal group which can still take place when the point is kept fixed. In other words, it is exactly the same thing whether we investigate the configurations of space taken in connection with the given point from the point of view of the principal group or whether, without any such connection, we replace the principal group by that partial group whose transformations leave the point in question unchanged.
+
+This is a principle which we shall frequently apply; we will therefore at once formulate it generally, as follows:
+
+   Given a manifoldness and a group of transformations applying to it. Let it be proposed to examine the configurations contained in the manifoldness with reference to a given configuration. *We may, then, either add the given configuration to the system, and then we have to investigate the properties of the extended system from the point of view of the given group, or we may leave the system unextended, limiting the transformations to be employed to such transformations of the given group as leave the given configuration unchanged. (These transformations necessarily form a group by themselves.)*
+
+Let us now consider the converse of the problem proposed at the beginning of this section. This is intelligible from the outset. We inquire what properties of the configurations of space remain unaltered by a group of transformations which contains the principal group as a part of itself. Every property found by an investigation of this kind is a geometric property of the configuration itself; but the converse is not true. In the converse problem we must apply the principle just enunciated, the principal group being now the smaller. We have then:
+
+   *If the principal group be replaced by a more comprehensive group, a part only of the geometric properties remain unchanged. The remainder no longer appear as properties of the configurations of space by themselves, but as properties of the system formed by adding to them some particular configuration. This latter is defined, in so far as it is a definite* [#ep_u2_en13]_ *configuration at all, by the following condition: The assumption that it is fixed must restrict us to those transformations of the given group which belong to the principal group.*
+
+In this theorem is to be found the peculiarity of the recent geometrical methods to be discussed here, and their relation to the elementary method. What characterizes them is just this, that they base their investigations upon an extended group of space-transformations instead of upon the principal group. Their relation to each other is defined, when one of the groups includes the other, by a corresponding theorem. The same is true of the various methods of treating manifoldnesses of $n$ dimensions which we shall take up. We shall now consider the separate methods from this point of view, and this will afford an opportunity to explain on concrete examples the theorems enunciated in a general form in this and the preceding sections.
+
+----
+
+.. rubric:: Footnotes (1893 Edition)
+
+.. [#ep_u2_en7] We always regard the totality of configurations in space as simultaneously affected by the transformations, and speak therefore of transformations of space. The transformations may introduce other elements in place of points, like dualistic transformations, for instance; there is no distinction in the text in this regard.
+.. [#ep_u2_en8] ``[``\ This definition is not quite complete, for it has been tacitly assumed that the groups mentioned always include the *inverse* of every operation they contain; but, when the number of operations is infinite, this is by no means a necessary consequence of the group idea, and this assumption of ours should therefore be explicitly added to the definition of this idea given in the text.\ ``]`` The ideas, as well as the notation, are taken from the *theory of substitutions*, with the difference merely that there instead of the transformations of a continuous region the permutations of a finite number of discrete quantities are considered.
+.. [#ep_u2_en9] Camille Jordan has formed all the groups contained in the general group of motions: *Sur les groupes de mouvements*, *Comptes Rendus* 65 (1867), 229–232; *Annali di Matematica*, vol. 2.
+.. [#ep_u2_en10] It is not at all necessary for the transformations of a group to form a continuous succession, although the groups to be mentioned in the text will indeed always have that property. For example, a group is formed by the finite series of motions which superpose a regular body upon itself, or by the infinite but discrete series which superpose a sine-curve upon itself.
+.. [#ep_u2_en11] By “sense” is to be understood that peculiarity of the arrangement of the parts of a figure which distinguishes it from the symmetrical figure (the reflected image). Thus, for example, a right-handed and a left-handed helix are of opposite “sense”.
+.. [#ep_u2_en12] The fact that these transformations form a group results from their very idea.
+.. [#ep_u2_en13] Such a configuration can be generated, for instance, by applying the transformations of the principal group to any arbitrary element which cannot be converted into itself by any transformation of the given group.
