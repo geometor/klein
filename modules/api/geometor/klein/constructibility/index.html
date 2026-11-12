@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.klein.constructibility &mdash; GEOMETOR • klein</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <img src="../../../../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../../../../../erlangen_program/index.html"  >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../../../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • klein</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../codex/index.html" title="geometor.klein.codex">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../erlangen/index.html" title="geometor.klein.erlangen"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.klein.constructibility">
+        <span id="geometor-klein-constructibility"></span><h1>geometor.klein.constructibility<a class="headerlink" href="#module-geometor.klein.constructibility" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic constructibility analyzer for Felix Klein’s <em>Famous Problems</em> (1895 / 1897).</p>
+        <p>Implements the algebraic criteria of Part I (Chapters I–III) and Part II (Chapters III–IV):</p>
+        <ol class="arabic simple">
+        <li><p><strong>Klein’s Fundamental Criterion (Part I, Ch. I, §§ 1–15)</strong>:
+        Every analytic expression constructible with straightedge and compasses lies in an iterated
+        quadratic radical tower over its domain of rationality <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>, so its
+        irreducible minimal polynomial <span class="math notranslate nohighlight">\(\varphi(x) = 0\)</span> must have degree <span class="math notranslate nohighlight">\(M = 2^h\)</span>.
+        Moreover, for irreducible quartics (<span class="math notranslate nohighlight">\(M = 4\)</span>), solvability by square roots alone holds
+        if and only if the cubic resolvent reduces over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> (<span class="math notranslate nohighlight">\(\mathrm{Gal}
+        \subseteq D_4\)</span>, excluding <span class="math notranslate nohighlight">\(A_4\)</span> and <span class="math notranslate nohighlight">\(S_4\)</span>).</p></li>
+        <li><p><strong>Gauss–Wantzel Cyclotomic Criterion (Part I, Ch. III, §§ 1–8)</strong>:
+        A regular <span class="math notranslate nohighlight">\(n\)</span>-gon (<span class="math notranslate nohighlight">\(n \ge 3\)</span>) is constructible with straightedge and compasses
+        if and only if <span class="math notranslate nohighlight">\(\varphi(n) = 2^k\)</span>, equivalently <span class="math notranslate nohighlight">\(n = 2^a p_1 \cdots p_r\)</span> where
+        <span class="math notranslate nohighlight">\(p_1 &lt; \dots &lt; p_r\)</span> are distinct Fermat primes <span class="math notranslate nohighlight">\(p_i = 2^{2^{\mu_i}} + 1\)</span>.</p></li>
+        <li><p><strong>Hermite–Lindemann Transcendence Obstruction (Part II, Chs. III–IV)</strong>:
+        Transcendental constants such as <span class="math notranslate nohighlight">\(e\)</span> and <span class="math notranslate nohighlight">\(\pi\)</span> satisfy no algebraic equation
+        with rational coefficients whatsoever, ruling out quadrature of the circle by any algebraic
+        curve or compass-and-straightedge construction.</p></li>
+        </ol>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.constructibility.ConstructibilityReport" title="geometor.klein.constructibility.ConstructibilityReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ConstructibilityReport</span></code></a></p></td>
+        <td><p>Immutable symbolic report on compass-and-straightedge constructibility.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.constructibility.is_power_of_two" title="geometor.klein.constructibility.is_power_of_two"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_power_of_two</span></code></a>(m) → tuple[bool, int | None]</p></td>
+        <td><p>Return <code class="docutils literal notranslate"><span class="pre">(True,</span> <span class="pre">h)</span></code> if <code class="docutils literal notranslate"><span class="pre">m</span> <span class="pre">==</span> <span class="pre">2**h</span></code> for <code class="docutils literal notranslate"><span class="pre">h</span> <span class="pre">&gt;=</span> <span class="pre">0</span></code>, else <code class="docutils literal notranslate"><span class="pre">(False,</span> <span class="pre">None)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.constructibility.is_fermat_prime" title="geometor.klein.constructibility.is_fermat_prime"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_fermat_prime</span></code></a>(p) → tuple[bool, int | None]</p></td>
+        <td><p>Test whether odd integer <code class="docutils literal notranslate"><span class="pre">p</span></code> is a Fermat prime <span class="math notranslate nohighlight">\(2^{2^\mu} + 1\)</span>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.constructibility.cyclotomic_real_minimal_poly" title="geometor.klein.constructibility.cyclotomic_real_minimal_poly"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cyclotomic_real_minimal_poly</span></code></a>(n[, var]) → sympy.Poly</p></td>
+        <td><p>Compute the exact minimal polynomial over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> of <span class="math notranslate nohighlight">\(u = 2\cos(2\pi/n)\)</span>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.constructibility.cubic_resolvent" title="geometor.klein.constructibility.cubic_resolvent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cubic_resolvent</span></code></a>(quartic_poly[, var]) → sympy.Poly</p></td>
+        <td><p>Return the exact depressed cubic resolvent <span class="math notranslate nohighlight">\(R(t)\)</span> of a degree-4 polynomial.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.constructibility.analyze_constructibility" title="geometor.klein.constructibility.analyze_constructibility"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_constructibility</span></code></a>(poly_or_n) → ConstructibilityReport</p></td>
+        <td><p>Analyze compass-and-straightedge constructibility of a regular polygon, polynomial, or number.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.constructibility.tabulate_polygon_constructibility" title="geometor.klein.constructibility.tabulate_polygon_constructibility"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tabulate_polygon_constructibility</span></code></a>([max_n, min_n]) → list[ConstructibilityReport]</p></td>
+        <td><p>Return exact constructibility reports for all regular <span class="math notranslate nohighlight">\(n\)</span>-gons in <code class="docutils literal notranslate"><span class="pre">[min_n,</span> <span class="pre">max_n]</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">ConstructibilityReport</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Immutable symbolic report on compass-and-straightedge constructibility.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.target">
+        <span class="sig-name descname"><span class="pre">target</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.target" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.kind">
+        <span class="sig-name descname"><span class="pre">kind</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.kind" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.is_constructible">
+        <span class="sig-name descname"><span class="pre">is_constructible</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.is_constructible" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.degree">
+        <span class="sig-name descname"><span class="pre">degree</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.degree" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.is_power_of_two">
+        <span class="sig-name descname"><span class="pre">is_power_of_two</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.is_power_of_two" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.tower_depth">
+        <span class="sig-name descname"><span class="pre">tower_depth</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.tower_depth" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.minimal_poly">
+        <span class="sig-name descname"><span class="pre">minimal_poly</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Poly</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.minimal_poly" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.real_minimal_poly">
+        <span class="sig-name descname"><span class="pre">real_minimal_poly</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Poly</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.real_minimal_poly" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.euler_totient">
+        <span class="sig-name descname"><span class="pre">euler_totient</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.euler_totient" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.odd_prime_factors">
+        <span class="sig-name descname"><span class="pre">odd_prime_factors</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">()</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.odd_prime_factors" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.fermat_primes">
+        <span class="sig-name descname"><span class="pre">fermat_primes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">()</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.fermat_primes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.non_fermat_primes">
+        <span class="sig-name descname"><span class="pre">non_fermat_primes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">()</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.non_fermat_primes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.repeated_odd_primes">
+        <span class="sig-name descname"><span class="pre">repeated_odd_primes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">()</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.repeated_odd_primes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.galois_obstruction">
+        <span class="sig-name descname"><span class="pre">galois_obstruction</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.galois_obstruction" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.klein_locus">
+        <span class="sig-name descname"><span class="pre">klein_locus</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.klein_locus" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.ConstructibilityReport.summary">
+        <span class="sig-name descname"><span class="pre">summary</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.klein.constructibility.ConstructibilityReport.summary" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.is_power_of_two">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">is_power_of_two</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.klein.constructibility.is_power_of_two" title="Link to this definition">¶</a></dt>
+        <dd><p>Return <code class="docutils literal notranslate"><span class="pre">(True,</span> <span class="pre">h)</span></code> if <code class="docutils literal notranslate"><span class="pre">m</span> <span class="pre">==</span> <span class="pre">2**h</span></code> for <code class="docutils literal notranslate"><span class="pre">h</span> <span class="pre">&gt;=</span> <span class="pre">0</span></code>, else <code class="docutils literal notranslate"><span class="pre">(False,</span> <span class="pre">None)</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.is_fermat_prime">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">is_fermat_prime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.klein.constructibility.is_fermat_prime" title="Link to this definition">¶</a></dt>
+        <dd><p>Test whether odd integer <code class="docutils literal notranslate"><span class="pre">p</span></code> is a Fermat prime <span class="math notranslate nohighlight">\(2^{2^\mu} + 1\)</span>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>p</strong> – Integer candidate.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Tuple <code class="docutils literal notranslate"><span class="pre">(True,</span> <span class="pre">mu)</span></code> when <code class="docutils literal notranslate"><span class="pre">p</span></code> is prime and <code class="docutils literal notranslate"><span class="pre">p</span> <span class="pre">-</span> <span class="pre">1</span> <span class="pre">=</span> <span class="pre">2**(2**mu)</span></code>,
+        otherwise <code class="docutils literal notranslate"><span class="pre">(False,</span> <span class="pre">None)</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.cyclotomic_real_minimal_poly">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">cyclotomic_real_minimal_poly</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Symbol</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Poly</span></span></span><a class="headerlink" href="#geometor.klein.constructibility.cyclotomic_real_minimal_poly" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact minimal polynomial over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> of <span class="math notranslate nohighlight">\(u = 2\cos(2\pi/n)\)</span>.</p>
+        <p>For <span class="math notranslate nohighlight">\(n \ge 3\)</span>, <span class="math notranslate nohighlight">\(\Phi_n(z)\)</span> has even degree <span class="math notranslate nohighlight">\(\varphi(n) = 2d\)</span> and is
+        palindromic, so <span class="math notranslate nohighlight">\(z^{-d}\Phi_n(z)\)</span> is an integer polynomial of degree <span class="math notranslate nohighlight">\(d\)</span> in
+        <span class="math notranslate nohighlight">\(u = z + z^{-1} = 2\cos(2\pi/n)\)</span>. For <span class="math notranslate nohighlight">\(n = 1, 2\)</span>, returns <span class="math notranslate nohighlight">\(u - 2\)</span> and
+        <span class="math notranslate nohighlight">\(u + 2\)</span> respectively.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.cubic_resolvent">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">cubic_resolvent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">quartic_poly</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Poly</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Symbol</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Poly</span></span></span><a class="headerlink" href="#geometor.klein.constructibility.cubic_resolvent" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the exact depressed cubic resolvent <span class="math notranslate nohighlight">\(R(t)\)</span> of a degree-4 polynomial.</p>
+        <p>Depresses <span class="math notranslate nohighlight">\(a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0\)</span> via <span class="math notranslate nohighlight">\(x = y - a_3/(4a_4)\)</span>
+        into <span class="math notranslate nohighlight">\(y^4 + p y^2 + q y + r\)</span> and returns
+        <span class="math notranslate nohighlight">\(R(t) = t^3 - 2p t^2 + (p^2 - 4r) t + q^2\)</span> over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.analyze_constructibility">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">analyze_constructibility</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">poly_or_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Integer</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Poly</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.klein.constructibility.ConstructibilityReport" title="geometor.klein.constructibility.ConstructibilityReport"><span class="pre">ConstructibilityReport</span></a></span></span><a class="headerlink" href="#geometor.klein.constructibility.analyze_constructibility" title="Link to this definition">¶</a></dt>
+        <dd><p>Analyze compass-and-straightedge constructibility of a regular polygon, polynomial, or number.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>poly_or_n</strong> – <ul class="simple">
+        <li><p><code class="docutils literal notranslate"><span class="pre">int</span></code> / <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Integer</span></code> (<span class="math notranslate nohighlight">\(n \ge 3\)</span>): tests the regular <span class="math notranslate nohighlight">\(n\)</span>-gon
+        via Euler’s totient <span class="math notranslate nohighlight">\(\varphi(n) = 2^k\)</span> and Fermat-prime factorization.</p></li>
+        <li><p><code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Poly</span></code> or univariate <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Expr</span></code>: factors over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>
+        and applies Klein’s degree-<span class="math notranslate nohighlight">\(2^h\)</span> criterion plus cubic-resolvent Galois check.</p></li>
+        <li><p>Closed-form algebraic or transcendental <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Expr</span></code> (no free symbols):
+        detects transcendence (<span class="math notranslate nohighlight">\(\pi\)</span>, <span class="math notranslate nohighlight">\(e\)</span>) or computes the exact minimal
+        polynomial over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p></li>
+        </ul>
+        </p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>A populated <a class="reference internal" href="#geometor.klein.constructibility.ConstructibilityReport" title="geometor.klein.constructibility.ConstructibilityReport"><code class="xref py py-class docutils literal notranslate"><span class="pre">ConstructibilityReport</span></code></a> with exact minimal polynomial, tower depth,
+        and Galois/transcendence obstruction diagnosis.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.constructibility.tabulate_polygon_constructibility">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.constructibility.</span></span><span class="sig-name descname"><span class="pre">tabulate_polygon_constructibility</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">24</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">min_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">3</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.klein.constructibility.ConstructibilityReport" title="geometor.klein.constructibility.ConstructibilityReport"><span class="pre">ConstructibilityReport</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.klein.constructibility.tabulate_polygon_constructibility" title="Link to this definition">¶</a></dt>
+        <dd><p>Return exact constructibility reports for all regular <span class="math notranslate nohighlight">\(n\)</span>-gons in <code class="docutils literal notranslate"><span class="pre">[min_n,</span> <span class="pre">max_n]</span></code>.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../codex/index.html" title="geometor.klein.codex">&larr; <span class="nav-label">geometor.klein.codex</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • klein</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../erlangen/index.html" title="geometor.klein.erlangen"><span class="nav-label">geometor.klein.erlangen</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

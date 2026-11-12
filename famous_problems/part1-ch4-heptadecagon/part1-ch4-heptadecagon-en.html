@@ -1,0 +1,444 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Part I, Chapter IV — The Construction of the Regular Polygon of 17 Sides &mdash; Famous Problems (1895 / 1897)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../../erlangen_program/index.html"  >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../part1-ch3-cyclotomy/part1-ch3-cyclotomy-en.html" title="Part I, Chapter III — The Division of the Circle into Equal Parts">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch4-heptadecagon-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch4-heptadecagon-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch4-heptadecagon-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch5-higher-constructions/part1-ch5-higher-constructions-en.html" title="Part I, Chapter V — General Considerations on Algebraic Constructions"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="part-i-chapter-iv-the-construction-of-the-regular-polygon-of-17-sides">
+        <span id="fp-part1-ch4-heptadecagon-en"></span><h1>Part I, Chapter IV — The Construction of the Regular Polygon of 17 Sides<a class="headerlink" href="#part-i-chapter-iv-the-construction-of-the-regular-polygon-of-17-sides" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Part I, Chapter IV (§§ 1–9; <a class="citation-ref" id="occ-cite-klein-1897-1" href="../../bibliography.html#cite-klein-1897" data-cite="klein:1897" title="Felix Klein (trans. W. W. Beman &amp; D. E. Smith) — Famous Problems of Elementary Geometry: The Duplication of the Cube, The Trisection of an Angle, The Quadrature of the Circle (Boston and London: Ginn &amp; Company (ix + 80 pp.))">Ginn &amp; Co., 1897, pp. 24–41</a>)</p>
+        <section class="level-2" id="primitive-roots-modulo-17-and-gauss-s-periods">
+        <h2>§§ 1–3. Primitive Roots Modulo 17 and Gauss’s Periods<a class="headerlink" href="#primitive-roots-modulo-17-and-gauss-s-periods" title="Link to this heading">¶</a></h2>
+        <p><strong>1.</strong> Having seen in Chapter III that division of the circle into an odd prime number of equal parts by straightedge and compasses is possible only for <a class="person-ref" id="occ-person-gauss-1" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss's</a> <a class="term-ref glossary-term" id="occ-term-fermat-prime-1" href="../../glossary.html#term-fermat-prime" data-term="fermat-prime" title="Fermat prime (Gauss&#x27;sche Primzahl 2^(2^μ) + 1) (Prime number of the form p = 2^(2^μ) + 1 governing odd-prime cyclotomic constructibility): An odd prime p for which p - 1 is a power of 2, forcing p = 2^(2^mu) + 1; the five known Fermat primes correspond to mu = 0 (3), mu = 1 (5), mu = 2 (17), mu = 3 (257), and mu = 4 (65537).">Fermat primes</a>, we shall now show in an elementary way how to actually inscribe the <strong>regular polygon of $17$ sides</strong> in the unit circle.</p>
+        <p>Since we possess as yet no construction of the regular $17$-gon derived from purely geometric considerations, we follow the algebraic path indicated by our general theory: we investigate the $16$ roots of the cyclotomic equation</p>
+        <div class="math notranslate nohighlight">
+        \[x^{16} + x^{15} + \dots + x^2 + x + 1 = 0,\]</div>
+        <p>and translate the resulting nested square-root expression into a geometric construction. In transcendental form the roots are</p>
+        <div class="math notranslate nohighlight">
+        \[\varepsilon_k = \cos\frac{2k\pi}{17} + i\sin\frac{2k\pi}{17} \qquad (k = 1, 2, \dots, 16),\]</div>
+        <p>with $\varepsilon_k = \varepsilon_1^k$, represented geometrically in the complex plane by the $16$ vertices different from $1$ of the regular $17$-gon inscribed in the unit circle centered at the origin. Once $\varepsilon_1$ is chosen as initial vertex, the angle belonging to $\varepsilon_k$ is $k$ times that of $\varepsilon_1$.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 420" width="460" height="420" class="euclid-graphic" data-graphic-id="fig_gauss_17gon_circle">
+          <text x="230" y="24" text-anchor="middle" class="geom-title">Exact Regular Heptadecagon (V₀..V₁₆) &amp; Gaussian 2-Period Chords</text>
+          <line x1="45" y1="222.0" x2="415" y2="222.0" class="geom-muted"/>
+          <line x1="230.0" y1="46" x2="230.0" y2="396" class="geom-muted"/>
+          <circle cx="230.0" cy="222.0" r="152.0" class="geom-line"/>
+          <polygon points="382.00,222.00 371.74,167.09 342.33,119.60 297.75,85.94 244.02,70.65 188.40,75.80 138.40,100.70 100.77,141.98 80.59,194.07 80.59,249.93 100.77,302.02 138.40,343.30 188.40,368.20 244.02,373.35 297.75,358.06 342.33,324.40 371.74,276.91" class="geom-poly-ok"/>
+          <line x1="371.74" y1="167.09" x2="371.74" y2="276.91" class="geom-accent"/>
+          <line x1="342.33" y1="119.60" x2="342.33" y2="324.40" class="geom-muted"/>
+          <line x1="297.75" y1="85.94" x2="297.75" y2="358.06" class="geom-muted"/>
+          <line x1="244.02" y1="70.65" x2="244.02" y2="373.35" class="geom-accent"/>
+          <line x1="188.40" y1="75.80" x2="188.40" y2="368.20" class="geom-muted"/>
+          <line x1="138.40" y1="100.70" x2="138.40" y2="343.30" class="geom-muted"/>
+          <line x1="100.77" y1="141.98" x2="100.77" y2="302.02" class="geom-muted"/>
+          <line x1="80.59" y1="194.07" x2="80.59" y2="249.93" class="geom-muted"/>
+          <circle cx="382.00" cy="222.00" r="3.6" class="geom-point-accent"/>
+          <text x="402.0" y="226.0" text-anchor="middle" class="geom-label">V0</text>
+          <circle cx="371.74" cy="167.09" r="3.6" class="geom-point-accent"/>
+          <text x="390.4" y="163.9" text-anchor="middle" class="geom-label">V1</text>
+          <circle cx="342.33" cy="119.60" r="3.6" class="geom-point"/>
+          <text x="357.1" y="110.1" text-anchor="middle" class="geom-label">V2</text>
+          <circle cx="297.75" cy="85.94" r="3.6" class="geom-point"/>
+          <text x="306.7" y="72.0" text-anchor="middle" class="geom-label">V3</text>
+          <circle cx="244.02" cy="70.65" r="3.6" class="geom-point-accent"/>
+          <text x="245.9" y="54.7" text-anchor="middle" class="geom-label">V4</text>
+          <circle cx="188.40" cy="75.80" r="3.6" class="geom-point"/>
+          <text x="182.9" y="60.6" text-anchor="middle" class="geom-label">V5</text>
+          <circle cx="138.40" cy="100.70" r="3.6" class="geom-point"/>
+          <text x="126.3" y="88.7" text-anchor="middle" class="geom-label">V6</text>
+          <circle cx="100.77" cy="141.98" r="3.6" class="geom-point"/>
+          <text x="83.8" y="135.5" text-anchor="middle" class="geom-label">V7</text>
+          <circle cx="80.59" cy="194.07" r="3.6" class="geom-point"/>
+          <text x="60.9" y="194.4" text-anchor="middle" class="geom-label">V8</text>
+          <circle cx="80.59" cy="249.93" r="3.6" class="geom-point"/>
+          <text x="60.9" y="257.6" text-anchor="middle" class="geom-label">V9</text>
+          <circle cx="100.77" cy="302.02" r="3.6" class="geom-point"/>
+          <text x="83.8" y="316.5" text-anchor="middle" class="geom-label">V10</text>
+          <circle cx="138.40" cy="343.30" r="3.6" class="geom-point"/>
+          <text x="126.3" y="363.3" text-anchor="middle" class="geom-label">V11</text>
+          <circle cx="188.40" cy="368.20" r="3.6" class="geom-point"/>
+          <text x="182.9" y="391.4" text-anchor="middle" class="geom-label">V12</text>
+          <circle cx="244.02" cy="373.35" r="3.6" class="geom-point-accent"/>
+          <text x="245.9" y="397.3" text-anchor="middle" class="geom-label">V13</text>
+          <circle cx="297.75" cy="358.06" r="3.6" class="geom-point"/>
+          <text x="306.7" y="380.0" text-anchor="middle" class="geom-label">V14</text>
+          <circle cx="342.33" cy="324.40" r="3.6" class="geom-point"/>
+          <text x="357.1" y="341.9" text-anchor="middle" class="geom-label">V15</text>
+          <circle cx="371.74" cy="276.91" r="3.6" class="geom-point-accent"/>
+          <text x="390.4" y="288.1" text-anchor="middle" class="geom-label">V16</text>
+        </svg>
+        <figcaption>Regular Heptadecagon Roots on the Unit Circle (Klein Figs. 3–4): Conjugate root pairs z_m = eps_r + eps_(17-r) = 2 cos(2r pi/17) and semicircle chord magnitudes S_k = 2 sin(k pi/34).</figcaption>
+        </figure>
+        <p><strong>2.</strong> The fundamental idea of <a class="person-ref" id="occ-person-gauss-2" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss's</a> solution (<a class="citation-ref" id="occ-cite-gauss-1801-1" href="../../bibliography.html#cite-gauss-1801" data-cite="gauss:1801" title="Carl Friedrich Gauss — Disquisitiones Arithmeticae, Sectio Septima: De aequationibus circuli sectiones definientibus (Leipzig: Gerhard Fleischer, §§ 335–366)"><em>Disquisitiones Arithmeticae</em>, 1801</a>; see also <a class="person-ref" id="occ-person-bachmann-1" href="../../persons.html#person-bachmann" data-person="bachmann" title="Paul Gustav Heinrich Bachmann (1837 – 1920) — German Number Theorist">Bachmann</a>, <a class="citation-ref" id="occ-cite-bachmann-1872-1" href="../../bibliography.html#cite-bachmann-1872" data-cite="bachmann:1872" title="Paul Bachmann — Die Lehre von der Kreistheilung und ihre Beziehungen zur Zahlentheorie (Leipzig: B. G. Teubner)"><em>Die Lehre von der Kreisteilung</em>, Leipzig, 1872</a>) is to arrange the $16$ roots into a single cycle by means of a <strong>primitive root modulo $17$</strong>—an integer $a$ for which the least positive exponent satisfying $a^s \equiv +1 \pmod{17}$ is $s = 17 - 1 = 16$. The number $a = 3$ possesses this property:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{alignedat}{4}
+        3^1 &amp;\equiv 3,  &amp;\quad 3^5 &amp;\equiv 5,  &amp;\quad 3^9  &amp;\equiv 14, &amp;\quad 3^{13} &amp;\equiv 12, \\
+        3^2 &amp;\equiv 9,  &amp;\quad 3^6 &amp;\equiv 15, &amp;\quad 3^{10} &amp;\equiv 8, &amp;\quad 3^{14} &amp;\equiv 2,  \\
+        3^3 &amp;\equiv 10, &amp;\quad 3^7 &amp;\equiv 11, &amp;\quad 3^{11} &amp;\equiv 7, &amp;\quad 3^{15} &amp;\equiv 6,  \\
+        3^4 &amp;\equiv 13, &amp;\quad 3^8 &amp;\equiv 16, &amp;\quad 3^{12} &amp;\equiv 4, &amp;\quad 3^{16} &amp;\equiv 1   \pmod{17}.
+        \end{alignedat}\end{split}\]</div>
+        <p>Ordering the roots $\varepsilon_k$ by these remainders gives the cycle</p>
+        <div class="math notranslate nohighlight">
+        \[\varepsilon_3,\; \varepsilon_9,\; \varepsilon_{10},\; \varepsilon_{13},\; \varepsilon_5,\; \varepsilon_{15},\; \varepsilon_{11},\; \varepsilon_{16},\; \varepsilon_{14},\; \varepsilon_8,\; \varepsilon_7,\; \varepsilon_4,\; \varepsilon_{12},\; \varepsilon_2,\; \varepsilon_6,\; \varepsilon_1,\]</div>
+        <p>in which <strong>each root is the cube of its predecessor</strong> ($\varepsilon_{r'} = \varepsilon_r^3$). Gauss decomposes this $16$-cycle into sums containing $8$, $4$, $2$, and $1$ roots—corresponding to the divisors of $16$—called <a class="term-ref glossary-term" id="occ-term-gaussian-periods-1" href="../../glossary.html#term-gaussian-periods" data-term="gaussian-periods" title="Gaussian periods (Gauss&#x27;sche Perioden η, η&#x27;, η&#x27;&#x27;) (Galois-orbit sums of primitive p-th roots of unity ordered by powers of a primitive root g): For p = 17 and primitive root g = 3, partitioning the 16 roots epsilon^(3^k) into alternating subsets of 8, 4, and 2 terms produces real sums x_i (8-periods), y_i (4-periods), and z_i = 2*cos(2*pi*m/17) (2-periods) chained by four quadratic equations.">Gaussian periods</a>, which can be calculated successively as roots of quadratic equations.</p>
+        <p><strong>3.</strong> Replacing each root $\varepsilon_k$ symbolically by its exponent $k \pmod{17}$ and alternating by steps of $2$, we form:</p>
+        <ul>
+        <li><p><strong>Two $8$-periods</strong> ($x_1$ from even positions in the cycle, $x_2$ from odd positions):</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{aligned}
+        x_1 &amp;= 9 + 13 + 15 + 16 + 8 + 4 + 2 + 1, \\
+        x_2 &amp;= 3 + 10 + 5 + 11 + 14 + 7 + 12 + 6.
+        \end{aligned}\end{split}\]</div>
+        </li>
+        <li><p><strong>Four $4$-periods</strong> (alternating inside $x_1$ and $x_2$):</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{alignedat}{2}
+        y_1 &amp;= 13 + 16 + 4 + 1,  &amp;\qquad y_2 &amp;= 9 + 15 + 8 + 2, \\
+        y_3 &amp;= 10 + 11 + 7 + 6,  &amp;\qquad y_4 &amp;= 3 + 5 + 14 + 12.
+        \end{alignedat}\end{split}\]</div>
+        </li>
+        <li><p><strong>Eight $2$-periods</strong> (alternating inside $y_1, y_2, y_3, y_4$):</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{alignedat}{4}
+        z_1 &amp;= 16 + 1, &amp;\quad z_2 &amp;= 13 + 4, &amp;\quad z_3 &amp;= 15 + 2, &amp;\quad z_4 &amp;= 9 + 8, \\
+        z_5 &amp;= 11 + 6, &amp;\quad z_6 &amp;= 10 + 7, &amp;\quad z_7 &amp;= 5 + 12, &amp;\quad z_8 &amp;= 3 + 14.
+        \end{alignedat}\end{split}\]</div>
+        </li>
+        </ul>
+        </section>
+        <section class="level-2" id="reality-and-relative-magnitude-of-the-periods">
+        <h2>§§ 4–5. Reality and Relative Magnitude of the Periods<a class="headerlink" href="#reality-and-relative-magnitude-of-the-periods" title="Link to this heading">¶</a></h2>
+        <p><strong>4.</strong> In every $2$-period $z_m$, the two exponents sum to $17$, pairing $\varepsilon_r$ with its complex conjugate $\varepsilon_{17-r} = \overline{\varepsilon_r}$. Hence <strong>all the periods $z_m$, $y_j$, $x_i$ are real numbers</strong>:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{alignedat}{2}
+        z_1 &amp;= 2\cos\frac{2\pi}{17},     &amp;\qquad z_5 &amp;= 2\cos\frac{12\pi}{17}, \\
+        z_2 &amp;= 2\cos\frac{8\pi}{17},     &amp;\qquad z_6 &amp;= 2\cos\frac{14\pi}{17}, \\
+        z_3 &amp;= 2\cos\frac{4\pi}{17},     &amp;\qquad z_7 &amp;= 2\cos\frac{10\pi}{17}, \\
+        z_4 &amp;= 2\cos\frac{16\pi}{17},    &amp;\qquad z_8 &amp;= 2\cos\frac{6\pi}{17},
+        \end{alignedat}\end{split}\]</div>
+        <p>with $y_1 = z_1 + z_2$, $y_2 = z_3 + z_4$, $y_3 = z_5 + z_6$, $y_4 = z_7 + z_8$, $x_1 = y_1 + y_2$, and $x_2 = y_3 + y_4$.</p>
+        <p><strong>5.</strong> To determine unambiguously which sign belongs to each square root in our quadratic equations, we establish the <strong>relative magnitudes</strong> of the periods by an elementary geometric artifice. Divide the upper semicircle of unit radius into $17$ equal arcs at $A_1, A_2, \dots, A_{17}$ starting from $O_{\text{arc}} = A_0$, and denote the chord lengths $A_0 A_k$ by $S_1, S_2, \dots, S_{17}$ (with diameter $S_{17} = 2$):</p>
+        <div class="math notranslate nohighlight">
+        \[S_k = 2\sin\frac{k\pi}{34} = 2\cos\frac{(17 - k)\pi}{34}.\]</div>
+        <p>Matching $2\cos\frac{2h\pi}{17} = 2\cos\frac{4h\pi}{34}$ against $S_k$ for $h = 1, 2, \dots, 8$ gives $k = 17 - 4h$, i.e.:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{alignedat}{4}
+        z_1 &amp;= +S_{13}, &amp;\quad z_2 &amp;= +S_1, &amp;\quad z_3 &amp;= +S_9, &amp;\quad z_4 &amp;= -S_{15}, \\
+        z_5 &amp;= -S_7,    &amp;\quad z_6 &amp;= -S_{11}, &amp;\quad z_7 &amp;= -S_3, &amp;\quad z_8 &amp;= +S_5.
+        \end{alignedat}\end{split}\]</div>
+        <p>Since $0 &lt; S_1 &lt; S_2 &lt; \dots &lt; S_{17} = 2$, we read off immediately</p>
+        <div class="math notranslate nohighlight">
+        \[z_4 &lt; z_6 &lt; z_5 &lt; z_7 &lt; z_2 &lt; z_8 &lt; z_3 &lt; z_1.\]</div>
+        <p>Furthermore, in $\triangle A_0 A_k A_{k+p}$ the triangle inequality gives $S_{k+p} &lt; S_k + S_p$. Forming pairwise differences of $y_1, y_2, y_3, y_4$ yields:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{aligned}
+        y_1 - y_2 &amp;= (S_{13} + S_1) - S_9 + S_{15} &gt; 0, \\
+        y_1 - y_4 &amp;= S_{13} + S_1 + S_3 - S_5 &gt; 0 \qquad (\text{since } S_{13} &gt; S_5), \\
+        y_2 - y_3 &amp;= S_9 - S_{15} + S_7 + S_{11} &gt; 0 \qquad (\text{since } S_9 + S_7 &gt; S_{16} &gt; S_{15}), \\
+        y_2 - y_4 &amp;= S_9 - S_{15} + S_3 - S_5 &lt; 0 \qquad (\text{since } S_9 + S_3 &lt; S_{15} + S_5), \\
+        y_3 - y_4 &amp;= -S_7 - S_{11} + S_3 - S_5 &lt; 0.
+        \end{aligned}\end{split}\]</div>
+        <p>Hence the four $4$-periods obey the strict inequality chain</p>
+        <div class="math notranslate nohighlight">
+        \[y_3 &lt; y_2 &lt; y_4 &lt; y_1, \qquad \text{and similarly} \qquad x_2 &lt; x_1.\]</div>
+        </section>
+        <section class="level-2" id="the-tower-of-four-quadratic-equations-and-normal-radical-form">
+        <h2>§ 6. The Tower of Four Quadratic Equations and Normal Radical Form<a class="headerlink" href="#the-tower-of-four-quadratic-equations-and-normal-radical-form" title="Link to this heading">¶</a></h2>
+        <p><strong>6.</strong> Using the symbolic product rule $\varepsilon_k \cdot \varepsilon_p = \varepsilon_{k+p \pmod{17}}$ and $\sum_{k=1}^{16} \varepsilon_k = -1$, we compute the elementary symmetric functions at each level:</p>
+        <ol class="arabic">
+        <li><p><strong>First quadratic $(\xi)$ for $x_1, x_2$:</strong> $x_1 + x_2 = -1$, and in the $64$-term expansion of $x_1 x_2$ every primitive root $\varepsilon_1, \dots, \varepsilon_{16}$ occurs exactly $4$ times, so $x_1 x_2 = -4$. Thus $x_1 &gt; x_2$ solve</p>
+        <div class="math notranslate nohighlight">
+        \[(\xi) \qquad x^2 + x - 4 = 0 \implies x_1 = \frac{-1 + \sqrt{17}}{2}, \quad x_2 = \frac{-1 - \sqrt{17}}{2}.\]</div>
+        </li>
+        <li><p><strong>Second quadratic $(\eta)$ for $y_1, y_2$:</strong> $y_1 + y_2 = x_1$, and expanding $y_1 y_2 = (13 + 16 + 4 + 1)(9 + 15 + 8 + 2)$ yields each of the $16$ roots once, so $y_1 y_2 = -1$. Since $y_1 &gt; y_2$:</p>
+        <div class="math notranslate nohighlight">
+        \[(\eta) \qquad y^2 - x_1 y - 1 = 0 \implies y_1 = \frac{x_1 + \sqrt{x_1^2 + 4}}{2}, \quad y_2 = \frac{x_1 - \sqrt{x_1^2 + 4}}{2}.\]</div>
+        </li>
+        <li><p><strong>Third quadratic $(\eta')$ for $y_4, y_3$:</strong> Similarly $y_3 + y_4 = x_2$ and $y_3 y_4 = -1$. Since $y_4 &gt; y_3$:</p>
+        <div class="math notranslate nohighlight">
+        \[(\eta') \qquad y^2 - x_2 y - 1 = 0 \implies y_4 = \frac{x_2 + \sqrt{x_2^2 + 4}}{2}, \quad y_3 = \frac{x_2 - \sqrt{x_2^2 + 4}}{2}.\]</div>
+        </li>
+        <li><p><strong>Fourth quadratic $(\zeta)$ for $z_1, z_2$:</strong> $z_1 + z_2 = y_1$, and $z_1 z_2 = (16 + 1)(13 + 4) = 12 + 3 + 14 + 5 = y_4$. Since $z_1 &gt; z_2$:</p>
+        <div class="math notranslate nohighlight">
+        \[(\zeta) \qquad z^2 - y_1 z + y_4 = 0 \implies z_1 = \frac{y_1 + \sqrt{y_1^2 - 4y_4}}{2}, \quad z_2 = \frac{y_1 - \sqrt{y_1^2 - 4y_4}}{2}.\]</div>
+        </li>
+        </ol>
+        <p>Thus $z_1 = 2\cos\frac{2\pi}{17}$ appears to involve four square roots: $\sqrt{17}$, $\sqrt{x_1^2 + 4}$, $\sqrt{x_2^2 + 4}$, and $\sqrt{y_1^2 - 4y_4}$. Are these four radicals algebraically independent? Expanding symbolically $(y_1 - y_2)(y_4 - y_3)$ across all $64$ signed terms gives $2(x_1 - x_2)$, i.e.:</p>
+        <div class="math notranslate nohighlight">
+        \[(y_1 - y_2)(y_4 - y_3) = 2(x_1 - x_2) \iff \sqrt{x_1^2 + 4}\,\sqrt{x_2^2 + 4} = 2\sqrt{17}.\]</div>
+        <p>Hence $\sqrt{x_2^2 + 4}$ is rationally expressible in terms of $\sqrt{17}$ and $\sqrt{x_1^2 + 4}$ (confirming that $z_1$ satisfies an irreducible equation of degree $8 = 2^3$, not $16$). Substituting the numerical values yields the explicit nested radical chain:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{aligned}
+        x_1 &amp;= \frac{-1 + \sqrt{17}}{2}, \\[4pt]
+        y_1 &amp;= \frac{-1 + \sqrt{17} + \sqrt{34 - 2\sqrt{17}}}{4}, \qquad
+        y_4 = \frac{-1 - \sqrt{17} + \sqrt{34 + 2\sqrt{17}}}{4}, \\[6pt]
+        z_1 &amp;= 2\cos\frac{2\pi}{17} = \frac{-1 + \sqrt{17} + \sqrt{34 - 2\sqrt{17}}}{8} \\
+            &amp;\quad + \frac{1}{8}\sqrt{68 + 12\sqrt{17} - 16\sqrt{34 + 2\sqrt{17}} - 2(1 - \sqrt{17})\sqrt{34 - 2\sqrt{17}}}.
+        \end{aligned}\end{split}\]</div>
+        </section>
+        <section class="level-2" id="historical-excursion-on-restricted-instruments-mascheroni-brianchon-poncelet-steiner">
+        <h2>§ 7. Historical Excursion on Restricted Instruments (Mascheroni, Brianchon, Poncelet, Steiner)<a class="headerlink" href="#historical-excursion-on-restricted-instruments-mascheroni-brianchon-poncelet-steiner" title="Link to this heading">¶</a></h2>
+        <p><strong>7.</strong> Before translating these four quadratic equations into geometry, we insert a brief historical excursion on constructions with straightedge and compasses:</p>
+        <ul class="simple">
+        <li><p>In <strong>ancient geometry</strong>, straightedge and compasses were always employed side by side without distinguishing whether individual steps used one instrument or the other; the geometer’s art lay simply in arranging the parts of a figure so as to avoid superfluous lines.</p></li>
+        <li><p>In <strong>1797</strong>, the Italian geometer <a class="person-ref" id="occ-person-mascheroni-1" href="../../persons.html#person-mascheroni" data-person="mascheroni" title="Lorenzo Mascheroni (1750 – 1800) — Italian Mathematician">Lorenzo Mascheroni</a> succeeded in executing all Euclidean constructions <strong>with the compasses alone</strong> in his <a class="citation-ref" id="occ-cite-mascheroni-1797-1" href="../../bibliography.html#cite-mascheroni-1797" data-cite="mascheroni:1797" title="Lorenzo Mascheroni — La Geometria del Compasso (Pavia: Eredi di Pietro Galeazzi)"><em>Geometria del compasso</em></a>, arguing that for instrument-makers and mechanics divider-arcs are practically more accurate than ruled lines. (Because Mascheroni’s original treatise is prolix, Hutt provided a concise German summary, <em>Die Mascheroni’schen Constructionen</em>, Halle, 1880.)</p></li>
+        <li><p>Conversely, in France the disciples of Carnot (<em>Géométrie de position</em>) strove to accomplish as much as possible <strong>with the straightedge alone</strong> (compare also <a class="person-ref" id="occ-person-lambert-1" href="../../persons.html#person-lambert" data-person="lambert" title="Johann Heinrich Lambert (1728 – 1777) — Swiss-Alsatian Polymath, Geometer &amp; Analyst">Lambert</a>, <em>Freie Perspective</em>, 1774, and <a class="person-ref" id="occ-person-brianchon-1" href="../../persons.html#person-brianchon" data-person="brianchon" title="Charles Julien Brianchon (1783 – 1864) — French Projective Geometer">Brianchon</a>, <em>Les applications de la théorie des transversales</em>, 1818, motivated by field surveying). Algebra answers immediately what pure straightedge lines can achieve: <strong>with the straightedge alone we can construct precisely those algebraic expressions whose form is rational</strong>.</p></li>
+        <li><p>Finally, <a class="person-ref" id="occ-person-poncelet-1" href="../../persons.html#person-poncelet" data-person="poncelet" title="Jean-Victor Poncelet (1788 – 1867) — French Geometer &amp; Engineer, Revivalist of Projective Geometry">Poncelet</a> first conceived in his <a class="citation-ref" id="occ-cite-poncelet-1822-1" href="../../bibliography.html#cite-poncelet-1822" data-cite="poncelet:1822" title="Jean-Victor Poncelet — Traité des propriétés projectives des figures (Paris: Bachelier)"><em>Traité des propriétés projectives</em> (1822, Vol. I, Nos. 351–357)</a> the fundamental theorem—developed systematically by <a class="person-ref" id="occ-person-steiner-1" href="../../persons.html#person-steiner" data-person="steiner" title="Jakob Steiner (1796 – 1863) — Swiss-German Synthetic Geometer">Steiner</a> in his celebrated monograph <a class="citation-ref" id="occ-cite-steiner-1833-1" href="../../bibliography.html#cite-steiner-1833" data-cite="steiner:1833" title="Jakob Steiner — Die geometrischen Konstruktionen, ausgeführt mittelst der geraden Linie und eines festen Kreises (Berlin: Ferdinand Dümmler)"><em>Die geometrischen Constructionen, ausgeführt mittels der geraden Linie und eines festen Kreises</em> (1833)</a>—that <strong>a single fixed circle with given center, together with the straightedge alone, suffices to construct every algebraic expression built from rational operations and square roots</strong> (the <a class="term-ref glossary-term" id="occ-term-poncelet-steiner-theorem-1" href="../../glossary.html#term-poncelet-steiner-theorem" data-term="poncelet-steiner-theorem" title="Poncelet–Steiner theorem (Equivalence of ruler-and-compass constructibility with straightedge + one fixed circle with center): The theorem of Poncelet (1822) and Steiner (1833) that once a single fixed circle and its center are drawn on the plane, every quadratic (compass-and-straightedge) construction—including the regular 17-gon—can be executed with the straightedge alone.">Poncelet–Steiner theorem</a>).</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="the-von-staudtschroter-single-circle-construction-of-the-17-gon">
+        <h2>§§ 8–9. The von Staudt–Schröter Single-Circle Construction of the 17-Gon<a class="headerlink" href="#the-von-staudtschroter-single-circle-construction-of-the-17-gon" title="Link to this heading">¶</a></h2>
+        <p><strong>8.</strong> To construct the regular $17$-gon with a <strong>single fixed circle and straightedge alone</strong>, we follow the elegant projective method of <a class="person-ref" id="occ-person-staudt-1" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798 – 1867) — German Synthetic Projective Geometer">Karl Georg Christian von Staudt</a> (<a class="citation-ref" id="occ-cite-staudt-1842-1" href="../../bibliography.html#cite-staudt-1842" data-cite="staudt:1842" title="Karl Georg Christian von Staudt — Construction des regulären Siebzehnecks (Journal für die reine und angewandte Mathematik (Crelle) 24, p. 252 (also Geometrie der Lage, 1847))"><em>Crelle's Journal</em>, Vol. XXIV, 1842</a>), as modified by <a class="person-ref" id="occ-person-schroeter-1" href="../../persons.html#person-schroeter" data-person="schroeter" title="Heinrich Eduard Schröter (1829 – 1892) — German Projective Geometer (Breslau)">Heinrich Schröter</a> (<a class="citation-ref" id="occ-cite-schroeter-1872-1" href="../../bibliography.html#cite-schroeter-1872" data-cite="schroeter:1872" title="Heinrich Schröter — Zur v. Staudtschen Construction des regulären Siebzehnecks (Journal für die reine und angewandte Mathematik (Crelle) 75, pp. 13–24)"><em>Crelle's Journal</em>, Vol. LXXV, 1872</a>). (A Mascheroni compass-only construction of the regular $17$-gon was subsequently published by L. Gérard in <em>Mathematische Annalen</em>, Vol. XLVIII, 1896, pp. 390–392.)</p>
+        <p>Let the fixed unit circle have diameter $OA$ along the $Y$-axis ($O = (0, 0)$, center $C_0 = (0, 1)$, upper pole $A = (0, 2)$), with lower horizontal tangent $y = 0$ (the $X$-axis) and upper horizontal tangent $y = 2$:</p>
+        <div class="math notranslate nohighlight">
+        \[x^2 + y(y - 2) = 0.\]</div>
+        <p>To solve any quadratic equation $x^2 - px + q = 0$ having real roots $x_1, x_2$:</p>
+        <ol class="arabic simple">
+        <li><p>Lay off on the upper tangent $y = 2$ (from $A$) the abscissa $\frac{4}{p}$, and on the lower tangent $y = 0$ (from $O$) the abscissa $\frac{q}{p}$.</p></li>
+        <li><p>Connect $\left(\frac{4}{p}, 2\right)$ and $\left(\frac{q}{p}, 0\right)$ by the transversal <strong>line 3</strong>, meeting the fixed circle in two points.</p></li>
+        <li><p>Project those two circle intersections from the upper pole $A(0, 2)$ by <strong>lines 1 and 2</strong> onto the $X$-axis $y = 0$: the intercepts cut off on the $X$-axis are precisely $x_1$ and $x_2$!</p></li>
+        </ol>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270" class="euclid-graphic" data-graphic-id="fig_von_staudt_quadratic">
+          <text x="280" y="20" text-anchor="middle" class="geom-title">Von Staudt–Schröter Quadratic Solver on Fixed Circle C₀: x² + y(y − 2) = 0 (Klein Fig. 4)</text>
+          <line x1="25" y1="225.0" x2="535" y2="225.0" class="geom-line"/>
+          <line x1="25" y1="73.0" x2="535" y2="73.0" class="geom-muted"/>
+          <line x1="225.0" y1="32" x2="225.0" y2="255" class="geom-muted"/>
+          <circle cx="225.00" cy="149.00" r="76.00" class="geom-line"/>
+          <line x1="270.60" y1="225.00" x2="320.00" y2="73.00" class="geom-accent"/>
+          <line x1="225.00" y1="73.00" x2="407.40" y2="225.00" class="geom-assert"/>
+          <line x1="225.00" y1="73.00" x2="285.80" y2="225.00" class="geom-assert"/>
+          <circle cx="225.00" cy="225.00" r="3.6" class="geom-point"/>
+          <circle cx="225.00" cy="149.00" r="3.6" class="geom-point"/>
+          <circle cx="225.00" cy="73.00" r="3.6" class="geom-point"/>
+          <circle cx="270.60" cy="225.00" r="3.6" class="geom-point-accent"/>
+          <circle cx="320.00" cy="73.00" r="3.6" class="geom-point-accent"/>
+          <circle cx="299.75" cy="135.30" r="3.6" class="geom-point-accent"/>
+          <circle cx="277.41" cy="204.03" r="3.6" class="geom-point-accent"/>
+          <circle cx="407.40" cy="225.00" r="3.6" class="geom-point-accent"/>
+          <circle cx="285.80" cy="225.00" r="3.6" class="geom-point-accent"/>
+          <text x="211.0" y="241.0" class="geom-label">O(0,0)</text>
+          <text x="183.0" y="67.0" class="geom-label">A(0,2)</text>
+          <text x="203.0" y="153.0" class="geom-sub">C₀</text>
+          <text x="254.6" y="241.0" class="geom-label">(q/p, 0)</text>
+          <text x="326.0" y="67.0" class="geom-label">(4/p, 2)</text>
+          <text x="279.8" y="241.0" class="geom-label">x₂</text>
+          <text x="401.4" y="241.0" class="geom-label">x₁</text>
+          <text x="485" y="65" class="geom-sub">y = 2</text>
+          <text x="485" y="218" class="geom-sub">y = 0</text>
+        </svg>
+        <figcaption>Von Staudt–Schröter Quadratic Solver (Klein § 8, Fig. 4): Transversal 3 joining (q/p, 0) and (4/p, 2) cuts C_0 in two points whose stereographic projections from A(0, 2) mark roots x_1, x_2 of x^2 - px + q = 0 on y = 0.</figcaption>
+        </figure>
+        <p><em>Proof.</em> The projecting rays $1$ and $2$ from $A(0, 2)$ to $(x_1, 0)$ and $(x_2, 0)$ have equations $2x + x_1(y - 2) = 0$ and $2x + x_2(y - 2) = 0$. Multiplying them gives the degenerate conic</p>
+        <div class="math notranslate nohighlight">
+        \[x^2 + \frac{x_1 + x_2}{2} x(y - 2) + \frac{x_1 x_2}{4}(y - 2)^2 = 0.\]</div>
+        <p>Subtracting the circle $x^2 + y(y - 2) = 0$ produces another conic through the four common points of the line-pair and the circle; factoring out the double-point tangent $y - 2 = 0$ at $A$ leaves the secant <strong>line 3</strong>:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{x_1 + x_2}{2} x + \frac{x_1 x_2}{4}(y - 2) - y = 0 \iff \frac{p}{2}x + \frac{q}{4}(y - 2) - y = 0.\]</div>
+        <p>Setting $y = 2$ gives $x = \frac{4}{p}$, and setting $y = 0$ gives $x = \frac{q}{p}$. $\blacksquare$</p>
+        <p><strong>9.</strong> We now apply this single-circle solver successively to $(\xi)$, $(\eta)$, $(\eta')$, and $(\zeta)$, needing only $x_1, x_2, y_1, y_4$, and $z_1$. On the upper tangent $y = 2$ and lower tangent $y = 0$ we require the successive abscissas:</p>
+        <div class="math notranslate nohighlight">
+        \[\begin{split}\begin{array}{lcccc}
+        \text{Upper tangent } (y = 2): &amp; -4, &amp; \dfrac{4}{x_1}, &amp; \dfrac{4}{x_2}, &amp; \dfrac{4}{y_1}, \\[8pt]
+        \text{Lower tangent } (y = 0): &amp; +4, &amp; -\dfrac{1}{x_1}, &amp; -\dfrac{1}{x_2}, &amp; \dfrac{y_4}{y_1}.
+        \end{array}\end{split}\]</div>
+        <ul class="simple">
+        <li><p><strong>Step 1 — Solving $(\xi): x^2 + x - 4 = 0$ ($p = -1, q = -4$):</strong> Connect $(+4, 0)$ below with $(-4, 2)$ above (which passes directly through the circle center $(0, 1)$). Projecting its two intersections with the fixed circle from $A(0, 2)$ cuts off $x_1 &gt; 0$ and $x_2 &lt; 0$ on the $X$-axis.</p></li>
+        <li><p><strong>Projective Inversion $x' = \frac{4}{x}$ (Fig. 5):</strong> For any abscissa $x$ on $y = 0$, the ray from $A(0, 2)$ to $(x, 0)$ meets the circle again at $\left(\frac{4x}{x^2 + 4}, \frac{2x^2}{x^2 + 4}\right)$, and projecting that circle point from $O(0, 0)$ onto the upper tangent $y = 2$ cuts off $x' = \frac{4}{x}$! Projectively, $x \mapsto x'$ is a perspective one-to-one correspondence sending $x = \infty \leftrightarrow x' = 0$ and fixing $x = x' = 2$, whence $x' = \frac{4}{x}$. Thus projecting the circle points already belonging to $x_1$ and $x_2$ from $O(0, 0)$ onto $y = 2$ immediately yields $\frac{4}{x_1}$ and $\frac{4}{x_2}$!</p></li>
+        <li><p><strong>Step 2 — Solving $(\eta): y^2 - x_1 y - 1 = 0$ (Fig. 6):</strong> Join $(-4, 2)$ above to $(+1, 0)$ below ($5y + 2x = 2$), cutting the vertical diameter $OA$ at the fixed division point $H = \left(0, \frac{2}{5}\right)$. Joining $\left(\frac{4}{x_1}, 2\right)$ through $\left(0, \frac{2}{5}\right)$ ($5y - 2x_1 x = 2$) meets $y = 0$ at $-\frac{1}{x_1}$! Now connect $\left(-\frac{1}{x_1}, 0\right)$ to $\left(\frac{4}{x_1}, 2\right)$ and project the upper circle intersection from $A(0, 2)$ onto $y = 0$ to obtain $y_1$.</p></li>
+        <li><p><strong>Step 3 — Solving $(\eta'): y^2 - x_2 y - 1 = 0$ (Fig. 7):</strong> Likewise join $\left(\frac{4}{x_2}, 2\right)$ through the same division point $\left(0, \frac{2}{5}\right)$ to cut off $-\frac{1}{x_2}$ on $y = 0$. Connect $\left(-\frac{1}{x_2}, 0\right)$ to $\left(\frac{4}{x_2}, 2\right)$ and project the positive-quadrant circle intersection from $A(0, 2)$ onto $y = 0$ to obtain $y_4$.</p></li>
+        <li><p><strong>Step 4 — Solving $(\zeta): z^2 - y_1 z + y_4 = 0$ and Inscribing the $17$-Gon (Figs. 8–9):</strong> Project the circle intersection on ray $A y_1$ from $O(0, 0)$ onto $y = 2$ to get $\frac{4}{y_1}$. Join $(+4, 2)$ above to $(y_4, 0)$ below, meeting the vertical axis $x = 0$ at $\left(0, \frac{2y_4}{y_4 - 4}\right)$; then join that axial point to $\left(\frac{4}{y_1}, 2\right)$ ($2y_1 x + (y_4 - 4)y = 2y_4$) to cut off $\frac{y_4}{y_1}$ on $y = 0$! Connecting $\left(\frac{y_4}{y_1}, 0\right)$ to $\left(\frac{4}{y_1}, 2\right)$ and projecting the upper circle intersection from $A(0, 2)$ cuts off $z_1 = 2\cos\frac{2\pi}{17}$ on $y = 0$, and simultaneously cuts off <strong>$\cos\frac{2\pi}{17}$ directly on the horizontal diameter $y = 1$</strong>! Erecting the perpendicular chord at $x = \cos\frac{2\pi}{17}$ immediately marks the <strong>first and sixteenth vertices</strong> $V_1, V_{16}$ of the regular $17$-gon on the fixed circle!</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 310" width="660" height="310" class="euclid-graphic" data-graphic-id="fig_von_staudt_17gon">
+          <text x="330" y="22" text-anchor="middle" class="geom-title">Poncelet–Steiner Single-Circle Construction of Gauss’s 17-Gon Periods (Klein Ch. IV, § 9)</text>
+          <line x1="20" y1="255.0" x2="640" y2="255.0" class="geom-line"/>
+          <line x1="20" y1="185.0" x2="640" y2="185.0" class="geom-muted"/>
+          <line x1="20" y1="115.0" x2="640" y2="115.0" class="geom-muted"/>
+          <line x1="335.0" y1="36" x2="335.0" y2="288" class="geom-muted"/>
+          <circle cx="335.00" cy="185.00" r="70.00" class="geom-line"/>
+          <line x1="335.00" y1="115.00" x2="155.69" y2="255.00" class="geom-muted"/>
+          <line x1="335.00" y1="115.00" x2="444.31" y2="255.00" class="geom-muted"/>
+          <line x1="335.00" y1="115.00" x2="478.46" y2="255.00" class="geom-muted"/>
+          <line x1="335.00" y1="115.00" x2="359.09" y2="255.00" class="geom-muted"/>
+          <line x1="335.00" y1="115.00" x2="465.55" y2="255.00" class="geom-accent"/>
+          <line x1="400.27" y1="159.71" x2="400.27" y2="210.29" class="geom-assert"/>
+          <circle cx="155.69" cy="255.00" r="3.4" class="geom-point"/>
+          <text x="155.7" y="239.0" text-anchor="middle" class="geom-label">x₂</text>
+          <circle cx="131.60" cy="255.00" r="3.4" class="geom-point"/>
+          <text x="131.6" y="271.0" text-anchor="middle" class="geom-label">y₃</text>
+          <circle cx="300.85" cy="255.00" r="3.4" class="geom-point"/>
+          <text x="300.8" y="245.0" text-anchor="middle" class="geom-label">y₂</text>
+          <circle cx="335.00" cy="255.00" r="3.4" class="geom-point"/>
+          <text x="335.0" y="271.0" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="347.92" cy="255.00" r="3.4" class="geom-point"/>
+          <text x="347.9" y="271.0" text-anchor="middle" class="geom-label">z₂</text>
+          <circle cx="359.09" cy="255.00" r="3.4" class="geom-point-accent"/>
+          <text x="359.1" y="245.0" text-anchor="middle" class="geom-label">y₄</text>
+          <circle cx="444.31" cy="255.00" r="3.4" class="geom-point-accent"/>
+          <text x="444.3" y="271.0" text-anchor="middle" class="geom-label">x₁</text>
+          <circle cx="465.55" cy="255.00" r="3.4" class="geom-point-accent"/>
+          <text x="465.5" y="245.0" text-anchor="middle" class="geom-label">z₁</text>
+          <circle cx="478.46" cy="255.00" r="3.4" class="geom-point-accent"/>
+          <text x="478.5" y="271.0" text-anchor="middle" class="geom-label">y₁</text>
+          <circle cx="335.00" cy="115.00" r="3.8" class="geom-point-accent"/>
+          <text x="309.0" y="109.0" class="geom-label">A(0,2)</text>
+          <circle cx="405.00" cy="185.00" r="3.8" class="geom-point-accent"/>
+          <text x="417.0" y="189.0" class="geom-label">V₀</text>
+          <circle cx="400.27" cy="185.00" r="3.8" class="geom-point-accent"/>
+          <text x="386.3" y="180.0" class="geom-label">K₁</text>
+          <circle cx="400.27" cy="159.71" r="3.8" class="geom-point-accent"/>
+          <text x="412.3" y="155.7" class="geom-label">V₁</text>
+          <circle cx="400.27" cy="210.29" r="3.8" class="geom-point-accent"/>
+          <text x="415.3" y="221.3" class="geom-label">V₁₆</text>
+        </svg>
+        <figcaption>Complete Single-Circle Construction of the Regular 17-Gon (Klein § 9, Fig. 9; rendered from geometor.klein.heptadecagon): Fixed circle C_0, periods X_1, X_2, Y_1, Y_4, Z_1, midpoint K_1 = (cos 2pi/17, 1), and all 17 exact vertices V_0..V_16.</figcaption>
+        </figure>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../part1-ch3-cyclotomy/part1-ch3-cyclotomy-en.html" title="Part I, Chapter III — The Division of the Circle into Equal Parts">&larr; <span class="nav-label">Part I, Chapter III — The Division of the Circle into Equal Parts</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch5-higher-constructions/part1-ch5-higher-constructions-en.html" title="Part I, Chapter V — General Considerations on Algebraic Constructions"><span class="nav-label">Part I, Chapter V — General Considerations on Algebraic Constructions</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

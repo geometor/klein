@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>§§ 3–5: Projective Geometry &amp; Space-Elements — Critical &amp; Symbolic Notes &mdash; Erlangen Program (1872 / 1893)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-notes.html" title="§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="sec-03-05-projective-transference-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-03-05-projective-transference-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-03-05-projective-transference-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-notes.html" title="§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="projective-geometry-space-elements-critical-symbolic-notes">
+        <span id="ep-sec-03-05-projective-transference-notes"></span><h1>§§ 3–5: Projective Geometry &amp; Space-Elements — Critical &amp; Symbolic Notes<a class="headerlink" href="#projective-geometry-space-elements-critical-symbolic-notes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Algebraic Group Isomorphisms, the Klein Quadric in $\mathbb{P}^5$, and 1893 Revisions</p>
+        <section class="level-2" id="classical-lie-group-isomorphisms-discovered-in-45">
+        <h2>Classical Lie-Group Isomorphisms Discovered in §§ 4–5<a class="headerlink" href="#classical-lie-group-isomorphisms-discovered-in-45" title="Link to this heading">¶</a></h2>
+        <p>Klein’s geometric transference arguments in §§ 4–5 establish several of the celebrated low-dimensional exceptional isomorphisms of classical Lie algebras and algebraic groups without a single matrix computation:</p>
+        <ol class="arabic">
+        <li><p><strong>$\operatorname{PGL}_2(\mathbb{C}) \;\cong\; \operatorname{PO}_3(\mathbb{C})$ (§§ 4–5):</strong>
+        Via the Veronese conic embedding $[u : v] \mapsto [u^2 : uv : v^2]$, binary projective transformations act as projective orthogonal transformations preserving the conic $x z - y^2 = 0$, identifying binary invariant theory with planar non-Euclidean Cayley–Klein geometry.</p></li>
+        <li><p><strong>$\operatorname{PGL}_4(\mathbb{C}) \rtimes \mathbb{Z}_2 \;\cong\; \operatorname{PO}_6(\mathbb{C})$ (§ 5 — The Plücker–Klein Quadric):</strong>
+        Representing a line joining $X = (x_0 : x_1 : x_2 : x_3)$ and $Y = (y_0 : y_1 : y_2 : y_3)$ in $\mathbb{P}^3$ by its six $2 \times 2$ Plücker determinants $p_{ij} = x_i y_j - x_j y_i$ embeds the Grassmannian $\operatorname{Gr}(2, 4)$ as the smooth $4$-dimensional quadric</p>
+        <div class="math notranslate nohighlight">
+        \[\Omega_{\text{Plücker}}(p) \;=\; p_{01} p_{23} + p_{02} p_{31} + p_{03} p_{12} \;=\; 0 \quad \subset \mathbb{P}^5,\]</div>
+        <p>where spatial collineations and dualities correspond to the two connected components of orthogonal transformations preserving $\Omega_{\text{Plücker}} = 0$.</p>
+        </li>
+        </ol>
+        </section>
+        <section class="level-2" id="two-important-1893-revisions-by-klein">
+        <h2>Two Important 1893 Revisions by Klein<a class="headerlink" href="#two-important-1893-revisions-by-klein" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Footnote 14 (1872 *Chasles* $\to$ 1893 *[the French school]*):</strong>
+        In the 1872 Erlangen pamphlet (fn. 13), Klein attributed the interpretation of metric properties via the imaginary spherical circle at infinity solely to <a class="person-ref" id="occ-person-chasles-1" href="../../persons.html#person-chasles" data-person="chasles" title="Michel Chasles (1793 – 1880) — French Projective Geometer">Michel Chasles</a>. Recognizing the earlier foundational priority of <a class="person-ref" id="occ-person-poncelet-1" href="../../persons.html#person-poncelet" data-person="poncelet" title="Jean-Victor Poncelet (1788 – 1867) — French Geometer &amp; Engineer, Revivalist of Projective Geometry">Jean-Victor Poncelet</a> (<a class="citation-ref" id="occ-cite-poncelet-1822-1" href="../../bibliography.html#cite-poncelet-1822" data-cite="poncelet:1822" title="Jean-Victor Poncelet — Traité des propriétés projectives des figures (Paris: Bachelier)">1822</a>) and Edmond Laguerre (1853, angle via logarithm of cross-ratio with $I, J$), Klein broadened the 1893 wording to <code class="docutils literal notranslate"><span class="pre">[the</span> <span class="pre">French</span> <span class="pre">school]</span></code>.</p></li>
+        <li><p><strong>Footnote 23 (1893 Addition on Normal Subgroups and Faithful Orbits):</strong>
+        In § 5, Klein defines a <em>Körper</em> (“body,” modern <em>homogeneous space</em> $G / H$) as the orbit of a geometric element under $G$. In 1893, Klein added Footnote 23 pointing out that if the stabilizer $H = \operatorname{Stab}_G(x_0)$ contains a nontrivial <em>self-conjugate</em> (normal) subgroup $N \triangleleft G$, then $N$ acts trivially on <em>every</em> element $g \cdot x_0$ of the orbit ($N \subset g H g^{-1}$), so the orbit represents only the quotient group $G / N$ rather than $G$ faithfully. For instance, points at infinity fail to represent translations inside the affine or Euclidean group because translations act trivially on the plane at infinity!</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="cross-corpus-links-in-geometor">
+        <h2>Cross-Corpus Links in GEOMETOR<a class="headerlink" href="#cross-corpus-links-in-geometor" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Pappus &amp; Projective Cross-Ratio (`geometor/pappus`):</strong> See <a class="citation-ref" id="occ-cite-pappus-collection-1" href="../../bibliography.html#cite-pappus-collection" data-cite="pappus:collection" title="Pappus of Alexandria — Synagoge (Collection), Books III, IV &amp; VII (Hultsch ed. (1876–1878))">Pappus, <em>Collection</em> Book VII</a> for the ancient root of projective invariance and <a class="person-ref" id="occ-person-staudt-1" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798 – 1867) — German Synthetic Projective Geometer">von Staudt's</a> <em>Geometrie der Lage</em> discussed in § 3.</p></li>
+        <li><p><strong>Bertrand Russell on Dimension &amp; Space-Elements (`geometor/bertrand-russell`):</strong> In <a class="citation-ref" id="occ-cite-russell-1897-1" href="../../bibliography.html#cite-russell-1897" data-cite="russell:1897" title="Bertrand Russell — An Essay on the Foundations of Geometry (and The Principles of Mathematics, 1903) (Cambridge University Press)"><em>An Essay on the Foundations of Geometry</em> (1897)</a>, <a class="person-ref" id="occ-person-russell-1" href="../../persons.html#person-russell" data-person="russell" title="Bertrand Arthur William Russell (1872 – 1970) — British Philosopher, Logician &amp; Mathematician">Russell</a> directly engages Klein’s § 5 thesis that dimensionality is relative to the chosen space-element (<em>Raumelement</em>).</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-notes.html" title="§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy">&larr; <span class="nav-label">§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-notes.html" title="§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry"><span class="nav-label">§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

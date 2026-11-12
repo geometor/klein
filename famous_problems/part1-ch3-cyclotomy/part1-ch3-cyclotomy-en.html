@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Part I, Chapter III — The Division of the Circle into Equal Parts &mdash; Famous Problems (1895 / 1897)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../../erlangen_program/index.html"  >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../part1-ch2-delian-trisection/part1-ch2-delian-trisection-en.html" title="Part I, Chapter II — The Delian Problem and the Trisection of the Angle">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch3-cyclotomy-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch3-cyclotomy-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch3-cyclotomy-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch4-heptadecagon/part1-ch4-heptadecagon-en.html" title="Part I, Chapter IV — The Construction of the Regular Polygon of 17 Sides"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="part-i-chapter-iii-the-division-of-the-circle-into-equal-parts">
+        <span id="fp-part1-ch3-cyclotomy-en"></span><h1>Part I, Chapter III — The Division of the Circle into Equal Parts<a class="headerlink" href="#part-i-chapter-iii-the-division-of-the-circle-into-equal-parts" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Part I, Chapter III (§§ 1–8; <a class="citation-ref" id="occ-cite-klein-1897-1" href="../../bibliography.html#cite-klein-1897" data-cite="klein:1897" title="Felix Klein (trans. W. W. Beman &amp; D. E. Smith) — Famous Problems of Elementary Geometry: The Duplication of the Cube, The Trisection of an Angle, The Quadrature of the Circle (Boston and London: Ginn &amp; Company (ix + 80 pp.))">Ginn &amp; Co., 1897, pp. 16–23</a>)</p>
+        <section class="level-2" id="history-of-the-problem">
+        <h2>§ 1. History of the Problem<a class="headerlink" href="#history-of-the-problem" title="Link to this heading">¶</a></h2>
+        <p><strong>1.</strong> The problem of dividing a given circle into $n$ equal parts has come down from antiquity; for more than two millennia mathematicians knew the possibility of solving it with straightedge and compasses only when $n = 2^h$, $3$, $5$, or the product of any two or three of these numbers (<a class="person-ref" id="occ-person-euclid-1" href="../../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Greek Geometer, Author of the Elements">Euclid</a>, <a class="citation-ref" id="occ-cite-euclid-elements-1" href="../../bibliography.html#cite-euclid-elements" data-cite="euclid:elements" title="Euclid (trans. Sir Thomas L. Heath) — The Thirteen Books of Euclid&#x27;s Elements (Cambridge University Press, Books I &amp; IV)"><em>Elements</em>, Book IV</a>).</p>
+        <p>In his <em>Disquisitiones Arithmeticae</em> (<a class="citation-ref" id="occ-cite-gauss-1801-1" href="../../bibliography.html#cite-gauss-1801" data-cite="gauss:1801" title="Carl Friedrich Gauss — Disquisitiones Arithmeticae, Sectio Septima: De aequationibus circuli sectiones definientibus (Leipzig: Gerhard Fleischer, §§ 335–366)">1801</a>), <a class="person-ref" id="occ-person-gauss-1" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss</a> extended this series of numbers at a single stroke by showing that the division into $p$ equal parts is <strong>possible for every prime number of the form</strong></p>
+        <div class="math notranslate nohighlight">
+        \[p = 2^{2^\mu} + 1,\]</div>
+        <p><strong>and impossible for all other odd prime numbers and their powers</strong>.</p>
+        <ul class="simple">
+        <li><p>If in $p = 2^{2^\mu} + 1$ we set $\mu = 0$ and $\mu = 1$, we obtain $p = 3$ and $p = 5$, cases already known to the ancients.</p></li>
+        <li><p>For $\mu = 2$ we obtain $p = 2^{2^2} + 1 = 17$, the celebrated regular heptadecagon completely discussed by <a class="person-ref" id="occ-person-gauss-2" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss</a> (discovered March 30, 1796).</p></li>
+        <li><p>For $\mu = 3$ we obtain $p = 2^{2^3} + 1 = 257$, likewise a <a class="term-ref glossary-term" id="occ-term-fermat-prime-1" href="../../glossary.html#term-fermat-prime" data-term="fermat-prime" title="Fermat prime (Gauss&#x27;sche Primzahl 2^(2^μ) + 1) (Prime number of the form p = 2^(2^μ) + 1 governing odd-prime cyclotomic constructibility): An odd prime p for which p - 1 is a power of 2, forcing p = 2^(2^mu) + 1; the five known Fermat primes correspond to mu = 0 (3), mu = 1 (5), mu = 2 (17), mu = 3 (257), and mu = 4 (65537).">Fermat prime</a>; the regular polygon of $257$ sides is constructible, and <a class="person-ref" id="occ-person-richelot-1" href="../../persons.html#person-richelot" data-person="richelot" title="Friedrich Julius Richelot (1808 – 1875) — German Mathematician (Königsberg)">Richelot</a> published an extended investigation of it in <em>Crelle’s Journal</em>, Vol. IX (<a class="citation-ref" id="occ-cite-richelot-1832-1" href="../../bibliography.html#cite-richelot-1832" data-cite="richelot:1832" title="Friedrich Julius Richelot — De resolutione algebraica aequationis X^257 = 1, sive de divisione circuli per bisectionem anguli septies repetitam in partes 257 inter se aequales commentatio coronata (Journal für die reine und angewandte Mathematik (Crelle) 9, pp. 1–26, 146–161, 209–230, 337–357)">1832, pp. 1–26, 146–161, 209–230, 337–357</a>), entitled <em>De resolutione algebraica aequationis $X^{257} = 1$, sive de divisione circuli per bisectionem anguli septies repetitam in partes $257$ inter se aequales commentatio coronata</em>.</p></li>
+        <li><p>Similarly for $\mu = 4$, since $2^{2^4} + 1 = 65537$ is a prime number. To the regular polygon of $65537$ sides <a class="person-ref" id="occ-person-hermes-1" href="../../persons.html#person-hermes" data-person="hermes" title="Johann Gustav Hermes (1846 – 1912) — German Mathematician (Lingen / Königsberg)">Professor Hermes</a> of Lingen devoted ten years of his life, examining with care all the roots furnished by Gauss’s method; his manuscripts are preserved in the collection of the mathematical seminary at Göttingen (compare a communication of Professor Hermes in <a class="citation-ref" id="occ-cite-hermes-1894-1" href="../../bibliography.html#cite-hermes-1894" data-cite="hermes:1894" title="Johann Gustav Hermes — Über die Teilung des Kreises in 65537 gleiche Teile (Nachrichten von der Kgl. Gesellschaft der Wissenschaften zu Göttingen, Math.-phys. Klasse 1894, Nr. 3, pp. 170–186)">No. 3 of the <em>Göttinger Nachrichten</em> for 1894</a>).</p></li>
+        <li><p>On the other hand, $\mu = 5$, $\mu = 6$, and $\mu = 7$ yield <em>no</em> prime numbers (for $\mu = 5$, <a class="person-ref" id="occ-person-euler-1" href="../../persons.html#person-euler" data-person="euler" title="Leonhard Euler (1707 – 1783) — Swiss Mathematician &amp; Physicist">Euler</a> showed $2^{32} + 1 = 641 \times 6700417$). For $\mu = 8$ no one has yet determined whether $2^{256} + 1$ is prime or composite. The proof that the huge numbers corresponding to $\mu = 5, 6, 7$ are composite has required a great expenditure of labor and ingenuity; it is therefore quite possible that $\mu = 4$ is the last exponent for which a prime solution exists.</p></li>
+        </ul>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 572" width="620" height="572" class="euclid-graphic" data-graphic-id="fig_constructibility_polygons">
+          <text x="310.0" y="24" text-anchor="middle" class="geom-title">Gauss–Wantzel Polygon Constructibility (n = 3..18): φ(n) = 2^k vs. Odd Obstructions</text>
+          <circle cx="85.0" cy="92.0" r="34.0" class="geom-muted"/>
+          <polygon points="85.00,58.00 114.44,109.00 55.56,109.00" class="geom-poly-ok"/>
+          <text x="85.0" y="144.0" text-anchor="middle" class="geom-label">n = 3 (✓ 2^1)</text>
+          <circle cx="235.0" cy="92.0" r="34.0" class="geom-muted"/>
+          <polygon points="235.00,58.00 269.00,92.00 235.00,126.00 201.00,92.00" class="geom-poly-ok"/>
+          <text x="235.0" y="144.0" text-anchor="middle" class="geom-label">n = 4 (✓ 2^1)</text>
+          <circle cx="385.0" cy="92.0" r="34.0" class="geom-muted"/>
+          <polygon points="385.00,58.00 417.34,81.49 404.98,119.51 365.02,119.51 352.66,81.49" class="geom-poly-ok"/>
+          <text x="385.0" y="144.0" text-anchor="middle" class="geom-label">n = 5 (✓ 2^2)</text>
+          <circle cx="535.0" cy="92.0" r="34.0" class="geom-muted"/>
+          <polygon points="535.00,58.00 564.44,75.00 564.44,109.00 535.00,126.00 505.56,109.00 505.56,75.00" class="geom-poly-ok"/>
+          <text x="535.0" y="144.0" text-anchor="middle" class="geom-label">n = 6 (✓ 2^1)</text>
+          <circle cx="85.0" cy="220.0" r="34.0" class="geom-muted"/>
+          <polygon points="85.00,186.00 111.58,198.80 118.15,227.57 99.75,250.63 70.25,250.63 51.85,227.57 58.42,198.80" class="geom-poly-no"/>
+          <text x="85.0" y="272.0" text-anchor="middle" class="geom-label">n = 7 (✗ φ=6)</text>
+          <circle cx="235.0" cy="220.0" r="34.0" class="geom-muted"/>
+          <polygon points="235.00,186.00 259.04,195.96 269.00,220.00 259.04,244.04 235.00,254.00 210.96,244.04 201.00,220.00 210.96,195.96" class="geom-poly-ok"/>
+          <text x="235.0" y="272.0" text-anchor="middle" class="geom-label">n = 8 (✓ 2^2)</text>
+          <circle cx="385.0" cy="220.0" r="34.0" class="geom-muted"/>
+          <polygon points="385.00,186.00 406.85,193.95 418.48,214.10 414.44,237.00 396.63,251.95 373.37,251.95 355.56,237.00 351.52,214.10 363.15,193.95" class="geom-poly-no"/>
+          <text x="385.0" y="272.0" text-anchor="middle" class="geom-label">n = 9 (✗ φ=6)</text>
+          <circle cx="535.0" cy="220.0" r="34.0" class="geom-muted"/>
+          <polygon points="535.00,186.00 554.98,192.49 567.34,209.49 567.34,230.51 554.98,247.51 535.00,254.00 515.02,247.51 502.66,230.51 502.66,209.49 515.02,192.49" class="geom-poly-ok"/>
+          <text x="535.0" y="272.0" text-anchor="middle" class="geom-label">n = 10 (✓ 2^2)</text>
+          <circle cx="85.0" cy="348.0" r="34.0" class="geom-muted"/>
+          <polygon points="85.00,314.00 103.38,319.40 115.93,333.88 118.65,352.84 110.70,370.27 94.58,380.62 75.42,380.62 59.30,370.27 51.35,352.84 54.07,333.88 66.62,319.40" class="geom-poly-no"/>
+          <text x="85.0" y="400.0" text-anchor="middle" class="geom-label">n = 11 (✗ φ=10)</text>
+          <circle cx="235.0" cy="348.0" r="34.0" class="geom-muted"/>
+          <polygon points="235.00,314.00 252.00,318.56 264.44,331.00 269.00,348.00 264.44,365.00 252.00,377.44 235.00,382.00 218.00,377.44 205.56,365.00 201.00,348.00 205.56,331.00 218.00,318.56" class="geom-poly-ok"/>
+          <text x="235.0" y="400.0" text-anchor="middle" class="geom-label">n = 12 (✓ 2^2)</text>
+          <circle cx="385.0" cy="348.0" r="34.0" class="geom-muted"/>
+          <polygon points="385.00,314.00 400.80,317.89 412.98,328.69 418.75,343.90 416.79,360.06 407.55,373.45 393.14,381.01 376.86,381.01 362.45,373.45 353.21,360.06 351.25,343.90 357.02,328.69 369.20,317.89" class="geom-poly-no"/>
+          <text x="385.0" y="400.0" text-anchor="middle" class="geom-label">n = 13 (✗ φ=12)</text>
+          <circle cx="535.0" cy="348.0" r="34.0" class="geom-muted"/>
+          <polygon points="535.00,314.00 549.75,317.37 561.58,326.80 568.15,340.43 568.15,355.57 561.58,369.20 549.75,378.63 535.00,382.00 520.25,378.63 508.42,369.20 501.85,355.57 501.85,340.43 508.42,326.80 520.25,317.37" class="geom-poly-no"/>
+          <text x="535.0" y="400.0" text-anchor="middle" class="geom-label">n = 14 (✗ φ=6)</text>
+          <circle cx="85.0" cy="476.0" r="34.0" class="geom-muted"/>
+          <polygon points="85.00,442.00 98.83,444.94 110.27,453.25 117.34,465.49 118.81,479.55 114.44,493.00 104.98,503.51 92.07,509.26 77.93,509.26 65.02,503.51 55.56,493.00 51.19,479.55 52.66,465.49 59.73,453.25 71.17,444.94" class="geom-poly-ok"/>
+          <text x="85.0" y="528.0" text-anchor="middle" class="geom-label">n = 15 (✓ 2^3)</text>
+          <circle cx="235.0" cy="476.0" r="34.0" class="geom-muted"/>
+          <polygon points="235.00,442.00 248.01,444.59 259.04,451.96 266.41,462.99 269.00,476.00 266.41,489.01 259.04,500.04 248.01,507.41 235.00,510.00 221.99,507.41 210.96,500.04 203.59,489.01 201.00,476.00 203.59,462.99 210.96,451.96 221.99,444.59" class="geom-poly-ok"/>
+          <text x="235.0" y="528.0" text-anchor="middle" class="geom-label">n = 16 (✓ 2^3)</text>
+          <circle cx="385.0" cy="476.0" r="34.0" class="geom-muted"/>
+          <polygon points="385.00,442.00 397.28,444.30 407.91,450.87 415.44,460.84 418.85,472.86 417.70,485.30 412.13,496.49 402.90,504.91 391.25,509.42 378.75,509.42 367.10,504.91 357.87,496.49 352.30,485.30 351.15,472.86 354.56,460.84 362.09,450.87 372.72,444.30" class="geom-poly-ok"/>
+          <text x="385.0" y="528.0" text-anchor="middle" class="geom-label">n = 17 (✓ 2^4)</text>
+          <circle cx="535.0" cy="476.0" r="34.0" class="geom-muted"/>
+          <polygon points="535.00,442.00 546.63,444.05 556.85,449.95 564.44,459.00 568.48,470.10 568.48,481.90 564.44,493.00 556.85,502.05 546.63,507.95 535.00,510.00 523.37,507.95 513.15,502.05 505.56,493.00 501.52,481.90 501.52,470.10 505.56,459.00 513.15,449.95 523.37,444.05" class="geom-poly-no"/>
+          <text x="535.0" y="528.0" text-anchor="middle" class="geom-label">n = 18 (✗ φ=6)</text>
+        </svg>
+        <figcaption>Gauss–Wantzel Polygon Constructibility (n = 3..18): Constructible regular polygons (green, totient phi(n) = 2^k) contrasted with non-constructible polygons n = 7, 9, 11, 13, 14, 18 (red dashed).</figcaption>
+        </figure>
+        </section>
+        <section class="level-2" id="reduction-to-prime-powers-and-gauss-s-prime-numbers">
+        <h2>§§ 2–4. Reduction to Prime Powers and Gauss’s Prime Numbers<a class="headerlink" href="#reduction-to-prime-powers-and-gauss-s-prime-numbers" title="Link to this heading">¶</a></h2>
+        <p><strong>2.</strong> We may immediately restrict the problem of dividing the circle into $n$ equal parts to the cases where $n$ is a prime number $p$ or a prime power $p^\alpha$. For if $n = \mu\nu$ is composite with $\mu$ and $\nu$ relatively prime ($\gcd(\mu, \nu) = 1$), Euclidean division furnishes integers $a$ and $b$ (one positive, one negative) such that</p>
+        <div class="math notranslate nohighlight">
+        \[1 = a\mu + b\nu, \qquad \text{whence} \qquad \frac{1}{\mu\nu} = \frac{a}{\nu} + \frac{b}{\mu}.\]</div>
+        <p>To divide the circle into $\mu\nu = n$ equal parts, it therefore suffices to superpose $a$ parts of the $\nu$-division with $b$ parts of the $\mu$-division. Thus for $n = 15 = 3 \cdot 5$, we have</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{1}{15} = \frac{2}{3} - \frac{3}{5},\]</div>
+        <p>which is precisely the arithmetic content of <a class="person-ref" id="occ-person-euclid-2" href="../../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Greek Geometer, Author of the Elements">Euclid's</a> construction of the regular pentadecagon (<a class="citation-ref" id="occ-cite-euclid-elements-2" href="../../bibliography.html#cite-euclid-elements" data-cite="euclid:elements" title="Euclid (trans. Sir Thomas L. Heath) — The Thirteen Books of Euclid&#x27;s Elements (Cambridge University Press, Books I &amp; IV)"><em>Elements</em> IV.16</a>).</p>
+        <p><strong>3.</strong> As will appear in § 5, division into $p$ equal parts ($p$ prime) is possible only when $p = 2^h + 1$. Let us first prove that a prime number can have the form $p = 2^h + 1$ <strong>only when the exponent $h$ is itself a power of $2$, $h = 2^\mu$</strong>.</p>
+        <p>First proof (by Fermat’s Little Theorem): If $p$ is prime and $a$ is an integer not divisible by $p$, then $a^{p-1} \equiv +1 \pmod p$. If $s$ is the <em>least</em> positive exponent satisfying $a^s \equiv +1 \pmod p$, then $s$ is necessarily a divisor of $p - 1$. (In particular, when $s = p - 1$, $a$ is called a <em>primitive root</em> modulo $p$; every prime $p$ possesses primitive roots, a fact we shall use in Chapter IV.) Suppose now that $p = 2^h + 1$ is prime, and let $s$ be the least positive exponent such that</p>
+        <div class="math notranslate nohighlight">
+        \[2^s \equiv +1 \pmod p.\]</div>
+        <p>Since $2^h = p - 1 &lt; p &lt; 2^s$, we have $s &gt; h$. Moreover, $p = 2^h + 1$ gives</p>
+        <div class="math notranslate nohighlight">
+        \[2^h \equiv -1 \pmod p.\]</div>
+        <p>Dividing $2^s \equiv +1$ by $2^h \equiv -1$ gives $2^{s-h} \equiv -1 \pmod p$, whence $s - h \ge h$, i.e., $s \ge 2h$. Conversely, squaring $2^h \equiv -1 \pmod p$ yields $2^{2h} \equiv +1 \pmod p$, so by minimality of $s$ we have $s \le 2h$, and consequently $s = 2h$. Now $s = 2h$ must divide $p - 1 = 2^h$; therefore $h$ divides $2^{h-1}$ and must itself be a power of $2$, $h = 2^\mu$. Hence primes of the form $2^h + 1$ are necessarily of the form $2^{2^\mu} + 1$.</p>
+        <p><strong>4.</strong> Second proof (by elementary algebraic factorization): Suppose $h$ were divisible by an odd integer $2n + 1 &gt; 1$, so that $h = h'(2n + 1)$. By the identity</p>
+        <div class="math notranslate nohighlight">
+        \[x^{2n+1} + 1 = (x + 1)\!\left(x^{2n} - x^{2n-1} + \dots - x + 1\right)\]</div>
+        <p>evaluated at $x = 2^{h'}$, the number $p = 2^{h'(2n+1)} + 1$ is divisible by the proper factor $2^{h'} + 1 &gt; 1$, and therefore cannot be prime!</p>
+        </section>
+        <section class="level-2" id="the-cyclotomic-equation">
+        <h2>§ 5. The Cyclotomic Equation<a class="headerlink" href="#the-cyclotomic-equation" title="Link to this heading">¶</a></h2>
+        <p><strong>5.</strong> We now reach our fundamental proposition: <em>For an odd prime $p$, dividing the circle into $p$ equal parts with straightedge and compasses is impossible unless $p = 2^h + 1 = 2^{2^\mu} + 1$.</em></p>
+        <p>Trace in the complex $z$-plane ($z = x + iy$) the circle of radius $1$ centered at the origin. Dividing this circle into $n$ equal parts starting at $z = 1$ is algebraically equivalent to solving $z^n - 1 = 0$. Suppressing the known initial vertex $z = 1$ by dividing out $z - 1$, we obtain the <strong>cyclotomic equation</strong>:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{z^n - 1}{z - 1} = z^{n-1} + z^{n-2} + \dots + z + 1 = 0.\]</div>
+        <p>When $n = p$ is prime, the essential point of the proof is to show that this equation of degree $p - 1$ is <strong>irreducible</strong> over $\mathbb{Q}$. Once irreducibility is proved, Chapter I, § 15 requires its degree $p - 1$ to be a power of $2$, forcing $p = 2^h + 1 = 2^{2^\mu} + 1$ and explaining why <a class="person-ref" id="occ-person-gauss-3" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss's</a> primes occupy their unique position.</p>
+        </section>
+        <section class="level-2" id="gauss-s-lemma">
+        <h2>§ 6. Gauss’s Lemma<a class="headerlink" href="#gauss-s-lemma" title="Link to this heading">¶</a></h2>
+        <p><strong>6.</strong> To establish irreducibility, we first prove <strong>Gauss’s Lemma</strong>: <em>If a monic polynomial with integer coefficients,</em></p>
+        <div class="math notranslate nohighlight">
+        \[F(z) = z^m + A z^{m-1} + B z^{m-2} + \dots + L z + M,\]</div>
+        <p><em>can be resolved into two monic factors $f(z)$ and $\varphi(z)$ with rational coefficients,</em></p>
+        <div class="math notranslate nohighlight">
+        \[F(z) = f(z)\,\varphi(z) = \left(z^{m'} + \alpha_1 z^{m'-1} + \dots\right)\!\left(z^{m''} + \beta_1 z^{m''-1} + \dots\right),\]</div>
+        <p><em>then all the coefficients $\alpha_i$ and $\beta_j$ must actually be integers.</em></p>
+        <p><em>Proof.</em> Suppose the $\alpha$’s or $\beta$’s were fractional. Reduce the coefficients of $f(z)$ to their least common positive denominator $a_0$, and those of $\varphi(z)$ to their least common positive denominator $b_0$. Multiplying both sides by $a_0 b_0$ yields</p>
+        <div class="math notranslate nohighlight">
+        \[a_0 b_0 F(z) = f_1(z)\,\varphi_1(z) = \left(a_0 z^{m'} + a_1 z^{m'-1} + \dots\right)\!\left(b_0 z^{m''} + b_1 z^{m''-1} + \dots\right),\]</div>
+        <p>where $a_0, a_1, \dots$ are coprime integers ($\gcd(a_0, a_1, \dots) = 1$) and likewise $b_0, b_1, \dots$ are coprime integers. If $a_0 b_0 &gt; 1$, let $q$ be any prime divisor of $a_0 b_0$. Because neither all $a$’s nor all $b$’s are divisible by $q$, let $a_i$ be the <em>first</em> coefficient in $f_1(z)$ not divisible by $q$, and $b_k$ the <em>first</em> coefficient in $\varphi_1(z)$ not divisible by $q$. In the expanded product $f_1(z)\varphi_1(z)$, the coefficient of $z^{m' + m'' - i - k}$ equals</p>
+        <div class="math notranslate nohighlight">
+        \[a_i b_k + a_{i-1} b_{k+1} + a_{i-2} b_{k+2} + \dots + a_{i+1} b_{k-1} + a_{i+2} b_{k-2} + \dots.\]</div>
+        <p>By construction, every term after $a_i b_k$ contains either an $a_{i-r}$ ($r \ge 1$) or a $b_{k-s}$ ($s \ge 1$) divisible by $q$, whereas $a_i b_k$ is <em>not</em> divisible by the prime $q$. Yet on the left-hand side $a_0 b_0 F(z)$, every coefficient is divisible by $a_0 b_0$ and hence by $q$—a contradiction! Therefore $a_0 b_0 = 1$, i.e., $a_0 = b_0 = 1$, and all $\alpha_i, \beta_j$ are integers.</p>
+        </section>
+        <section class="level-2" id="irreducibility-of-the-cyclotomic-equation-for-primes-and-prime-squares">
+        <h2>§§ 7–8. Irreducibility of the Cyclotomic Equation for Primes and Prime Squares<a class="headerlink" href="#irreducibility-of-the-cyclotomic-equation-for-primes-and-prime-squares" title="Link to this heading">¶</a></h2>
+        <p><strong>7.</strong> By Gauss’s Lemma, to prove $f(z) = z^{p-1} + z^{p-2} + \dots + z + 1$ irreducible for any prime $p$, we need only show it admits no factorization with <em>integer</em> coefficients. Following <a class="person-ref" id="occ-person-eisenstein-1" href="../../persons.html#person-eisenstein" data-person="eisenstein" title="Ferdinand Gotthold Max Eisenstein (1823 – 1852) — German Number Theorist &amp; Analyst">Eisenstein's</a> remarkably simple method (<a class="citation-ref" id="occ-cite-eisenstein-1850-1" href="../../bibliography.html#cite-eisenstein-1850" data-cite="eisenstein:1850" title="Gotthold Eisenstein — Über die Irreductibilität und einige andere Eigenschaften der Gleichung, von welcher die Theilung der ganzen Lemniscate abhängt (Journal für die reine und angewandte Mathematik (Crelle) 39, pp. 160–179 (p. 167))"><em>Crelle's Journal</em>, Vol. XXXIX, 1850, p. 167</a>), substitute $z = x + 1$:</p>
+        <div class="math notranslate nohighlight">
+        \[f(x + 1) = \frac{(x + 1)^p - 1}{x} = x^{p-1} + p\,x^{p-2} + \frac{p(p-1)}{1\cdot 2} x^{p-3} + \dots + \frac{p(p-1)}{1\cdot 2} x + p = 0.\]</div>
+        <p>Every coefficient after the leading term $x^{p-1}$ is divisible by the prime $p$, and the constant term is $p$ itself (not divisible by $p^2$). <strong>Any polynomial of this Eisenstein form is irreducible.</strong> For if it factored over $\mathbb{Z}$ as</p>
+        <div class="math notranslate nohighlight">
+        \[f(x + 1) = \left(x^m + a_1 x^{m-1} + \dots + a_{m-1} x + a_m\right)\!\left(x^{m'} + b_1 x^{m'-1} + \dots + b_{m'-1} x + b_{m'}\right),\]</div>
+        <p>the constant term $a_m b_{m'} = p$ would force one factor—say $a_m = \pm p$—to be divisible by $p$ and the other to be $b_{m'} = \pm 1$. Examining the coefficient of $x$, namely $a_{m-1} b_{m'} + a_m b_{m'-1} \equiv 0 \pmod p$, gives $p \mid a_{m-1}$ since $b_{m'} = \pm 1$; examining $x^2, x^3, \dots$ successively forces $p \mid a_{m-2}, \dots, p \mid a_1$, and finally $p \mid 1$ (the leading coefficient of $x^m$), which is absurd! Thus $\Phi_p(z) = 0$ is irreducible of degree $p - 1$. In particular, for $p = 7$ ($\deg = 6 \neq 2^h$), $p = 11$ ($\deg = 10$), and $p = 13$ ($\deg = 12$), <strong>the regular $7$-gon, $11$-gon, and $13$-gon cannot be constructed with straightedge and compasses</strong>.</p>
+        <p><strong>8.</strong> Finally, consider a prime power $n = p^\alpha$ ($\alpha \ge 2$) for an odd prime $p &gt; 2$. Since dividing the circle into $p^\alpha$ equal parts automatically divides it into $p^2$ equal parts, it suffices to prove that <strong>division into $p^2$ equal parts is impossible whenever $p &gt; 2$</strong>. Suppressing from $z^{p^2} - 1 = 0$ all roots belonging to the $p$-division ($z^p - 1 = 0$) leaves the primitive $p^2$-cyclotomic equation:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{z^{p^2} - 1}{z^p - 1} = z^{p(p-1)} + z^{p(p-2)} + \dots + z^p + 1 = 0.\]</div>
+        <p>Substituting $z = x + 1$ across these $p$ summands produces</p>
+        <div class="math notranslate nohighlight">
+        \[(x + 1)^{p(p-1)} + (x + 1)^{p(p-2)} + \dots + (x + 1)^p + 1 = x^{p(p-1)} + p\cdot \chi(x) = 0,\]</div>
+        <p>where $\chi(x)$ is an integer polynomial with constant term $\chi(0) = 1$ (since $(x + 1)^{kp} \equiv x^{kp} + 1 \pmod p$ for every $k$). By § 7, this polynomial is <strong>irreducible</strong> over $\mathbb{Q}$, and its degree is $p(p - 1)$. Since $p &gt; 2$ is an odd prime, $p(p - 1)$ contains the odd factor $p$ and can <em>never</em> be a power of $2$! Thus even for Gauss’s primes ($p = 3 \implies p^2 = 9$ of degree $6$; $p = 5 \implies p^2 = 25$ of degree $20$), division into $p^2$ or $p^\alpha$ ($\alpha \ge 2$) parts is impossible; only $p = 2$ admits repeated powers $2^\alpha$.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../part1-ch2-delian-trisection/part1-ch2-delian-trisection-en.html" title="Part I, Chapter II — The Delian Problem and the Trisection of the Angle">&larr; <span class="nav-label">Part I, Chapter II — The Delian Problem and the Trisection of the Angle</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch4-heptadecagon/part1-ch4-heptadecagon-en.html" title="Part I, Chapter IV — The Construction of the Regular Polygon of 17 Sides"><span class="nav-label">Part I, Chapter IV — The Construction of the Regular Polygon of 17 Sides</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

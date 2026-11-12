@@ -1,0 +1,196 @@
+geometor.klein.constructibility
+===============================
+
+.. py:module:: geometor.klein.constructibility
+
+.. autoapi-nested-parse::
+
+   Exact symbolic constructibility analyzer for Felix Klein's *Famous Problems* (1895 / 1897).
+
+   Implements the algebraic criteria of Part I (Chapters I–III) and Part II (Chapters III–IV):
+
+   1. **Klein's Fundamental Criterion (Part I, Ch. I, §§ 1–15)**:
+      Every analytic expression constructible with straightedge and compasses lies in an iterated
+      quadratic radical tower over its domain of rationality :math:`\mathbb{Q}`, so its
+      irreducible minimal polynomial :math:`\varphi(x) = 0` must have degree :math:`M = 2^h`.
+      Moreover, for irreducible quartics (:math:`M = 4`), solvability by square roots alone holds
+      if and only if the cubic resolvent reduces over :math:`\mathbb{Q}` (:math:`\mathrm{Gal}
+      \subseteq D_4`, excluding :math:`A_4` and :math:`S_4`).
+   2. **Gauss–Wantzel Cyclotomic Criterion (Part I, Ch. III, §§ 1–8)**:
+      A regular :math:`n`-gon (:math:`n \ge 3`) is constructible with straightedge and compasses
+      if and only if :math:`\varphi(n) = 2^k`, equivalently :math:`n = 2^a p_1 \cdots p_r` where
+      :math:`p_1 < \dots < p_r` are distinct Fermat primes :math:`p_i = 2^{2^{\mu_i}} + 1`.
+   3. **Hermite–Lindemann Transcendence Obstruction (Part II, Chs. III–IV)**:
+      Transcendental constants such as :math:`e` and :math:`\pi` satisfy no algebraic equation
+      with rational coefficients whatsoever, ruling out quadrature of the circle by any algebraic
+      curve or compass-and-straightedge construction.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.klein.constructibility.ConstructibilityReport
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.klein.constructibility.is_power_of_two
+   geometor.klein.constructibility.is_fermat_prime
+   geometor.klein.constructibility.cyclotomic_real_minimal_poly
+   geometor.klein.constructibility.cubic_resolvent
+   geometor.klein.constructibility.analyze_constructibility
+   geometor.klein.constructibility.tabulate_polygon_constructibility
+
+
+Module Contents
+---------------
+
+.. py:class:: ConstructibilityReport
+
+   Immutable symbolic report on compass-and-straightedge constructibility.
+
+
+   .. py:attribute:: target
+      :type:  str
+
+
+   .. py:attribute:: kind
+      :type:  str
+
+
+   .. py:attribute:: is_constructible
+      :type:  bool
+
+
+   .. py:attribute:: degree
+      :type:  int | None
+
+
+   .. py:attribute:: is_power_of_two
+      :type:  bool
+
+
+   .. py:attribute:: tower_depth
+      :type:  int | None
+
+
+   .. py:attribute:: minimal_poly
+      :type:  sympy.Poly | None
+
+
+   .. py:attribute:: real_minimal_poly
+      :type:  sympy.Poly | None
+      :value: None
+
+
+
+   .. py:attribute:: euler_totient
+      :type:  int | None
+      :value: None
+
+
+
+   .. py:attribute:: odd_prime_factors
+      :type:  tuple[int, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: fermat_primes
+      :type:  tuple[int, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: non_fermat_primes
+      :type:  tuple[int, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: repeated_odd_primes
+      :type:  tuple[int, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: galois_obstruction
+      :type:  str | None
+      :value: None
+
+
+
+   .. py:attribute:: klein_locus
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: summary
+      :type:  str
+      :value: ''
+
+
+
+.. py:function:: is_power_of_two(m: int) -> tuple[bool, int | None]
+
+   Return ``(True, h)`` if ``m == 2**h`` for ``h >= 0``, else ``(False, None)``.
+
+
+.. py:function:: is_fermat_prime(p: int) -> tuple[bool, int | None]
+
+   Test whether odd integer ``p`` is a Fermat prime :math:`2^{2^\mu} + 1`.
+
+   :param p: Integer candidate.
+
+   :returns: Tuple ``(True, mu)`` when ``p`` is prime and ``p - 1 = 2**(2**mu)``,
+             otherwise ``(False, None)``.
+
+
+.. py:function:: cyclotomic_real_minimal_poly(n: int, var: sympy.Symbol | None = None) -> sympy.Poly
+
+   Compute the exact minimal polynomial over :math:`\mathbb{Q}` of :math:`u = 2\cos(2\pi/n)`.
+
+   For :math:`n \ge 3`, :math:`\Phi_n(z)` has even degree :math:`\varphi(n) = 2d` and is
+   palindromic, so :math:`z^{-d}\Phi_n(z)` is an integer polynomial of degree :math:`d` in
+   :math:`u = z + z^{-1} = 2\cos(2\pi/n)`. For :math:`n = 1, 2`, returns :math:`u - 2` and
+   :math:`u + 2` respectively.
+
+
+.. py:function:: cubic_resolvent(quartic_poly: sympy.Poly, var: sympy.Symbol | None = None) -> sympy.Poly
+
+   Return the exact depressed cubic resolvent :math:`R(t)` of a degree-4 polynomial.
+
+   Depresses :math:`a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0` via :math:`x = y - a_3/(4a_4)`
+   into :math:`y^4 + p y^2 + q y + r` and returns
+   :math:`R(t) = t^3 - 2p t^2 + (p^2 - 4r) t + q^2` over :math:`\mathbb{Q}`.
+
+
+.. py:function:: analyze_constructibility(poly_or_n: int | sympy.Integer | sympy.Poly | sympy.Expr) -> ConstructibilityReport
+
+   Analyze compass-and-straightedge constructibility of a regular polygon, polynomial, or number.
+
+   :param poly_or_n:
+                     - ``int`` / :class:`sympy.Integer` (:math:`n \ge 3`): tests the regular :math:`n`-gon
+                       via Euler's totient :math:`\varphi(n) = 2^k` and Fermat-prime factorization.
+                     - :class:`sympy.Poly` or univariate :class:`sympy.Expr`: factors over :math:`\mathbb{Q}`
+                       and applies Klein's degree-:math:`2^h` criterion plus cubic-resolvent Galois check.
+                     - Closed-form algebraic or transcendental :class:`sympy.Expr` (no free symbols):
+                       detects transcendence (:math:`\pi`, :math:`e`) or computes the exact minimal
+                       polynomial over :math:`\mathbb{Q}`.
+
+   :returns: A populated :class:`ConstructibilityReport` with exact minimal polynomial, tower depth,
+             and Galois/transcendence obstruction diagnosis.
+
+
+.. py:function:: tabulate_polygon_constructibility(max_n: int = 24, *, min_n: int = 3) -> list[ConstructibilityReport]
+
+   Return exact constructibility reports for all regular :math:`n`-gons in ``[min_n, max_n]``.
+
+

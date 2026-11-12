@@ -1,0 +1,234 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry &mdash; Erlangen Program (1872 / 1893)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-03-05-projective-transference/sec-03-05-projective-transference-en.html" title="§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-06-07-inversion-lie-spheres-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-06-07-inversion-lie-spheres-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-06-07-inversion-lie-spheres-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-en.html" title="§§ 8–10 &amp; Concluding Remarks: Birational, Topological, Contact &amp; Manifold Groups"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="the-geometry-of-reciprocal-radii-and-lie-s-sphere-geometry">
+        <span id="ep-sec-06-07-inversion-lie-spheres-en"></span><h1>§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry<a class="headerlink" href="#the-geometry-of-reciprocal-radii-and-lie-s-sphere-geometry" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>A Comparative Review of Recent Researches in Geometry</em> — §§ 6–7 (Trans. <a class="person-ref" id="occ-person-haskell-1" href="../../persons.html#person-haskell" data-person="haskell" title="Mellen Woodman Haskell (1863 – 1948) — American Mathematician (UC Berkeley) &amp; Doctoral Student of Klein">M. W. Haskell</a>, 1893, pp. 226–232)</p>
+        <section class="level-2" id="the-geometry-of-reciprocal-radii-interpretation-of-x-iy">
+        <h2>§ 6. The Geometry of Reciprocal Radii. Interpretation of $x + iy$<a class="headerlink" href="#the-geometry-of-reciprocal-radii-interpretation-of-x-iy" title="Link to this heading">¶</a></h2>
+        <p>With this section we return to the discussion of the various lines of geometric research, which was begun in §§ 2 and 3.</p>
+        <p>As a parallel in many respects to the processes of projective geometry, we may consider a class of geometric investigations in which the transformation by <a class="term-ref glossary-term" id="occ-term-reciprocal-radii-1" href="../../glossary.html#term-reciprocal-radii" data-term="reciprocal-radii" title="geometry of reciprocal radii (Geometrie der reciproken Radien) (Conformal Möbius geometry generated by similarities and circle/sphere inversions): The geometry whose group is generated by adjoining circle or sphere inversions P -&gt; O + R^2(P - O)/|P - O|^2 to the Principal Group; straight lines and circles merge into a single invariant family of generalized circles while angles and 4-point circular cross-ratios remain invariant.">reciprocal radii vectores</a> (geometric inversion) is continually employed. To these belong investigations on the so-called cyclides and other anallagmatic surfaces, on the general theory of orthogonal systems, likewise on potential, etc. It is true that the processes here involved have not yet, like projective geometry, been united into a special geometry, <em>whose fundamental group would be the totality of the transformations resulting from a combination of the principal group with geometric inversion</em>; but this may be ascribed to the fact that the theories named have never happened to receive a connected treatment. To the individual investigators in this line of work some such systematic conception can hardly have been foreign.</p>
+        <p>The parallel between this geometry of reciprocal radii and projective geometry is apparent as soon as the question is raised; it will therefore be sufficient to call attention in a general way to the following points:</p>
+        <p>In projective geometry the elementary ideas are the point, line, and plane. The circle and the sphere are but special cases of the conic section and the quadric surface. The region at infinity of elementary geometry appears as a plane; the fundamental configuration to which elementary geometry is referred is <a class="term-ref glossary-term" id="occ-term-the-absolute-1" href="../../glossary.html#term-the-absolute" data-term="the-absolute" title="the Absolute (das Fundamentalgebilde / Unendlichferne) (Distinguished invariant conic or quadric defining a Cayley–Klein metric subgroup): The fixed quadric locus whose stabilizer inside the projective group yields a constant-curvature metric geometry: the imaginary spherical circle at infinity yields Euclidean similarity geometry, an imaginary non-degenerate quadric yields elliptic geometry, and a real non-degenerate quadric yields Lobachevskian hyperbolic geometry.">an imaginary conic at infinity</a>.</p>
+        <p>In the geometry of reciprocal radii the elementary ideas are the point, circle, and sphere. The line and the plane are special cases of the latter, characterized by the property that they contain a point which, however, has no further special significance in the theory, namely, the point at infinity. If we regard this point as fixed, elementary geometry is the result.</p>
+        <p>The geometry of reciprocal radii admits of being stated in a form which places it alongside of the theory of binary forms and of line geometry, provided the latter be treated in the way indicated in the last section. To this end we will for the present restrict our observations to plane geometry and therefore to the geometry of reciprocal radii in the plane <a class="footnote-reference brackets" href="#ep-u4-en24" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+        <p>We have already referred to the connection between elementary plane geometry and the projective geometry of the quadric surface with one distinctive point (§ 4). If we disregard the distinctive point, that is to say, if we consider the projective geometry on the surface by itself, we have a representation of the geometry of reciprocal radii in the plane. For it is easy to see <a class="footnote-reference brackets" href="#ep-u4-en25" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> that to the group of geometric inversion in the plane corresponds by virtue of the representation (<em>Abbildung</em>) of the quadric surface the totality of the linear transformations of the latter into itself. We have, therefore:</p>
+        <blockquote>
+        <div><p><em>The geometry of reciprocal radii in the plane and the projective geometry on a quadric surface are one and the same;</em></p>
+        </div></blockquote>
+        <p>and, similarly:</p>
+        <blockquote>
+        <div><p><em>The geometry of reciprocal radii in space is equivalent to the projective treatment of a manifoldness represented by a quadratic equation between five homogeneous variables.</em></p>
+        </div></blockquote>
+        <p>By means of the geometry of reciprocal radii space geometry is thus brought into exactly the same connection with a manifoldness of four dimensions as by means of <code class="docutils literal notranslate"><span class="pre">[</span></code>line<code class="docutils literal notranslate"><span class="pre">]</span></code> geometry with a manifoldness of five dimensions.</p>
+        <p>The geometry of reciprocal radii in the plane, if we limit ourselves to <em>real</em> transformations, admits of an interesting interpretation, or application, in still another direction. For, representing the complex variable $x + iy$ in the plane in the usual way, to its linear transformations corresponds the group of geometric inversion, with the above-mentioned restriction to real operations <a class="footnote-reference brackets" href="#ep-u4-en26" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>. But the investigation of functions of a complex variable, regarded as subject to any linear transformations whatever, is merely what, under a somewhat different mode of representation, is called the theory of binary forms. In other words:</p>
+        <blockquote>
+        <div><p><em>The theory of binary forms finds interpretation in the geometry of reciprocal radii in the real plane, and precisely in the way in which complex values of the variables are represented.</em></p>
+        </div></blockquote>
+        <p>From the plane we will ascend to the quadric surface, to return to the more familiar circle of ideas of the projective transformations. As we have taken into consideration only real elements of the plane, it is not a matter of indifference how the surface is chosen; it can evidently not be a ruled surface. In particular, we may regard it as a spherical surface, — as is customary for the interpretation of a complex variable (<a class="person-ref" id="occ-person-riemann-1" href="../../persons.html#person-riemann" data-person="riemann" title="Georg Friedrich Bernhard Riemann (1826 – 1866) — German Mathematician">Riemann</a>), — and obtain in this way the theorem:</p>
+        <blockquote>
+        <div><p><em>The theory of the binary forms of a complex variable finds representation in the projective geometry of the real spherical surface.</em></p>
+        </div></blockquote>
+        <p>I could not refrain from setting forth in a note <a class="footnote-reference brackets" href="#ep-u4-en27" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> how admirably this interpretation illustrates the theory of binary cubics and quartics.</p>
+        </section>
+        <section class="level-2" id="extension-of-the-preceding-considerations-lie-s-sphere-geometry">
+        <h2>§ 7. Extension of the Preceding Considerations. Lie’s Sphere Geometry<a class="headerlink" href="#extension-of-the-preceding-considerations-lie-s-sphere-geometry" title="Link to this heading">¶</a></h2>
+        <p>With the theory of binary forms, the geometry of reciprocal radii, and line geometry, which in the foregoing pages appear co-ordinated and only distinguished by the number of variables, may be connected certain further developments, which shall now be explained. In the first place, these developments are intended to illustrate with new examples the idea that the group determining the treatment of given subjects can be extended indefinitely; but, in the second place, the intention was particularly to explain the relation to the views here set forth of certain considerations presented by <a class="person-ref" id="occ-person-lie-1" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Lie</a> in a recent article (<a class="citation-ref" id="occ-cite-lie-1872-1" href="../../bibliography.html#cite-lie-1872" data-cite="lie:1872" title="Sophus Lie — Über Complexe, insbesondere Linien- und Kugel-Complexe, mit Anwendung auf die Theorie partieller Differential-Gleichungen (and Theorie der Transformationsgruppen, 1888–1893) (Mathematische Annalen 5, pp. 145–256)"><em>Math. Ann.</em> 5, 1872, 145–256</a>). The way by which we here arrive at <a class="term-ref glossary-term" id="occ-term-lie-sphere-geometry-1" href="../../glossary.html#term-lie-sphere-geometry" data-term="lie-sphere-geometry" title="Lie&#x27;s sphere geometry (Lie&#x27;sche Kugelgeometrie) (Contact-transformation geometry of oriented spheres and planes (including points as zero-radius spheres)): Sophus Lie&#x27;s higher extension of reciprocal-radii geometry on a 4D quadric in P^5, preserving oriented tangential contact of spheres and corresponding via Klein&#x27;s line-to-sphere map to Plücker&#x27;s projective line geometry.">Lie's sphere geometry</a> differs in this respect from the one pursued by Lie, that he proceeds from the conceptions of line geometry, while we assume a smaller number of variables in our exposition. This will enable us to be in agreement with the usual geometric perception and to preserve the connection with what precedes. The investigation is independent of the number of variables, as Lie himself has already pointed out (<em>Göttinger Nachrichten</em>, 1871, Nos. 7, 22). It belongs to that great class of investigations concerned with the projective discussion of quadratic equations between any number of variables, — investigations upon which we have already touched several times, and which will repeatedly meet us again (see § 10, for instance).</p>
+        <p>I proceed from the connection established between the real plane and the sphere by stereographic projection. In § 5 we connected plane geometry with the geometry on a conic section by making the straight line in the plane correspond to the point-pair in which it meets the conic. Similarly we can establish a connection between space geometry and the geometry on the sphere, by letting every plane of space correspond to the circle in which it cuts the sphere. If then by stereographic projection we transfer the geometry on the sphere from the latter to the plane (every circle being thereby transformed into a circle), we have the following correspondence:</p>
+        <ul class="simple">
+        <li><p><em>the space geometry whose element is the plane and whose group is formed of the linear transformations converting a sphere into itself,</em> and</p></li>
+        <li><p><em>the plane geometry whose element is the circle and whose group is the group of geometric inversion.</em></p></li>
+        </ul>
+        <p>The former geometry we will now generalize in two directions by substituting for its group a more comprehensive group. The resulting extension may then be immediately transferred to plane geometry by representation (<em>Abbildung</em>).</p>
+        <p>Instead of those linear transformations of space (regarded as made up of planes) which convert the sphere into itself, it readily suggests itself to select either the totality of the linear transformations of space, or the totality of those plane-transformations which leave the sphere unchanged <code class="docutils literal notranslate"><span class="pre">[</span></code>in a sense yet to be examined<code class="docutils literal notranslate"><span class="pre">]</span></code>; in the former case we dispense with the sphere, in the latter with the linear character of the transformations. The former generalization is intelligible without further explanation; we will therefore consider it first and follow out its importance for plane geometry. To the second case we shall return later, and shall then in the first place have to determine the most general transformation of that kind.</p>
+        <p>Linear space-transformations have the common property of converting pencils and sheaves of planes into like pencils and sheaves. Now, transferred to the sphere, the pencil of planes gives a pencil of circles, i.e., a system of $\infty^1$ circles with common intersections; the sheaf of planes gives a sheaf of circles, i.e., a system of $\infty^2$ circles perpendicular to a fixed circle (the circle whose plane is the polar plane of the point common to the planes of the given sheaf). Hence to linear space-transformations there correspond on the sphere, and furthermore in the plane, circle-transformations characterized by the property that they convert pencils and sheaves of circles into the same <a class="footnote-reference brackets" href="#ep-u4-en29" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>. <em>The plane geometry which employs the group of transformations thus obtained is the representation of ordinary projective space geometry.</em> In this geometry the point cannot be used as element of the plane, for the points do not form a <a class="term-ref glossary-term" id="occ-term-body-group-1" href="../../glossary.html#term-body-group" data-term="body-group" title="group-body (Körper im Sinne Dedekinds) (Submanifold invariant as a whole under a prescribed transformation group): Klein&#x27;s geometric adaptation (borrowed by analogy from Dedekind&#x27;s algebraic number fields, Körper) for an aggregate of elements closed as a totality under every operation of a transformation group, such as the invariant quadric in line or sphere geometry.">body</a> (§ 5) for the chosen group of transformations; but circles shall be chosen as elements.</p>
+        <p>In the case of the second extension named, the first question to be settled is with regard to the nature of the group of transformations in question. The problem is, to find plane-transformations converting every <code class="docutils literal notranslate"><span class="pre">[</span></code>sheaf<code class="docutils literal notranslate"><span class="pre">]</span></code> of planes whose <code class="docutils literal notranslate"><span class="pre">[</span></code>vertex lies on<code class="docutils literal notranslate"><span class="pre">]</span></code> the sphere into a like <code class="docutils literal notranslate"><span class="pre">[</span></code>sheaf<code class="docutils literal notranslate"><span class="pre">]</span></code>. For brevity of expression, we will first consider the reciprocal problem and, moreover, go down a step in the number of dimensions; we will therefore look for point-transformations of the plane which convert every tangent to a given conic into a like tangent. To this end we regard the plane with its conic as the representation of a quadric surface projected on the plane from a point of space not in the surface in such a way that the conic in question represents the boundary curve. To the tangents to the conic correspond the generators of the surface, and the problem is reduced to that of finding the totality of the point-transformations of the surface into itself by which generators remain generators.</p>
+        <p>Now, the number of these transformations is, to be sure, $\infty^n$, where $n$ may have any value. For we only need to regard the point on the surface as intersection of the generators of the two systems, and to transform each system of lines into itself in any way whatever. But among these are in particular the linear transformations, and to these alone will we attend. For, if we had to do, not with a surface, but with an $n$-dimensional manifoldness represented by a quadratic equation, the linear transformations alone would remain, the rest would disappear <a class="footnote-reference brackets" href="#ep-u4-en30" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a>.</p>
+        <p>These linear transformations of the surface into itself, transferred to the plane by projection (other than stereographic), give two-valued point-transformations, by which from every tangent to the boundary conic is produced, it is true, a tangent, but from every other straight line in general a conic having double contact with the boundary curve. This group of transformations will be conveniently characterized by basing a projective measurement upon the boundary conic. The transformations will then have the property of converting points whose distance apart is zero by this measurement, and also points whose distance from a given point is constant, into points having the same properties.</p>
+        <p>All these considerations may be extended to any number of variables, and can in particular be applied to the original inquiry, which had reference to the sphere and plane as elements. We can then give the result an especially perspicuous form, because the angle formed by two planes according to the projective measurement referred to a sphere is equal to the angle in the ordinary sense formed by the circles in which they intersect the sphere.</p>
+        <p>We thus obtain upon the sphere, and furthermore in the plane, a group of circle-transformations having the property that they <em>convert circles which are tangent to each other (include a zero angle), and also circles making equal angles with another circle, into like circles</em>. The group of these transformations contains on the sphere the linear transformations, in the plane the transformations of the group of geometric inversion <a class="footnote-reference brackets" href="#ep-u4-en31" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a>.</p>
+        <p>The circle geometry based on this group is analogous to the <a class="term-ref glossary-term" id="occ-term-lie-sphere-geometry-2" href="../../glossary.html#term-lie-sphere-geometry" data-term="lie-sphere-geometry" title="Lie&#x27;s sphere geometry (Lie&#x27;sche Kugelgeometrie) (Contact-transformation geometry of oriented spheres and planes (including points as zero-radius spheres)): Sophus Lie&#x27;s higher extension of reciprocal-radii geometry on a 4D quadric in P^5, preserving oriented tangential contact of spheres and corresponding via Klein&#x27;s line-to-sphere map to Plücker&#x27;s projective line geometry.">sphere geometry</a> which <a class="person-ref" id="occ-person-lie-2" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Lie</a> has devised for space and which appears of particular importance for investigations on the curvature of surfaces. It includes the geometry of reciprocal radii in the same sense as the latter includes elementary geometry.</p>
+        <p>The circle- (sphere-) transformations thus obtained have, in particular, the property of converting circles (spheres) which touch each other into circles (spheres) having the same property. If we regard all curves (surfaces) as envelopes of circles (spheres), then it results from this fact that curves (surfaces) which touch each other will always be transformed into curves (surfaces) having the same property. The transformations in question belong, therefore, to the class of <a class="term-ref glossary-term" id="occ-term-contact-transformation-1" href="../../glossary.html#term-contact-transformation" data-term="contact-transformation" title="contact-transformation (Berührungstransformation) (Transformation of surface-elements (x, y, z, p, q) preserving first-order tangency): Transformations studied by Jacobi and Sophus Lie that map points into curves or surfaces while preserving the incidence condition dz - p dx - q dy = 0 of infinitely near elements (such as projective duality and pedal/parallel-surface maps).">contact-transformations</a> to be considered from a general standpoint further on, i.e., transformations under which the contact of point-configurations is an invariant relation. The first circle-transformations mentioned in the present section, which find their parallel in corresponding sphere-transformations, are not contact-transformations.</p>
+        <p>While these two kinds of generalization have here been applied only to the geometry of reciprocal radii, they nevertheless hold in a similar way for line geometry and in general for the projective investigation of a manifoldness defined by a quadratic equation, as we have already indicated, but shall not develop further in this connection.</p>
+        <hr class="docutils" />
+        <p class="rubric">Footnotes (1893 Edition)</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="ep-u4-en24" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>The geometry of reciprocal radii on the straight line is equivalent to the projective investigation of the line, as the transformations in question are the same. Thus in the geometry of reciprocal radii, also, we can speak of the <em>anharmonic ratio</em> of four points on a line and of four points on a circle.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en25" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+        <p>See <a class="citation-ref" id="occ-cite-klein-1872-linien-1" href="../../bibliography.html#cite-klein-1872-linien" data-cite="klein:1872:linien" title="Felix Klein — Über Liniengeometrie und metrische Geometrie (Mathematische Annalen 5, pp. 257–277)">Klein, <em>Über Liniengeometrie und metrische Geometrie</em>, Math. Ann. 5 (1872), 257–277</a>.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en26" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+        <p><code class="docutils literal notranslate"><span class="pre">[</span></code>The language of the text is inexact. To the linear transformations $z' = \frac{\alpha z + \beta}{\gamma z + \delta}$ (where $z' = x' + iy'$, $z = x + iy$) correspond only those operations of the group of geometric inversion by which no reversion of the angles takes place (in which the two circular points of the plane are not interchanged). If we wish to include the whole group of geometric inversion, we must, in addition to the transformations mentioned, take account of the other (not less important) ones given by the formula $z' = \frac{\alpha \bar{z} + \beta}{\gamma \bar{z} + \delta}$ (where again $z' = x' + iy'$, but $\bar{z} = x - iy$).<code class="docutils literal notranslate"><span class="pre">]</span></code></p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en27" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">4</a><span class="fn-bracket">]</span></span>
+        <p>See <a class="reference internal" href="../notes-i-vii/notes-i-vii-en.html#ep-notes-i-vii-en"><span class="std std-ref">Note VII</span></a>.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en29" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">5</a><span class="fn-bracket">]</span></span>
+        <p>Such transformations are considered in <a class="person-ref" id="occ-person-grassmann-1" href="../../persons.html#person-grassmann" data-person="grassmann" title="Hermann Günther Grassmann (1809 – 1877) — German Polymath, Creator of Exterior Algebra">Grassmann</a>, <em>Die Ausdehnungslehre</em>, Berlin, Enslin, 1862, p. 278.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en30" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">6</a><span class="fn-bracket">]</span></span>
+        <p>If the manifoldness be stereographically projected, we obtain the well-known theorem (<a class="person-ref" id="occ-person-liouville-1" href="../../persons.html#person-liouville" data-person="liouville" title="Joseph Liouville (1809 – 1882) — French Mathematician">Liouville</a>): in regions of $n$ dimensions (even in space) there are no isogonal point-transformations except the transformations of the group of geometric inversion. In the plane, on the other hand, there are any number besides. See the articles by <a class="person-ref" id="occ-person-lie-3" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Lie</a> already cited.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u4-en31" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">7</a><span class="fn-bracket">]</span></span>
+        <p><code class="docutils literal notranslate"><span class="pre">[</span></code>Perhaps the addition of some few analytic formulae will materially help to explain the remarks in the text. Let the equation of the sphere, which we project stereographically on the plane, be in ordinary tetrahedral co-ordinates: $x_1^2 + x_2^2 + x_3^2 + x_4^2 = 0$. The $x$’s satisfying this equation of condition we then interpret as tetracyclic co-ordinates in the plane. $u_1 x_1 + u_2 x_2 + u_3 x_3 + u_4 x_4 = 0$ will be the general circular equation of the plane. If we compute the radius of the circle represented in this way, we come upon the square root $\sqrt{u_1^2 + u_2^2 + u_3^2 + u_4^2}$, which we may denote by $i u_5$. We can now regard the circles as elements of the plane. The group of geometric inversion is then represented by the totality of those homogeneous linear transformations of $u_1, u_2, u_3, u_4$, by which $u_1^2 + u_2^2 + u_3^2 + u_4^2$ is converted into a multiple of itself. But the extended group which corresponds to <a class="person-ref" id="occ-person-lie-4" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Lie's</a> sphere geometry consists of those homogeneous linear transformations of the five variables $u_1, u_2, u_3, u_4, u_5$, which convert $u_1^2 + u_2^2 + u_3^2 + u_4^2 + u_5^2$ into a multiple of itself.<code class="docutils literal notranslate"><span class="pre">]</span></code></p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-03-05-projective-transference/sec-03-05-projective-transference-en.html" title="§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element">&larr; <span class="nav-label">§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-en.html" title="§§ 8–10 &amp; Concluding Remarks: Birational, Topological, Contact &amp; Manifold Groups"><span class="nav-label">§§ 8–10 & Concluding Remarks: Birational, Topological, Contact & Manifold Groups</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

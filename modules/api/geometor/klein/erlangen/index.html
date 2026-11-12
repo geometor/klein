@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.klein.erlangen &mdash; GEOMETOR • klein</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <img src="../../../../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../../../../../erlangen_program/index.html"  >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../../../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • klein</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../constructibility/index.html" title="geometor.klein.constructibility">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../heptadecagon/index.html" title="geometor.klein.heptadecagon"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.klein.erlangen">
+        <span id="geometor-klein-erlangen"></span><h1>geometor.klein.erlangen<a class="headerlink" href="#module-geometor.klein.erlangen" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic verification of Felix Klein’s <em>Erlangen Program</em> (1872 / 1893) group hierarchy.</p>
+        <p>Demonstrates Klein’s foundational principle (<em>Vergleichende Betrachtungen</em>, §§ 1–2, § 6, § 10,
+        Note V): a geometry on a manifold <span class="math notranslate nohighlight">\(M\)</span> is the invariant theory of a transformation group
+        <span class="math notranslate nohighlight">\(G\)</span> acting on <span class="math notranslate nohighlight">\(M\)</span>. As the transformation group widens along the chain</p>
+        <div class="math notranslate nohighlight">
+        \[G_{\text{Euclidean}} \subset G_{\text{Principal}} \subset G_{\text{Affine}}
+        \subset G_{\text{Projective}},\]</div>
+        <p>and branches laterally from <span class="math notranslate nohighlight">\(G_{\text{Principal}}\)</span> into the <strong>geometry of reciprocal radii</strong>
+        (<span class="math notranslate nohighlight">\(G_{\text{M\&quot;{o}bius}}\)</span>, § 6), exact algebraic invariants are progressively shed while deeper
+        structural invariants survive. All calculations use 100% exact rational / symbolic SymPy arithmetic.</p>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.erlangen.ErlangenRungResult" title="geometor.klein.erlangen.ErlangenRungResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ErlangenRungResult</span></code></a></p></td>
+        <td><p>Exact symbolic invariant audit for a single transformation group in Klein's hierarchy.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.erlangen.ErlangenHierarchyReport" title="geometor.klein.erlangen.ErlangenHierarchyReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ErlangenHierarchyReport</span></code></a></p></td>
+        <td><p>Aggregate report across all four transformation groups in the Erlangen hierarchy.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.erlangen.CayleyKleinReport" title="geometor.klein.erlangen.CayleyKleinReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CayleyKleinReport</span></code></a></p></td>
+        <td><p>Symbolic verification of Cayley–Klein projective metric additivity (Note V &amp; § 10).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.erlangen.signed_area_ratio" title="geometor.klein.erlangen.signed_area_ratio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">signed_area_ratio</span></code></a>(p1, p2, p3, q1, q2, q3) → sympy.Expr</p></td>
+        <td><p>Return the exact affine-invariant ratio of signed areas <span class="math notranslate nohighlight">\([P_1P_2P_3] / [Q_1Q_2Q_3]\)</span>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.erlangen.circular_quadrance_cross_ratio" title="geometor.klein.erlangen.circular_quadrance_cross_ratio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">circular_quadrance_cross_ratio</span></code></a>(p1, p2, p3, p4) → sympy.Expr</p></td>
+        <td><p>Compute the Möbius-invariant 4-point quadrance cross-ratio <span class="math notranslate nohighlight">\(\frac{Q(P_1,P_3)Q(P_2,P_4)}{Q(P_1,P_4)Q(P_2,P_3)}\)</span>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.erlangen.is_concyclic" title="geometor.klein.erlangen.is_concyclic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_concyclic</span></code></a>(p1, p2, p3, p4) → bool</p></td>
+        <td><p>Return <code class="docutils literal notranslate"><span class="pre">True</span></code> iff <code class="docutils literal notranslate"><span class="pre">p1,</span> <span class="pre">p2,</span> <span class="pre">p3,</span> <span class="pre">p4</span></code> lie on a generalized circle (circle or straight line).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.klein.erlangen.verify_erlangen_invariants" title="geometor.klein.erlangen.verify_erlangen_invariants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_erlangen_invariants</span></code></a>() → ErlangenHierarchyReport</p></td>
+        <td><p>Execute an exact symbolic invariant audit across four groups of Klein's Erlangen Program.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.klein.erlangen.verify_cayley_klein_additivity" title="geometor.klein.erlangen.verify_cayley_klein_additivity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_cayley_klein_additivity</span></code></a>() → CayleyKleinReport</p></td>
+        <td><p>Prove symbolic additivity of Klein's projective metric <span class="math notranslate nohighlight">\(d(A, B) = c \log(A, B; I_1, I_2)\)</span>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">ErlangenRungResult</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic invariant audit for a single transformation group in Klein’s hierarchy.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.group_key">
+        <span class="sig-name descname"><span class="pre">group_key</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.group_key" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.group_name">
+        <span class="sig-name descname"><span class="pre">group_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.group_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.erlangen_section">
+        <span class="sig-name descname"><span class="pre">erlangen_section</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.erlangen_section" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.transformation_formula">
+        <span class="sig-name descname"><span class="pre">transformation_formula</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.transformation_formula" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.preserved">
+        <span class="sig-name descname"><span class="pre">preserved</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.preserved" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.exact_values_before">
+        <span class="sig-name descname"><span class="pre">exact_values_before</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.exact_values_before" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.exact_values_after">
+        <span class="sig-name descname"><span class="pre">exact_values_after</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.exact_values_after" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenRungResult.exact_differences">
+        <span class="sig-name descname"><span class="pre">exact_differences</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenRungResult.exact_differences" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">ErlangenHierarchyReport</span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Aggregate report across all four transformation groups in the Erlangen hierarchy.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport.collinear_quadruple">
+        <span class="sig-name descname"><span class="pre">collinear_quadruple</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport.collinear_quadruple" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport.concyclic_quadruple">
+        <span class="sig-name descname"><span class="pre">concyclic_quadruple</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport.concyclic_quadruple" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport.triangle_vertices">
+        <span class="sig-name descname"><span class="pre">triangle_vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport.triangle_vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport.rungs">
+        <span class="sig-name descname"><span class="pre">rungs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.klein.erlangen.ErlangenRungResult" title="geometor.klein.erlangen.ErlangenRungResult"><span class="pre">ErlangenRungResult</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport.rungs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.ErlangenHierarchyReport.by_key">
+        <span class="sig-name descname"><span class="pre">by_key</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.klein.erlangen.ErlangenRungResult" title="geometor.klein.erlangen.ErlangenRungResult"><span class="pre">ErlangenRungResult</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.klein.erlangen.ErlangenHierarchyReport.by_key" title="Link to this definition">¶</a></dt>
+        <dd><p>Map <code class="docutils literal notranslate"><span class="pre">group_key</span></code> to its <a class="reference internal" href="#geometor.klein.erlangen.ErlangenRungResult" title="geometor.klein.erlangen.ErlangenRungResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">ErlangenRungResult</span></code></a>.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">CayleyKleinReport</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Symbolic verification of Cayley–Klein projective metric additivity (Note V &amp; § 10).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.cross_ratio_ab">
+        <span class="sig-name descname"><span class="pre">cross_ratio_ab</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.cross_ratio_ab" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.cross_ratio_bc">
+        <span class="sig-name descname"><span class="pre">cross_ratio_bc</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.cross_ratio_bc" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.cross_ratio_ac">
+        <span class="sig-name descname"><span class="pre">cross_ratio_ac</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.cross_ratio_ac" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.multiplicative_identity_residual">
+        <span class="sig-name descname"><span class="pre">multiplicative_identity_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.multiplicative_identity_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_ab">
+        <span class="sig-name descname"><span class="pre">hyperbolic_sample_distance_ab</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_ab" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_bc">
+        <span class="sig-name descname"><span class="pre">hyperbolic_sample_distance_bc</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_bc" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_ac">
+        <span class="sig-name descname"><span class="pre">hyperbolic_sample_distance_ac</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.hyperbolic_sample_distance_ac" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.CayleyKleinReport.additive_residual">
+        <span class="sig-name descname"><span class="pre">additive_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.klein.erlangen.CayleyKleinReport.additive_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.signed_area_ratio">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">signed_area_ratio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.signed_area_ratio" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the exact affine-invariant ratio of signed areas <span class="math notranslate nohighlight">\([P_1P_2P_3] / [Q_1Q_2Q_3]\)</span>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.circular_quadrance_cross_ratio">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">circular_quadrance_cross_ratio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p4</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.circular_quadrance_cross_ratio" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the Möbius-invariant 4-point quadrance cross-ratio <span class="math notranslate nohighlight">\(\frac{Q(P_1,P_3)Q(P_2,P_4)}{Q(P_1,P_4)Q(P_2,P_3)}\)</span>.</p>
+        <p>Under any Euclidean similarity or any circle inversion <span class="math notranslate nohighlight">\(P \mapsto O + R^2(P-O)/Q(O,P)\)</span>
+        (whose center <span class="math notranslate nohighlight">\(O\)</span> is distinct from <span class="math notranslate nohighlight">\(P_1..P_4\)</span>), the squared chord length transforms
+        as <span class="math notranslate nohighlight">\(Q(P_i', P_j') = R^4 Q(P_i, P_j) / [Q(O, P_i) Q(O, P_j)]\)</span>, so all four denominator
+        factors <span class="math notranslate nohighlight">\(Q(O, P_k)\)</span> cancel identically! Furthermore, when <span class="math notranslate nohighlight">\(A, B, C, D\)</span> are
+        collinear, this coincides with the square <span class="math notranslate nohighlight">\((A, B; C, D)^2\)</span> of the projective cross-ratio.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.is_concyclic">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">is_concyclic</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p4</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#geometor.klein.erlangen.is_concyclic" title="Link to this definition">¶</a></dt>
+        <dd><p>Return <code class="docutils literal notranslate"><span class="pre">True</span></code> iff <code class="docutils literal notranslate"><span class="pre">p1,</span> <span class="pre">p2,</span> <span class="pre">p3,</span> <span class="pre">p4</span></code> lie on a generalized circle (circle or straight line).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.verify_erlangen_invariants">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">verify_erlangen_invariants</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.klein.erlangen.ErlangenHierarchyReport" title="geometor.klein.erlangen.ErlangenHierarchyReport"><span class="pre">ErlangenHierarchyReport</span></a></span></span><a class="headerlink" href="#geometor.klein.erlangen.verify_erlangen_invariants" title="Link to this definition">¶</a></dt>
+        <dd><p>Execute an exact symbolic invariant audit across four groups of Klein’s Erlangen Program.</p>
+        <p>Applies four rational planar transformations to a shared exact rational point configuration:</p>
+        <ol class="arabic simple">
+        <li><p><code class="docutils literal notranslate"><span class="pre">principal_similarity</span></code> (<em>Hauptgruppe</em>, § 1): rational rotation <span class="math notranslate nohighlight">\((3/5, 4/5)\)</span>,
+        isotropic scaling <span class="math notranslate nohighlight">\(5/2\)</span>, and translation <span class="math notranslate nohighlight">\((3, -2)\)</span>.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">affine_shear</span></code> (§ 2): equiaffine shear + translation <span class="math notranslate nohighlight">\((x, y) \mapsto (x + 2y + 1, y - 3)\)</span>.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">projective_homography</span></code> (§ 3): nonsingular projective collineation
+        <span class="math notranslate nohighlight">\((x, y) \mapsto \left(\frac{2x + y + 1}{x + y + 3}, \frac{x + 3y + 2}{x + y + 3}\right)\)</span>.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">moebius_circle_inversion</span></code> (<em>Geometrie der reciproken Radien</em>, § 6): inversion in the
+        circle centered at <span class="math notranslate nohighlight">\(O_{\mathrm{inv}}(-1, -2)\)</span> of squared radius <span class="math notranslate nohighlight">\(R^2 = 5\)</span>.</p></li>
+        </ol>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.klein.erlangen.verify_cayley_klein_additivity">
+        <span class="sig-prename descclassname"><span class="pre">geometor.klein.erlangen.</span></span><span class="sig-name descname"><span class="pre">verify_cayley_klein_additivity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.klein.erlangen.CayleyKleinReport" title="geometor.klein.erlangen.CayleyKleinReport"><span class="pre">CayleyKleinReport</span></a></span></span><a class="headerlink" href="#geometor.klein.erlangen.verify_cayley_klein_additivity" title="Link to this definition">¶</a></dt>
+        <dd><p>Prove symbolic additivity of Klein’s projective metric <span class="math notranslate nohighlight">\(d(A, B) = c \log(A, B; I_1, I_2)\)</span>.</p>
+        <p>In Note V (<em>On the So-Called Non-Euclidean Geometry</em>) and § 10.2 of the <em>Erlangen Program</em>,
+        Klein subsumes hyperbolic, elliptic, and parabolic metrics under projective geometry by
+        adjoining an invariant second-degree Absolute (<span class="math notranslate nohighlight">\(\Omega = 0\)</span>). Along any line meeting
+        the Absolute in <span class="math notranslate nohighlight">\(I_1, I_2\)</span>, the cross-ratio multiplicativity
+        <span class="math notranslate nohighlight">\((A, B; I_1, I_2) \cdot (B, C; I_1, I_2) = (A, C; I_1, I_2)\)</span> converts into exact
+        geodesic distance additivity <span class="math notranslate nohighlight">\(d(A, B) + d(B, C) = d(A, C)\)</span>.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../constructibility/index.html" title="geometor.klein.constructibility">&larr; <span class="nav-label">geometor.klein.constructibility</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • klein</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../heptadecagon/index.html" title="geometor.klein.heptadecagon"><span class="nav-label">geometor.klein.heptadecagon</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

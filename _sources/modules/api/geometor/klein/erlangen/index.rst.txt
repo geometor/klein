@@ -1,0 +1,198 @@
+geometor.klein.erlangen
+=======================
+
+.. py:module:: geometor.klein.erlangen
+
+.. autoapi-nested-parse::
+
+   Exact symbolic verification of Felix Klein's *Erlangen Program* (1872 / 1893) group hierarchy.
+
+   Demonstrates Klein's foundational principle (*Vergleichende Betrachtungen*, §§ 1–2, § 6, § 10,
+   Note V): a geometry on a manifold :math:`M` is the invariant theory of a transformation group
+   :math:`G` acting on :math:`M`. As the transformation group widens along the chain
+
+   .. math::
+
+       G_{\text{Euclidean}} \subset G_{\text{Principal}} \subset G_{\text{Affine}}
+       \subset G_{\text{Projective}},
+
+   and branches laterally from :math:`G_{\text{Principal}}` into the **geometry of reciprocal radii**
+   (:math:`G_{\text{M\"{o}bius}}`, § 6), exact algebraic invariants are progressively shed while deeper
+   structural invariants survive. All calculations use 100% exact rational / symbolic SymPy arithmetic.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.klein.erlangen.ErlangenRungResult
+   geometor.klein.erlangen.ErlangenHierarchyReport
+   geometor.klein.erlangen.CayleyKleinReport
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.klein.erlangen.signed_area_ratio
+   geometor.klein.erlangen.circular_quadrance_cross_ratio
+   geometor.klein.erlangen.is_concyclic
+   geometor.klein.erlangen.verify_erlangen_invariants
+   geometor.klein.erlangen.verify_cayley_klein_additivity
+
+
+Module Contents
+---------------
+
+.. py:class:: ErlangenRungResult
+
+   Exact symbolic invariant audit for a single transformation group in Klein's hierarchy.
+
+
+   .. py:attribute:: group_key
+      :type:  str
+
+
+   .. py:attribute:: group_name
+      :type:  str
+
+
+   .. py:attribute:: erlangen_section
+      :type:  str
+
+
+   .. py:attribute:: transformation_formula
+      :type:  str
+
+
+   .. py:attribute:: preserved
+      :type:  dict[str, bool]
+
+
+   .. py:attribute:: exact_values_before
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: exact_values_after
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: exact_differences
+      :type:  dict[str, sympy.Expr]
+
+
+.. py:class:: ErlangenHierarchyReport
+
+   Aggregate report across all four transformation groups in the Erlangen hierarchy.
+
+
+   .. py:attribute:: collinear_quadruple
+      :type:  tuple[sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D]
+
+
+   .. py:attribute:: concyclic_quadruple
+      :type:  tuple[sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D]
+
+
+   .. py:attribute:: triangle_vertices
+      :type:  tuple[sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D]
+
+
+   .. py:attribute:: rungs
+      :type:  tuple[ErlangenRungResult, ...]
+
+
+   .. py:method:: by_key() -> dict[str, ErlangenRungResult]
+
+      Map ``group_key`` to its :class:`ErlangenRungResult`.
+
+
+
+.. py:class:: CayleyKleinReport
+
+   Symbolic verification of Cayley–Klein projective metric additivity (Note V & § 10).
+
+
+   .. py:attribute:: cross_ratio_ab
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: cross_ratio_bc
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: cross_ratio_ac
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: multiplicative_identity_residual
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: hyperbolic_sample_distance_ab
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: hyperbolic_sample_distance_bc
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: hyperbolic_sample_distance_ac
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: additive_residual
+      :type:  sympy.Expr
+
+
+.. py:function:: signed_area_ratio(p1: sympy.geometry.Point2D, p2: sympy.geometry.Point2D, p3: sympy.geometry.Point2D, q1: sympy.geometry.Point2D, q2: sympy.geometry.Point2D, q3: sympy.geometry.Point2D) -> sympy.Expr
+
+   Return the exact affine-invariant ratio of signed areas :math:`[P_1P_2P_3] / [Q_1Q_2Q_3]`.
+
+
+.. py:function:: circular_quadrance_cross_ratio(p1: sympy.geometry.Point2D, p2: sympy.geometry.Point2D, p3: sympy.geometry.Point2D, p4: sympy.geometry.Point2D) -> sympy.Expr
+
+   Compute the Möbius-invariant 4-point quadrance cross-ratio :math:`\frac{Q(P_1,P_3)Q(P_2,P_4)}{Q(P_1,P_4)Q(P_2,P_3)}`.
+
+   Under any Euclidean similarity or any circle inversion :math:`P \mapsto O + R^2(P-O)/Q(O,P)`
+   (whose center :math:`O` is distinct from :math:`P_1..P_4`), the squared chord length transforms
+   as :math:`Q(P_i', P_j') = R^4 Q(P_i, P_j) / [Q(O, P_i) Q(O, P_j)]`, so all four denominator
+   factors :math:`Q(O, P_k)` cancel identically! Furthermore, when :math:`A, B, C, D` are
+   collinear, this coincides with the square :math:`(A, B; C, D)^2` of the projective cross-ratio.
+
+
+.. py:function:: is_concyclic(p1: sympy.geometry.Point2D, p2: sympy.geometry.Point2D, p3: sympy.geometry.Point2D, p4: sympy.geometry.Point2D) -> bool
+
+   Return ``True`` iff ``p1, p2, p3, p4`` lie on a generalized circle (circle or straight line).
+
+
+.. py:function:: verify_erlangen_invariants() -> ErlangenHierarchyReport
+
+   Execute an exact symbolic invariant audit across four groups of Klein's Erlangen Program.
+
+   Applies four rational planar transformations to a shared exact rational point configuration:
+
+   1. ``principal_similarity`` (*Hauptgruppe*, § 1): rational rotation :math:`(3/5, 4/5)`,
+      isotropic scaling :math:`5/2`, and translation :math:`(3, -2)`.
+   2. ``affine_shear`` (§ 2): equiaffine shear + translation :math:`(x, y) \mapsto (x + 2y + 1, y - 3)`.
+   3. ``projective_homography`` (§ 3): nonsingular projective collineation
+      :math:`(x, y) \mapsto \left(\frac{2x + y + 1}{x + y + 3}, \frac{x + 3y + 2}{x + y + 3}\right)`.
+   4. ``moebius_circle_inversion`` (*Geometrie der reciproken Radien*, § 6): inversion in the
+      circle centered at :math:`O_{\mathrm{inv}}(-1, -2)` of squared radius :math:`R^2 = 5`.
+
+
+.. py:function:: verify_cayley_klein_additivity() -> CayleyKleinReport
+
+   Prove symbolic additivity of Klein's projective metric :math:`d(A, B) = c \log(A, B; I_1, I_2)`.
+
+   In Note V (*On the So-Called Non-Euclidean Geometry*) and § 10.2 of the *Erlangen Program*,
+   Klein subsumes hyperbolic, elliptic, and parabolic metrics under projective geometry by
+   adjoining an invariant second-degree Absolute (:math:`\Omega = 0`). Along any line meeting
+   the Absolute in :math:`I_1, I_2`, the cross-ratio multiplicativity
+   :math:`(A, B; I_1, I_2) \cdot (B, C; I_1, I_2) = (A, C; I_1, I_2)` converts into exact
+   geodesic distance additivity :math:`d(A, B) + d(B, C) = d(A, C)`.
+
+

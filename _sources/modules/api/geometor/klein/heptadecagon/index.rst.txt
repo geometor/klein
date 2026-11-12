@@ -1,0 +1,210 @@
+geometor.klein.heptadecagon
+===========================
+
+.. py:module:: geometor.klein.heptadecagon
+
+.. autoapi-nested-parse::
+
+   Exact Gaussian period tower and von Staudt–Schröter–Klein construction of the regular 17-gon.
+
+   Implements Felix Klein's *Famous Problems of Elementary Geometry*, Part I, Chapter IV (§§ 1–9,
+   EN pp. 24–41 / DE S. 19–32):
+
+   1. **Gaussian Period Quadratic Tower (§§ 1–6)**:
+      Using the primitive root :math:`g = 3 \pmod{17}`, partitions the 16 primitive 17th roots of
+      unity into:
+
+      - Two 8-periods :math:`x_1, x_2` (DE: :math:`\eta_0, \eta_1`) solving
+        :math:`(\xi): x^2 + x - 4 = 0`;
+      - Four 4-periods :math:`y_1, y_2` (DE: :math:`\eta'_0, \eta'_1`) solving
+        :math:`(\eta): y^2 - x_1 y - 1 = 0`, and :math:`y_4, y_3` (DE: :math:`(\eta'_0), (\eta'_1)`)
+        solving :math:`(\eta'): y^2 - x_2 y - 1 = 0`, satisfying Klein's inequality chain
+        :math:`y_3 < y_2 < y_4 < y_1` and radical-dependence identity
+        :math:`\sqrt{x_1^2 + 4}\,\sqrt{x_2^2 + 4} = 2\sqrt{17}`;
+      - Eight real 2-periods :math:`z_1, \dots, z_8` (:math:`z_1 = 2\cos(2\pi/17)`) with
+        :math:`z_1, z_2` solving :math:`(\zeta): z^2 - y_1 z + y_4 = 0`.
+
+   2. **Poncelet–Steiner Single-Circle Construction (von Staudt 1842 / Schröter 1872 / Klein §§ 8–9)**:
+      Solves all four quadratic equations :math:`(\xi), (\eta), (\eta'), (\zeta)` geometrically inside
+      :class:`geometor.model.Model` (``auto_intersect=False``) using **only straightedge lines and a
+      single fixed circle** :math:`C_0: x^2 + y(y - 2) = 0`, then inscribes all **17 exact regular
+      heptadecagon vertices** ``V0``..``V16`` on :math:`C_0` via Steiner straightedge parallels—using
+      ``len(model.circles) == 1`` and **zero** ``float`` / ``sp.Float`` coordinates!
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.klein.heptadecagon.PRIMITIVE_ROOT_3_CYCLE
+   geometor.klein.heptadecagon.SQRT17
+   geometor.klein.heptadecagon.A_MINUS
+   geometor.klein.heptadecagon.A_PLUS
+   geometor.klein.heptadecagon.R1
+   geometor.klein.heptadecagon.R2
+   geometor.klein.heptadecagon.R3
+   geometor.klein.heptadecagon.R4
+   geometor.klein.heptadecagon.B8_EXPRS
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.klein.heptadecagon.Gauss17GonPeriods
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.klein.heptadecagon.canonicalize_17
+   geometor.klein.heptadecagon.construct_gauss_17gon_periods
+
+
+Module Contents
+---------------
+
+.. py:data:: PRIMITIVE_ROOT_3_CYCLE
+   :type:  tuple[int, ...]
+   :value: (3, 9, 10, 13, 5, 15, 11, 16, 14, 8, 7, 4, 12, 2, 6, 1)
+
+
+.. py:data:: SQRT17
+   :type:  sympy.Expr
+
+.. py:data:: A_MINUS
+   :type:  sympy.Expr
+
+.. py:data:: A_PLUS
+   :type:  sympy.Expr
+
+.. py:data:: R1
+   :type:  sympy.Expr
+
+.. py:data:: R2
+   :type:  sympy.Expr
+
+.. py:data:: R3
+   :type:  sympy.Expr
+
+.. py:data:: R4
+   :type:  sympy.Expr
+
+.. py:data:: B8_EXPRS
+   :type:  tuple[sympy.Expr, ...]
+
+.. py:function:: canonicalize_17(expr: sympy.Expr) -> sympy.Expr
+
+   Canonicalize an exact cyclotomic-17 expression onto Gauss's radical basis in :math:`K_{16}`.
+
+
+.. py:class:: Gauss17GonPeriods
+
+   Exact algebraic and geometric realization of Gauss's and Klein's regular 17-gon.
+
+
+   .. py:attribute:: primitive_root
+      :type:  int
+
+
+   .. py:attribute:: exponent_cycle
+      :type:  tuple[int, ...]
+
+
+   .. py:attribute:: x1
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: x2
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: y1
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: y2
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: y3
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: y4
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: z_periods
+      :type:  tuple[sympy.Expr, ...]
+
+
+   .. py:attribute:: cos_2pi_17
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: sin_2pi_17
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: eq_xi
+      :type:  sympy.Poly
+
+
+   .. py:attribute:: eq_eta
+      :type:  sympy.Poly
+
+
+   .. py:attribute:: eq_eta_prime
+      :type:  sympy.Poly
+
+
+   .. py:attribute:: eq_zeta
+      :type:  sympy.Poly
+
+
+   .. py:attribute:: radical_dependence_residual
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: fixed_circle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: milestones
+      :type:  dict[str, sympy.geometry.Point]
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point, ...]
+
+
+.. py:function:: construct_gauss_17gon_periods(model: geometor.model.Model | None = None, *, inscribe_polygon: bool = True, add_sides: bool = True) -> Gauss17GonPeriods
+
+   Construct Gauss's 17-gon period tower and Klein's von Staudt–Schröter single-circle 17-gon.
+
+   Solves all four quadratic period equations :math:`(\xi), (\eta), (\eta'), (\zeta)` on the
+   single fixed circle :math:`C_0: x^2 + y(y - 2) = 0` (center ``C0c(0, 1)``, bottom ``O(0, 0)``,
+   top ``A(0, 2)``) using **straightedge lines alone**, and (when ``inscribe_polygon=True``)
+   inscribes all 17 exact regular heptadecagon vertices ``V0``..``V16`` on :math:`C_0` via
+   Steiner's straightedge parallel theorem—keeping ``len(model.circles) == 1`` and ``0`` floats!
+
+   :param model: Optional existing :class:`~geometor.model.Model` (must have ``auto_intersect=False``
+                 or will be configured with ``canonicalize_17``). When ``None``, creates a fresh
+                 ``Model("klein_von_staudt_17gon", logger=False, auto_intersect=False)``.
+   :param inscribe_polygon: If ``True`` (default), construct all 17 exact vertices ``V0``..``V16``.
+   :param add_sides: If ``True`` (default) and ``inscribe_polygon=True``, add the 17 polygon sides.
+
+   :returns: A frozen :class:`Gauss17GonPeriods` bundle containing the verified algebraic periods,
+             minimal quadratic equations, and exact :class:`~geometor.model.Model`.
+
+

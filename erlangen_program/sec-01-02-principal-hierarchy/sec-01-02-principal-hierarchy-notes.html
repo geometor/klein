@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>§§ 1–2: Principal Group &amp; Transformation Hierarchy — Critical &amp; Symbolic Notes &mdash; Erlangen Program (1872 / 1893)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../prefatory-intro/prefatory-intro-notes.html" title="A Comparative Review of Recent Researches in Geometry — Prefatory Note &amp; Introduction">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="sec-01-02-principal-hierarchy-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-01-02-principal-hierarchy-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-01-02-principal-hierarchy-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-03-05-projective-transference/sec-03-05-projective-transference-notes.html" title="§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="principal-group-transformation-hierarchy-critical-symbolic-notes">
+        <span id="ep-sec-01-02-principal-hierarchy-notes"></span><h1>§§ 1–2: Principal Group &amp; Transformation Hierarchy — Critical &amp; Symbolic Notes<a class="headerlink" href="#principal-group-transformation-hierarchy-critical-symbolic-notes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Exact Symbolic Verification of Invariant Shedding in <code class="docutils literal notranslate"><span class="pre">geometor.klein.erlangen</span></code></p>
+        <section class="level-2" id="visualizing-the-erlangen-subsumption-ladder">
+        <h2>Visualizing the Erlangen Subsumption Ladder<a class="headerlink" href="#visualizing-the-erlangen-subsumption-ladder" title="Link to this heading">¶</a></h2>
+        <figure class="align-center" id="id1">
+        <img alt="Klein's Erlangen Hierarchy: Principal Group, Affine Group, Projective Group, and Reciprocal Radii" src="../../_images/fig_erlangen_hierarchy.svg" />
+        <figcaption>
+        <p><span class="caption-text"><strong>Klein’s Erlangen Hierarchy (§§ 1–3 &amp; § 6).</strong> As the transformation group expands from the <strong>Principal Group</strong> (similarities) to <strong>Affine shears</strong> and <strong>Projective collineations</strong>, metric angles and quadrance ratios are progressively shed until only incidence and the $4$-point collinear cross-ratio survive; branching to <strong>Reciprocal Radii</strong> (Möbius circle inversion) merges lines and circles into generalized circles while preserving conformal angles and $4$-point quadrance cross-ratios.</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+        </figcaption>
+        </figure>
+        </section>
+        <section class="level-2" id="exact-symbolic-verification-over-mathbb-q-geometor-klein-erlangen">
+        <h2>Exact Symbolic Verification Over $\mathbb{Q}$ (<a class="reference internal" href="../../modules/api/geometor/klein/erlangen/index.html#module-geometor.klein.erlangen" title="geometor.klein.erlangen"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.klein.erlangen</span></code></a>)<a class="headerlink" href="#exact-symbolic-verification-over-mathbb-q-geometor-klein-erlangen" title="Link to this heading">¶</a></h2>
+        <p>In <a class="reference internal" href="../../modules/api/geometor/klein/erlangen/index.html#geometor.klein.erlangen.verify_erlangen_invariants" title="geometor.klein.erlangen.verify_erlangen_invariants"><code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.klein.erlangen.verify_erlangen_invariants()</span></code></a>, we instantiate rational test configurations inside <code class="docutils literal notranslate"><span class="pre">geometor.model.Model</span></code> (with zero floating-point approximations) and apply exact representatives of Klein’s four planar groups:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Principal Group (§ 1 — Rational Similarity):</strong> $(x, y) \mapsto (3x - 4y + 2,\; 4x + 3y - 1)$ (Pythagorean rotation-dilation scaling lengths by $5$ and quadrances by $25$).</p></li>
+        <li><p><strong>Affine Group (§ 2 — Area-Scaling Shear):</strong> $(x, y) \mapsto (x + 2y + 1,\; 3y - 2)$ (fixes the line at infinity $w = 0$ without fixing the circular points $I, J$).</p></li>
+        <li><p><strong>Projective Group (§ 3 — Full Homography):</strong> $(x, y) \mapsto \left(\frac{2x + y + 1}{x + y + 3},\; \frac{x + 3y + 2}{x + y + 3}\right)$ (moves the line at infinity to a finite horizon).</p></li>
+        <li><p><strong>Reciprocal Radii (§ 6 — Möbius Circle Inversion):</strong> $(x, y) \mapsto \left(\frac{4x}{x^2 + y^2},\; \frac{4y}{x^2 + y^2}\right)$ (inverts across $x^2 + y^2 = 4$).</p></li>
+        </ol>
+        <p>Using Rational Trigonometry invariants (<a class="person-ref" id="occ-person-wildberger-1" href="../../persons.html#person-wildberger" data-person="wildberger" title="Norman John Wildberger (1956 –) — Canadian-Australian Mathematician, Creator of Rational Trigonometry">Norman Wildberger</a>, <a class="citation-ref" id="occ-cite-wildberger-2005-1" href="../../bibliography.html#cite-wildberger-2005" data-cite="wildberger:2005" title="Norman J. Wildberger — Divine Proportions: Rational Trigonometry to Universal Geometry (Sydney: Wild Egg Books)">2005</a>; <code class="docutils literal notranslate"><span class="pre">geometor.model.invariants</span></code>), every invariant is tested by exact symbolic subtraction in SymPy:</p>
+        <table class="docutils align-default" id="id2">
+        <caption><span class="caption-text">Exact Erlangen Invariant Survival Matrix (<code class="docutils literal notranslate"><span class="pre">verify_erlangen_invariants()</span></code>)</span><a class="headerlink" href="#id2" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 32.0%" />
+        <col style="width: 17.0%" />
+        <col style="width: 17.0%" />
+        <col style="width: 17.0%" />
+        <col style="width: 17.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Algebraic Invariant</p></th>
+        <th class="head"><p>Principal (§ 1)</p></th>
+        <th class="head"><p>Affine (§ 2)</p></th>
+        <th class="head"><p>Projective (§ 3)</p></th>
+        <th class="head"><p>Inversion (§ 6)</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><strong>Line Spread</strong> $s(\ell_{12}, \ell_{13})$ (Angle)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{9}{10}$)</p></td>
+        <td><p>Broken ($\frac{81}{130}$)</p></td>
+        <td><p>Broken ($\frac{25}{74}$)</p></td>
+        <td><p><em>(Conformal)</em></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>Quadrance Ratio</strong> $\frac{Q(T_1, T_2)}{Q(T_1, T_3)}$</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{4}{5}$)</p></td>
+        <td><p>Broken ($\frac{1}{13}$)</p></td>
+        <td><p>Broken ($\frac{185}{117}$)</p></td>
+        <td><p>Broken ($\frac{65}{18}$)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>Parallelism</strong> ($\det(\ell, \ell') = 0$)</p></td>
+        <td><p><strong>Preserved</strong></p></td>
+        <td><p><strong>Preserved</strong></p></td>
+        <td><p>Broken</p></td>
+        <td><p>Broken</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>Collinear Division Ratio</strong> $\frac{Q(A,B)}{Q(A,C)}$</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{1}{9}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{1}{9}$)</p></td>
+        <td><p>Broken ($\frac{25}{147}$)</p></td>
+        <td><p>Broken ($\frac{5}{27}$)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>Collinear Cross-Ratio</strong> $(A, B; C, D)$</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
+        <td><p><em>(On circle)</em></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>4-Point Quadrance Cross-Ratio</strong> $\frac{Q_{AC} Q_{BD}}{Q_{AD} Q_{BC}}$</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
+        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="philological-note-on-footnote-8-group-inverses-1893">
+        <h2>Philological Note on Footnote 8 (Group Inverses, 1893)<a class="headerlink" href="#philological-note-on-footnote-8-group-inverses-1893" title="Link to this heading">¶</a></h2>
+        <p>In 1872, following the finite permutation terminology of <a class="person-ref" id="occ-person-galois-1" href="../../persons.html#person-galois" data-person="galois" title="Évariste Galois (1811 – 1832) — French Mathematician, Founder of Galois Theory">Galois</a>, Serret, and Camille Jordan, Klein defined a group solely by closure under composition ($g_1, g_2 \in G \implies g_1 g_2 \in G$). For a <em>finite</em> set of bijections, closure automatically implies $g^{-1} = g^{k-1} \in G$; for <em>infinite</em> continuous families (such as contractions $x \mapsto \lambda x$ with $0 &lt; \lambda &lt; 1$), closure alone defines only a semigroup. Klein’s 1893 bracketed addition in Footnote 8 explicitly supplies the inverse axiom required by <a class="person-ref" id="occ-person-lie-1" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Sophus Lie's</a> <em>Theorie der Transformationsgruppen</em>.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../prefatory-intro/prefatory-intro-notes.html" title="A Comparative Review of Recent Researches in Geometry — Prefatory Note &amp; Introduction">&larr; <span class="nav-label">A Comparative Review of Recent Researches in Geometry — Prefatory Note & Introduction</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-03-05-projective-transference/sec-03-05-projective-transference-notes.html" title="§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element"><span class="nav-label">§§ 3–5: Projective Geometry, Transfer by Representation, and Choice of Space-Element</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

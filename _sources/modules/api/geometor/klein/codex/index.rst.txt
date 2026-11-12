@@ -1,0 +1,152 @@
+geometor.klein.codex
+====================
+
+.. py:module:: geometor.klein.codex
+
+.. autoapi-nested-parse::
+
+   Codex apparatus, source manifest, and cross-corpus concordance utilities for ``geometor.klein``.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.klein.codex.REPO_ROOT
+   geometor.klein.codex.TRACK_SUFFIXES
+   geometor.klein.codex.FAMOUS_PROBLEMS_UNITS
+   geometor.klein.codex.ERLANGEN_UNITS
+   geometor.klein.codex.SISTER_CORPORA
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.klein.codex.CodexAuditReport
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.klein.codex.load_persons
+   geometor.klein.codex.load_citations
+   geometor.klein.codex.load_glossary
+   geometor.klein.codex.load_concordance
+   geometor.klein.codex.load_sources_manifest
+   geometor.klein.codex.audit_codex
+
+
+Module Contents
+---------------
+
+.. py:data:: REPO_ROOT
+   :type:  pathlib.Path
+
+.. py:data:: TRACK_SUFFIXES
+   :type:  tuple[str, ...]
+   :value: ('en', 'de', 'summary', 'notes')
+
+
+.. py:data:: FAMOUS_PROBLEMS_UNITS
+   :type:  tuple[str, ...]
+   :value: ('intro', 'part1-ch1-square-roots', 'part1-ch2-delian-trisection', 'part1-ch3-cyclotomy',...
+
+
+.. py:data:: ERLANGEN_UNITS
+   :type:  tuple[str, ...]
+   :value: ('prefatory-intro', 'sec-01-02-principal-hierarchy', 'sec-03-05-projective-transference',...
+
+
+.. py:data:: SISTER_CORPORA
+   :type:  tuple[str, ...]
+   :value: ('euclid', 'kepler', 'hilbert', 'bertrand-russell', 'hoenen', 'lemoine', 'petersen', 'pappus',...
+
+
+.. py:class:: CodexAuditReport
+
+   Structural verification report for the dual 4-track Book Codex and JSON apparatus.
+
+
+   .. py:attribute:: famous_problems_units
+      :type:  int
+
+
+   .. py:attribute:: erlangen_units
+      :type:  int
+
+
+   .. py:attribute:: total_track_files
+      :type:  int
+
+
+   .. py:attribute:: missing_track_files
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: persons_count
+      :type:  int
+
+
+   .. py:attribute:: citations_count
+      :type:  int
+
+
+   .. py:attribute:: glossary_count
+      :type:  int
+
+
+   .. py:attribute:: concordance_count
+      :type:  int
+
+
+   .. py:attribute:: linked_sister_corpora
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: embedded_py_files_in_resources
+      :type:  tuple[str, ...]
+
+
+   .. py:property:: is_valid
+      :type: bool
+
+
+      Return ``True`` iff all 64 track files and apparatus constraints pass.
+
+
+.. py:function:: load_persons(repo_root: pathlib.Path = REPO_ROOT) -> dict[str, dict[str, str]]
+
+   Load ``resources/persons.json``.
+
+
+.. py:function:: load_citations(repo_root: pathlib.Path = REPO_ROOT) -> dict[str, dict[str, str]]
+
+   Load ``resources/citations.json``.
+
+
+.. py:function:: load_glossary(repo_root: pathlib.Path = REPO_ROOT) -> dict[str, dict[str, str]]
+
+   Load ``resources/glossary.json``.
+
+
+.. py:function:: load_concordance(repo_root: pathlib.Path = REPO_ROOT) -> list[dict[str, Any]]
+
+   Load ``resources/klein/concordance.json``.
+
+
+.. py:function:: load_sources_manifest(repo_root: pathlib.Path = REPO_ROOT) -> dict[str, Any]
+
+   Load ``resources/klein/sources_manifest.json``.
+
+
+.. py:function:: audit_codex(repo_root: pathlib.Path = REPO_ROOT) -> CodexAuditReport
+
+   Validate 4-track parity, apparatus JSON integrity, and content/code separation.
+
+

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 572" width="620" height="572" class="euclid-graphic" data-graphic-id="fig_constructibility_polygons">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-muted: #71717a;
+      --geom-point-stroke: #ffffff;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+      --geom-danger: #dc2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-muted: #a1a1aa;
+        --geom-point-stroke: #1e1e20;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+        --geom-danger: #f87171;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.6; fill: none; }
+    .geom-muted { stroke: var(--geom-muted); stroke-width: 1.1; stroke-dasharray: 4, 3; fill: none; }
+    .geom-accent { stroke: var(--geom-accent); stroke-width: 2.1; fill: none; }
+    .geom-assert { stroke: var(--geom-assert); stroke-width: 2.0; fill: none; }
+    .geom-danger { stroke: var(--geom-danger); stroke-width: 1.8; fill: none; }
+    .geom-poly-ok { fill: var(--geom-assert); fill-opacity: 0.14; stroke: var(--geom-assert); stroke-width: 1.8; }
+    .geom-poly-no { fill: var(--geom-danger); fill-opacity: 0.10; stroke: var(--geom-danger); stroke-width: 1.5; stroke-dasharray: 4, 2.5; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.2; }
+    .geom-title { fill: var(--geom-fg); font-size: 13px; font-weight: 700; }
+    .geom-sub { fill: var(--geom-muted); font-size: 11px; font-weight: 600; }
+    .geom-label { fill: var(--geom-fg); font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text x="310.0" y="24" text-anchor="middle" class="geom-title">Gauss–Wantzel Polygon Constructibility (n = 3..18): φ(n) = 2^k vs. Odd Obstructions</text>
+  <circle cx="85.0" cy="92.0" r="34.0" class="geom-muted"/>
+  <polygon points="85.00,58.00 114.44,109.00 55.56,109.00" class="geom-poly-ok"/>
+  <text x="85.0" y="144.0" text-anchor="middle" class="geom-label">n = 3 (✓ 2^1)</text>
+  <circle cx="235.0" cy="92.0" r="34.0" class="geom-muted"/>
+  <polygon points="235.00,58.00 269.00,92.00 235.00,126.00 201.00,92.00" class="geom-poly-ok"/>
+  <text x="235.0" y="144.0" text-anchor="middle" class="geom-label">n = 4 (✓ 2^1)</text>
+  <circle cx="385.0" cy="92.0" r="34.0" class="geom-muted"/>
+  <polygon points="385.00,58.00 417.34,81.49 404.98,119.51 365.02,119.51 352.66,81.49" class="geom-poly-ok"/>
+  <text x="385.0" y="144.0" text-anchor="middle" class="geom-label">n = 5 (✓ 2^2)</text>
+  <circle cx="535.0" cy="92.0" r="34.0" class="geom-muted"/>
+  <polygon points="535.00,58.00 564.44,75.00 564.44,109.00 535.00,126.00 505.56,109.00 505.56,75.00" class="geom-poly-ok"/>
+  <text x="535.0" y="144.0" text-anchor="middle" class="geom-label">n = 6 (✓ 2^1)</text>
+  <circle cx="85.0" cy="220.0" r="34.0" class="geom-muted"/>
+  <polygon points="85.00,186.00 111.58,198.80 118.15,227.57 99.75,250.63 70.25,250.63 51.85,227.57 58.42,198.80" class="geom-poly-no"/>
+  <text x="85.0" y="272.0" text-anchor="middle" class="geom-label">n = 7 (✗ φ=6)</text>
+  <circle cx="235.0" cy="220.0" r="34.0" class="geom-muted"/>
+  <polygon points="235.00,186.00 259.04,195.96 269.00,220.00 259.04,244.04 235.00,254.00 210.96,244.04 201.00,220.00 210.96,195.96" class="geom-poly-ok"/>
+  <text x="235.0" y="272.0" text-anchor="middle" class="geom-label">n = 8 (✓ 2^2)</text>
+  <circle cx="385.0" cy="220.0" r="34.0" class="geom-muted"/>
+  <polygon points="385.00,186.00 406.85,193.95 418.48,214.10 414.44,237.00 396.63,251.95 373.37,251.95 355.56,237.00 351.52,214.10 363.15,193.95" class="geom-poly-no"/>
+  <text x="385.0" y="272.0" text-anchor="middle" class="geom-label">n = 9 (✗ φ=6)</text>
+  <circle cx="535.0" cy="220.0" r="34.0" class="geom-muted"/>
+  <polygon points="535.00,186.00 554.98,192.49 567.34,209.49 567.34,230.51 554.98,247.51 535.00,254.00 515.02,247.51 502.66,230.51 502.66,209.49 515.02,192.49" class="geom-poly-ok"/>
+  <text x="535.0" y="272.0" text-anchor="middle" class="geom-label">n = 10 (✓ 2^2)</text>
+  <circle cx="85.0" cy="348.0" r="34.0" class="geom-muted"/>
+  <polygon points="85.00,314.00 103.38,319.40 115.93,333.88 118.65,352.84 110.70,370.27 94.58,380.62 75.42,380.62 59.30,370.27 51.35,352.84 54.07,333.88 66.62,319.40" class="geom-poly-no"/>
+  <text x="85.0" y="400.0" text-anchor="middle" class="geom-label">n = 11 (✗ φ=10)</text>
+  <circle cx="235.0" cy="348.0" r="34.0" class="geom-muted"/>
+  <polygon points="235.00,314.00 252.00,318.56 264.44,331.00 269.00,348.00 264.44,365.00 252.00,377.44 235.00,382.00 218.00,377.44 205.56,365.00 201.00,348.00 205.56,331.00 218.00,318.56" class="geom-poly-ok"/>
+  <text x="235.0" y="400.0" text-anchor="middle" class="geom-label">n = 12 (✓ 2^2)</text>
+  <circle cx="385.0" cy="348.0" r="34.0" class="geom-muted"/>
+  <polygon points="385.00,314.00 400.80,317.89 412.98,328.69 418.75,343.90 416.79,360.06 407.55,373.45 393.14,381.01 376.86,381.01 362.45,373.45 353.21,360.06 351.25,343.90 357.02,328.69 369.20,317.89" class="geom-poly-no"/>
+  <text x="385.0" y="400.0" text-anchor="middle" class="geom-label">n = 13 (✗ φ=12)</text>
+  <circle cx="535.0" cy="348.0" r="34.0" class="geom-muted"/>
+  <polygon points="535.00,314.00 549.75,317.37 561.58,326.80 568.15,340.43 568.15,355.57 561.58,369.20 549.75,378.63 535.00,382.00 520.25,378.63 508.42,369.20 501.85,355.57 501.85,340.43 508.42,326.80 520.25,317.37" class="geom-poly-no"/>
+  <text x="535.0" y="400.0" text-anchor="middle" class="geom-label">n = 14 (✗ φ=6)</text>
+  <circle cx="85.0" cy="476.0" r="34.0" class="geom-muted"/>
+  <polygon points="85.00,442.00 98.83,444.94 110.27,453.25 117.34,465.49 118.81,479.55 114.44,493.00 104.98,503.51 92.07,509.26 77.93,509.26 65.02,503.51 55.56,493.00 51.19,479.55 52.66,465.49 59.73,453.25 71.17,444.94" class="geom-poly-ok"/>
+  <text x="85.0" y="528.0" text-anchor="middle" class="geom-label">n = 15 (✓ 2^3)</text>
+  <circle cx="235.0" cy="476.0" r="34.0" class="geom-muted"/>
+  <polygon points="235.00,442.00 248.01,444.59 259.04,451.96 266.41,462.99 269.00,476.00 266.41,489.01 259.04,500.04 248.01,507.41 235.00,510.00 221.99,507.41 210.96,500.04 203.59,489.01 201.00,476.00 203.59,462.99 210.96,451.96 221.99,444.59" class="geom-poly-ok"/>
+  <text x="235.0" y="528.0" text-anchor="middle" class="geom-label">n = 16 (✓ 2^3)</text>
+  <circle cx="385.0" cy="476.0" r="34.0" class="geom-muted"/>
+  <polygon points="385.00,442.00 397.28,444.30 407.91,450.87 415.44,460.84 418.85,472.86 417.70,485.30 412.13,496.49 402.90,504.91 391.25,509.42 378.75,509.42 367.10,504.91 357.87,496.49 352.30,485.30 351.15,472.86 354.56,460.84 362.09,450.87 372.72,444.30" class="geom-poly-ok"/>
+  <text x="385.0" y="528.0" text-anchor="middle" class="geom-label">n = 17 (✓ 2^4)</text>
+  <circle cx="535.0" cy="476.0" r="34.0" class="geom-muted"/>
+  <polygon points="535.00,442.00 546.63,444.05 556.85,449.95 564.44,459.00 568.48,470.10 568.48,481.90 564.44,493.00 556.85,502.05 546.63,507.95 535.00,510.00 523.37,507.95 513.15,502.05 505.56,493.00 501.52,481.90 501.52,470.10 505.56,459.00 513.15,449.95 523.37,444.05" class="geom-poly-no"/>
+  <text x="535.0" y="528.0" text-anchor="middle" class="geom-label">n = 18 (✗ φ=6)</text>
+</svg>

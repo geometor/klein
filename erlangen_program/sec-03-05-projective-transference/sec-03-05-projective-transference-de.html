@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>§§ 3–5: Projektivische Geometrie, Übertragung durch Abbildung und Wahl des Raumelements &mdash; Erlangen Program (1872 / 1893)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../famous_problems/index.html"  >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-de.html" title="§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="sec-03-05-projective-transference-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-03-05-projective-transference-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="sec-03-05-projective-transference-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-de.html" title="§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="projektivische-geometrie-ubertragung-durch-abbildung-und-wahl-des-raumelements">
+        <span id="ep-sec-03-05-projective-transference-de"></span><h1>§§ 3–5: Projektivische Geometrie, Übertragung durch Abbildung und Wahl des Raumelements<a class="headerlink" href="#projektivische-geometrie-ubertragung-durch-abbildung-und-wahl-des-raumelements" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Vergleichende Betrachtungen über neuere geometrische Forschungen</em> — §§ 3–5 (Erlangen: A. Deichert, 1872, S. 10–18)</p>
+        <section class="level-2" id="die-projectivische-geometrie">
+        <h2>§. 3. Die projectivische Geometrie<a class="headerlink" href="#die-projectivische-geometrie" title="Link to this heading">¶</a></h2>
+        <p>Jede räumliche Umformung, die nicht gerade der <a class="term-ref glossary-term" id="occ-term-principal-group-1" href="../../glossary.html#term-principal-group" data-term="principal-group" title="Principal Group (Hauptgruppe) (Group of spatial similarities: rigid motions, reflections, and isotropic scalings): Klein&#x27;s foundational concept in § 1 of the Erlangen Program: the totality of motions, symmetric reflections, and similarity transformations in space, characterised by leaving all &#x27;essential&#x27; elementary geometric properties (angles, parallelism, and ratios of distances) unchanged.">Hauptgruppe</a> angehört, kann dazu benutzt werden, um Eigenschaften bekannter Gebilde auf neue Gebilde zu übertragen. So verwerthen wir die Geometrie der Ebene für die Geometrie der Flächen, die sich auf die Ebene abbilden lassen; so schloss man schon lange vor dem Entstehen einer eigentlichen projectivischen Geometrie von den Eigenschaften einer gegebenen Figur auf Eigenschaften anderer, die durch Projection aus ihr hervorgingen. Aber die projectivische Geometrie erwuchs erst, als man sich gewöhnte, die ursprüngliche Figur mit allen aus ihr projectivisch ableitbaren als wesentlich identisch zu erachten und die Eigenschaften, welche sich beim Projiciren übertragen, so auszusprechen, dass ihre Unabhängigkeit von der mit dem Projiciren verknüpften Aenderung in Evidenz tritt. Hiermit war denn der Behandlung im Sinne von §. 1 <em>die Gruppe aller projectivischen Umformungen</em> zu Grunde gelegt und dadurch eben der Gegensatz zwischen projectivischer und gewöhnlicher Geometrie geschaffen.</p>
+        <p>Ein ähnlicher Entwicklungsgang, wie der hier geschilderte, kann bei jeder Art von räumlicher Transformation als möglich gedacht werden; wir werden noch öfter darauf zurückkommen. Er hat sich innerhalb der projectivischen Geometrie selbst noch nach zwei Seiten vollzogen. Die eine Weiterbildung der Auffassung geschah durch Aufnahme der <em>dualistischen</em> Umformungen in die Gruppe der zu Grunde gelegten Aenderungen. Für den heutigen Standpunct sind zwei einander dualistisch entgegenstehende Figuren nicht mehr als zwei unterschiedene sondern als wesentlich dieselben Figuren anzusehen. Ein anderer Schritt bestand in der Erweiterung der zu Grunde gelegten Gruppe collinearer und dualistischer Umformungen durch Aufnahme der bez. <em>imaginären</em> Transformationen. Dieser Schritt bedingt, dass man vorher den Kreis der eigentlichen Raumelemente durch Hinzunahme der imaginären erweitert habe — ganz dem entsprechend, wie die Aufnahme der dualistischen Umformungen in die zu Grunde gelegte Gruppe die gleichzeitige Einführung von Punct und Ebene als Raumelement nach sich zieht. Es ist hier nicht der Ort, auf die Zweckmässigkeit der Einführung imaginärer Elemente zu verweisen, durch welche allein der genaue Anschluss der Raumlehre an das einmal gewählte Gebiet algebraischer Operationen erreicht wird. Dagegen muss betont werden, dass der Grund für die Einführung eben in der Betrachtung algebraischer Operationen, nicht aber in der Gruppe der projectivischen und dualistischen Umformungen liegt. So gut wir uns bei den letzteren auf reelle Transformationen beschränken können, da schon die reellen Collineationen und dualistischen Transformationen eine Gruppe bilden; — so gut können wir imaginäre Raumelemente einführen, auch wenn wir nicht auf projektivischem Standpuncte stehen, und sollen es, sofern wir principiell algebraische Gebilde untersuchen.</p>
+        <p>Wie man vom projectivischen Standpuncte aus die metrischen Eigenschaften aufzufassen hat, bestimmt sich nach dem allgemeinen Satze des vorangehenden Paragraphen. Die metrischen Eigenschaften sind als projectivische Beziehungen zu einem Fundamentalgebilde, <a class="term-ref glossary-term" id="occ-term-the-absolute-1" href="../../glossary.html#term-the-absolute" data-term="the-absolute" title="the Absolute (das Fundamentalgebilde / Unendlichferne) (Distinguished invariant conic or quadric defining a Cayley–Klein metric subgroup): The fixed quadric locus whose stabilizer inside the projective group yields a constant-curvature metric geometry: the imaginary spherical circle at infinity yields Euclidean similarity geometry, an imaginary non-degenerate quadric yields elliptic geometry, and a real non-degenerate quadric yields Lobachevskian hyperbolic geometry.">dem unendlich fernen Kugelkreise</a> <a class="footnote-reference brackets" href="#ep-u3-de13" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>, zu betrachten, einem Gebilde, das die Eigenschaft hat, nur durch diejenigen Transformationen der projectivischen Gruppe, die eben auch Transformationen der Hauptgruppe sind, in sich überzugehen. Der so schlechthin ausgesprochene Satz bedarf noch einer wesentlichen Ergänzung, die der Beschränkung der gewöhnlichen Anschauungsweise auf reelle Raumelemente (und reelle Transformationen) entspricht. Man muss dem Kugelkreise, um diesem Standpuncte gerecht zu werden, noch das System der reellen Raumelemente (Puncte) ausdrücklich hinzufügen; Eigenschaften im Sinne der elementaren Geometrie sind projectivisch entweder Eigenschaften der Dinge an sich oder Beziehungen zu diesem Systeme der reellen Elemente, oder zum Kugelkreise oder endlich zu beiden.</p>
+        <p>Es mag hier noch der Art gedacht werden, wie <a class="person-ref" id="occ-person-staudt-1" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798 – 1867) — German Synthetic Projective Geometer">v. Staudt</a> in seiner <em>Geometrie der Lage</em> (Nürnberg, 1847) die projectivische Geometrie aufbaut — d. h. diejenige projectivische Geometrie, welche sich auf Zugrundelegung der Gruppe aller reellen projectivisch-dualistischen Umformungen beschränkt <a class="footnote-reference brackets" href="#ep-u3-de14" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+        <p>Es ist bekannt, wie er dabei aus dem gewöhnlichen Anschauungsmaterial nur solche Momente herausgreift, die auch bei projectivischen Umformungen erhalten bleiben. Wollte man weiterhin zur Betrachtung auch metrischer Eigenschaften übergehen, so hätte man die letzteren geradezu als Beziehungen zum Kugelkreise einzuführen. Der so vervollständigte Gedankengang ist für die hier vorliegenden Betrachtungen insofern von grosser Bedeutung, als ein entsprechender Aufbau der Geometrie im Sinne jeder einzelnen der noch anzuführenden Methoden möglich ist.</p>
+        </section>
+        <section class="level-2" id="uebertragung-durch-abbildung">
+        <h2>§. 4. Uebertragung durch Abbildung<a class="headerlink" href="#uebertragung-durch-abbildung" title="Link to this heading">¶</a></h2>
+        <p>Ehe wir in der Besprechung der geometrischen Methoden, die sich neben die elementare und die projectivische Geometrie stellen, weiter gehen, mögen allgemein einige Betrachtungen entwickelt werden, die im Folgenden immer wieder vorkommen und zu denen die bisher berührten Dinge bereits hinreichend viele Beispiele liefern. Auf diese Erörterungen bezieht sich der gegenwärtige und der nächstfolgende Paragraph.</p>
+        <p>Gesetzt, man habe eine <a class="term-ref glossary-term" id="occ-term-manifold-1" href="../../glossary.html#term-manifold" data-term="manifold" title="manifoldness (Mannigfaltigkeit) (n-tuply extended space parameterized by coordinates (x_1, ..., x_n)): Riemann&#x27;s and Grassmann&#x27;s concept of an n-dimensional space of determinations, liberated by Klein from visual spatial intuition to encompass high-dimensional configuration spaces of geometric elements.">Mannigfaltigkeit</a> $A$ unter Zugrundelegung einer Gruppe $B$ untersucht. Führt man sodann $A$ durch irgendwelche Transformation in eine andere Mannigfaltigkeit $A'$ über, so wird aus der Gruppe $B$ von Aenderungen, die $A$ in sich transformirten, nunmehr eine Gruppe $B'$, deren Transformationen sich auf $A'$ beziehen. Dann ist es ein selbstverständliches Princip, <em>dass die Behandlungsweise von</em> $A$ <em>unter Zugrundelegung von</em> $B$ <em>die Behandlungsweise von</em> $A'$ <em>unter Zugrundelegung von</em> $B'$ <em>ergibt</em>, d. h. jede Eigenschaft, welche ein in $A$ enthaltenes Gebilde mit Bezug auf die Gruppe $B$ hat, ergibt eine Eigenschaft des entsprechenden Gebildes in $A'$ mit Bezug auf die Gruppe $B'$.</p>
+        <p>Lassen wir z. B. $A$ eine gerade Linie, $B$ die dreifach unendlich vielen linearen Transformationen bedeuten, welche dieselbe in sich überführen. Die Behandlungsweise von $A$ ist dann eben diejenige, welche die neuere Algebra als Theorie der binären Formen bezeichnet. Nun kann man die gerade Linie auf einen Kegelschnitt $A'$ der Ebene durch Projection von einem Puncte des letzteren aus beziehen. Aus den linearen Transformationen $B$ der Geraden in sich selbst werden dann die linearen Transformationen $B'$ des Kegelschnittes in sich selbst, wie man leicht zeigt, d. h. diejenigen Aenderungen des Kegelschnittes, welche mit den linearen Transformationen der Ebene, die den Kegelschnitt in sich überführen, verknüpft sind.</p>
+        <p>Es ist nun aber nach dem Princip des zweiten Paragraphen <a class="footnote-reference brackets" href="#ep-u3-de15" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> dasselbe: nach der Geometrie auf einem Kegelschnitte zu fragen, wenn man sich den Kegelschnitt als fest denkt und nur auf diejenigen linearen Transformationen der Ebene achtet, welche ihn in sich überführen; oder die Geometrie auf dem Kegelschnitte zu studiren, indem man überhaupt die linearen Transformationen der Ebene betrachtet und sich den Kegelschnitt mit ändern lässt. Die Eigenschaften, welche wir an den Punctsystemen auf dem Kegelschnitte auffassten, sind mithin im gewöhnlichen Sinne projectivische. Die Verknüpfung der letzten Ueberlegung mit dem eben abgeleiteten Resultate gibt also:</p>
+        <blockquote>
+        <div><p><em>Binäre Formentheorie und projectivische Geometrie der Punctsysteme auf einem Kegelschnitte ist dasselbe, d. h. jedem binären Satze entspricht ein Satz über derartige Punctsysteme und umgekehrt.</em> <a class="footnote-reference brackets" href="#ep-u3-de16" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a></p>
+        </div></blockquote>
+        <p>Ein anderes Beispiel, welches geeignet ist, diese Art von Betrachtungen zu veranschaulichen, ist das folgende: Wenn man eine Fläche zweiten Grades mit einer Ebene durch stereographische Projection in Verbindung setzt, so tritt auf der Fläche ein Fundamentalpunct auf: der Projectionspunct, in der Ebene sind es zwei: die Bilder der durch den Projectionspunct gehenden Erzeugenden. Man zeigt nun ohne Weiteres: Die linearen Transformationen der Ebene, welche die beiden Fundamentalpuncte derselben ungeändert lassen, gehen durch die Abbildung in lineare Transformationen der Fläche zweiten Grades in sich selbst über, aber nur in diejenigen, welche den Projectionspunct ungeändert lassen. Unter linearen Transformationen der Fläche in sich selbst sind dabei diejenigen Aenderungen verstanden, welche die Fläche erfährt, wenn man lineare Raumtransformationen ausführt, welche die Fläche mit sich selbst zur Deckung bringen. Hiernach wird also die projectivische Untersuchung einer Ebene unter Zugrundelegung zweier Puncte und die projectivische Untersuchung einer Fläche zweiten Grades unter Zugrundelegung eines Punctes identisch. Die erstere ist nun — sofern man imaginäre Elemente mit in Betracht zieht — nichts Anderes, als die Untersuchung der Ebene im Sinne der elementaren Geometrie. Denn die Hauptgruppe der ebenen Transformationen besteht eben in den linearen Umformungen, welche ein Punctepaar (die unendlich fernen Kreispuncte) ungeändert lassen. Wir erhalten also schliesslich:</p>
+        <blockquote>
+        <div><p><em>Die elementare Geometrie der Ebene und die projectivische Untersuchung einer Fläche zweiten Grades unter Hinzunahme eines ihrer Puncte sind dasselbe.</em></p>
+        </div></blockquote>
+        <p>Diese Beispiele liessen sich beliebig vervielfachen <a class="footnote-reference brackets" href="#ep-u3-de17" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>; die beiden hier entwickelten sind gewählt worden, da wir in der Folge noch Gelegenheit haben werden, auf dieselben zurückzukommen.</p>
+        </section>
+        <section class="level-2" id="von-der-willkurlichkeit-in-der-wahl-des-raumelements-das-hessesche-uebertragungsprincip-die-liniengeometrie">
+        <h2>§. 5. Von der Willkürlichkeit in der Wahl des Raumelements. Das Hessesche Uebertragungsprincip. Die Liniengeometrie<a class="headerlink" href="#von-der-willkurlichkeit-in-der-wahl-des-raumelements-das-hessesche-uebertragungsprincip-die-liniengeometrie" title="Link to this heading">¶</a></h2>
+        <p>Als <a class="term-ref glossary-term" id="occ-term-space-element-1" href="../../glossary.html#term-space-element" data-term="space-element" title="space-element (Raumelement) (Generating geometric entity (point, line, plane, sphere, or higher locus) parameterizing space): In § 5 of the Erlangen Program, Klein shows that ordinary space need not be viewed solely as a 3-manifold of points: taking straight lines (Plücker, 4D), spheres (Lie, 4D), or conics as primary elements yields higher-dimensional manifolds governed by the same transformation group.">Element</a> der geraden Linie, der Ebene, des Raumes, überhaupt einer zu untersuchenden Mannigfaltigkeit kann statt des Punctes jedes in der Mannigfaltigkeit enthaltene Gebilde: die Punctgruppe, ev. die Curve, die Fläche u. s. w. verwandt werden <a class="footnote-reference brackets" href="#ep-u3-de18" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a>. Indem über die Zahl willkürlicher Parameter, von denen man diese Gebilde abhängig setzen will, von Vornherein gar Nichts fest steht, erscheinen Linie, Ebene, Raum etc. je nach der Wahl des Elementes mit beliebig vielen Dimensionen behaftet. <em>Aber so lange wir der geometrischen Untersuchung dieselbe Gruppe von Aenderungen zu Grunde legen, bleibt der Inhalt der Geometrie unverändert,</em> das heißt, jeder Satz, der bei einer Annahme des Raumelements sich ergab, ist auch ein Satz bei beliebiger anderer Annahme, nur die Anordnung und Verknüpfung der Sätze ist geändert.</p>
+        <p>Das Wesentliche ist also die Transformationsgruppe; die Zahl der Dimensionen, die wir einer Mannigfaltigkeit beilegen wollen, erscheint als etwas Secundäres.</p>
+        <p>Die Verknüpfung dieser Bemerkung mit dem Princip des vorigen Paragraphen ergibt eine Reihe schöner Anwendungen, von denen hier einige entwickelt werden mögen, da diese Beispiele mehr als alle lange Auseinandersetzung geeignet scheinen, den Sinn der allgemeinen Betrachtung darzulegen.</p>
+        <p>Die projectivische Geometrie auf der Geraden (die Theorie der binären Formen) ist nach dem vorigen Paragraphen mit der projectivischen Geometrie auf dem Kegelschnitte gleichbedeutend. Auf letzterem mögen wir jetzt statt des Punctes das Punctepaar als Element betrachten.</p>
+        <p>Die Gesammtheit der Punctepaare des Kegelschnitts lässt sich aber auf die Gesammtheit der Geraden der Ebene beziehen, indem man jede Gerade dem Punctepaare zuordnet, in welchem sie den Kegelschnitt trifft. Bei dieser Abbildung gehen die linearen Transformationen des Kegelschnitts in sich selbst in die linearen Transformationen der (aus Geraden bestehend gedachten) Ebene über, welche den Kegelschnitt ungeändert lassen. Ob wir aber die aus den letzteren bestehende Gruppe betrachten, oder die Gesammtheit der linearen Transformationen der Ebene zu Grunde legen und den zu untersuchenden Gebilden der Ebene den Kegelschnitt allemal hinzufügen, ist nach §. 2 gleichbedeutend. Indem wir alle diese Ueberlegungen zusammen nehmen, haben wir:</p>
+        <blockquote>
+        <div><p><em>Die Theorie der binären Formen und die projectivische Geometrie der Ebene unter Zugrundelegung eines Kegelschnittes sind gleichbedeutend.</em></p>
+        </div></blockquote>
+        <p>Da endlich projectivische Geometrie der Ebene unter Zugrundelegung eines Kegelschnittes eben wegen der Gleichheit der Gruppe mit der projectivischen Maßgeometrie coincidirt, die man in der Ebene auf einen Kegelschnitt gründen kann <a class="footnote-reference brackets" href="#ep-u3-de19" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a>, so mögen wir auch so sagen:</p>
+        <blockquote>
+        <div><p><em>Die Theorie der binären Formen und die allgemeine projectivische Maßgeometrie in der Ebene sind dasselbe.</em></p>
+        </div></blockquote>
+        <p>Statt des Kegelschnitts in der Ebene können wir in der vorstehenden Betrachtung die Curve dritter Ordnung im Raume setzen etc., doch mag dies unausgeführt bleiben. Der hier dargelegte Zusammenhang zwischen der Geometrie der Ebene, weiterhin des Raumes oder einer beliebig ausgedehnten Mannigfaltigkeit deckt sich im Wesentlichen mit dem von <a class="person-ref" id="occ-person-hesse-1" href="../../persons.html#person-hesse" data-person="hesse" title="Ludwig Otto Hesse (1811 – 1874) — German Algebraic Geometer">Hesse</a> vorgeschlagenen <a class="term-ref glossary-term" id="occ-term-transference-principle-1" href="../../glossary.html#term-transference-principle" data-term="transference-principle" title="principle of transference (Übertragungsprincip) (Transfer of geometric theorems between equivalent group actions via bijective representation (Abbildung)): Generalized from Otto Hesse (1866): whenever a manifold A under group G is mapped bijectively onto A&#x27; so that G induces group G&#x27;, the geometries (A, G) and (A&#x27;, G&#x27;) are structurally identical and every theorem transfers automatically.">Uebertragungsprincipe</a> (<em>Crelle’s Journal</em>, Bd. 66, 1866).</p>
+        <p>Ein Beispiel ganz ähnlicher Art ergibt die projectivische Geometrie des Raumes, oder, anders ausgedrückt, die Theorie der quaternären Formen. Fasst man die gerade Linie als Raumelement und ertheilt ihr, wie in der Liniengeometrie (<a class="person-ref" id="occ-person-pluecker-1" href="../../persons.html#person-pluecker" data-person="pluecker" title="Julius Plücker (1801 – 1868) — German Geometer &amp; Physicist,Klein&#x27;s Mentor at Bonn">Plücker</a>) geschieht, sechs homogene Coordinaten, zwischen denen eine Bedingungsgleichung vom zweiten Grade Statt findet, so erscheinen die linearen und dualistischen Transformationen des Raumes als diejenigen linearen Transformationen der unabhängig gedachten sechs Veränderlichen, welche die Bedingungsgleichung in sich überführen. Durch eine Verknüpfung ähnlicher Ueberlegungen, wie sie soeben entwickelt wurden, erhält man hieraus den Satz:</p>
+        <blockquote>
+        <div><p><em>Die Theorie der quaternären Formen deckt sich mit der projectivischen Maßbestimmung in einer durch 6 homogene Veränderliche erzeugten Mannigfaltigkeit.</em></p>
+        </div></blockquote>
+        <p>Wegen der näheren Ausführung dieser Auffassung verweise ich auf einen demnächst in den <em>Math. Annalen</em> (Bd. VI) erscheinenden Aufsatz: <a class="citation-ref" id="occ-cite-klein-1871-noneuclid-1" href="../../bibliography.html#cite-klein-1871-noneuclid" data-cite="klein:1871:noneuclid" title="Felix Klein — Über die sogenannte Nicht-Euklidische Geometrie (Mathematische Annalen 4 (1871), pp. 573–625; 6 (1873), pp. 112–145)">„Ueber die sogenannte Nicht-Euklidische Geometrie“</a>, sowie auf eine Note am Schlusse dieser Mittheilung <a class="footnote-reference brackets" href="#ep-u3-de20" id="id8" role="doc-noteref"><span class="fn-bracket">[</span>8<span class="fn-bracket">]</span></a>.</p>
+        <p>Ich knüpfe an die vorstehenden Auseinandersetzungen noch zwei Bemerkungen, von denen die erste zwar schon implicite in dem Bisherigen enthalten ist, aber ausgeführt werden soll, weil der Gegenstand, auf den sie sich bezieht, zu leicht Missverständnissen ausgesetzt ist.</p>
+        <p>Wenn wir beliebige Gebilde als Raumelemente einführen, so erhält der Raum beliebig viele Dimensionen. Wenn wir dann aber an der uns geläufigen (elementaren oder projectivischen) Anschauungsweise festhalten, so ist die Gruppe, welche wir für die mehrfach ausgedehnte Mannigfaltigkeit zu Grunde zu legen haben, von Vorne herein gegeben; es ist eben die Hauptgruppe bez. die Gruppe der projectivischen Umformungen. Wollten wir eine andere Gruppe zu Grunde legen, so müssten wir von der gewöhnlichen bez. der projectivischen Anschauung abgehen. So richtig es also ist, dass bei geschickter Wahl der Raumelemente der Raum Mannigfaltigkeiten von beliebig vielen Ausdehnungen repräsentirt, so wichtig ist es, hinzuzufügen, <em>dass bei dieser Repräsentation entweder von Vorneherein eine bestimmte Gruppe der Behandlung der Mannigfaltigkeit zu Grunde zu legen ist, oder dass wir, wollen wir über die Gruppe verfügen, unsere geometrische Auffassung entsprechend auszubilden haben.</em> — Es könnte, ohne diese Bemerkung, z. B. eine Repräsentation der Liniengeometrie in der folgenden Weise gesucht werden. Die Gerade erhält in der Liniengeometrie sechs Coordinaten; eben so viele Coefficienten besitzt der Kegelschnitt in der Ebene. Das Bild der Liniengeometrie würde also die Geometrie in einem Kegelschnittsysteme sein, das aus der Gesammtheit der Kegelschnitte durch eine quadratische Gleichung zwischen den Coefficienten ausgesondert wird. Das ist richtig, sowie wir als Gruppe der ebenen Geometrie die Gesammtheit der Transformationen zu Grunde legen, die durch lineare Umformungen der Kegelschnitts-Coefficienten repräsentirt werden, welche die quadratische Bedingungsgleichung in sich überführen. Halten wir aber an der elementaren bez. der projectivischen Auffassung der ebenen Geometrie fest, so haben wir eben <em>kein</em> Bild.</p>
+        <p>Die zweite Bemerkung bezieht sich auf folgende Begriffsbildung. Sei im Raume irgend eine Gruppe, etwa die Hauptgruppe gegeben. So wähle man ein einzelnes räumliches Gebilde, etwa einen Punct, oder eine Gerade, oder auch ein Ellipsoid etc. aus und wende auf dasselbe alle Transformationen der Hauptgruppe an. Man erhält dann eine mehrfach unendliche Mannigfaltigkeit mit einer Anzahl von Dimensionen, die im Allgemeinen gleich der Zahl der in der Gruppe enthaltenen willkürlichen Parameter ist, die in besonderen Fällen herabsinkt, wenn nämlich das ursprünglich gewählte Gebilde die Eigenschaft besitzt, durch unendlich viele Transformationen der Gruppe in sich übergeführt zu werden. Jede so erzeugte Mannigfaltigkeit heiße mit Bezug auf die erzeugende Gruppe ein <a class="term-ref glossary-term" id="occ-term-body-group-1" href="../../glossary.html#term-body-group" data-term="body-group" title="group-body (Körper im Sinne Dedekinds) (Submanifold invariant as a whole under a prescribed transformation group): Klein&#x27;s geometric adaptation (borrowed by analogy from Dedekind&#x27;s algebraic number fields, Körper) for an aggregate of elements closed as a totality under every operation of a transformation group, such as the invariant quadric in line or sphere geometry.">Körper</a> <a class="footnote-reference brackets" href="#ep-u3-de21" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>9<span class="fn-bracket">]</span></a>. Wollen wir nun den Raum im Sinne der Gruppe untersuchen und dabei bestimmte Gebilde als Raumelemente auszeichnen, und wollen wir nicht, dass Gleichberechtigtes ungleichartig dargestellt werde, <em>so müssen wir die Raumelemente ersichtlich so wählen, dass ihre Mannigfaltigkeit entweder selbst einen Körper bildet oder in Körper zerlegt werden kann.</em> Von dieser evidenten Bemerkung soll später (§. 9) eine Anwendung gemacht werden. Der Körper-Begriff selbst wird im Schlussparagraphen in Verbindung mit verwandten Begriffen noch einmal zur Sprache kommen.</p>
+        <hr class="docutils" />
+        <p class="rubric">Fußnoten (1872)</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="ep-u3-de13" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>Diese Anschauungsweise ist als eine der schönsten Leistungen von <a class="person-ref" id="occ-person-chasles-1" href="../../persons.html#person-chasles" data-person="chasles" title="Michel Chasles (1793 – 1880) — French Projective Geometer">Chasles</a> zu betrachten; durch sie erst gewinnt die Eintheilung in Eigenschaften der Lage und Eigenschaften des Maßes, wie man sie gern an die Spitze der projectivischen Geometrie stellt, einen präcisen Inhalt.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de14" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+        <p>Den erweiterten Kreis, der auch imaginäre Umformungen umspannt, hat <a class="person-ref" id="occ-person-staudt-2" href="../../persons.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798 – 1867) — German Synthetic Projective Geometer">v. Staudt</a> erst in den <em>„Beiträgen zur Geometrie der Lage“</em> (Nürnberg, 1856–1860) zu Grunde gelegt.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de15" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+        <p>Wenn man will, ist hier das Princip unter etwas erweiterter Form angewendet.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de16" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">4</a><span class="fn-bracket">]</span></span>
+        <p>Statt des Kegelschnittes in der Ebene kann man mit gleichem Erfolge eine Raumcurve dritter Ordnung einführen, überhaupt bei $n$ Dimensionen etwas Entsprechendes aufstellen.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de17" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">5</a><span class="fn-bracket">]</span></span>
+        <p>Bez. anderer Beispiele, sowie namentlich der Erweiterungen auf mehr Dimensionen, deren die angeführten fähig sind, verweise ich auf bez. Auseinandersetzungen in einem Aufsatze von mir (<a class="citation-ref" id="occ-cite-klein-1872-linien-1" href="../../bibliography.html#cite-klein-1872-linien" data-cite="klein:1872:linien" title="Felix Klein — Über Liniengeometrie und metrische Geometrie (Mathematische Annalen 5, pp. 257–277)"><em>Math. Ann.</em> 5, 1872, 257–277</a>) sowie auf die sogleich noch zu nennenden <a class="person-ref" id="occ-person-lie-1" href="../../persons.html#person-lie" data-person="lie" title="Marius Sophus Lie (1842 – 1899) — Norwegian Mathematician, Founder of Continuous Transformation Groups">Lie</a>’schen Arbeiten.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de18" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">6</a><span class="fn-bracket">]</span></span>
+        <p>Vergl. <a class="reference internal" href="../notes-i-vii/notes-i-vii-de.html#ep-notes-i-vii-de"><span class="std std-ref">Note III</span></a>.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de19" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">7</a><span class="fn-bracket">]</span></span>
+        <p>Vergl. <a class="reference internal" href="../notes-i-vii/notes-i-vii-de.html#ep-notes-i-vii-de"><span class="std std-ref">Note V</span></a>.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de20" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">8</a><span class="fn-bracket">]</span></span>
+        <p>Vergl. <a class="reference internal" href="../notes-i-vii/notes-i-vii-de.html#ep-notes-i-vii-de"><span class="std std-ref">Note VI</span></a>.</p>
+        </aside>
+        <aside class="footnote brackets" id="ep-u3-de21" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">9</a><span class="fn-bracket">]</span></span>
+        <p>Ich wähle den Namen nach dem Vorgange von Dedekind, der in der Zahlentheorie ein Zahlengebiet als Körper bezeichnet, wenn es aus gegebenen Elementen durch gegebene Operationen entstanden ist (Zweite Auflage von <em>Dirichlets Vorlesungen</em>, 1871).</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-de.html" title="§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy">&larr; <span class="nav-label">§§ 1–2: Groups of Space-Transformations, the Principal Group, and Adjoined Hierarchy</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Erlangen Program (1872 / 1893)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-de.html" title="§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry"><span class="nav-label">§§ 6–7: The Geometry of Reciprocal Radii and Lie’s Sphere Geometry</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Part I, Chapter I — Critical &amp; Symbolic Notes &mdash; Famous Problems (1895 / 1897)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">klein</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY</a>
+        </li>
+        <li>
+          <a href="../../erlangen_program/index.html"  >THE ERLANGEN PROGRAM (1872 / 1893)</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >CROSS-CORPUS CONCORDANCE</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; klein</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../intro/intro-notes.html" title="Famous Problems of Elementary Geometry — Prefaces &amp; Introduction">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="part1-ch1-square-roots-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch1-square-roots-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="part1-ch1-square-roots-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch2-delian-trisection/part1-ch2-delian-trisection-notes.html" title="Part I, Chapter II — The Delian Problem and the Trisection of the Angle"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="part-i-chapter-i-critical-symbolic-notes">
+        <span id="fp-part1-ch1-square-roots-notes"></span><h1>Part I, Chapter I — Critical &amp; Symbolic Notes<a class="headerlink" href="#part-i-chapter-i-critical-symbolic-notes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Galois-Theoretic Refinement of § 15 and Exact Quartic Resolvent Tests in <code class="docutils literal notranslate"><span class="pre">geometor.klein</span></code></p>
+        <section class="level-2" id="why-klein-s-independence-hypothesis-4-is-essential">
+        <h2>Why Klein’s Independence Hypothesis (§ 4) Is Essential<a class="headerlink" href="#why-klein-s-independence-hypothesis-4-is-essential" title="Link to this heading">¶</a></h2>
+        <p>Klein’s proof of § 10 ($A + B Q_\mu = 0 \implies A = B = 0$) hinges directly on § 4: no $Q_k$ may lie in the field generated by the remaining radicals. Consider, for instance, a hidden dependency:</p>
+        <div class="math notranslate nohighlight">
+        \[Q_1 = \sqrt{2}, \quad Q_2 = \sqrt{3}, \quad Q_3 = \sqrt{6} = Q_1 Q_2.\]</div>
+        <p>If one failed to eliminate $Q_3 = Q_1 Q_2$, toggling the sign of $Q_3$ independently of $Q_1, Q_2$ would turn $x = Q_1 Q_2 - Q_3 = 0$ into $2\sqrt{6} \neq 0$, violating conjugate invariance under $f(x) = x = 0$! In <a class="reference internal" href="../part1-ch4-heptadecagon/part1-ch4-heptadecagon-en.html#fp-part1-ch4-heptadecagon-en"><span class="std std-ref">Chapter IV, § 6</span></a>, Klein returns explicitly to § 4 when simplifying <a class="person-ref" id="occ-person-gauss-1" href="../../persons.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss's</a> $17$-gon tower: among the four radicals $\sqrt{17}$, $\sqrt{x_1^2 + 4}$, $\sqrt{x_2^2 + 4}$, and $\sqrt{y_1^2 - 4y_4}$, the identity</p>
+        <div class="math notranslate nohighlight">
+        \[\sqrt{x_1^2 + 4}\,\sqrt{x_2^2 + 4} = 2\sqrt{17}\]</div>
+        <p>shows that $\sqrt{x_2^2 + 4}$ is rationally dependent upon $\sqrt{17}$ and $\sqrt{x_1^2 + 4}$, reducing $m$ from $4$ to $4$ independent radicals only after accounting for $\sqrt{y_1^2 - 4y_4}$ (so $2^4 = 16 = \deg \Phi_{17}$).</p>
+        </section>
+        <section class="level-2" id="modern-galois-criterion-vs-degree-2-h-15">
+        <h2>Modern Galois Criterion vs. Degree $2^h$ (§ 15)<a class="headerlink" href="#modern-galois-criterion-vs-degree-2-h-15" title="Link to this heading">¶</a></h2>
+        <p>In modern field theory (<a class="person-ref" id="occ-person-galois-1" href="../../persons.html#person-galois" data-person="galois" title="Évariste Galois (1811 – 1832) — French Mathematician, Founder of Galois Theory">Évariste Galois</a>), if $\varphi(x) \in K_0[x]$ is irreducible with splitting field $L$ over $K_0$:</p>
+        <ul class="simple">
+        <li><p><strong>Necessity of $\deg \varphi = 2^h$:</strong> Tower multiplicativity $[K_m : K_0] = 2^m = [K_m : K_0(x_1)]\,[K_0(x_1) : K_0]$ immediately gives $\deg \varphi = [K_0(x_1) : K_0] = 2^h$.</p></li>
+        <li><p><strong>Exact Necessary &amp; Sufficient Condition:</strong> $x_1$ is constructible by square roots over $K_0$ if and only if the degree $[L : K_0] = |\mathrm{Gal}(L / K_0)|$ of the <strong>normal closure</strong> $L$ is a power of $2$ (a finite $2$-group).</p></li>
+        </ul>
+        <p>For degree $M = 4 = 2^2$, let $\varphi(x) = x^4 + p x^2 + q x + r \in \mathbb{Q}[x]$ be a depressed irreducible quartic. In <a class="reference internal" href="../../modules/api/geometor/klein/constructibility/index.html#geometor.klein.constructibility.cubic_resolvent" title="geometor.klein.constructibility.cubic_resolvent"><code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.klein.constructibility.cubic_resolvent()</span></code></a> and <a class="reference internal" href="../../modules/api/geometor/klein/constructibility/index.html#geometor.klein.constructibility.analyze_constructibility" title="geometor.klein.constructibility.analyze_constructibility"><code class="xref py py-func docutils literal notranslate"><span class="pre">analyze_constructibility()</span></code></a>, we form the exact cubic resolvent</p>
+        <div class="math notranslate nohighlight">
+        \[R(t) = t^3 - 2p\,t^2 + (p^2 - 4r)\,t + q^2 \in \mathbb{Q}[t].\]</div>
+        <ul class="simple">
+        <li><p><strong>Constructible $D_4 / V_4 / C_4$ Quartic:</strong> For $\varphi(x) = x^4 - 2$ ($p = q = 0, r = -2$), $R(t) = t^3 + 8t = t(t^2 + 8)$ has the rational root $t = 0$, so $|\mathrm{Gal}| = 8 = 2^3$ and $x = \sqrt{\sqrt{2}}$ is constructible (tower depth $2$).</p></li>
+        <li><p><strong>Non-Constructible $S_4$ Quartic:</strong> For $\varphi(x) = x^4 - x - 1$ ($p = 0, q = -1, r = -1$), $\deg \varphi = 4 = 2^2$, yet $R(t) = t^3 + 4t + 1$ is irreducible over $\mathbb{Q}$ ($R(\pm 1) \neq 0$), so $\mathrm{Gal}(\varphi) \cong S_4$ of order $24 = 2^3 \cdot 3$—verified symbolically as <strong>non-constructible</strong> by <code class="docutils literal notranslate"><span class="pre">analyze_constructibility(x**4</span> <span class="pre">-</span> <span class="pre">x</span> <span class="pre">-</span> <span class="pre">1)</span></code>!</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../intro/intro-notes.html" title="Famous Problems of Elementary Geometry — Prefaces &amp; Introduction">&larr; <span class="nav-label">Famous Problems of Elementary Geometry — Prefaces & Introduction</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Famous Problems (1895 / 1897)</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../part1-ch2-delian-trisection/part1-ch2-delian-trisection-notes.html" title="Part I, Chapter II — The Delian Problem and the Trisection of the Angle"><span class="nav-label">Part I, Chapter II — The Delian Problem and the Trisection of the Angle</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
