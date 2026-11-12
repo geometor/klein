@@ -1,0 +1,57 @@
+:title: §§ 1–2: Hauptgruppe und stufenweise Adjunktion (1872 Deutsch)
+:layout: book
+
+.. _ep-sec-01-02-principal-hierarchy-de:
+
+§§ 1–2: Gruppen von räumlichen Transformationen, Hauptgruppe und Adjunktion
+===========================================================================
+
+.. rubric:: *Vergleichende Betrachtungen über neuere geometrische Forschungen* — §§ 1–2 (Erlangen: A. Deichert, 1872, S. 6–10)
+
+§. 1. Gruppen von räumlichen Transformationen. Hauptgruppe. Aufstellung eines allgemeinen Problems
+--------------------------------------------------------------------------------------------------
+
+Der wesentlichste Begriff, der bei den folgenden Auseinandersetzungen nothwendig ist, ist der einer *Gruppe* von räumlichen Aenderungen.
+
+Beliebig viele Transformationen des Raumes [#ep_u2_de6]_ ergeben zusammengesetzt immer wieder eine Transformation. Hat nun eine gegebene Reihe von Transformationen die Eigenschaft, dass jede Aenderung, die aus den ihr angehörigen durch Zusammensetzung hervorgeht, ihr selbst wieder angehört, so soll die Reihe eine :term:`Transformationsgruppe <transformation-group>` [#ep_u2_de7]_ genannt werden.
+
+Ein Beispiel für eine Transformationsgruppe bildet die Gesammtheit der Bewegungen (jede Bewegung als eine auf den ganzen Raum ausgeführte Operation betrachtet). Eine in ihr enthaltene Gruppe bilden etwa die Rotationen um einen Punct [#ep_u2_de8]_. Eine Gruppe, welche umgekehrt die Gruppe der Bewegungen umfasst, wird durch die Gesammtheit der Collineationen vorgestellt. Die Gesammtheit der dualistischen Umformungen bildet dagegen keine Gruppe — denn zwei dualistische Umformungen ergeben zusammen wieder eine Collineation —, wohl aber wird wieder eine Gruppe erzeugt, wenn man die Gesammtheit der dualistischen mit der Gesammtheit der collinearen zusammenfügt [#ep_u2_de9]_.
+
+Es gibt nun räumliche Transformationen, welche die geometrischen Eigenschaften räumlicher Gebilde überhaupt ungeändert lassen. Geometrische Eigenschaften sind nämlich ihrem Begriffe nach unabhängig von der Lage, die das zu untersuchende Gebilde im Raume einnimmt, von seiner absoluten Grösse, endlich auch von dem Sinne [#ep_u2_de10]_, in welchem seine Theile geordnet sind. Die Eigenschaften eines räumlichen Gebildes bleiben also ungeändert durch alle Bewegungen des Raumes, durch seine Aehnlichkeitstransformationen, durch den Process der Spiegelung, sowie durch alle Transformationen, die sich aus diesen zusammensetzen. Den Inbegriff aller dieser Transformationen bezeichnen wir als die :term:`Hauptgruppe <principal-group>` [#ep_u2_de11]_ räumlicher Aenderungen; *geometrische Eigenschaften werden durch die Transformationen der Hauptgruppe nicht geändert*. Auch umgekehrt kann man sagen: *Geometrische Eigenschaften sind durch ihre Unveränderlichkeit gegenüber den Transformationen der Hauptgruppe characterisirt*. Betrachtet man nämlich den Raum einen Augenblick als unbeweglich etc., als eine starre Mannigfaltigkeit, so hat jede Figur ein individuelles Interesse; von den Eigenschaften, die sie als Individuum hat, sind es nur die eigentlich geometrischen, welche bei den Aenderungen der Hauptgruppe erhalten bleiben. Dieser hier etwas unbestimmt formulirte Gedanke wird im weiteren Verlaufe der Auseinandersetzung deutlicher erscheinen.
+
+Streifen wir jetzt das mathematisch unwesentliche sinnliche Bild ab, und erblicken im Raume nur eine mehrfach ausgedehnte :term:`Mannigfaltigkeit <manifold>`, also, indem wir an der gewohnten Vorstellung des Punctes als Raumelement festhalten, eine dreifach ausgedehnte. Nach Analogie mit den räumlichen Transformationen reden wir von Transformationen der Mannigfaltigkeit; auch sie bilden *Gruppen*. Nur ist nicht mehr, wie im Raume, eine Gruppe vor den übrigen durch ihre Bedeutung ausgezeichnet; jede Gruppe ist mit jeder anderen gleichberechtigt. Als Verallgemeinerung der Geometrie entsteht so das folgende umfassende Problem:
+
+   *Es ist eine Mannigfaltigkeit und in derselben eine Transformationsgruppe gegeben; man soll die der Mannigfaltigkeit angehörigen Gebilde hinsichtlich solcher Eigenschaften untersuchen, die durch die Transformationen der Gruppe nicht geändert werden.*
+
+In Anlehnung an die moderne Ausdrucksweise, die man freilich nur auf eine bestimmte Gruppe, die Gruppe aller linearen Umformungen, zu beziehen pflegt, mag man auch so sagen:
+
+   *Es ist eine Mannigfaltigkeit und in derselben eine Transformationsgruppe gegeben. Man entwickele die auf die Gruppe bezügliche* :term:`Invariantentheorie <invariant-theory>`.
+
+Dies ist das allgemeine Problem, welches die gewöhnliche Geometrie nicht nur, sondern namentlich auch die hier zu nennenden neueren geometrischen Methoden und die verschiedenen Behandlungsweisen beliebig ausgedehnter Mannigfaltigkeiten unter sich begreift. Was besonders betont sein mag, ist die Willkürlichkeit, die hinsichtlich der Wahl der zu adjungirenden Transformationsgruppe besteht, und die daraus fliessende und in diesem Sinne zu verstehende gleiche Berechtigung aller sich unter die allgemeine Forderung subsumirenden Betrachtungsweisen.
+
+§. 2. Transformationsgruppen, von denen die eine die andere umfasst, werden nach einander adjungirt. Die verschiedenen Typen geometrischer Forschung und ihr gegenseitiges Verhältniss
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Da die geometrischen Eigenschaften räumlicher Dinge durch *alle* Transformationen der :term:`Hauptgruppe <principal-group>` ungeändert bleiben, so ist es an und für sich absurd, nach solchen Eigenschaften derselben zu fragen, bei denen dies nur gegenüber einem Theile dieser Transformationen der Fall ist. Diese Fragestellung wird indess berechtigt, ob auch nur *formal*, wenn wir die räumlichen Gebilde in ihrer Beziehung zu fest gedachten Elementen untersuchen. Betrachten wir z. B., wie in der sphärischen Trigonometrie, die räumlichen Dinge unter Auszeichnung eines Punctes. Dann ist zunächst die Forderung: die unter Adjunction der Hauptgruppe invarianten Eigenschaften nicht mehr der räumlichen Dinge an sich, sondern des von ihnen mit dem gegebenen Puncte gebildeten Systems zu entwickeln. Aber dieser Forderung können wir die andere Form ertheilen: Man untersuche die räumlichen Gebilde an sich hinsichtlich solcher Eigenschaften, welche ungeändert bleiben durch diejenigen Transformationen der Hauptgruppe, welche noch stattfinden können, wenn wir den Punct fest halten. Mit anderen Worten: Es ist dasselbe, ob wir die räumlichen Gebilde im Sinne der Hauptgruppe untersuchen und ihnen den gegebenen Punct hinzufügen, oder ob wir, ohne ihnen irgend ein Gegebenes hinzuzufügen, die Hauptgruppe durch die in ihr enthaltene Gruppe ersetzen, deren Transformationen den bez. Punct ungeändert lassen.
+
+Es ist dies ein in der Folge häufig angewandtes Princip, das wir desshalb gleich hier allgemein formuliren wollen; etwa in der folgenden Weise:
+
+   Es sei eine Mannigfaltigkeit und zu ihrer Behandlung eine auf sie bezügliche Transformationsgruppe gegeben. Es werde das Problem vorgelegt, die in der Mannigfaltigkeit enthaltenen Gebilde hinsichtlich eines gegebenen Gebildes zu untersuchen. *So kann man entweder dem Systeme der Gebilde das gegebene hinzufügen, und es fragt sich dann nach den Eigenschaften des erweiterten Systems im Sinne der gegebenen Gruppe — oder, man lasse das System unerweitert, beschränke aber die Transformationen, die man bei der Behandlung zu Grunde legt, auf diejenigen in der gegebenen Gruppe enthaltenen, welche das gegebene Gebilde ungeändert lassen (und die nothwendig wieder eine Gruppe bilden).* —
+
+Im Gegensatze zu der zu Anfang des Paragraphen aufgeworfenen Frage beschäftige uns nun die umgekehrte, die von Vornherein verständlich ist. Wir fragen nach denjenigen Eigenschaften räumlicher Dinge, welche bei einer Transformationsgruppe erhalten bleiben, die die Hauptgruppe als einen Theil umfasst. Jede Eigenschaft, die wir bei einer solchen Untersuchung finden, ist eine geometrische Eigenschaft des Dings an sich, aber das Umgekehrte gilt nicht. Bei der Umkehr tritt vielmehr das eben vorgetragene Princip in Kraft, wobei die Hauptgruppe nun die kleinere Gruppe ist. Wir erhalten so:
+
+   *Ersetzt man die Hauptgruppe durch eine umfassendere Gruppe, so bleibt nur ein Theil der geometrischen Eigenschaften erhalten. Die übrigen erscheinen nicht mehr als Eigenschaften der räumlichen Dinge an sich, sondern als Eigenschaften des Systems, welches hervorgeht, wenn man denselben ein ausgezeichnetes Gebilde hinzufügt. Dieses ausgezeichnete Gebilde ist (soweit es überhaupt ein bestimmtes* [#ep_u2_de12]_ *ist) dadurch definirt, dass es, fest gedacht, dem Raume unter den Transformationen der gegebenen Gruppe nur noch die Transformationen der Hauptgruppe gestattet.*
+
+In diesem Satze beruht die Eigenart der hier zu besprechenden neueren geometrischen Richtungen und ihr Verhältniss zur elementaren Methode. Sie sind dadurch eben zu characterisiren, dass sie an Stelle der Hauptgruppe eine erweiterte Gruppe räumlicher Umformungen der Betrachtung zu Grunde legen. Ihr gegenseitiges Verhältniss ist, sofern sich ihre Gruppen einschliessen, durch einen entsprechenden Satz bestimmt. Dasselbe gilt von den verschiedenen hier zu betrachtenden Behandlungsweisen mehrfach ausgedehnter Mannigfaltigkeiten. Es soll dies nun an den einzelnen Methoden gezeigt werden, wobei denn die Sätze, die in diesem und dem vorigen Paragraphen allgemein hingestellt wurden, ihre Erläuterung an concreten Gegenständen finden.
+
+----
+
+.. rubric:: Fußnoten (1872)
+
+.. [#ep_u2_de6] Wir denken von den Transformationen immer die Gesammtheit der räumlichen Gebilde gleichzeitig betroffen und reden desshalb schlechthin von Transformationen des Raumes. Die Transformationen können, wie z. B. die dualistischen, statt der Puncte andere Elemente einführen; es wird dies im Texte nicht unterschieden.
+.. [#ep_u2_de7] Begriffsbildung wie Bezeichnung sind herübergenommen von der *Substitutionstheorie*, in der nur an Stelle der Transformationen eines continuirlichen Gebietes die Vertauschungen einer endlichen Zahl discreter Grössen auftreten.
+.. [#ep_u2_de8] Camille Jordan hat alle Gruppen aufgestellt, die überhaupt in der Gruppe der Bewegungen enthalten sind: *Sur les groupes de mouvements*, *Annali di Matematica* t. II (1869), 167–215.
+.. [#ep_u2_de9] Die Transformationen einer Gruppe brauchen übrigens durchaus nicht, wie das bei den im Texte zu nennenden Gruppen allerdings immer der Fall sein wird, in stetiger Aufeinanderfolge vorhanden zu sein. Eine Gruppe bildet z. B. auch die endliche Reihe von Bewegungen, die einen regelmässigen Körper mit sich selbst zur Deckung bringen, oder die unendliche, aber discrete Reihe, welche eine Sinuslinie sich selber superponiren.
+.. [#ep_u2_de10] Unter dem Sinne verstehe ich hier die Eigenschaft der Anordnung, welche den Unterschied von der symmetrischen Figur (dem Spiegelbilde) begründet. Ihrem Sinne nach unterschieden sind also z. B. eine rechts- und eine linksgewundene Schraubenlinie.
+.. [#ep_u2_de11] Dass diese Transformationen eine Gruppe bilden, ist begrifflich nothwendig.
+.. [#ep_u2_de12] Man erzeugt ein solches Gebilde beispielsweise, indem man auf ein beliebiges Anfangselement, das durch keine Transformation der gegebenen Gruppe in sich selbst überzuführen ist, die Transformationen der Hauptgruppe anwendet.

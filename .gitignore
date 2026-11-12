@@ -1,11 +1,29 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.egg-info/
+
+# Distribution / packaging
 dist/
 build/
+*.egg-info/
+
+# Environments & caches
+.venv/
 .pytest_cache/
 .ruff_cache/
-.venv/
+.coverage
+
+# Sphinx / publish generated outputs
+docs/
+docs.bak/
+docsrc/modules/api/
+.doctrees/
+
+# Archival scans & folio rasters
+*.pdf
+resources/**/*.png
+
+# Media master renders
 *.mp4
 *.wav

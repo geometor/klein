@@ -1,0 +1,374 @@
+{
+  "klein": {
+    "name": "Felix Christian Klein",
+    "dates": "1849 – 1925",
+    "role": "German Geometer, Group Theorist & Architect of the Göttingen School",
+    "bio": "Professor of Mathematics at Erlangen (1872), Munich, Leipzig, and Göttingen (from 1886). Formulated the Erlangen Program (Vergleichende Betrachtungen über neuere geometrische Forschungen, 1872), classifying every geometry as the invariant theory of a transformation group, unified non-Euclidean metrics under Cayley's projective Absolute (1871–1873), and delivered the 1895 Göttingen lectures on Famous Problems of Elementary Geometry synthesizing Gauss-Wantzel constructibility with Hermite-Lindemann-Gordan transcendence proofs."
+  },
+  "taegert": {
+    "name": "Friedrich Tägert",
+    "dates": "fl. 1895",
+    "role": "German Gymnasium Oberlehrer (Realprogymnasium zu Ems)",
+    "bio": "Prepared the authorized German redaction of Felix Klein's Göttingen Easter 1895 lecture notes, Vorträge über ausgewählte Fragen der Elementargeometrie (Leipzig: B. G. Teubner, 1895), for the Elberfeld meeting."
+  },
+  "beman": {
+    "name": "Wooster Woodruff Beman",
+    "dates": "1850 – 1922",
+    "role": "American Mathematician (University of Michigan)",
+    "bio": "Co-translator, with David Eugene Smith, of the authorized 1897 Ginn & Company English edition of Klein's Famous Problems of Elementary Geometry, as well as Dedekind's Essays on the Theory of Numbers."
+  },
+  "smith": {
+    "name": "David Eugene Smith",
+    "dates": "1860 – 1944",
+    "role": "American Historian of Mathematics & Educator",
+    "bio": "Professor at Michigan State Normal School and later Teachers College, Columbia University; co-translator with W. W. Beman of Klein's Famous Problems of Elementary Geometry (1897)."
+  },
+  "haskell": {
+    "name": "Mellen Woodman Haskell",
+    "dates": "1863 – 1948",
+    "role": "American Mathematician (UC Berkeley) & Doctoral Student of Klein",
+    "bio": "Studied under Felix Klein at Göttingen and published the authorized 1893 English translation of the Erlangen Program ('A Comparative Review of Recent Researches in Geometry') in the Bulletin of the New York Mathematical Society."
+  },
+  "gauss": {
+    "name": "Carl Friedrich Gauss",
+    "dates": "1777 – 1855",
+    "role": "German Mathematician (Princeps Mathematicorum)",
+    "bio": "Discovered the compass-and-straightedge constructibility of the regular 17-gon on 30 March 1796 and proved in Section VII of Disquisitiones Arithmeticae (1801) that cyclotomic division into p = 2^(2^mu) + 1 parts reduces to a chain of quadratic period equations; also pioneered intrinsic surface curvature (1827)."
+  },
+  "wantzel": {
+    "name": "Pierre Laurent Wantzel",
+    "dates": "1814 – 1848",
+    "role": "French Mathematician & Engineer",
+    "bio": "Published in Liouville's Journal (1837) the first complete algebraic impossibility proofs for duplicating the cube, trisecting a general angle, and constructing regular polygons whose odd prime divisors are not distinct Fermat primes."
+  },
+  "galois": {
+    "name": "Évariste Galois",
+    "dates": "1811 – 1832",
+    "role": "French Mathematician, Founder of Galois Theory",
+    "bio": "Linked polynomial solvability by radicals to permutation groups of roots. In § 10 of the Erlangen Program, Klein explicitly parallels his group-theoretic classification of geometry with Galois's group theory of algebraic equations."
+  },
+  "abel": {
+    "name": "Niels Henrik Abel",
+    "dates": "1802 – 1829",
+    "role": "Norwegian Mathematician",
+    "bio": "Proved the algebraic insolvability of the general quintic by radicals and characterized abelian (commutative-group) equations generalizing Gauss's cyclotomic periods."
+  },
+  "eisenstein": {
+    "name": "Ferdinand Gotthold Max Eisenstein",
+    "dates": "1823 – 1852",
+    "role": "German Number Theorist & Analyst",
+    "bio": "Formulated Eisenstein's irreducibility criterion (Crelle's Journal 39, 1850), deployed by Klein in Famous Problems Part I, Ch. III (§§ 7–8) to prove irreducibility of cyclotomic polynomials of prime and prime-power order."
+  },
+  "richelot": {
+    "name": "Friedrich Julius Richelot",
+    "dates": "1808 – 1875",
+    "role": "German Mathematician (Königsberg)",
+    "bio": "Carried out the explicit algebraic and geometric analysis for the regular 257-gon (p = 2^(2^3) + 1 = 257) in Crelle's Journal IX (1832), cited by Klein in Part I, Ch. III, § 1."
+  },
+  "hermes": {
+    "name": "Johann Gustav Hermes",
+    "dates": "1846 – 1912",
+    "role": "German Mathematician (Lingen / Königsberg)",
+    "bio": "Devoted ten years to the explicit period reduction of the regular 65537-gon (p = 2^(2^4) + 1 = 65537), depositing his manuscript trunk in the Göttingen Mathematical Seminary (Göttinger Nachrichten, 1894)."
+  },
+  "bachmann": {
+    "name": "Paul Gustav Heinrich Bachmann",
+    "dates": "1837 – 1920",
+    "role": "German Number Theorist",
+    "bio": "Author of Die Lehre von der Kreistheilung (1872), cited by Klein as the standard treatise on cyclotomy and primitive-root period decompositions."
+  },
+  "petersen": {
+    "name": "Julius Peter Christian Petersen",
+    "dates": "1839 – 1910",
+    "role": "Danish Geometer & Algebraist",
+    "bio": "Author of Methods and Theories for the Solution of Problems of Geometrical Constructions (1866/1879) and Theorie der algebraischen Gleichungen (1878); singled out by Klein in the Introduction to Famous Problems as virtually the sole textbook author presenting elementary impossibility proofs."
+  },
+  "lemoine": {
+    "name": "Émile Michel Hyacinthe Lemoine",
+    "dates": "1840 – 1912",
+    "role": "French Geometer, Founder of Geometrography",
+    "bio": "Formulated Géométrographie (1888–1902), quantifying operational simplicity and exactitude of ruler-and-compass vs. restricted-instrument constructions across the Euclidean canon."
+  },
+  "mascheroni": {
+    "name": "Lorenzo Mascheroni",
+    "dates": "1750 – 1800",
+    "role": "Italian Mathematician",
+    "bio": "Proved in La Geometria del Compasso (Pavia, 1797) that every point constructible with straightedge and compasses can be constructed with compasses alone."
+  },
+  "poncelet": {
+    "name": "Jean-Victor Poncelet",
+    "dates": "1788 – 1867",
+    "role": "French Geometer & Engineer, Revivalist of Projective Geometry",
+    "bio": "Author of Traité des propriétés projectives des figures (1822); introduced ideal elements, circular points at infinity, homology, and first conceived straightedge constructions aided by a single fixed circle."
+  },
+  "steiner": {
+    "name": "Jakob Steiner",
+    "dates": "1796 – 1863",
+    "role": "Swiss-German Synthetic Geometer",
+    "bio": "Proved in Die geometrischen Konstruktionen, ausgeführt mittelst der geraden Linie und eines festen Kreises (1833) that every ruler-and-compass construction can be executed with a straightedge alone once a single fixed circle and its center are given."
+  },
+  "staudt": {
+    "name": "Karl Georg Christian von Staudt",
+    "dates": "1798 – 1867",
+    "role": "German Synthetic Projective Geometer",
+    "bio": "Published the fixed-circle straightedge construction of the regular 17-gon (Crelle's Journal 24, 1842) and founded metric-free synthetic projective geometry in Geometrie der Lage (1847) and Beiträge zur Geometrie der Lage (1856–1860), including geometric 'throws' (Würfe) and imaginary elements."
+  },
+  "schroeter": {
+    "name": "Heinrich Eduard Schröter",
+    "dates": "1829 – 1892",
+    "role": "German Projective Geometer (Breslau)",
+    "bio": "Recast and simplified von Staudt's single-circle straightedge construction of the regular 17-gon in Crelle's Journal 75 (1872), directly adapted by Klein in Famous Problems Part I, Ch. IV (§§ 8–9)."
+  },
+  "lambert": {
+    "name": "Johann Heinrich Lambert",
+    "dates": "1728 – 1777",
+    "role": "Swiss-Alsatian Polymath, Geometer & Analyst",
+    "bio": "Pioneered perspective straightedge constructions in Freie Perspective (1774), investigated the parallel postulate, and proved the irrationality of pi via continued fractions in 1761/1770 (Part II, Ch. II, § 4)."
+  },
+  "brianchon": {
+    "name": "Charles Julien Brianchon",
+    "dates": "1783 – 1864",
+    "role": "French Projective Geometer",
+    "bio": "Discovered the dual of Pascal's hexagram theorem and investigated pure straightedge constructions (1818), cited by Klein in Part I, Ch. IV, § 7."
+  },
+  "wiener": {
+    "name": "Hermann Ludwig Gustav Wiener",
+    "dates": "1857 – 1939",
+    "role": "German Geometer (Darmstadt)",
+    "bio": "Demonstrated regular polygon constructions by paper folding (noted in Dyck's 1893 Munich Mathematical Exhibition Catalogue) and lectured on foundational incidence axioms anticipating Hilbert."
+  },
+  "sundara-row": {
+    "name": "T. Sundara Row (Rao)",
+    "dates": "1853 – ?",
+    "role": "Indian Mathematician (Madras)",
+    "bio": "Author of Geometrical Exercises in Paper Folding (Madras: Addison & Co., 1893), commended by Klein in Famous Problems Part I, Ch. V, § 1, triggering international interest in origami geometry."
+  },
+  "diocles": {
+    "name": "Diocles",
+    "dates": "fl. c. 190 – 180 BC",
+    "role": "Hellenistic Greek Geometer",
+    "bio": "Author of On Burning Mirrors; invented the cubic cissoid (x^2 + y^2)x - y^2 = 0 to solve the Delian duplication of the cube (Famous Problems Part I, Ch. V, § 3)."
+  },
+  "nicomedes": {
+    "name": "Nicomedes",
+    "dates": "fl. c. 250 – 200 BC",
+    "role": "Hellenistic Greek Geometer",
+    "bio": "Invented the quartic conchoid (x^2 + y^2)(x - a)^2 - b^2 x^2 = 0 and a mechanical trammel to trisect arbitrary angles and duplicate the cube via neusis (Famous Problems Part I, Ch. V, §§ 4–5)."
+  },
+  "hippias": {
+    "name": "Hippias of Elis",
+    "dates": "fl. c. 420 BC",
+    "role": "Greek Sophist & Geometer",
+    "bio": "Discovered the transcendental quadratrix curve y/x = tan(pi*y/2) for angle multisection, later applied by Dinostratus (c. 350 BC) to rectify and square the circle (Part II, Ch. II, § 2)."
+  },
+  "archimedes": {
+    "name": "Archimedes of Syracuse",
+    "dates": "c. 287 – 212 BC",
+    "role": "Greek Mathematician, Physicist & Engineer",
+    "bio": "Bounded pi rigorously between 3 + 10/71 and 3 + 1/7 via inscribed and circumscribed 96-gons in Measurement of a Circle (Part II, Ch. II, § 2)."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Greek Geometer, Author of the Elements",
+    "bio": "Codified compass-and-straightedge geometry (Postulates 1–3) and regular 3-, 4-, 5-, 6-, and 15-gon constructions in Book IV of the Elements, setting the classical canon analyzed by Gauss and Klein."
+  },
+  "pappus": {
+    "name": "Pappus of Alexandria",
+    "dates": "c. 290 – c. 350 AD",
+    "role": "Late Antique Greek Geometer",
+    "bio": "Classified geometric problems in Synagoge Books III–IV into plane (straightedge & compass), solid (conic sections), and linear (higher curves), and proved projective cross-ratio invariance in Book VII."
+  },
+  "kepler": {
+    "name": "Johannes Kepler",
+    "dates": "1571 – 1630",
+    "role": "German Astronomer, Geometer & Natural Philosopher",
+    "bio": "Argued in Harmonices Mundi Book I (1619) that the regular heptagon (n = 7) is 'unknowable' (inscibilis) because its chord ratio satisfies a solid (cubic) equation ungrounded in planar Euclidean bisections—rigorously vindicated by Gauss, Wantzel, and Klein."
+  },
+  "huygens": {
+    "name": "Christiaan Huygens",
+    "dates": "1629 – 1695",
+    "role": "Dutch Mathematician, Physicist & Astronomer",
+    "bio": "Refined Archimedean polygon bounds in De circuli magnitudine inventa (1654), obtaining dramatically sharper rational enclosures for pi (Part II, Ch. II, § 2)."
+  },
+  "leibniz": {
+    "name": "Gottfried Wilhelm Leibniz",
+    "dates": "1646 – 1716",
+    "role": "German Polymath, Co-Inventor of Calculus",
+    "bio": "Discovered the alternating arctangent series for pi/4, introduced the distinction between algebraic, transcendental, and 'interscendental' expressions (Part II, Ch. IV, § 1), and envisioned geometry of situation (analysis situs)."
+  },
+  "euler": {
+    "name": "Leonhard Euler",
+    "dates": "1707 – 1783",
+    "role": "Swiss Mathematician & Physicist",
+    "bio": "Established the analytic nexus e^(i*pi) + 1 = 0 between exponential and circular functions (Introductio in analysin infinitorum, 1748), enabling Lindemann's 1882 deduction of the transcendence of pi from exponential independence."
+  },
+  "legendre": {
+    "name": "Adrien-Marie Legendre",
+    "dates": "1752 – 1833",
+    "role": "French Mathematician",
+    "bio": "Proved the irrationality of both pi and pi^2 in Éléments de géométrie (1794) and conjectured the existence of non-algebraic (transcendental) numbers (Part II, Ch. II, § 4)."
+  },
+  "liouville": {
+    "name": "Joseph Liouville",
+    "dates": "1809 – 1882",
+    "role": "French Mathematician",
+    "bio": "Constructed the first provably transcendental numbers in 1844/1851 via Diophantine rational-approximation bounds, and proved in 3-space that conformal transformations reduce to the Möbius group of inversions (Erlangen § 6)."
+  },
+  "cantor": {
+    "name": "Georg Cantor",
+    "dates": "1845 – 1918",
+    "role": "German Mathematician, Creator of Transfinite Set Theory",
+    "bio": "Proved in 1873/1874 (Crelle 77) and via his 1891 diagonal method that algebraic numbers are countable whereas the continuum is uncountable, establishing the ubiquity of transcendental numbers (Famous Problems Part II, Ch. I)."
+  },
+  "hermite": {
+    "name": "Charles Hermite",
+    "dates": "1822 – 1901",
+    "role": "French Analyst & Algebraist",
+    "bio": "Proved the transcendence of Euler's constant e in 1873 (Comptes Rendus, 'Sur la fonction exponentielle'), opening the modern analytical theory of transcendence."
+  },
+  "lindemann": {
+    "name": "Carl Louis Ferdinand von Lindemann",
+    "dates": "1852 – 1939",
+    "role": "German Mathematician & Doctoral Student of Klein",
+    "bio": "Earned his doctorate under Felix Klein at Erlangen (1873) on non-Euclidean mechanics and proved in June 1882 ('Über die Zahl π', Mathematische Annalen 20) the transcendence of pi, settling the 2,300-year problem of squaring the circle."
+  },
+  "weierstrass": {
+    "name": "Karl Theodor Wilhelm Weierstrass",
+    "dates": "1815 – 1897",
+    "role": "German Analyst",
+    "bio": "Simplified and generalized the Hermite–Lindemann theorem in the Berlin Sitzungsberichte (1885), establishing algebraic independence of exponentials for distinct algebraic exponents."
+  },
+  "gordan": {
+    "name": "Paul Albert Gordan",
+    "dates": "1837 – 1912",
+    "role": "German Invariant Theorist ('King of Invariants')",
+    "bio": "Klein's colleague at Erlangen who in 1893 (Mathematische Annalen 43) eliminated definite integrals from the proofs of Hermite and Lindemann via symbolic factorial operators h^r = r!, forming the direct basis of Famous Problems Part II, Chs. III–IV."
+  },
+  "hilbert": {
+    "name": "David Hilbert",
+    "dates": "1862 – 1943",
+    "role": "German Mathematician",
+    "bio": "Klein's colleague at Göttingen from 1895; published a celebrated 1893 simplification of the transcendence of e and pi (Mathematische Annalen 43) and in Grundlagen der Geometrie (1899) Ch. VII refined segment constructibility under gauge-compass axioms."
+  },
+  "hurwitz": {
+    "name": "Adolf Hurwitz",
+    "dates": "1859 – 1919",
+    "role": "German Mathematician & Doctoral Student of Klein",
+    "bio": "Published an elementary mean-value modification of Hilbert's transcendence proof for e in Göttinger Nachrichten / Mathematische Annalen 43 (1893)."
+  },
+  "rudio": {
+    "name": "Ferdinand Rudio",
+    "dates": "1856 – 1929",
+    "role": "Swiss-German Mathematician & Historian of Mathematics",
+    "bio": "Published Archimedes, Huygens, Lambert, Legendre: Vier Abhandlungen über die Kreismessung (Leipzig: Teubner, 1892), whose historical synthesis Klein follows throughout Famous Problems Part II, Ch. II."
+  },
+  "abakanowicz": {
+    "name": "Bruno Abdank-Abakanowicz",
+    "dates": "1852 – 1900",
+    "role": "Polish-Lithuanian Mathematician & Electrical Engineer",
+    "bio": "Invented the mechanical integraph (Les intégraphes, Paris, 1886; German ed. by Bitterli, 1889, built by G. Coradi of Zürich), demonstrated by Klein in Famous Problems Part II, Ch. V / Anhang to construct pi via continuous curve integration."
+  },
+  "lie": {
+    "name": "Marius Sophus Lie",
+    "dates": "1842 – 1899",
+    "role": "Norwegian Mathematician, Founder of Continuous Transformation Groups",
+    "bio": "Klein's closest collaborator during 1869–1872 in Berlin and Paris; discovered contact transformations and Lie's sphere geometry mapping lines into spheres (§§ 7 & 9 of the Erlangen Program) and co-inspired Klein's group-theoretic synthesis."
+  },
+  "cayley": {
+    "name": "Arthur Cayley",
+    "dates": "1821 – 1895",
+    "role": "British Algebraist & Projective Geometer",
+    "bio": "Showed in his Sixth Memoir upon Quantics (1859) that Euclidean metric geometry is a special projective invariant theory relative to an Absolute conic/quadric ('metrical geometry is a part of descriptive geometry'), generalized to non-Euclidean spaces by Klein (1871–1872)."
+  },
+  "riemann": {
+    "name": "Georg Friedrich Bernhard Riemann",
+    "dates": "1826 – 1866",
+    "role": "German Mathematician",
+    "bio": "Introduced n-dimensional manifolds (Mannigfaltigkeiten), conformal complex mappings, analysis situs, and quadratic differential curvature in his 1854 Habilitationsvortrag (published 1867), synthesized with projective group theory in § 10 and Notes IV–VI of Klein's Erlangen Program."
+  },
+  "helmholtz": {
+    "name": "Hermann von Helmholtz",
+    "dates": "1821 – 1894",
+    "role": "German Physicist & Philosopher of Space",
+    "bio": "Characterized constant-curvature Riemannian metrics via free mobility of rigid bodies (1868), connected by Klein and Lie to transitive continuous transformation groups."
+  },
+  "pluecker": {
+    "name": "Julius Plücker",
+    "dates": "1801 – 1868",
+    "role": "German Geometer & Physicist,Klein's Mentor at Bonn",
+    "bio": "Klein's teacher at Bonn whose Neue Geometrie des Raumes (completed by Klein, 1868–1869) elevated the straight line in 3-space to a primary 4-dimensional space-element on a quadric in P^5 (Erlangen § 5)."
+  },
+  "moebius": {
+    "name": "August Ferdinand Möbius",
+    "dates": "1790 – 1868",
+    "role": "German Geometer & Astronomer",
+    "bio": "Classified hierarchy of geometric affinities—congruence, similarity, affinity, and collineation—in Der barycentrische Calcul (1827) and developed the Kreisverwandtschaft (circular/inversion transformations, 1855) generalized in Erlangen §§ 1–2 & § 6."
+  },
+  "chasles": {
+    "name": "Michel Chasles",
+    "dates": "1793 – 1880",
+    "role": "French Projective Geometer",
+    "bio": "Systematized cross-ratio (rapport anharmonique), homography, duality, and enumerative characteristics across Aperçu historique (1837) and Traité de géométrie supérieure (1852)."
+  },
+  "hesse": {
+    "name": "Ludwig Otto Hesse",
+    "dates": "1811 – 1874",
+    "role": "German Algebraic Geometer",
+    "bio": "Formulated Hesse's Principle of Transference (Übertragungsprincip, 1866) mapping binary projective forms onto points of a conic or twisted cubic, highlighted by Klein as a model of group equivalence in Erlangen §§ 4–5."
+  },
+  "clebsch": {
+    "name": "Rudolf Friedrich Alfred Clebsch",
+    "dates": "1833 – 1872",
+    "role": "German Algebraic Geometer & Invariant Theorist",
+    "bio": "Klein's mentor at Göttingen and co-founder of Mathematische Annalen, who championed algebraic invariant theory and birational geometry before his untimely death in November 1872 just as Klein entered Erlangen."
+  },
+  "cremona": {
+    "name": "Luigi Cremona",
+    "dates": "1830 – 1903",
+    "role": "Italian Algebraic Geometer",
+    "bio": "Developed the theory of birational (Cremona) transformations of the plane and 3-space, examined as an infinite-parameter algebraic group in § 8.1 of the Erlangen Program."
+  },
+  "grassmann": {
+    "name": "Hermann Günther Grassmann",
+    "dates": "1809 – 1877",
+    "role": "German Polymath, Creator of Exterior Algebra",
+    "bio": "Pioneered n-dimensional linear and affine extension theory in Die lineale Ausdehnungslehre (1844, 1862), cited by Klein in § 10.3 and Note III on manifolds."
+  },
+  "beltrami": {
+    "name": "Eugenio Beltrami",
+    "dates": "1835 – 1900",
+    "role": "Italian Differential Geometer",
+    "bio": "Modeled hyperbolic geometry on pseudospherical surfaces and geodesic projective disks (1868) and studied conformal invariants in higher dimensions (Erlangen § 6 & Note V)."
+  },
+  "lobatchewsky": {
+    "name": "Nikolai Ivanovich Lobachevsky",
+    "dates": "1792 – 1856",
+    "role": "Russian Geometer, Co-Founder of Hyperbolic Geometry",
+    "bio": "Published the first non-Euclidean (hyperbolic) synthetic geometry (1829–1840), identified by Klein in 1871 and Erlangen Note V with projective geometry inside a real non-degenerate Absolute quadric."
+  },
+  "bolyai": {
+    "name": "János Bolyai",
+    "dates": "1802 – 1860",
+    "role": "Hungarian Mathematician, Co-Founder of Hyperbolic Geometry",
+    "bio": "Author of the 1832 Appendix developing absolute and hyperbolic geometry independently of Lobachevsky (Erlangen Note V)."
+  },
+  "russell": {
+    "name": "Bertrand Arthur William Russell",
+    "dates": "1872 – 1970",
+    "role": "British Philosopher, Logician & Mathematician",
+    "bio": "Adopted Klein's Cayley–Klein projective hierarchy and transformation-group classification as the mathematical backbone of An Essay on the Foundations of Geometry (1897) and Part VI of The Principles of Mathematics (1903)."
+  },
+  "hoenen": {
+    "name": "Petrus Hubertus Jacobus Hoenen, S.J.",
+    "dates": "1880 – 1961",
+    "role": "Dutch Jesuit Philosopher of Geometry",
+    "bio": "Critically analyzed Klein's Erlangen Program, Cayley–Klein models, and axiomatic structuralism in De Noetica Geometriae (1954), distinguishing formal group isomorphism from intuitive spatial abstraction."
+  },
+  "wildberger": {
+    "name": "Norman John Wildberger",
+    "dates": "1956 –",
+    "role": "Canadian-Australian Mathematician, Creator of Rational Trigonometry",
+    "bio": "Replaced transcendental distance and angle by algebraic quadrance Q and spread s in Divine Proportions (2005) and Universal Hyperbolic Geometry, providing polynomial invariants over arbitrary fields directly realizing Klein's algebraic Erlangen program."
+  }
+}

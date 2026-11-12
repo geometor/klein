@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270" class="euclid-graphic" data-graphic-id="fig_von_staudt_quadratic">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-muted: #71717a;
+      --geom-point-stroke: #ffffff;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+      --geom-danger: #dc2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-muted: #a1a1aa;
+        --geom-point-stroke: #1e1e20;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+        --geom-danger: #f87171;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.6; fill: none; }
+    .geom-muted { stroke: var(--geom-muted); stroke-width: 1.1; stroke-dasharray: 4, 3; fill: none; }
+    .geom-accent { stroke: var(--geom-accent); stroke-width: 2.1; fill: none; }
+    .geom-assert { stroke: var(--geom-assert); stroke-width: 2.0; fill: none; }
+    .geom-danger { stroke: var(--geom-danger); stroke-width: 1.8; fill: none; }
+    .geom-poly-ok { fill: var(--geom-assert); fill-opacity: 0.14; stroke: var(--geom-assert); stroke-width: 1.8; }
+    .geom-poly-no { fill: var(--geom-danger); fill-opacity: 0.10; stroke: var(--geom-danger); stroke-width: 1.5; stroke-dasharray: 4, 2.5; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.2; }
+    .geom-title { fill: var(--geom-fg); font-size: 13px; font-weight: 700; }
+    .geom-sub { fill: var(--geom-muted); font-size: 11px; font-weight: 600; }
+    .geom-label { fill: var(--geom-fg); font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text x="280" y="20" text-anchor="middle" class="geom-title">Von Staudt–Schröter Quadratic Solver on Fixed Circle C₀: x² + y(y − 2) = 0 (Klein Fig. 4)</text>
+  <line x1="25" y1="225.0" x2="535" y2="225.0" class="geom-line"/>
+  <line x1="25" y1="73.0" x2="535" y2="73.0" class="geom-muted"/>
+  <line x1="225.0" y1="32" x2="225.0" y2="255" class="geom-muted"/>
+  <circle cx="225.00" cy="149.00" r="76.00" class="geom-line"/>
+  <line x1="270.60" y1="225.00" x2="320.00" y2="73.00" class="geom-accent"/>
+  <line x1="225.00" y1="73.00" x2="407.40" y2="225.00" class="geom-assert"/>
+  <line x1="225.00" y1="73.00" x2="285.80" y2="225.00" class="geom-assert"/>
+  <circle cx="225.00" cy="225.00" r="3.6" class="geom-point"/>
+  <circle cx="225.00" cy="149.00" r="3.6" class="geom-point"/>
+  <circle cx="225.00" cy="73.00" r="3.6" class="geom-point"/>
+  <circle cx="270.60" cy="225.00" r="3.6" class="geom-point-accent"/>
+  <circle cx="320.00" cy="73.00" r="3.6" class="geom-point-accent"/>
+  <circle cx="299.75" cy="135.30" r="3.6" class="geom-point-accent"/>
+  <circle cx="277.41" cy="204.03" r="3.6" class="geom-point-accent"/>
+  <circle cx="407.40" cy="225.00" r="3.6" class="geom-point-accent"/>
+  <circle cx="285.80" cy="225.00" r="3.6" class="geom-point-accent"/>
+  <text x="211.0" y="241.0" class="geom-label">O(0,0)</text>
+  <text x="183.0" y="67.0" class="geom-label">A(0,2)</text>
+  <text x="203.0" y="153.0" class="geom-sub">C₀</text>
+  <text x="254.6" y="241.0" class="geom-label">(q/p, 0)</text>
+  <text x="326.0" y="67.0" class="geom-label">(4/p, 2)</text>
+  <text x="279.8" y="241.0" class="geom-label">x₂</text>
+  <text x="401.4" y="241.0" class="geom-label">x₁</text>
+  <text x="485" y="65" class="geom-sub">y = 2</text>
+  <text x="485" y="218" class="geom-sub">y = 0</text>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "repository": "geometor/klein",
+  "rights_statement": "100% Public Domain sources (1872, 1893, 1895, 1897). Zero post-1930 copyrighted annotations (such as R. C. Archibald's 1930/1956 notes) are included.",
+  "editions": [
+    {
+      "id": "famous_problems_1895_de",
+      "title": "Vorträge über ausgewählte Fragen der Elementargeometrie",
+      "author": "Felix Klein (ausgearbeitet von F. Tägert)",
+      "publisher": "Leipzig: B. G. Teubner",
+      "year": 1895,
+      "language": "de",
+      "pages": "v + 66 S., 10 Fig., 2 Tafeln",
+      "verification_method": "300-DPI page-by-page multimodal visual scan inspection (75 pages + Tafel I)",
+      "pdf_sha256": "603a50765ac9412991e29c2e873d5096e552e7ebd03a6ed2e389d12090a47407"
+    },
+    {
+      "id": "famous_problems_1897_en",
+      "title": "Famous Problems of Elementary Geometry: The Duplication of the Cube, The Trisection of an Angle, The Quadrature of the Circle",
+      "author": "Felix Klein (trans. Wooster Woodruff Beman & David Eugene Smith)",
+      "publisher": "Boston and London: Ginn & Company",
+      "year": 1897,
+      "language": "en",
+      "pages": "ix + 80 pp., 16 Figs.",
+      "verification_method": "300-DPI page-by-page multimodal visual scan inspection (96 pages)",
+      "pdf_sha256": "1e378616531f80224c9b21e74dcce31b14217bc84472396cea876bc26cd89dce"
+    },
+    {
+      "id": "erlangen_program_1872_de",
+      "title": "Vergleichende Betrachtungen über neuere geometrische Forschungen",
+      "author": "Felix Klein",
+      "publisher": "Erlangen: Verlag von Andreas Deichert (reprinted Mathematische Annalen 43, 1893, pp. 63–100)",
+      "year": 1872,
+      "language": "de",
+      "local_source": "resources/klein/sources/erlangen_1872_de.html",
+      "sha256": "dc4784c87add62b4c9a9a2dbcaa0142e07732d2ce093dda1668caabc6ec9f325"
+    },
+    {
+      "id": "erlangen_program_1893_en",
+      "title": "A Comparative Review of Recent Researches in Geometry",
+      "author": "Felix Klein (trans. Mellen Woodman Haskell)",
+      "publisher": "Bulletin of the New York Mathematical Society 2 (10), July 1893, pp. 215–249",
+      "year": 1893,
+      "language": "en",
+      "local_source": "resources/klein/sources/erlangen_1893_en.md",
+      "sha256": "321a60690cfbdf097163099f2651a57017fb0827596da298fc8b9283d44df8ce"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 270" width="520" height="270" class="euclid-graphic" data-graphic-id="fig_cayley_klein_metric">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-muted: #71717a;
+      --geom-point-stroke: #ffffff;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+      --geom-danger: #dc2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-muted: #a1a1aa;
+        --geom-point-stroke: #1e1e20;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+        --geom-danger: #f87171;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.6; fill: none; }
+    .geom-muted { stroke: var(--geom-muted); stroke-width: 1.1; stroke-dasharray: 4, 3; fill: none; }
+    .geom-accent { stroke: var(--geom-accent); stroke-width: 2.1; fill: none; }
+    .geom-assert { stroke: var(--geom-assert); stroke-width: 2.0; fill: none; }
+    .geom-danger { stroke: var(--geom-danger); stroke-width: 1.8; fill: none; }
+    .geom-poly-ok { fill: var(--geom-assert); fill-opacity: 0.14; stroke: var(--geom-assert); stroke-width: 1.8; }
+    .geom-poly-no { fill: var(--geom-danger); fill-opacity: 0.10; stroke: var(--geom-danger); stroke-width: 1.5; stroke-dasharray: 4, 2.5; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.2; }
+    .geom-title { fill: var(--geom-fg); font-size: 13px; font-weight: 700; }
+    .geom-sub { fill: var(--geom-muted); font-size: 11px; font-weight: 600; }
+    .geom-label { fill: var(--geom-fg); font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text x="260" y="22" text-anchor="middle" class="geom-title">Cayley–Klein Projective Metric Inside the Absolute Ω = 0: d(A,B) = c log(A, B; I₁, I₂)</text>
+  <ellipse cx="260.0" cy="148.0" rx="165.0" ry="96.0" class="geom-line"/>
+  <line x1="114.54" y1="102.69" x2="415.00" y2="115.08" class="geom-accent"/>
+  <line x1="198.92" y1="237.18" x2="415.00" y2="115.08" class="geom-muted"/>
+  <line x1="198.92" y1="237.18" x2="114.54" y2="102.69" class="geom-muted"/>
+  <circle cx="114.54" cy="102.69" r="3.8" class="geom-point"/>
+  <text x="100.5" y="96.7" class="geom-label">I₁</text>
+  <circle cx="198.67" cy="106.16" r="3.8" class="geom-point-accent"/>
+  <text x="194.7" y="96.2" class="geom-label">A</text>
+  <circle cx="279.79" cy="109.50" r="3.8" class="geom-point-accent"/>
+  <text x="275.8" y="99.5" class="geom-label">B</text>
+  <circle cx="348.90" cy="112.35" r="3.8" class="geom-point-accent"/>
+  <text x="344.9" y="102.4" class="geom-label">C</text>
+  <circle cx="415.00" cy="115.08" r="3.8" class="geom-point"/>
+  <text x="423.0" y="109.1" class="geom-label">I₂</text>
+  <text x="392" y="232" class="geom-sub">Absolute Ω = 0</text>
+  <text x="260" y="258" text-anchor="middle" class="geom-sub">(A, B; I₁, I₂) · (B, C; I₁, I₂) = (A, C; I₁, I₂)  ⇒  d(A, B) + d(B, C) = d(A, C)</text>
+</svg>
