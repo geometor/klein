@@ -1,10 +1,10 @@
-:title: Bilingual Mathematical & Philosophical Glossary
-:layout: book
+:navigation: footer
+:nav_title: Glossary
 
 .. _glossary:
 
-Bilingual Technical Glossary
-============================
+Glossary
+========
 
 .. rubric:: Algebraic Constructibility, Cyclotomy, Transformation Groups, and Transcendence
 

@@ -1,12 +1,10 @@
-:navigation: header
-:order: 30
-:layout: book
-:title: Concordance
+:navigation: footer
+:nav_title: Concordance
 
 .. _concordance:
 
-CROSS-CORPUS CONCORDANCE
-========================
+Concordance
+===========
 
 .. rubric:: Bidirectional Loci Across Klein (1872/1893 & 1895/1897) and Nine GEOMETOR Sister Corpora
 
