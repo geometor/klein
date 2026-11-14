@@ -12,8 +12,8 @@ Critical 4-track bilingual digital Book Codices (*English · Deutsch · Summary 
 
 ----
 
-Primary Codices (*Opera Geometrica*)
-------------------------------------
+Book Codices
+------------
 
 :doc:`Famous Problems of Elementary Geometry (1895 / 1897) <famous_problems/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,10 +39,14 @@ Synchronized **6-unit, 4-track Book Codex** (*English · Deutsch · Summary · N
 Cross-Corpus Apparatus & Exact Symbolic Modules
 -----------------------------------------------
 
-* :ref:`Master Cross-Corpus Concordance (Klein ↔ Euclid, Kepler, Hilbert, Russell, Hoenen, Lemoine, Petersen, Pappus & Wildberger) <concordance>`
-* :ref:`Systematic Bibliography (36 Primary & Sister-Corpus Editions) <bibliography>` · :ref:`Prosopographical Index (52 Mathematicians & Philosophers) <persons>` · :ref:`Bilingual Technical Glossary (25 Terms) <glossary>`
+* :doc:`People (52 Mathematicians & Philosophers) <persons>`
+* :doc:`Bibliography (36 Primary & Sister-Corpus Editions) <bibliography>`
+* :doc:`Reader's Guide to this Edition <usage/index>`
+* :doc:`Master Cross-Corpus Concordance (Klein ↔ Sister Corpora) <concordance>`
+* :doc:`Bilingual Technical Glossary (25 Terms) <glossary>`
 * :doc:`Exact Symbolic Python API (geometor.klein) <modules/index>` — ``analyze_constructibility``, ``construct_gauss_17gon_periods`` (1-circle Poncelet–Steiner model with 0 floats), ``verify_erlangen_invariants``, and ``verify_cayley_klein_additivity``.
-* :ref:`Provenance, Textual Witnesses & Methodology <about-index>`
+* :doc:`Chronological Curation & Verification Log <log/index>`
+* :doc:`Provenance, Textual Witnesses & Methodology <about/index>`
 
 .. toctree::
    :maxdepth: 2
@@ -50,10 +54,11 @@ Cross-Corpus Apparatus & Exact Symbolic Modules
 
    famous_problems/index
    erlangen_program/index
-   concordance
-   bibliography
    persons
-   glossary
-   modules/index
+   bibliography
+   usage/index
    log/index
+   modules/index
+   concordance
+   glossary
    about/index

@@ -1,18 +1,30 @@
 :navigation: header
-:order: 10
+:order: 1
+:nav_title: Famous Problems
 :layout: book
-:title: Famous Problems (1895 / 1897)
+:book_title: Famous Problems of Elementary Geometry
+:book_subtitle: Vorträge über ausgewählte Fragen der Elementargeometrie — Felix Klein (1895 / tr. Beman & Smith, 1897)
+:author: Felix Klein
+:year: 1895 / 1897
 
 .. _fp-index:
 
-FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY
+Famous Problems of Elementary Geometry
 ======================================
 
-.. rubric:: *Vorträge über ausgewählte Fragen der Elementargeometrie* — Felix Klein (1895 / 1897)
+.. rubric:: *Vorträge über ausgewählte Fragen der Elementargeometrie* — Felix Klein (1895 / tr. Beman & Smith, 1897)
 
-| **Editio Princeps (Deutsch, 1895):** *Vorträge über ausgewählte Fragen der Elementargeometrie*, ausgearbeitet von :person:`F. Tägert <taegert>`, Leipzig: B. G. Teubner, 1895 (v + 66 S.).
-| **Authorized English Edition (1897):** *Famous Problems of Elementary Geometry: The Duplication of the Cube, The Trisection of an Angle, The Quadrature of the Circle*, translated by :person:`W. W. Beman <beman>` and :person:`D. E. Smith <smith>`, Boston & London: Ginn & Company, 1897 (ix + 80 pp.).
-| **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) verified page-by-page against 300-DPI scans and paired with exact :mod:`geometor.klein` symbolic verifiers.
+.. container:: title-page
+
+   | **Felix Klein**
+   | *Famous Problems of Elementary Geometry* (1897)
+   | *Vorträge über ausgewählte Fragen der Elementargeometrie* (1895)
+   |
+   | The Duplication of the Cube, Trisection of an Angle, and Quadrature of the Circle
+   |
+   | **First German Edition (1895):** Ausgearbeitet von :person:`F. Tägert <taegert>`, Leipzig: B. G. Teubner, 1895
+   | **Authorized English Edition (1897):** Translated by :person:`W. W. Beman <beman>` and :person:`D. E. Smith <smith>`, Boston & London: Ginn & Company, 1897
+   | **Digital Edition:** Synchronized 4-Track Edition (*English · German · Summary · Notes*) with exact symbolic verifiers
 
 .. epigraph::
 
@@ -24,8 +36,8 @@ FAMOUS PROBLEMS OF ELEMENTARY GEOMETRY
 
 ----
 
-Conspectus Totius Operis
-------------------------
+Table of Contents
+-----------------
 
 **Unit 1 — Prefaces & Introduction** (*Vorwort & Einleitung: Praktische und theoretische Konstruierbarkeit*)
    :ref:`English (1897) <fp-intro-en>` · :ref:`Deutsch (1895) <fp-intro-de>` · :ref:`Summary <fp-intro-summary>` · :ref:`Notes <fp-intro-notes>`
@@ -56,6 +68,14 @@ Conspectus Totius Operis
 
 **Unit 10 — Part II, Chapters IV–V: The Transcendence of π and the Integraph** (*II. Teil, Kap. IV & Anhang: Die Transcendenz der Zahl π und der Integraph* — Ch. IV §§ 1–7 & Ch. V §§ 1–3)
    :ref:`English (1897) <fp-part2-ch4-lindemann-pi-en>` · :ref:`Deutsch (1895) <fp-part2-ch4-lindemann-pi-de>` · :ref:`Summary <fp-part2-ch4-lindemann-pi-summary>` · :ref:`Notes <fp-part2-ch4-lindemann-pi-notes>`
+
+Scholarly Apparatus
+-------------------
+
+* :doc:`People </persons>` — Prosopographical register of 52 geometers, algebraists, and translators.
+* :doc:`Bibliography </bibliography>` — Systematic bibliography of 36 primary imprints, editions, and sister treatises.
+* :doc:`Concordance </concordance>` — Cross-corpus concordance across nine GEOMETOR sister repositories.
+* :doc:`Glossary </glossary>` — Bilingual technical glossary defining foundational concepts.
 
 .. toctree::
    :maxdepth: 1

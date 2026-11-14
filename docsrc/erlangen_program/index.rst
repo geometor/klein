@@ -1,18 +1,30 @@
 :navigation: header
-:order: 20
+:order: 2
+:nav_title: Erlangen Program
 :layout: book
-:title: Erlangen Program (1872 / 1893)
+:book_title: The Erlangen Program
+:book_subtitle: Vergleichende Betrachtungen über neuere geometrische Forschungen — Felix Klein (1872 / tr. M. W. Haskell, 1893)
+:author: Felix Klein
+:year: 1872 / 1893
 
 .. _ep-index:
 
-THE ERLANGEN PROGRAM (1872 / 1893)
-==================================
+The Erlangen Program
+====================
 
-.. rubric:: *Vergleichende Betrachtungen über neuere geometrische Forschungen* — Felix Klein (1872 / 1893)
+.. rubric:: *Vergleichende Betrachtungen über neuere geometrische Forschungen* — Felix Klein (1872 / tr. M. W. Haskell, 1893)
 
-| **Editio Princeps (Deutsch, 1872):** *Vergleichende Betrachtungen über neuere geometrische Forschungen*, Erlangen: Verlag von Andreas Deichert, 1872 (48 S.); reprinted in *Mathematische Annalen* 43 (1893), pp. 63–100.
-| **Authorized English Edition (1893):** *A Comparative Review of Recent Researches in Geometry*, translated by :person:`Mellen Woodman Haskell <haskell>`, *Bulletin of the New York Mathematical Society* 2 (10), July 1893, pp. 215–249.
-| **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) paired with exact :mod:`geometor.klein.erlangen` symbolic invariant verifiers.
+.. container:: title-page
+
+   | **Felix Klein**
+   | *The Erlangen Program* (1893)
+   | *Vergleichende Betrachtungen über neuere geometrische Forschungen* (1872)
+   |
+   | Comparative Review of Recent Researches in Geometry & the Group-Theoretic Invariant Hierarchy
+   |
+   | **First German Edition (1872):** Erlangen: Verlag von Andreas Deichert, 1872; *Mathematische Annalen* 43 (1893)
+   | **Authorized English Edition (1893):** Translated by :person:`Mellen Woodman Haskell <haskell>`, *Bulletin of the New York Mathematical Society* 2 (10), pp. 215–249
+   | **Digital Edition:** Synchronized 4-Track Edition (*English · German · Summary · Notes*) with exact symbolic verifiers
 
 .. epigraph::
 
@@ -24,8 +36,8 @@ THE ERLANGEN PROGRAM (1872 / 1893)
 
 ----
 
-Conspectus Totius Operis
-------------------------
+Table of Contents
+-----------------
 
 **Unit 1 — Prefatory Note & Introduction** (*Vorbemerkung 1872/1893 & Einleitung*)
    :ref:`English (1893) <ep-prefatory-intro-en>` · :ref:`Deutsch (1872) <ep-prefatory-intro-de>` · :ref:`Summary <ep-prefatory-intro-summary>` · :ref:`Notes <ep-prefatory-intro-notes>`
@@ -44,6 +56,14 @@ Conspectus Totius Operis
 
 **Unit 6 — Notes I–VII: Historical & Foundational Appendices (Non-Euclidean Metrics)** (*Noten I–VII, einschl. Note V: Über die sogenannte Nicht-Euklidische Geometrie*)
    :ref:`English (1893) <ep-notes-i-vii-en>` · :ref:`Deutsch (1872) <ep-notes-i-vii-de>` · :ref:`Summary <ep-notes-i-vii-summary>` · :ref:`Notes <ep-notes-i-vii-notes>`
+
+Scholarly Apparatus
+-------------------
+
+* :doc:`People </persons>` — Prosopographical register of 52 geometers, algebraists, and translators.
+* :doc:`Bibliography </bibliography>` — Systematic bibliography of 36 primary imprints, editions, and sister treatises.
+* :doc:`Concordance </concordance>` — Cross-corpus concordance across nine GEOMETOR sister repositories.
+* :doc:`Glossary </glossary>` — Bilingual technical glossary defining foundational concepts.
 
 .. toctree::
    :maxdepth: 1
