@@ -1,16 +1,69 @@
-:title: Prosopographical Index of Geometers, Algebraists & Analysts
-:layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 
 .. _persons:
 
-Biographical Register of Persons
-================================
+People
+======
 
-.. rubric:: Mathematicians and Philosophers Across Klein's *Famous Problems* (1895/1897) & *Erlangen Program* (1872/1893)
+.. rubric:: Authors, Translators & Editors in the Klein Tradition
 
-This register profiles **52 geometers, algebraists, analysts, and philosophers** discussed across :cite:`*Famous Problems of Elementary Geometry* (1895/1897) <klein:1897>`, :cite:`*The Erlangen Program* (1872/1893) <klein:1893:erlangen>`, and the GEOMETOR critical commentary. Every inline ``:person:`` reference resolves directly to its biographical entry below.
+Every inline ``:person:`` reference across both codices resolves directly to its biographical entry below.
 
 ----
+
+Authors, Translators & Editors
+------------------------------
+
+.. _person-klein:
+
+Felix Christian Klein (1849 – 1925)
+-----------------------------------
+
+*German Geometer, Group Theorist & Architect of the Göttingen School*
+
+Professor of Mathematics at Erlangen (1872), Munich, Leipzig, and Göttingen (from 1886). Formulated the Erlangen Program (Vergleichende Betrachtungen über neuere geometrische Forschungen, 1872), classifying every geometry as the invariant theory of a transformation group, unified non-Euclidean metrics under Cayley's projective Absolute (1871–1873), and delivered the 1895 Göttingen lectures on Famous Problems of Elementary Geometry synthesizing Gauss-Wantzel constructibility with Hermite-Lindemann-Gordan transcendence proofs.
+
+.. _person-lie:
+
+Marius Sophus Lie (1842 – 1899)
+-------------------------------
+
+*Norwegian Mathematician, Founder of Continuous Transformation Groups*
+
+Klein's closest collaborator during 1869–1872 in Berlin and Paris; discovered contact transformations and Lie's sphere geometry mapping lines into spheres (§§ 7 & 9 of the Erlangen Program) and co-inspired Klein's group-theoretic synthesis.
+
+.. _person-beman:
+
+Wooster Woodruff Beman (1850 – 1922)
+------------------------------------
+
+*American Mathematician (University of Michigan)*
+
+Co-translator, with David Eugene Smith, of the authorized 1897 Ginn & Company English edition of Klein's Famous Problems of Elementary Geometry, as well as Dedekind's Essays on the Theory of Numbers.
+
+.. _person-smith:
+
+David Eugene Smith (1860 – 1944)
+--------------------------------
+
+*American Historian of Mathematics & Educator*
+
+Professor at Michigan State Normal School and later Teachers College, Columbia University; co-translator with W. W. Beman of Klein's Famous Problems of Elementary Geometry (1897).
+
+.. _person-haskell:
+
+Mellen Woodman Haskell (1863 – 1948)
+------------------------------------
+
+*American Mathematician (UC Berkeley) & Doctoral Student of Klein*
+
+Studied under Felix Klein at Göttingen and published the authorized 1893 English translation of the Erlangen Program ('A Comparative Review of Recent Researches in Geometry') in the Bulletin of the New York Mathematical Society.
+----
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-hurwitz:
 
@@ -120,15 +173,6 @@ Christiaan Huygens (1629 – 1695)
 
 Refined Archimedean polygon bounds in De circuli magnitudine inventa (1654), obtaining dramatically sharper rational enclosures for pi (Part II, Ch. II, § 2).
 
-.. _person-smith:
-
-David Eugene Smith (1860 – 1944)
---------------------------------
-
-*American Historian of Mathematics & Educator*
-
-Professor at Michigan State Normal School and later Teachers College, Columbia University; co-translator with W. W. Beman of Klein's Famous Problems of Elementary Geometry (1897).
-
 .. _person-hilbert:
 
 David Hilbert (1862 – 1943)
@@ -164,15 +208,6 @@ Eugenio Beltrami (1835 – 1900)
 *Italian Differential Geometer*
 
 Modeled hyperbolic geometry on pseudospherical surfaces and geodesic projective disks (1868) and studied conformal invariants in higher dimensions (Erlangen § 6 & Note V).
-
-.. _person-klein:
-
-Felix Christian Klein (1849 – 1925)
------------------------------------
-
-*German Geometer, Group Theorist & Architect of the Göttingen School*
-
-Professor of Mathematics at Erlangen (1872), Munich, Leipzig, and Göttingen (from 1886). Formulated the Erlangen Program (Vergleichende Betrachtungen über neuere geometrische Forschungen, 1872), classifying every geometry as the invariant theory of a transformation group, unified non-Euclidean metrics under Cayley's projective Absolute (1871–1873), and delivered the 1895 Göttingen lectures on Famous Problems of Elementary Geometry synthesizing Gauss-Wantzel constructibility with Hermite-Lindemann-Gordan transcendence proofs.
 
 .. _person-eisenstein:
 
@@ -417,24 +452,6 @@ Luigi Cremona (1830 – 1903)
 
 Developed the theory of birational (Cremona) transformations of the plane and 3-space, examined as an infinite-parameter algebraic group in § 8.1 of the Erlangen Program.
 
-.. _person-lie:
-
-Marius Sophus Lie (1842 – 1899)
--------------------------------
-
-*Norwegian Mathematician, Founder of Continuous Transformation Groups*
-
-Klein's closest collaborator during 1869–1872 in Berlin and Paris; discovered contact transformations and Lie's sphere geometry mapping lines into spheres (§§ 7 & 9 of the Erlangen Program) and co-inspired Klein's group-theoretic synthesis.
-
-.. _person-haskell:
-
-Mellen Woodman Haskell (1863 – 1948)
-------------------------------------
-
-*American Mathematician (UC Berkeley) & Doctoral Student of Klein*
-
-Studied under Felix Klein at Göttingen and published the authorized 1893 English translation of the Erlangen Program ('A Comparative Review of Recent Researches in Geometry') in the Bulletin of the New York Mathematical Society.
-
 .. _person-chasles:
 
 Michel Chasles (1793 – 1880)
@@ -542,15 +559,6 @@ T. Sundara Row (Rao) (1853 – ?)
 *Indian Mathematician (Madras)*
 
 Author of Geometrical Exercises in Paper Folding (Madras: Addison & Co., 1893), commended by Klein in Famous Problems Part I, Ch. V, § 1, triggering international interest in origami geometry.
-
-.. _person-beman:
-
-Wooster Woodruff Beman (1850 – 1922)
-------------------------------------
-
-*American Mathematician (University of Michigan)*
-
-Co-translator, with David Eugene Smith, of the authorized 1897 Ginn & Company English edition of Klein's Famous Problems of Elementary Geometry, as well as Dedekind's Essays on the Theory of Numbers.
 
 .. _person-lemoine:
 
