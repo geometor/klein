@@ -48,7 +48,7 @@ from .heptadecagon import (
     construct_gauss_17gon_periods,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     "ERLANGEN_UNITS",
