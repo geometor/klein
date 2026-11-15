@@ -44,6 +44,9 @@ Im Gegensatze zu der zu Anfang des Paragraphen aufgeworfenen Frage beschäftige 
 
 In diesem Satze beruht die Eigenart der hier zu besprechenden neueren geometrischen Richtungen und ihr Verhältniss zur elementaren Methode. Sie sind dadurch eben zu characterisiren, dass sie an Stelle der Hauptgruppe eine erweiterte Gruppe räumlicher Umformungen der Betrachtung zu Grunde legen. Ihr gegenseitiges Verhältniss ist, sofern sich ihre Gruppen einschliessen, durch einen entsprechenden Satz bestimmt. Dasselbe gilt von den verschiedenen hier zu betrachtenden Behandlungsweisen mehrfach ausgedehnter Mannigfaltigkeiten. Es soll dies nun an den einzelnen Methoden gezeigt werden, wobei denn die Sätze, die in diesem und dem vorigen Paragraphen allgemein hingestellt wurden, ihre Erläuterung an concreten Gegenständen finden.
 
+.. picture:: /_static/figures/fig_erlangen_hierarchy.svg
+   :alt: Stufenweise Adjunktion der Transformationsgruppen im Erlanger Programm (Hauptgruppe, Affin, Projectiv)
+
 ----
 
 .. rubric:: Fußnoten (1872)

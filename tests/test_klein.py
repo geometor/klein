@@ -48,7 +48,7 @@ def _extract_role_keys(rst_text: str, role: str) -> list[str]:
 
 def test_codex_audit_and_apparatus_integrity() -> None:
     """Verify all 64 4-track RST files, zero embedded .py in resources/, and apparatus keys."""
-    assert __version__ == "0.1.2"
+    assert __version__ == "0.1.3"
     rep = audit_codex()
     assert rep.is_valid is True
     assert rep.famous_problems_units == 10
