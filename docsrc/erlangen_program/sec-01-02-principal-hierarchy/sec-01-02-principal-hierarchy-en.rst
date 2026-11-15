@@ -44,6 +44,9 @@ Let us now consider the converse of the problem proposed at the beginning of thi
 
 In this theorem is to be found the peculiarity of the recent geometrical methods to be discussed here, and their relation to the elementary method. What characterizes them is just this, that they base their investigations upon an extended group of space-transformations instead of upon the principal group. Their relation to each other is defined, when one of the groups includes the other, by a corresponding theorem. The same is true of the various methods of treating manifoldnesses of $n$ dimensions which we shall take up. We shall now consider the separate methods from this point of view, and this will afford an opportunity to explain on concrete examples the theorems enunciated in a general form in this and the preceding sections.
 
+.. picture:: /_static/figures/fig_erlangen_hierarchy.svg
+   :alt: Nested Transformation Group Hierarchy of the Erlangen Program (Similarity, Affine, Projective)
+
 ----
 
 .. rubric:: Footnotes (1893 Edition)
