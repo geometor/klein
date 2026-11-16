@@ -28,24 +28,36 @@ TRACK_SUFFIXES: tuple[str, ...] = ("en", "de", "summary", "notes")
 
 FAMOUS_PROBLEMS_UNITS: tuple[str, ...] = (
     "intro",
-    "part1-ch1-square-roots",
-    "part1-ch2-delian-trisection",
-    "part1-ch3-cyclotomy",
-    "part1-ch4-heptadecagon",
-    "part1-ch5-higher-constructions",
-    "part2-ch1-cantor",
-    "part2-ch2-history-pi",
-    "part2-ch3-hermite-e",
-    "part2-ch4-lindemann-pi",
+    "part_1/ch_01",
+    "part_1/ch_02",
+    "part_1/ch_03",
+    "part_1/ch_04",
+    "part_1/ch_05",
+    "part_2/ch_01",
+    "part_2/ch_02",
+    "part_2/ch_03",
+    "part_2/ch_04",
 )
 
 ERLANGEN_UNITS: tuple[str, ...] = (
     "prefatory-intro",
-    "sec-01-02-principal-hierarchy",
-    "sec-03-05-projective-transference",
-    "sec-06-07-inversion-lie-spheres",
-    "sec-08-10-higher-groups-manifolds",
-    "notes-i-vii",
+    "sec_01",
+    "sec_02",
+    "sec_03",
+    "sec_04",
+    "sec_05",
+    "sec_06",
+    "sec_07",
+    "sec_08",
+    "sec_09",
+    "sec_10",
+    "notes/note_01",
+    "notes/note_02",
+    "notes/note_03",
+    "notes/note_04",
+    "notes/note_05",
+    "notes/note_06",
+    "notes/note_07",
 )
 
 SISTER_CORPORA: tuple[str, ...] = (
@@ -78,7 +90,7 @@ class CodexAuditReport:
 
     @property
     def is_valid(self) -> bool:
-        """Return ``True`` iff all 64 track files and apparatus constraints pass."""
+        """Return ``True`` iff all 112 track files and apparatus constraints pass."""
         return (
             not self.missing_track_files
             and not self.embedded_py_files_in_resources
@@ -126,14 +138,16 @@ def audit_codex(repo_root: Path = REPO_ROOT) -> CodexAuditReport:
     missing: list[str] = []
 
     for slug in FAMOUS_PROBLEMS_UNITS:
+        leaf = Path(slug).name
         for suf in TRACK_SUFFIXES:
-            f_path = docsrc / "famous_problems" / slug / f"{slug}-{suf}.rst"
+            f_path = docsrc / "famous_problems" / slug / f"{leaf}-{suf}.rst"
             if not f_path.is_file():
                 missing.append(str(f_path.relative_to(repo_root)))
 
     for slug in ERLANGEN_UNITS:
+        leaf = Path(slug).name
         for suf in TRACK_SUFFIXES:
-            f_path = docsrc / "erlangen_program" / slug / f"{slug}-{suf}.rst"
+            f_path = docsrc / "erlangen_program" / slug / f"{leaf}-{suf}.rst"
             if not f_path.is_file():
                 missing.append(str(f_path.relative_to(repo_root)))
 

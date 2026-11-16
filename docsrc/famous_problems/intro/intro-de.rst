@@ -1,5 +1,8 @@
 :title: Vorwort & Einleitung (1895 Deutsch)
 :layout: book
+:canonical_id: Intro
+:order: 1
+:tracks: English: intro-en | Deutsch: intro-de | Summary: intro-summary | Notes: intro-notes
 
 .. _fp-intro-de:
 

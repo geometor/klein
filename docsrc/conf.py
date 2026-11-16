@@ -32,8 +32,10 @@ repo_name = "klein"
 
 setup_globals(org, org_name, repo, repo_name)
 
-project = "GEOMETOR • klein"
-author = "Felix Klein • Digital Edition GEOMETOR"
+site_title = "Felix Klein"
+project = site_title
+html_title = f"{site_title} • {org_name}"
+author = "Felix Klein"
 copyright = (
     "1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR"
 )

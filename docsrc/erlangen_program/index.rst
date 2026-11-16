@@ -1,11 +1,14 @@
+:type: book
 :navigation: header
 :order: 2
 :nav_title: Erlangen Program
+:breadcrumb_title: Erlangen Program
 :layout: book
 :book_title: The Erlangen Program
 :book_subtitle: Vergleichende Betrachtungen über neuere geometrische Forschungen — Felix Klein (1872 / tr. M. W. Haskell, 1893)
 :author: Felix Klein
 :year: 1872 / 1893
+:excerpt: Klein's landmark inaugural monograph synthesizing geometry through the invariant theory of transformation groups.
 
 .. _ep-index:
 
@@ -39,23 +42,21 @@ The Erlangen Program
 Table of Contents
 -----------------
 
-**Unit 1 — Prefatory Note & Introduction** (*Vorbemerkung 1872/1893 & Einleitung*)
-   :ref:`English (1893) <ep-prefatory-intro-en>` · :ref:`Deutsch (1872) <ep-prefatory-intro-de>` · :ref:`Summary <ep-prefatory-intro-summary>` · :ref:`Notes <ep-prefatory-intro-notes>`
+.. collection::
+   :sort: order
 
-**Unit 2 — §§ 1–2: The Principal Group and Adjoined Transformation Hierarchy** (*§§ 1–2: Gruppen von Raumtransformationen, Hauptgruppe und stufenweise Adjunktion*)
-   :ref:`English (1893) <ep-sec-01-02-principal-hierarchy-en>` · :ref:`Deutsch (1872) <ep-sec-01-02-principal-hierarchy-de>` · :ref:`Summary <ep-sec-01-02-principal-hierarchy-summary>` · :ref:`Notes <ep-sec-01-02-principal-hierarchy-notes>`
-
-**Unit 3 — §§ 3–5: Projective Geometry, Representation & Choice of Space-Element** (*§§ 3–5: Projektivische Geometrie, Übertragung durch Abbildung und Willkür in der Wahl des Raumelements*)
-   :ref:`English (1893) <ep-sec-03-05-projective-transference-en>` · :ref:`Deutsch (1872) <ep-sec-03-05-projective-transference-de>` · :ref:`Summary <ep-sec-03-05-projective-transference-summary>` · :ref:`Notes <ep-sec-03-05-projective-transference-notes>`
-
-**Unit 4 — §§ 6–7: Geometry of Reciprocal Radii and Lie's Sphere Geometry** (*§§ 6–7: Die Geometrie der reciproken Radien, x + iy und Lie's Kugelgeometrie*)
-   :ref:`English (1893) <ep-sec-06-07-inversion-lie-spheres-en>` · :ref:`Deutsch (1872) <ep-sec-06-07-inversion-lie-spheres-de>` · :ref:`Summary <ep-sec-06-07-inversion-lie-spheres-summary>` · :ref:`Notes <ep-sec-06-07-inversion-lie-spheres-notes>`
-
-**Unit 5 — §§ 8–10: Birational, Topological, Contact & Manifold Groups** (*§§ 8–10 & Schlussbemerkungen: Rationale Transformationen, Analysis situs, Berührungstransformationen und Mannigfaltigkeiten*)
-   :ref:`English (1893) <ep-sec-08-10-higher-groups-manifolds-en>` · :ref:`Deutsch (1872) <ep-sec-08-10-higher-groups-manifolds-de>` · :ref:`Summary <ep-sec-08-10-higher-groups-manifolds-summary>` · :ref:`Notes <ep-sec-08-10-higher-groups-manifolds-notes>`
-
-**Unit 6 — Notes I–VII: Historical & Foundational Appendices (Non-Euclidean Metrics)** (*Noten I–VII, einschl. Note V: Über die sogenannte Nicht-Euklidische Geometrie*)
-   :ref:`English (1893) <ep-notes-i-vii-en>` · :ref:`Deutsch (1872) <ep-notes-i-vii-de>` · :ref:`Summary <ep-notes-i-vii-summary>` · :ref:`Notes <ep-notes-i-vii-notes>`
+   :doc: prefatory-intro/prefatory-intro-en
+   :doc: sec_01/sec_01-en
+   :doc: sec_02/sec_02-en
+   :doc: sec_03/sec_03-en
+   :doc: sec_04/sec_04-en
+   :doc: sec_05/sec_05-en
+   :doc: sec_06/sec_06-en
+   :doc: sec_07/sec_07-en
+   :doc: sec_08/sec_08-en
+   :doc: sec_09/sec_09-en
+   :doc: sec_10/sec_10-en
+   :doc: notes/index
 
 Scholarly Apparatus
 -------------------
@@ -71,11 +72,17 @@ Scholarly Apparatus
    :caption: English Edition (1893)
 
    prefatory-intro/prefatory-intro-en
-   sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-en
-   sec-03-05-projective-transference/sec-03-05-projective-transference-en
-   sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-en
-   sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-en
-   notes-i-vii/notes-i-vii-en
+   sec_01/sec_01-en
+   sec_02/sec_02-en
+   sec_03/sec_03-en
+   sec_04/sec_04-en
+   sec_05/sec_05-en
+   sec_06/sec_06-en
+   sec_07/sec_07-en
+   sec_08/sec_08-en
+   sec_09/sec_09-en
+   sec_10/sec_10-en
+   notes/index
 
 .. toctree::
    :maxdepth: 1
@@ -83,11 +90,17 @@ Scholarly Apparatus
    :caption: Deutsche Ausgabe (1872)
 
    prefatory-intro/prefatory-intro-de
-   sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-de
-   sec-03-05-projective-transference/sec-03-05-projective-transference-de
-   sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-de
-   sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-de
-   notes-i-vii/notes-i-vii-de
+   sec_01/sec_01-de
+   sec_02/sec_02-de
+   sec_03/sec_03-de
+   sec_04/sec_04-de
+   sec_05/sec_05-de
+   sec_06/sec_06-de
+   sec_07/sec_07-de
+   sec_08/sec_08-de
+   sec_09/sec_09-de
+   sec_10/sec_10-de
+   notes/index
 
 .. toctree::
    :maxdepth: 1
@@ -95,11 +108,17 @@ Scholarly Apparatus
    :caption: Analytical Summaries
 
    prefatory-intro/prefatory-intro-summary
-   sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-summary
-   sec-03-05-projective-transference/sec-03-05-projective-transference-summary
-   sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-summary
-   sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-summary
-   notes-i-vii/notes-i-vii-summary
+   sec_01/sec_01-summary
+   sec_02/sec_02-summary
+   sec_03/sec_03-summary
+   sec_04/sec_04-summary
+   sec_05/sec_05-summary
+   sec_06/sec_06-summary
+   sec_07/sec_07-summary
+   sec_08/sec_08-summary
+   sec_09/sec_09-summary
+   sec_10/sec_10-summary
+   notes/index
 
 .. toctree::
    :maxdepth: 1
@@ -107,8 +126,14 @@ Scholarly Apparatus
    :caption: Critical & Symbolic Notes
 
    prefatory-intro/prefatory-intro-notes
-   sec-01-02-principal-hierarchy/sec-01-02-principal-hierarchy-notes
-   sec-03-05-projective-transference/sec-03-05-projective-transference-notes
-   sec-06-07-inversion-lie-spheres/sec-06-07-inversion-lie-spheres-notes
-   sec-08-10-higher-groups-manifolds/sec-08-10-higher-groups-manifolds-notes
-   notes-i-vii/notes-i-vii-notes
+   sec_01/sec_01-notes
+   sec_02/sec_02-notes
+   sec_03/sec_03-notes
+   sec_04/sec_04-notes
+   sec_05/sec_05-notes
+   sec_06/sec_06-notes
+   sec_07/sec_07-notes
+   sec_08/sec_08-notes
+   sec_09/sec_09-notes
+   sec_10/sec_10-notes
+   notes/index

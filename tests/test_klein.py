@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from pathlib import Path
 import re
 
 import pytest
@@ -47,13 +48,13 @@ def _extract_role_keys(rst_text: str, role: str) -> list[str]:
 
 
 def test_codex_audit_and_apparatus_integrity() -> None:
-    """Verify all 64 4-track RST files, zero embedded .py in resources/, and apparatus keys."""
+    """Verify all 112 4-track RST files, zero embedded .py in resources/, and apparatus keys."""
     assert __version__ == "0.1.3"
     rep = audit_codex()
     assert rep.is_valid is True
     assert rep.famous_problems_units == 10
-    assert rep.erlangen_units == 6
-    assert rep.total_track_files == 64
+    assert rep.erlangen_units == 18
+    assert rep.total_track_files == 112
     assert rep.missing_track_files == ()
     assert rep.embedded_py_files_in_resources == ()
     assert set(rep.linked_sister_corpora) == set(SISTER_CORPORA)
@@ -74,18 +75,20 @@ def test_codex_audit_and_apparatus_integrity() -> None:
 
     # Verify every Book 1 and Book 2 track file has :layout: book and exact anchor
     for slug in FAMOUS_PROBLEMS_UNITS:
+        leaf = Path(slug).name
         for suf in TRACK_SUFFIXES:
-            p = docsrc / "famous_problems" / slug / f"{slug}-{suf}.rst"
+            p = docsrc / "famous_problems" / slug / f"{leaf}-{suf}.rst"
             txt = p.read_text(encoding="utf-8")
             assert ":layout: book" in txt, f"Missing :layout: book in {p}"
-            assert f".. _fp-{slug}-{suf}:" in txt, f"Missing anchor .. _fp-{slug}-{suf}: in {p}"
+            assert f".. _fp-{leaf}-{suf}:" in txt, f"Missing anchor .. _fp-{leaf}-{suf}: in {p}"
 
     for slug in ERLANGEN_UNITS:
+        leaf = Path(slug).name
         for suf in TRACK_SUFFIXES:
-            p = docsrc / "erlangen_program" / slug / f"{slug}-{suf}.rst"
+            p = docsrc / "erlangen_program" / slug / f"{leaf}-{suf}.rst"
             txt = p.read_text(encoding="utf-8")
             assert ":layout: book" in txt, f"Missing :layout: book in {p}"
-            assert f".. _ep-{slug}-{suf}:" in txt, f"Missing anchor .. _ep-{slug}-{suf}: in {p}"
+            assert f".. _ep-{leaf}-{suf}:" in txt, f"Missing anchor .. _ep-{leaf}-{suf}: in {p}"
 
     # Verify every :person:, :cite:, and :term: across all RST files resolves cleanly
     for rst_file in sorted(docsrc.rglob("*.rst")):
@@ -309,4 +312,4 @@ def test_cli_entrypoints_json(capsys: pytest.CaptureFixture[str]) -> None:
     assert rc_aud == 0
     aud_data = json.loads(capsys.readouterr().out)
     assert aud_data["is_valid"] is True
-    assert aud_data["total_track_files"] == 64
+    assert aud_data["total_track_files"] == 112
