@@ -60,6 +60,7 @@ Mellen Woodman Haskell (1863 – 1948)
 *American Mathematician (UC Berkeley) & Doctoral Student of Klein*
 
 Studied under Felix Klein at Göttingen and published the authorized 1893 English translation of the Erlangen Program ('A Comparative Review of Recent Researches in Geometry') in the Bulletin of the New York Mathematical Society.
+
 ----
 
 Cited Geometers, Philosophers & Scholars

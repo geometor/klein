@@ -55,12 +55,12 @@ Module Contents
 
 .. py:data:: FAMOUS_PROBLEMS_UNITS
    :type:  tuple[str, ...]
-   :value: ('intro', 'part1-ch1-square-roots', 'part1-ch2-delian-trisection', 'part1-ch3-cyclotomy',...
+   :value: ('intro', 'part_1/ch_01', 'part_1/ch_02', 'part_1/ch_03', 'part_1/ch_04', 'part_1/ch_05',...
 
 
 .. py:data:: ERLANGEN_UNITS
    :type:  tuple[str, ...]
-   :value: ('prefatory-intro', 'sec-01-02-principal-hierarchy', 'sec-03-05-projective-transference',...
+   :value: ('prefatory-intro', 'sec_01', 'sec_02', 'sec_03', 'sec_04', 'sec_05', 'sec_06', 'sec_07',...
 
 
 .. py:data:: SISTER_CORPORA
@@ -117,7 +117,7 @@ Module Contents
       :type: bool
 
 
-      Return ``True`` iff all 64 track files and apparatus constraints pass.
+      Return ``True`` iff all 112 track files and apparatus constraints pass.
 
 
 .. py:function:: load_persons(repo_root: pathlib.Path = REPO_ROOT) -> dict[str, dict[str, str]]
