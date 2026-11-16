@@ -4,13 +4,13 @@
 
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 ===========
 Felix Klein
 ===========
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Felix Klein <klein>` (1849–1925), the German mathematician whose *Erlangen Program* and *Famous Problems of Elementary Geometry* reorganized modern geometry through transformation groups and algebraic constructibility.
+The works of :person:`Felix Klein <klein>` (1849–1925) reorganized modern geometry through transformation groups and algebraic constructibility, establishing the Erlangen Program and resolving classical compass-and-straightedge problems. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these foundational treatises are liberated from static print bounds into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and exact symbolic algebra speaking one shared geometric language.
 
 .. collection::
    :type: book
