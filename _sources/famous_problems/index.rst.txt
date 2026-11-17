@@ -4,10 +4,12 @@
 :nav_title: Famous Problems
 :breadcrumb_title: Famous Problems
 :layout: book
+:title: Famous Problems of Elementary Geometry
 :book_title: Famous Problems of Elementary Geometry
 :book_subtitle: Vorträge über ausgewählte Fragen der Elementargeometrie — Felix Klein (1895 / tr. Beman & Smith, 1897)
 :author: Felix Klein
 :year: 1895 / 1897
+:tracks: English: index | German: title-de
 :excerpt: Klein's celebrated lectures establishing the algebraic criteria for geometric constructibility and proving the transcendence of e and π.
 
 .. _fp-index:
@@ -31,11 +33,9 @@ Famous Problems of Elementary Geometry
 
 .. epigraph::
 
-   „Eine analytische Größe ist dann und nur dann mit Zirkel und Lineal konstruierbar, wenn sie aus den bekannten Größen durch eine endliche Anzahl rationaler Operationen und Quadratwurzelausziehungen abgeleitet werden kann.“
-
    “An analytic expression is constructible with straightedge and compasses if, and only if, it can be derived from the known quantities by a finite number of rational operations and square roots.”
 
-   — :person:`Felix Klein <klein>`, *Einleitung / Introduction* (1895, S. 3 · 1897, p. 4)
+   — :person:`Felix Klein <klein>`, *Introduction* (1895, S. 3 · 1897, p. 4)
 
 ----
 
@@ -60,7 +60,7 @@ Scholarly Apparatus
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: English Edition (1897)
+   :caption: English Edition
 
    intro/intro-en
    part_1/index
@@ -69,7 +69,7 @@ Scholarly Apparatus
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Deutsche Ausgabe (1895)
+   :caption: German Edition
 
    intro/intro-de
    part_1/index
@@ -92,3 +92,10 @@ Scholarly Apparatus
    intro/intro-notes
    part_1/index
    part_2/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-de

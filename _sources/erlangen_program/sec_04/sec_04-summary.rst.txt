@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 4
 :order: 5
-:tracks: English: sec_04-en | Deutsch: sec_04-de | Summary: sec_04-summary | Notes: sec_04-notes
+:tracks: English: sec_04-en | German: sec_04-de | Summary: sec_04-summary | Notes: sec_04-notes
 
 .. _ep-sec_04-summary:
 .. _ep-sec-04-summary:

@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Ch. I
 :order: 1
-:tracks: English: ch_01-en | Deutsch: ch_01-de | Summary: ch_01-summary | Notes: ch_01-notes
+:tracks: English: ch_01-en | German: ch_01-de | Summary: ch_01-summary | Notes: ch_01-notes
 
 .. _fp-part_2-ch_01-en:
 .. _fp-part2-ch_01-en:

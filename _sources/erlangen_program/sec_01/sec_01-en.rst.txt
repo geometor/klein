@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 1
 :order: 2
-:tracks: English: sec_01-en | Deutsch: sec_01-de | Summary: sec_01-summary | Notes: sec_01-notes
+:tracks: English: sec_01-en | German: sec_01-de | Summary: sec_01-summary | Notes: sec_01-notes
 
 .. _ep-sec_01-en:
 .. _ep-sec-01-en:

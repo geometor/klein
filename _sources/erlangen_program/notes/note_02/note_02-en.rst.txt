@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note II
 :order: 2
-:tracks: English: note_02-en | Deutsch: note_02-de | Summary: note_02-summary | Notes: note_02-notes
+:tracks: English: note_02-en | German: note_02-de | Summary: note_02-summary | Notes: note_02-notes
 
 .. _ep-note_02-en:
 .. _ep-note-02-en:

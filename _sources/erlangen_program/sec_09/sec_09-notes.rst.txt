@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 9
 :order: 10
-:tracks: English: sec_09-en | Deutsch: sec_09-de | Summary: sec_09-summary | Notes: sec_09-notes
+:tracks: English: sec_09-en | German: sec_09-de | Summary: sec_09-summary | Notes: sec_09-notes
 
 .. _ep-sec_09-notes:
 .. _ep-sec-09-notes:

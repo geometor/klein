@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Ch. IV
 :order: 4
-:tracks: English: ch_04-en | Deutsch: ch_04-de | Summary: ch_04-summary | Notes: ch_04-notes
+:tracks: English: ch_04-en | German: ch_04-de | Summary: ch_04-summary | Notes: ch_04-notes
 
 .. _fp-part_1-ch_04-notes:
 .. _fp-part1-ch_04-notes:

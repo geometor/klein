@@ -39,7 +39,7 @@ Notes I–VII: Historical & Foundational Appendices
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Deutsche Ausgabe (1872)
+   :caption: German Edition
 
    note_01/note_01-de
    note_02/note_02-de
