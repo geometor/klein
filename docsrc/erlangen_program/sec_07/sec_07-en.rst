@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 7
 :order: 8
-:tracks: English: sec_07-en | Deutsch: sec_07-de | Summary: sec_07-summary | Notes: sec_07-notes
+:tracks: English: sec_07-en | German: sec_07-de | Summary: sec_07-summary | Notes: sec_07-notes
 
 .. _ep-sec_07-en:
 .. _ep-sec-07-en:

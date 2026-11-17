@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Intro
 :order: 1
-:tracks: English: prefatory-intro-en | Deutsch: prefatory-intro-de | Summary: prefatory-intro-summary | Notes: prefatory-intro-notes
+:tracks: English: prefatory-intro-en | German: prefatory-intro-de | Summary: prefatory-intro-summary | Notes: prefatory-intro-notes
 
 .. _ep-prefatory-intro-en:
 

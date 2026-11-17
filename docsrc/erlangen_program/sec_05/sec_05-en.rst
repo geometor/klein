@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 5
 :order: 6
-:tracks: English: sec_05-en | Deutsch: sec_05-de | Summary: sec_05-summary | Notes: sec_05-notes
+:tracks: English: sec_05-en | German: sec_05-de | Summary: sec_05-summary | Notes: sec_05-notes
 
 .. _ep-sec_05-en:
 .. _ep-sec-05-en:

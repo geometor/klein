@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 3
 :order: 4
-:tracks: English: sec_03-en | Deutsch: sec_03-de | Summary: sec_03-summary | Notes: sec_03-notes
+:tracks: English: sec_03-en | German: sec_03-de | Summary: sec_03-summary | Notes: sec_03-notes
 
 .. _ep-sec_03-en:
 .. _ep-sec-03-en:

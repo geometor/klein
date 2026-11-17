@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Ch. V
 :order: 5
-:tracks: English: ch_05-en | Deutsch: ch_05-de | Summary: ch_05-summary | Notes: ch_05-notes
+:tracks: English: ch_05-en | German: ch_05-de | Summary: ch_05-summary | Notes: ch_05-notes
 
 .. _fp-part_1-ch_05-notes:
 .. _fp-part1-ch_05-notes:

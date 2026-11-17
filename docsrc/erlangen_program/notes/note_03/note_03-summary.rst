@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note III
 :order: 3
-:tracks: English: note_03-en | Deutsch: note_03-de | Summary: note_03-summary | Notes: note_03-notes
+:tracks: English: note_03-en | German: note_03-de | Summary: note_03-summary | Notes: note_03-notes
 
 .. _ep-note_03-summary:
 .. _ep-note-03-summary:

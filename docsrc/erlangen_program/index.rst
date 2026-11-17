@@ -4,10 +4,12 @@
 :nav_title: Erlangen Program
 :breadcrumb_title: Erlangen Program
 :layout: book
+:title: The Erlangen Program
 :book_title: The Erlangen Program
 :book_subtitle: Vergleichende Betrachtungen über neuere geometrische Forschungen — Felix Klein (1872 / tr. M. W. Haskell, 1893)
 :author: Felix Klein
 :year: 1872 / 1893
+:tracks: English: index | German: title-de
 :excerpt: Klein's landmark inaugural monograph synthesizing geometry through the invariant theory of transformation groups.
 
 .. _ep-index:
@@ -30,8 +32,6 @@ The Erlangen Program
    | **Digital Edition:** Synchronized 4-Track Edition (*English · German · Summary · Notes*) with exact symbolic verifiers
 
 .. epigraph::
-
-   „Es ist eine Mannigfaltigkeit und in derselben eine Transformationsgruppe gegeben; man soll die der Mannigfaltigkeit angehörigen Gebilde hinsichtlich solcher Eigenschaften untersuchen, die durch die Transformationen der Gruppe nicht geändert werden.“
 
    “Given a manifoldness and a group of transformations of the same; to investigate the configurations belonging to the manifoldness with regard to such properties as are not altered by the transformations of the group.”
 
@@ -69,7 +69,7 @@ Scholarly Apparatus
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: English Edition (1893)
+   :caption: English Edition
 
    prefatory-intro/prefatory-intro-en
    sec_01/sec_01-en
@@ -87,7 +87,7 @@ Scholarly Apparatus
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Deutsche Ausgabe (1872)
+   :caption: German Edition
 
    prefatory-intro/prefatory-intro-de
    sec_01/sec_01-de
@@ -137,3 +137,10 @@ Scholarly Apparatus
    sec_09/sec_09-notes
    sec_10/sec_10-notes
    notes/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-de

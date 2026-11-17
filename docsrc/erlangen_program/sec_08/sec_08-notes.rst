@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: § 8
 :order: 9
-:tracks: English: sec_08-en | Deutsch: sec_08-de | Summary: sec_08-summary | Notes: sec_08-notes
+:tracks: English: sec_08-en | German: sec_08-de | Summary: sec_08-summary | Notes: sec_08-notes
 
 .. _ep-sec_08-notes:
 .. _ep-sec-08-notes:

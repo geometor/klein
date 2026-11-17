@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Ch. III
 :order: 3
-:tracks: English: ch_03-en | Deutsch: ch_03-de | Summary: ch_03-summary | Notes: ch_03-notes
+:tracks: English: ch_03-en | German: ch_03-de | Summary: ch_03-summary | Notes: ch_03-notes
 
 .. _fp-part_1-ch_03-en:
 .. _fp-part1-ch_03-en:

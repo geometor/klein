@@ -3,6 +3,11 @@ GEOMETOR • klein
 
 **Visit the Online Archive:** https://geometor.github.io/klein/
 
+.. image:: docsrc/_static/figures/fig_cayley_klein_metric.svg
+   :alt: GEOMETOR • klein featured geometric construction
+   :target: https://geometor.github.io/klein/
+   :align: center
+
 **Felix Klein • Erlangen Program, Famous Problems of Elementary Geometry • semantic digital archive**
 
 Mission

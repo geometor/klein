@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note V
 :order: 5
-:tracks: English: note_05-en | Deutsch: note_05-de | Summary: note_05-summary | Notes: note_05-notes
+:tracks: English: note_05-en | German: note_05-de | Summary: note_05-summary | Notes: note_05-notes
 
 .. _ep-note_05-en:
 .. _ep-note-05-en:

@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Ch. II
 :order: 2
-:tracks: English: ch_02-en | Deutsch: ch_02-de | Summary: ch_02-summary | Notes: ch_02-notes
+:tracks: English: ch_02-en | German: ch_02-de | Summary: ch_02-summary | Notes: ch_02-notes
 
 .. _fp-part_2-ch_02-de:
 .. _fp-part2-ch_02-de:

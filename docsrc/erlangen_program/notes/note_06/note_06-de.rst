@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note VI
 :order: 6
-:tracks: English: note_06-en | Deutsch: note_06-de | Summary: note_06-summary | Notes: note_06-notes
+:tracks: English: note_06-en | German: note_06-de | Summary: note_06-summary | Notes: note_06-notes
 
 .. _ep-note_06-de:
 .. _ep-note-06-de:

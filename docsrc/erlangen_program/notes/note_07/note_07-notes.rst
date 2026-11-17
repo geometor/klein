@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note VII
 :order: 7
-:tracks: English: note_07-en | Deutsch: note_07-de | Summary: note_07-summary | Notes: note_07-notes
+:tracks: English: note_07-en | German: note_07-de | Summary: note_07-summary | Notes: note_07-notes
 
 .. _ep-note_07-notes:
 .. _ep-note-07-notes:

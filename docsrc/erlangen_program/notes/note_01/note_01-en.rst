@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note I
 :order: 1
-:tracks: English: note_01-en | Deutsch: note_01-de | Summary: note_01-summary | Notes: note_01-notes
+:tracks: English: note_01-en | German: note_01-de | Summary: note_01-summary | Notes: note_01-notes
 
 .. _ep-note_01-en:
 .. _ep-note-01-en:

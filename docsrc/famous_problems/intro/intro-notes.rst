@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Intro
 :order: 1
-:tracks: English: intro-en | Deutsch: intro-de | Summary: intro-summary | Notes: intro-notes
+:tracks: English: intro-en | German: intro-de | Summary: intro-summary | Notes: intro-notes
 
 .. _fp-intro-notes:
 

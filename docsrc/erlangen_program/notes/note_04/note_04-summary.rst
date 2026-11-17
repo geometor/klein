@@ -2,7 +2,7 @@
 :layout: book
 :canonical_id: Note IV
 :order: 4
-:tracks: English: note_04-en | Deutsch: note_04-de | Summary: note_04-summary | Notes: note_04-notes
+:tracks: English: note_04-en | German: note_04-de | Summary: note_04-summary | Notes: note_04-notes
 
 .. _ep-note_04-summary:
 .. _ep-note-04-summary:
