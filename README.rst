@@ -48,17 +48,6 @@ Python API Quickstart
    ck = verify_cayley_klein_additivity()
    assert ck.multiplicative_identity_residual == 0
 
-Python Package & Modules
-------------------------
-
-The ``geometor-klein`` Python package (``import geometor.klein``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``codex.py`` — Codex apparatus, source manifest, and cross-corpus concordance utilities for ``geometor.klein``.
-- ``constructibility.py`` — Exact symbolic constructibility analyzer for Felix Klein's *Famous Problems* (1895 / 1897).
-- ``erlangen.py`` — Exact symbolic verification of Felix Klein's *Erlangen Program* (1872 / 1893) group hierarchy.
-- ``heptadecagon.py`` — Exact Gaussian period tower and von Staudt–Schröter–Klein construction of the regular 17-gon.
-
-See the `API Reference <https://geometor.github.io/klein/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
