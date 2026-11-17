@@ -52,7 +52,7 @@ Table of Contents
 Scholarly Apparatus
 -------------------
 
-* :doc:`People </persons>` — Prosopographical register of 52 geometers, algebraists, and translators.
+* :doc:`People </people/index>` — Prosopographical register of 52 geometers, algebraists, and translators.
 * :doc:`Bibliography </bibliography>` — Systematic bibliography of 36 primary imprints, editions, and sister treatises.
 * :doc:`Concordance </concordance>` — Cross-corpus concordance across nine GEOMETOR sister repositories.
 * :doc:`Glossary </glossary>` — Bilingual technical glossary defining foundational concepts.

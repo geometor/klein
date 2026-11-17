@@ -63,7 +63,7 @@ People, Bibliography & Glossary Tooltips
 
 Rich interconnected registers provide immediate context:
 
-* **People (``:person:``)**: Hover or click names like :person:`Sophus Lie <lie>`, :person:`David Hilbert <hilbert>`, or :person:`Carl Friedrich Gauss <gauss>` to open detailed biographies in :doc:`/persons`.
+* **People (``:person:``)**: Hover or click names like :person:`Sophus Lie <lie>`, :person:`David Hilbert <hilbert>`, or :person:`Carl Friedrich Gauss <gauss>` to open detailed biographies in :doc:`/people/index`.
 * **Citations (``:cite:``)**: Citations connect directly to full bibliographical records in :doc:`/bibliography`.
 * **Terms (``:term:``)**: Foundational concepts like :term:`group of transformations <transformation-group>`, :term:`manifold <manifold>`, and :term:`reciprocal radii <reciprocal-radii>` link to definitions in :doc:`/glossary`.
 * **Display Themes**: Switch between Light and Dark display modes using the theme toggle in the header navigation bar.

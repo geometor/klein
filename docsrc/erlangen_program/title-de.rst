@@ -55,7 +55,7 @@ Inhaltsverzeichnis
 Wissenschaftlicher Apparat
 --------------------------
 
-* :doc:`Personenregister </persons>`
+* :doc:`Personenregister </people/index>`
 * :doc:`Bibliographie </bibliography>`
 * :doc:`Konkordanz </concordance>`
 * :doc:`Glossar </glossary>`
