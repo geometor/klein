@@ -18,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Famous Problems of Elementary Geometry <https://geometor.github.io/klein/famous_problems/>`_** — Resolves the classical problems of cube duplication, angle trisection, circle division (Gauss 17-gon on a single circle), and circle quadrature via Galois theory and transcendence proofs (1895 / 1897).
-- **`The Erlangen Program <https://geometor.github.io/klein/erlangen_program/>`_** — Formulates geometry as the invariant theory of transformation groups across Euclidean, affine, projective, and Cayley–Klein non-Euclidean geometries (1872 / 1893).
+- `Famous Problems of Elementary Geometry <https://geometor.github.io/klein/famous_problems/>`_ — Resolves the classical problems of cube duplication, angle trisection, circle division (Gauss 17-gon on a single circle), and circle quadrature via Galois theory and transcendence proofs (1895 / 1897).
+- `The Erlangen Program <https://geometor.github.io/klein/erlangen_program/>`_ — Formulates geometry as the invariant theory of transformation groups across Euclidean, affine, projective, and Cayley–Klein non-Euclidean geometries (1872 / 1893).
 
 Python API Quickstart
 ~~~~~~~~~~~~~~~~~~~~~
