@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/klein",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "klein-1872-erlangen",
+      "title": "Vergleichende Betrachtungen über neuere geometrische Forschungen (Erlangen Program, 1872)",
+      "author": "Felix Klein",
+      "year": "1872",
+      "era": "German Critical Text",
+      "languages": [
+        "German"
+      ],
+      "site_url": "https://geometor.github.io/klein/",
+      "local_path": "resources/erlangen_1872_de.html",
+      "pages": null,
+      "publisher": "Andreas Deichert, Erlangen",
+      "rights": "Public Domain (1872)",
+      "excerpt": "German HTML transcription of Felix Klein's 1872 Erlangen Program."
+    }
+  ]
+}
