@@ -3,6 +3,12 @@ GEOMETOR • klein
 
 **Visit the Online Archive:** https://geometor.github.io/klein/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • klein Medallion
+   :target: https://geometor.github.io/klein/
+   :width: 180px
+   :align: center
+
 .. image:: docsrc/_static/figures/fig_cayley_klein_metric.svg
    :alt: GEOMETOR • klein featured geometric construction
    :target: https://geometor.github.io/klein/
