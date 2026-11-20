@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "geometor-klein"
 authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
 description = "Dual-treatise bilingual Book Codex and exact symbolic constructibility & Erlangen transformation-group engine for Felix Klein's Famous Problems of Elementary Geometry (1895/1897) and Erlangen Program (1872/1893)."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 dynamic = ["version"]
 dependencies = [
