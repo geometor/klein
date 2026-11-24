@@ -8,7 +8,8 @@
 :book_title: Famous Problems of Elementary Geometry
 :book_subtitle: Vorträge über ausgewählte Fragen der Elementargeometrie — Felix Klein (1895 / tr. Beman & Smith, 1897)
 :author: Felix Klein
-:year: 1895 / 1897
+:year: 1895
+:edition_year: 1897
 :tracks: English: index | German: title-de
 :excerpt: Klein's celebrated lectures establishing the algebraic criteria for geometric constructibility and proving the transcendence of e and π.
 
