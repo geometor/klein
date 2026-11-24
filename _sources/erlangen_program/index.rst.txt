@@ -8,7 +8,8 @@
 :book_title: The Erlangen Program
 :book_subtitle: Vergleichende Betrachtungen über neuere geometrische Forschungen — Felix Klein (1872 / tr. M. W. Haskell, 1893)
 :author: Felix Klein
-:year: 1872 / 1893
+:year: 1872
+:edition_year: 1893
 :tracks: English: index | German: title-de
 :excerpt: Klein's landmark inaugural monograph synthesizing geometry through the invariant theory of transformation groups.
 
