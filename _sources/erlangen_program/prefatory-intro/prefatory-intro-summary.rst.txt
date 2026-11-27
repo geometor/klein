@@ -25,5 +25,5 @@ Core Argument of the Introduction
    Alongside elementary and projective geometry stand independent geometric disciplines—such as the :term:`geometry of reciprocal radii <reciprocal-radii>` (circle/sphere inversion) and birational (:person:`Cremona <cremona>`) geometry—each possessing an equal right to autonomous existence.
 3. **Unifying Synthesis with Sophus Lie:**
    Rapid nineteenth-century specialization had fractured geometry into isolated sub-disciplines (synthetic vs. analytic, projective vs. differential curvature). Klein and :person:`Lie <lie>`, working closely together in Berlin and Paris (1869–1872) on line complexes, sphere contact transformations, and W-curves, converged upon a single organizing principle: **the transformation group**.
-4. **Extension to $n$-Dimensional Manifolds:**
+4. **Extension to** :math:`n`-**Dimensional Manifolds**:
    Although the exposition uses three-dimensional spatial intuition for pedagogical clarity, its mathematical content applies unchanged to :term:`manifoldnesses <manifold>` (*Mannigfaltigkeiten*) of arbitrary dimension (:person:`Grassmann <grassmann>`, :person:`Riemann <riemann>`), stripped of any non-essential sensual image.

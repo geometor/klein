@@ -17,9 +17,9 @@ Part II, Chapter III — Analytical Summary
 Blueprint of the Modular-Asymptotic Contradiction
 -------------------------------------------------
 
-Klein presents :person:`Paul Gordan's <gordan>` 1893 integral-free proof (:cite:`1893 <gordan:1893>`) of :person:`Hermite's <hermite>` Theorem (:cite:`1873 <hermite:1873>`): $e$ satisfies no polynomial $F(e) = \sum_{k=0}^n C_k e^k = 0$ with $C_k \in \mathbb{Z}$, $C_0 \neq 0$.
+Klein presents :person:`Paul Gordan's <gordan>` 1893 integral-free proof (:cite:`1893 <gordan:1893>`) of :person:`Hermite's <hermite>` Theorem (:cite:`1873 <hermite:1873>`): :math:`e` satisfies no polynomial :math:`F(e) = \sum_{k=0}^n C_k e^k = 0` with :math:`C_k \in \mathbb{Z}`, :math:`C_0 \neq 0`.
 
-1. **Auxiliary Polynomial & Umbral Operator (§ 2):** Define $h^r \mapsto r!$ after expanding in powers of $h$, and set
+1. **Auxiliary Polynomial & Umbral Operator (§ 2):** Define :math:`h^r \mapsto r!` after expanding in powers of :math:`h`, and set
 
    .. math::
 
@@ -27,11 +27,11 @@ Klein presents :person:`Paul Gordan's <gordan>` 1893 integral-free proof (:cite:
 
 2. **Simultaneous Arithmetic & Analytic Control (§ 2):**
 
-   * **Modulo $p$ non-vanishing at $0$:** Multiplicity $p - 1$ at $x = 0$ makes $\varphi(h) \equiv (n!)^p \not\equiv 0 \pmod p$.
-   * **Modulo $p$ vanishing at $1, \dots, n$:** Multiplicity $p$ at $x = k$ shifts the lowest power of $h$ in $\varphi(h + k)$ to $h^p \mapsto p!$, forcing $\varphi(h + k) \equiv 0 \pmod p$.
-   * **Factorial damping as $p \to \infty$:** Because $(p - 1)!$ outgrows $u^p$, $\sum_r |c_r|\,|x|^r \to 0$ as $p \to \infty$.
+   * **Modulo** :math:`p` **non-vanishing at** :math:`0`: Multiplicity :math:`p - 1` at :math:`x = 0` makes :math:`\varphi(h) \equiv (n!)^p \not\equiv 0 \pmod p`.
+   * **Modulo** :math:`p` **vanishing at** :math:`1, \dots, n`: Multiplicity :math:`p` at :math:`x = k` shifts the lowest power of :math:`h` in :math:`\varphi(h + k)` to :math:`h^p \mapsto p!`, forcing :math:`\varphi(h + k) \equiv 0 \pmod p`.
+   * **Factorial damping as** :math:`p \to \infty`: Because :math:`(p - 1)!` outgrows :math:`u^p`, :math:`\sum_r |c_r|\,|x|^r \to 0` as :math:`p \to \infty`.
 
-3. **Exponential Splitting (§ 3):** Truncating $e^k \cdot r!$ at degree $r$ yields $e^k h^r = (h + k)^r + q_{r,k} k^r e^k$ ($0 < q_{r,k} < 1$), whence
+3. **Exponential Splitting (§ 3):** Truncating :math:`e^k \cdot r!` at degree :math:`r` yields :math:`e^k h^r = (h + k)^r + q_{r,k} k^r e^k` (:math:`0 < q_{r,k} < 1`), whence
 
    .. math::
 

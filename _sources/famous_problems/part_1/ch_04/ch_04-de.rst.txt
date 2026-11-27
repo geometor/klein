@@ -19,7 +19,7 @@ I. Teil, IV. Kapitel — Die Konstruktion des regulären 17-Ecks
 
 **1.** Nachdem wir im III. Kapitel eingesehen haben, dass nur für die :person:`Gauss'schen <gauss>` :term:`Fermat-Primzahlen <fermat-prime>` die Kreisteilung in eine ungerade Primzahl gleicher Teile durch Zirkel und Lineal möglich sein kann, soll es Aufgabe dieses Kapitels sein, in elementarer Weise auseinanderzulegen, wie sich speziell das **reguläre Siebzehneck** wirklich in den Kreis einzeichnen lässt.
 
-Da wohl bislang aus rein geometrischen Erwägungen noch keine Konstruktionsmethode gefunden ist, untersuchen wir zunächst algebraisch die Wurzeln der Gleichung $16$-ten Grades
+Da wohl bislang aus rein geometrischen Erwägungen noch keine Konstruktionsmethode gefunden ist, untersuchen wir zunächst algebraisch die Wurzeln der Gleichung :math:`16`-ten Grades
 
 .. math::
 
@@ -37,7 +37,7 @@ und übersetzen sodann den daraus resultierenden Quadratwurzelausdruck Schritt f
    :alt: Die 16 Einheitswurzeln des regulären 17-Ecks auf dem Einheitskreis und die Sehnen S_k
    :caption: Einheitswurzeln des regulären 17-Ecks und Sehnenkunstgriff (Klein Fig. 3–4): Konjugierte Paare C_r = eps_r + eps_(17-r) = 2 cos(2r pi/17) und Halbkreissehnen S_k = 2 sin(k pi/34).
 
-**2.** Der Grundgedanke der :person:`Gauss'schen <gauss>` Lösung (:cite:`*Disquisitiones Arithmeticae*, 1801 <gauss:1801>`; vgl. :person:`Bachmann <bachmann>`, :cite:`*Die Lehre von der Kreisteilung*, Leipzig, 1872 <bachmann:1872>`) besteht darin, die $16$ Wurzeln vermittelst einer **Primitivwurzel zum Zahlenmodul $17$** in einen einzigen Zyklus zu ordnen. Die Zahl $a = 3$ hat für $\bmod\,17$ als kleinste positive Lösung von $3^s \equiv +1 \pmod{17}$ den Exponenten $s = 16$:
+**2.** Der Grundgedanke der :person:`Gauss'schen <gauss>` Lösung (:cite:`*Disquisitiones Arithmeticae*, 1801 <gauss:1801>`; vgl. :person:`Bachmann <bachmann>`, :cite:`*Die Lehre von der Kreisteilung*, Leipzig, 1872 <bachmann:1872>`) besteht darin, die :math:`16` Wurzeln vermittelst einer **Primitivwurzel zum Zahlenmodul** :math:`17` in einen einzigen Zyklus zu ordnen. Die Zahl :math:`a = 3` hat für :math:`\bmod\,17` als kleinste positive Lösung von :math:`3^s \equiv +1 \pmod{17}` den Exponenten :math:`s = 16`:
 
 .. math::
 
@@ -48,17 +48,17 @@ und übersetzen sodann den daraus resultierenden Quadratwurzelausdruck Schritt f
    3^4 &\equiv 13, &\quad 3^8 &\equiv 16, &\quad 3^{12} &\equiv 4, &\quad 3^{16} &\equiv 1   \pmod{17}.
    \end{alignedat}
 
-Ordnen wir die Wurzeln $\varepsilon_\kappa$ nach diesen Resten:
+Ordnen wir die Wurzeln :math:`\varepsilon_\kappa` nach diesen Resten:
 
 .. math::
 
    \varepsilon_3,\; \varepsilon_9,\; \varepsilon_{10},\; \varepsilon_{13},\; \varepsilon_5,\; \varepsilon_{15},\; \varepsilon_{11},\; \varepsilon_{16},\; \varepsilon_{14},\; \varepsilon_8,\; \varepsilon_7,\; \varepsilon_4,\; \varepsilon_{12},\; \varepsilon_2,\; \varepsilon_6,\; \varepsilon_1,
 
-so ist jede Wurzel die **dritte Potenz** der ihr vorangehenden ($\varepsilon_{16} = (\varepsilon_{11})^3 = \varepsilon_{33} = \varepsilon_{16}$). Die Gauss'sche Methode zerlegt diesen Zyklus entsprechend den Teilern von $16$ in $8$-, $4$-, $2$- und eingliedrige :term:`Perioden <gaussian-periods>`, die sich der Reihe nach durch quadratische Gleichungen berechnen lassen.
+so ist jede Wurzel die **dritte Potenz** der ihr vorangehenden (:math:`\varepsilon_{16} = (\varepsilon_{11})^3 = \varepsilon_{33} = \varepsilon_{16}`). Die Gauss'sche Methode zerlegt diesen Zyklus entsprechend den Teilern von :math:`16` in :math:`8`-, :math:`4`-, :math:`2`- und eingliedrige :term:`Perioden <gaussian-periods>`, die sich der Reihe nach durch quadratische Gleichungen berechnen lassen.
 
-**3.** Lassen wir der Einfachheit halber die Basis $\varepsilon$ weg und schreiten im Zyklus jeweils um zwei Schritte vorwärts, so erhalten wir:
+**3.** Lassen wir der Einfachheit halber die Basis :math:`\varepsilon` weg und schreiten im Zyklus jeweils um zwei Schritte vorwärts, so erhalten wir:
 
-* **Zwei $8$-gliedrige Perioden $\eta_0, \eta_1$:**
+* **Zwei** :math:`8`-**gliedrige Perioden** :math:`\eta_0, \eta_1`:
 
   .. math::
 
@@ -67,7 +67,7 @@ so ist jede Wurzel die **dritte Potenz** der ihr vorangehenden ($\varepsilon_{16
      \eta_1 &= 3 + 10 + 5 + 11 + 14 + 7 + 12 + 6.
      \end{aligned}
 
-* **Vier $4$-gliedrige Perioden $\eta'_0, \eta'_1$ (aus $\eta_0$) und $(\eta'_0), (\eta'_1)$ (aus $\eta_1$):**
+* **Vier** :math:`4`-**gliedrige Perioden** :math:`\eta'_0, \eta'_1` (**aus** :math:`\eta_0`) **und** :math:`(\eta'_0), (\eta'_1)` (**aus** :math:`\eta_1`):
 
   .. math::
 
@@ -76,12 +76,12 @@ so ist jede Wurzel die **dritte Potenz** der ihr vorangehenden ($\varepsilon_{16
      (\eta'_0) &= 3 + 5 + 14 + 12, &\qquad (\eta'_1) &= 10 + 11 + 7 + 6.
      \end{alignedat}
 
-* **Acht $2$-gliedrige Perioden:** $\eta''_0 = 16 + 1 = C_1$, $\eta''_1 = 13 + 4 = C_4$, usw.
+* **Acht** :math:`2`-**gliedrige Perioden**: :math:`\eta''_0 = 16 + 1 = C_1`, :math:`\eta''_1 = 13 + 4 = C_4`, usw.
 
 §§ 4–5. Realität und Grössenverhältnisse der Perioden
 -----------------------------------------------------
 
-**4.** Da die Wurzeln $r$ und $17 - r$ konjugiert imaginär sind, setzen wir
+**4.** Da die Wurzeln :math:`r` und :math:`17 - r` konjugiert imaginär sind, setzen wir
 
 .. math::
 
@@ -93,7 +93,7 @@ sodass sämtliche Perioden **reelle Zahlen** sind:
 
    \eta_0 = C_1 + C_2 + C_4 + C_8, \quad \eta_1 = C_3 + C_5 + C_6 + C_7, \quad \eta'_0 = C_1 + C_4, \quad \eta'_1 = C_2 + C_8, \quad (\eta'_0) = C_3 + C_5, \quad (\eta'_1) = C_6 + C_7.
 
-**5.** Um die Vorzeichen der Quadratwurzeln eindeutig festzulegen, teilen wir die Hälfte des Einheitskreises in $17$ gleiche Bögen und bezeichnen die Sehnen vom Anfangspunkt $0$ mit $S_1 < S_2 < \dots < S_{17} = 2$, wobei $S_k = 2\sin\frac{k\pi}{34}$. Dann gelten die Relationen:
+**5.** Um die Vorzeichen der Quadratwurzeln eindeutig festzulegen, teilen wir die Hälfte des Einheitskreises in :math:`17` gleiche Bögen und bezeichnen die Sehnen vom Anfangspunkt :math:`0` mit :math:`S_1 < S_2 < \dots < S_{17} = 2`, wobei :math:`S_k = 2\sin\frac{k\pi}{34}`. Dann gelten die Relationen:
 
 .. math::
 
@@ -110,7 +110,7 @@ Daraus lesen wir unmittelbar ab, dass alle massgeblichen Periodendifferenzen **p
    \eta''_0 - \eta''_1 &= C_1 - C_4 = S_{13} - S_1 > 0 \implies \eta''_0 > \eta''_1.
    \end{aligned}
 
-Überdies liefert das $64$-gliedrige Multiplikationsschema die bemerkenswerte Relation:
+Überdies liefert das :math:`64`-gliedrige Multiplikationsschema die bemerkenswerte Relation:
 
 .. math::
 
@@ -121,37 +121,37 @@ Daraus lesen wir unmittelbar ab, dass alle massgeblichen Periodendifferenzen **p
 
 **6.** Durch Berechnung der elementarsymmetrischen Funktionen erhalten wir der Reihe nach die vier quadratischen Gleichungen:
 
-1. **Erste Gleichung:** $\eta_0 + \eta_1 = -1$ und $\eta_0 \cdot \eta_1 = -4$ (jede der $16$ Wurzeln tritt viermal auf), also wegen $\eta_0 > \eta_1$:
+1. **Erste Gleichung:** :math:`\eta_0 + \eta_1 = -1` und :math:`\eta_0 \cdot \eta_1 = -4` (jede der :math:`16` Wurzeln tritt viermal auf), also wegen :math:`\eta_0 > \eta_1`:
 
    .. math::
 
       \eta^2 + \eta - 4 = 0 \implies \eta_0 = \frac{-1 + \sqrt{17}}{2}, \quad \eta_1 = \frac{-1 - \sqrt{17}}{2}.
 
-2. **Zweite Gleichung:** $\eta'_0 + \eta'_1 = \eta_0$ und $\eta'_0 \cdot \eta'_1 = -1$, also wegen $\eta'_0 > \eta'_1$:
+2. **Zweite Gleichung:** :math:`\eta'_0 + \eta'_1 = \eta_0` und :math:`\eta'_0 \cdot \eta'_1 = -1`, also wegen :math:`\eta'_0 > \eta'_1`:
 
    .. math::
 
       {\eta'}^2 - \eta_0 \eta' - 1 = 0 \implies \eta'_0 = \frac{\eta_0 + \sqrt{\eta_0^2 + 4}}{2}, \quad \eta'_1 = \frac{\eta_0 - \sqrt{\eta_0^2 + 4}}{2}.
 
-3. **Dritte Gleichung:** $(\eta'_0) + (\eta'_1) = \eta_1$ und $(\eta'_0)\cdot(\eta'_1) = -1$, also wegen $(\eta'_0) > (\eta'_1)$:
+3. **Dritte Gleichung:** :math:`(\eta'_0) + (\eta'_1) = \eta_1` und :math:`(\eta'_0)\cdot(\eta'_1) = -1`, also wegen :math:`(\eta'_0) > (\eta'_1)`:
 
    .. math::
 
       (\eta')^2 - \eta_1(\eta') - 1 = 0 \implies (\eta'_0) = \frac{\eta_1 + \sqrt{\eta_1^2 + 4}}{2}, \quad (\eta'_1) = \frac{\eta_1 - \sqrt{\eta_1^2 + 4}}{2}.
 
-4. **Vierte Gleichung:** $\eta''_0 + \eta''_1 = \eta'_0$ und $\eta''_0 \cdot \eta''_1 = (16 + 1)(13 + 4) = 12 + 3 + 14 + 5 = (\eta'_0)$, also wegen $\eta''_0 > \eta''_1$:
+4. **Vierte Gleichung:** :math:`\eta''_0 + \eta''_1 = \eta'_0` und :math:`\eta''_0 \cdot \eta''_1 = (16 + 1)(13 + 4) = 12 + 3 + 14 + 5 = (\eta'_0)`, also wegen :math:`\eta''_0 > \eta''_1`:
 
    .. math::
 
       {\eta''}^2 - \eta'_0 \eta'' + (\eta'_0) = 0 \implies \eta''_0 = \frac{\eta'_0 + \sqrt{{\eta'_0}^2 - 4(\eta'_0)}}{2}, \quad \eta''_1 = \frac{\eta'_0 - \sqrt{{\eta'_0}^2 - 4(\eta'_0)}}{2}.
 
-Vermöge $(\eta'_0 - \eta'_1)((\eta'_0) - (\eta'_1)) = 2(\eta_0 - \eta_1)$ gilt für die Radikale die rationale Abhängigkeit
+Vermöge :math:`(\eta'_0 - \eta'_1)((\eta'_0) - (\eta'_1)) = 2(\eta_0 - \eta_1)` gilt für die Radikale die rationale Abhängigkeit
 
 .. math::
 
    \sqrt{\eta_0^2 + 4}\cdot\sqrt{\eta_1^2 + 4} = 2\sqrt{17},
 
-sodass sich $\sqrt{\eta_1^2 + 4}$ rational durch $\sqrt{17}$ und $\sqrt{\eta_0^2 + 4}$ ausdrückt. Einsetzen der Werte ergibt die explizite Normalform:
+sodass sich :math:`\sqrt{\eta_1^2 + 4}` rational durch :math:`\sqrt{17}` und :math:`\sqrt{\eta_0^2 + 4}` ausdrückt. Einsetzen der Werte ergibt die explizite Normalform:
 
 .. math::
 
@@ -175,20 +175,20 @@ sodass sich $\sqrt{\eta_1^2 + 4}$ rational durch $\sqrt{17}$ und $\sqrt{\eta_0^2
 §§ 8–9. Geometrische Konstruktion nach von Staudt und Schröter mit einem festen Kreise
 --------------------------------------------------------------------------------------
 
-**8.** Im Anschluss an :person:`von Staudt <staudt>` (:cite:`*Crelle's Journal*, Bd. 24, 1842 <staudt:1842>`) und :person:`Schröter <schroeter>` (:cite:`*Crelle's Journal*, Bd. 75, 1872 <schroeter:1872>`) zeigen wir zunächst, **wie man mit Hilfe eines festen Einheitskreises $x^2 + y(y - 2) = 0$ und des Lineals jede quadratische Gleichung $x^2 - px + q = 0$ mit reellen Wurzeln $x_1, x_2$ löst**:
+**8.** Im Anschluss an :person:`von Staudt <staudt>` (:cite:`*Crelle's Journal*, Bd. 24, 1842 <staudt:1842>`) und :person:`Schröter <schroeter>` (:cite:`*Crelle's Journal*, Bd. 75, 1872 <schroeter:1872>`) zeigen wir zunächst, **wie man mit Hilfe eines festen Einheitskreises** :math:`x^2 + y(y - 2) = 0` **und des Lineals jede quadratische Gleichung** :math:`x^2 - px + q = 0` **mit reellen Wurzeln** :math:`x_1, x_2` **löst**:
 
-Man trägt auf der oberen Tangente $y = 2$ vom oberen Scheitel $A(0, 2)$ aus das Stück $\frac{4}{p}$ und auf der unteren Tangente $y = 0$ (der $x$-Achse) vom unteren Scheitel $O(0, 0)$ aus das Stück $\frac{q}{p}$ ab, verbindet beide Punkte durch die **Transversale 3** und projiziert deren Schnittpunkte mit dem Kreise von $A(0, 2)$ aus durch die **Strahlen 1 und 2** auf die $x$-Achse: diese schneiden genau $x_1$ und $x_2$ ab! Denn aus dem Linienpaar $[2x + x_1(y - 2)][2x + x_2(y - 2)] = 0$ folgt nach Abzug von $x^2 + y(y - 2) = 0$ und Abspaltung von $y - 2 = 0$ als Gleichung der Geraden 3 sofort $\frac{p}{2}x + \frac{q}{4}(y - 2) - y = 0$.
+Man trägt auf der oberen Tangente :math:`y = 2` vom oberen Scheitel :math:`A(0, 2)` aus das Stück :math:`\frac{4}{p}` und auf der unteren Tangente :math:`y = 0` (der :math:`x`-Achse) vom unteren Scheitel :math:`O(0, 0)` aus das Stück :math:`\frac{q}{p}` ab, verbindet beide Punkte durch die **Transversale 3** und projiziert deren Schnittpunkte mit dem Kreise von :math:`A(0, 2)` aus durch die **Strahlen 1 und 2** auf die :math:`x`-Achse: diese schneiden genau :math:`x_1` und :math:`x_2` ab! Denn aus dem Linienpaar :math:`[2x + x_1(y - 2)][2x + x_2(y - 2)] = 0` folgt nach Abzug von :math:`x^2 + y(y - 2) = 0` und Abspaltung von :math:`y - 2 = 0` als Gleichung der Geraden 3 sofort :math:`\frac{p}{2}x + \frac{q}{4}(y - 2) - y = 0`.
 
 .. picture:: /_static/figures/fig_von_staudt_quadratic.svg
    :alt: Projektive Lösung der quadratischen Gleichung x^2 - px + q = 0 am festen Einheitskreis
    :caption: Lösung von x^2 - px + q = 0 nach von Staudt und Schröter (Klein § 8, Fig. I): Die Verbindungsgerade 3 von (q/p, 0) und (4/p, 2) liefert durch Projektion aus A(0, 2) die Wurzeln x_1, x_2 auf y = 0.
 
-**9.** Zur Ausführung am Siebzehneck lösen wir am selben festen Kreise nacheinander die vier quadratischen Gleichungen für $\eta_0, \eta_1$, $\eta'_0$, $(\eta'_0)$ und $\eta''_0 = 2\cos\frac{2\pi}{17}$, wozu oben ($y = 2$) die Abschnitte $-4,\; +\frac{4}{\eta_0},\; +\frac{4}{\eta_1},\; +\frac{4}{\eta'_0}$ und unten ($y = 0$) die Abschnitte $+4,\; -\frac{1}{\eta_0},\; -\frac{1}{\eta_1},\; +\frac{(\eta'_0)}{\eta'_0}$ abzutragen sind:
+**9.** Zur Ausführung am Siebzehneck lösen wir am selben festen Kreise nacheinander die vier quadratischen Gleichungen für :math:`\eta_0, \eta_1`, :math:`\eta'_0`, :math:`(\eta'_0)` und :math:`\eta''_0 = 2\cos\frac{2\pi}{17}`, wozu oben (:math:`y = 2`) die Abschnitte :math:`-4,\; +\frac{4}{\eta_0},\; +\frac{4}{\eta_1},\; +\frac{4}{\eta'_0}` und unten (:math:`y = 0`) die Abschnitte :math:`+4,\; -\frac{1}{\eta_0},\; -\frac{1}{\eta_1},\; +\frac{(\eta'_0)}{\eta'_0}` abzutragen sind:
 
-1. **Erste Gleichung ($\eta^2 + \eta - 4 = 0$):** Verbinde $(+4, 0)$ unten mit $(-4, 2)$ oben; die Projektion der beiden Kreisschnittpunkte aus $A(0, 2)$ liefert $\eta_0 > 0$ und $\eta_1 < 0$ auf der $x$-Achse.
-2. **Projektive Zuordnung $x' = \frac{4}{x}$ (Fig. 5):** Projiziert man den zu $x$ gehörigen Kreisschnittpunkt des Strahls $Ax$ vom unteren Scheitel $O(0, 0)$ auf die obere Tangente $y = 2$, so entsteht eine projektive Punktreihenbeziehung mit $x = \infty \leftrightarrow x' = 0$ und Fixpunkt $x = x' = 2$, also $x' = \frac{4}{x}$. So erhält man unmittelbar $+\frac{4}{\eta_0}$ und $+\frac{4}{\eta_1}$ auf $y = 2$.
-3. **Zweite und dritte Gleichung ($\eta'_0$ und $(\eta'_0)$, Fig. 6–7):** Die Gerade von $(-4, 2)$ oben nach $(+1, 0)$ unten schneidet den vertikalen Durchmesser im festen Punkte $\left(0, \frac{2}{5}\right)$. Verbindet man diesen Punkt mit $\left(\frac{4}{\eta_0}, 2\right)$ bzw. $\left(\frac{4}{\eta_1}, 2\right)$, so schneiden die Geraden $5y - 2\eta_0 x = 2$ bzw. $5y - 2\eta_1 x = 2$ auf der $x$-Achse genau $-\frac{1}{\eta_0}$ bzw. $-\frac{1}{\eta_1}$ ab! Die zugehörigen Staudt-Transversalen liefern durch Projektion aus $A(0, 2)$ die positiven Wurzeln $\eta'_0$ und $(\eta'_0)$.
-4. **Vierte Gleichung ($\eta''_0 = 2\cos\frac{2\pi}{17}$, Fig. 8 & Tafel Fig. II):** Projektion des Kreisschnittpunktes von $A\eta'_0$ aus $O(0, 0)$ nach oben gibt $\frac{4}{\eta'_0}$. Die Gerade von $(+4, 2)$ oben nach $((\eta'_0), 0)$ unten trifft die $y$-Achse in $\left(0, \frac{2(\eta'_0)}{(\eta'_0) - 4}\right)$; deren Verbindung mit $\left(\frac{4}{\eta'_0}, 2\right)$ ($2\eta'_0 x + ((\eta'_0) - 4)y = 2(\eta'_0)$) schneidet unten genau $\frac{(\eta'_0)}{\eta'_0}$ ab. Die Staudt-Transversale von $\left(\frac{(\eta'_0)}{\eta'_0}, 0\right)$ nach $\left(\frac{4}{\eta'_0}, 2\right)$ liefert bei Projektion ihres oberen Kreisschnittpunktes aus $A(0, 2)$ auf der $x$-Achse $\eta''_0 = 2\cos\frac{2\pi}{17}$ und **auf dem horizontalen Durchmesser $y = 1$ direkt $\cos\frac{2\pi}{17}$**—woraus das Lot sofort die **erste und sechzehnte Ecke** des regulären $17$-Ecks auf dem festen Kreise ausschneidet!
+1. **Erste Gleichung** (:math:`\eta^2 + \eta - 4 = 0`): Verbinde :math:`(+4, 0)` unten mit :math:`(-4, 2)` oben; die Projektion der beiden Kreisschnittpunkte aus :math:`A(0, 2)` liefert :math:`\eta_0 > 0` und :math:`\eta_1 < 0` auf der :math:`x`-Achse.
+2. **Projektive Zuordnung** :math:`x' = \frac{4}{x}` (**Fig. 5**): Projiziert man den zu :math:`x` gehörigen Kreisschnittpunkt des Strahls :math:`Ax` vom unteren Scheitel :math:`O(0, 0)` auf die obere Tangente :math:`y = 2`, so entsteht eine projektive Punktreihenbeziehung mit :math:`x = \infty \leftrightarrow x' = 0` und Fixpunkt :math:`x = x' = 2`, also :math:`x' = \frac{4}{x}`. So erhält man unmittelbar :math:`+\frac{4}{\eta_0}` und :math:`+\frac{4}{\eta_1}` auf :math:`y = 2`.
+3. **Zweite und dritte Gleichung** (:math:`\eta'_0` **und** :math:`(\eta'_0)`, **Fig. 6–7**): Die Gerade von :math:`(-4, 2)` oben nach :math:`(+1, 0)` unten schneidet den vertikalen Durchmesser im festen Punkte :math:`\left(0, \frac{2}{5}\right)`. Verbindet man diesen Punkt mit :math:`\left(\frac{4}{\eta_0}, 2\right)` bzw. :math:`\left(\frac{4}{\eta_1}, 2\right)`, so schneiden die Geraden :math:`5y - 2\eta_0 x = 2` bzw. :math:`5y - 2\eta_1 x = 2` auf der :math:`x`-Achse genau :math:`-\frac{1}{\eta_0}` bzw. :math:`-\frac{1}{\eta_1}` ab! Die zugehörigen Staudt-Transversalen liefern durch Projektion aus :math:`A(0, 2)` die positiven Wurzeln :math:`\eta'_0` und :math:`(\eta'_0)`.
+4. **Vierte Gleichung** (:math:`\eta''_0 = 2\cos\frac{2\pi}{17}`, **Fig. 8 & Tafel Fig. II**): Projektion des Kreisschnittpunktes von :math:`A\eta'_0` aus :math:`O(0, 0)` nach oben gibt :math:`\frac{4}{\eta'_0}`. Die Gerade von :math:`(+4, 2)` oben nach :math:`((\eta'_0), 0)` unten trifft die :math:`y`-Achse in :math:`\left(0, \frac{2(\eta'_0)}{(\eta'_0) - 4}\right)`; deren Verbindung mit :math:`\left(\frac{4}{\eta'_0}, 2\right)` (:math:`2\eta'_0 x + ((\eta'_0) - 4)y = 2(\eta'_0)`) schneidet unten genau :math:`\frac{(\eta'_0)}{\eta'_0}` ab. Die Staudt-Transversale von :math:`\left(\frac{(\eta'_0)}{\eta'_0}, 0\right)` nach :math:`\left(\frac{4}{\eta'_0}, 2\right)` liefert bei Projektion ihres oberen Kreisschnittpunktes aus :math:`A(0, 2)` auf der :math:`x`-Achse :math:`\eta''_0 = 2\cos\frac{2\pi}{17}` und **auf dem horizontalen Durchmesser** :math:`y = 1` **direkt** :math:`\cos\frac{2\pi}{17}`—woraus das Lot sofort die **erste und sechzehnte Ecke** des regulären :math:`17`-Ecks auf dem festen Kreise ausschneidet!
 
 .. picture:: /_static/figures/fig_von_staudt_17gon.svg
    :alt: Ausgeführte Konstruktion des regulären 17-Ecks mit einem einzigen festen Kreis und Lineal

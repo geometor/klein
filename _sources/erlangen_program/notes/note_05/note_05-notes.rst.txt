@@ -20,11 +20,11 @@ Cayley–Klein Projective Metric Additivity (Note V & Note VI)
    :alt: Cayley-Klein Projective Metric Inside the Absolute Conic
    :align: center
 
-   **Klein's Projective Model of Non-Euclidean Metric Geometry (Note V, 1871–1872).** Inside a real non-degenerate Absolute conic $\Omega = 0$ (hyperbolic geometry of :person:`Lobachevsky <lobatchewsky>` and :person:`Bolyai <bolyai>`), straight chords act as geodesics and every chord cuts $\Omega$ in two ideal boundary points $I_1, I_2$. Projective distance is proportional to the logarithm of the $4$-point cross-ratio $d(A, B) = c \log(A, B; I_1, I_2)$.
+   **Klein's Projective Model of Non-Euclidean Metric Geometry (Note V, 1871–1872).** Inside a real non-degenerate Absolute conic :math:`\Omega = 0` (hyperbolic geometry of :person:`Lobachevsky <lobatchewsky>` and :person:`Bolyai <bolyai>`), straight chords act as geodesics and every chord cuts :math:`\Omega` in two ideal boundary points :math:`I_1, I_2`. Projective distance is proportional to the logarithm of the :math:`4`-point cross-ratio :math:`d(A, B) = c \log(A, B; I_1, I_2)`.
 
-In :func:`geometor.klein.erlangen.verify_cayley_klein_additivity`, we verify exact projective metric additivity in SymPy over $\mathbb{Q}$ on the diameter $(-1, 0)$ to $(1, 0)$ of the real unit-circle Absolute $x^2 + y^2 - 1 = 0$:
+In :func:`geometor.klein.erlangen.verify_cayley_klein_additivity`, we verify exact projective metric additivity in SymPy over :math:`\mathbb{Q}` on the diameter :math:`(-1, 0)` to :math:`(1, 0)` of the real unit-circle Absolute :math:`x^2 + y^2 - 1 = 0`:
 
-* Taking collinear interior points $A\!\left(-\frac{1}{2}, 0\right)$, $B\!\left(\frac{1}{5}, 0\right)$, $C\!\left(\frac{2}{3}, 0\right)$ between ideal points $I_1(-1, 0)$ and $I_2(1, 0)$ inside ``geometor.model.Model``:
+* Taking collinear interior points :math:`A\!\left(-\frac{1}{2}, 0\right)`, :math:`B\!\left(\frac{1}{5}, 0\right)`, :math:`C\!\left(\frac{2}{3}, 0\right)` between ideal points :math:`I_1(-1, 0)` and :math:`I_2(1, 0)` inside ``geometor.model.Model``:
 
   .. math::
 
@@ -32,7 +32,7 @@ In :func:`geometor.klein.erlangen.verify_cayley_klein_additivity`, we verify exa
      (B, C; I_1, I_2) = \frac{7}{2}, \qquad
      (A, C; I_1, I_2) = \frac{63}{4} = \frac{9}{2} \cdot \frac{7}{2}.
 
-* Because the cross-ratio telescopes multiplicatively along every chord ($(A, B; I_1, I_2) \cdot (B, C; I_1, I_2) - (A, C; I_1, I_2) = 0$ identically), Klein's logarithmic metric satisfies exact additivity:
+* Because the cross-ratio telescopes multiplicatively along every chord (:math:`(A, B; I_1, I_2) \cdot (B, C; I_1, I_2) - (A, C; I_1, I_2) = 0` identically), Klein's logarithmic metric satisfies exact additivity:
 
   .. math::
 

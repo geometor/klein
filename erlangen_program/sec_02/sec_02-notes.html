@@ -123,18 +123,18 @@
         <figure class="align-center" id="id2">
         <img alt="Klein's Erlangen Hierarchy: Principal Group, Affine Group, Projective Group, and Reciprocal Radii" src="../../_images/fig_erlangen_hierarchy.svg" />
         <figcaption>
-        <p><span class="caption-text"><strong>Klein’s Erlangen Hierarchy (§§ 1–3 &amp; § 6).</strong> As the transformation group expands from the <strong>Principal Group</strong> (similarities) to <strong>Affine shears</strong> and <strong>Projective collineations</strong>, metric angles and quadrance ratios are progressively shed until only incidence and the $4$-point collinear cross-ratio survive; branching to <strong>Reciprocal Radii</strong> (Möbius circle inversion) merges lines and circles into generalized circles while preserving conformal angles and $4$-point quadrance cross-ratios.</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+        <p><span class="caption-text"><strong>Klein’s Erlangen Hierarchy (§§ 1–3 &amp; § 6).</strong> As the transformation group expands from the <strong>Principal Group</strong> (similarities) to <strong>Affine shears</strong> and <strong>Projective collineations</strong>, metric angles and quadrance ratios are progressively shed until only incidence and the <span class="math notranslate nohighlight">\(4\)</span>-point collinear cross-ratio survive; branching to <strong>Reciprocal Radii</strong> (Möbius circle inversion) merges lines and circles into generalized circles while preserving conformal angles and <span class="math notranslate nohighlight">\(4\)</span>-point quadrance cross-ratios.</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
         </figcaption>
         </figure>
         </section>
         <section class="level-2" id="exact-symbolic-verification-over-mathbb-q-geometor-klein-erlangen">
-        <h2>Exact Symbolic Verification Over $\mathbb{Q}$ (<a class="reference internal" href="../../modules/api/geometor/klein/erlangen/index.html#module-geometor.klein.erlangen" title="geometor.klein.erlangen"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.klein.erlangen</span></code></a>)<a class="headerlink" href="#exact-symbolic-verification-over-mathbb-q-geometor-klein-erlangen" title="Link to this heading">¶</a></h2>
+        <h2>Exact Symbolic Verification Over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> (<a class="reference internal" href="../../modules/api/geometor/klein/erlangen/index.html#module-geometor.klein.erlangen" title="geometor.klein.erlangen"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.klein.erlangen</span></code></a>)<a class="headerlink" href="#exact-symbolic-verification-over-mathbb-q-geometor-klein-erlangen" title="Link to this heading">¶</a></h2>
         <p>In <a class="reference internal" href="../../modules/api/geometor/klein/erlangen/index.html#geometor.klein.erlangen.verify_erlangen_invariants" title="geometor.klein.erlangen.verify_erlangen_invariants"><code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.klein.erlangen.verify_erlangen_invariants()</span></code></a>, we instantiate rational test configurations inside <code class="docutils literal notranslate"><span class="pre">geometor.model.Model</span></code> (with zero floating-point approximations) and apply exact representatives of Klein’s four planar groups:</p>
         <ol class="arabic simple">
-        <li><p><strong>Principal Group (§ 1 — Rational Similarity):</strong> $(x, y) \mapsto (3x - 4y + 2,\; 4x + 3y - 1)$ (Pythagorean rotation-dilation scaling lengths by $5$ and quadrances by $25$).</p></li>
-        <li><p><strong>Affine Group (§ 2 — Area-Scaling Shear):</strong> $(x, y) \mapsto (x + 2y + 1,\; 3y - 2)$ (fixes the line at infinity $w = 0$ without fixing the circular points $I, J$).</p></li>
-        <li><p><strong>Projective Group (§ 3 — Full Homography):</strong> $(x, y) \mapsto \left(\frac{2x + y + 1}{x + y + 3},\; \frac{x + 3y + 2}{x + y + 3}\right)$ (moves the line at infinity to a finite horizon).</p></li>
-        <li><p><strong>Reciprocal Radii (§ 6 — Möbius Circle Inversion):</strong> $(x, y) \mapsto \left(\frac{4x}{x^2 + y^2},\; \frac{4y}{x^2 + y^2}\right)$ (inverts across $x^2 + y^2 = 4$).</p></li>
+        <li><p><strong>Principal Group (§ 1 — Rational Similarity):</strong> <span class="math notranslate nohighlight">\((x, y) \mapsto (3x - 4y + 2,\; 4x + 3y - 1)\)</span> (Pythagorean rotation-dilation scaling lengths by <span class="math notranslate nohighlight">\(5\)</span> and quadrances by <span class="math notranslate nohighlight">\(25\)</span>).</p></li>
+        <li><p><strong>Affine Group (§ 2 — Area-Scaling Shear):</strong> <span class="math notranslate nohighlight">\((x, y) \mapsto (x + 2y + 1,\; 3y - 2)\)</span> (fixes the line at infinity <span class="math notranslate nohighlight">\(w = 0\)</span> without fixing the circular points <span class="math notranslate nohighlight">\(I, J\)</span>).</p></li>
+        <li><p><strong>Projective Group (§ 3 — Full Homography):</strong> <span class="math notranslate nohighlight">\((x, y) \mapsto \left(\frac{2x + y + 1}{x + y + 3},\; \frac{x + 3y + 2}{x + y + 3}\right)\)</span> (moves the line at infinity to a finite horizon).</p></li>
+        <li><p><strong>Reciprocal Radii (§ 6 — Möbius Circle Inversion):</strong> <span class="math notranslate nohighlight">\((x, y) \mapsto \left(\frac{4x}{x^2 + y^2},\; \frac{4y}{x^2 + y^2}\right)\)</span> (inverts across <span class="math notranslate nohighlight">\(x^2 + y^2 = 4\)</span>).</p></li>
         </ol>
         <p>Using Rational Trigonometry invariants (<a class="person-ref" id="occ-person-wildberger-1" href="../../people/wildberger.html#person-wildberger" data-person="wildberger" title="Norman John Wildberger (1956 –) — Canadian-Australian Mathematician, Creator of Rational Trigonometry">Norman Wildberger</a>, <a class="citation-ref" id="occ-cite-wildberger-2005-1" href="../../bibliography.html#cite-wildberger-2005" data-cite="wildberger:2005" title="Norman J. Wildberger — Divine Proportions: Rational Trigonometry to Universal Geometry (Sydney: Wild Egg Books)">2005</a>; <code class="docutils literal notranslate"><span class="pre">geometor.model.invariants</span></code>), every invariant is tested by exact symbolic subtraction in SymPy:</p>
         <table class="docutils align-default" id="id3">
@@ -155,41 +155,41 @@
         </tr>
         </thead>
         <tbody>
-        <tr class="row-even"><td><p><strong>Line Spread</strong> $s(\ell_{12}, \ell_{13})$ (Angle)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{9}{10}$)</p></td>
-        <td><p>Broken ($\frac{81}{130}$)</p></td>
-        <td><p>Broken ($\frac{25}{74}$)</p></td>
+        <tr class="row-even"><td><p><strong>Line Spread</strong> <span class="math notranslate nohighlight">\(s(\ell_{12}, \ell_{13})\)</span> (Angle)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{9}{10}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{81}{130}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{25}{74}\)</span>)</p></td>
         <td><p><em>(Conformal)</em></p></td>
         </tr>
-        <tr class="row-odd"><td><p><strong>Quadrance Ratio</strong> $\frac{Q(T_1, T_2)}{Q(T_1, T_3)}$</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{4}{5}$)</p></td>
-        <td><p>Broken ($\frac{1}{13}$)</p></td>
-        <td><p>Broken ($\frac{185}{117}$)</p></td>
-        <td><p>Broken ($\frac{65}{18}$)</p></td>
+        <tr class="row-odd"><td><p><strong>Quadrance Ratio</strong> <span class="math notranslate nohighlight">\(\frac{Q(T_1, T_2)}{Q(T_1, T_3)}\)</span></p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{4}{5}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{1}{13}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{185}{117}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{65}{18}\)</span>)</p></td>
         </tr>
-        <tr class="row-even"><td><p><strong>Parallelism</strong> ($\det(\ell, \ell') = 0$)</p></td>
+        <tr class="row-even"><td><p><strong>Parallelism</strong> (<span class="math notranslate nohighlight">\(\det(\ell, \ell') = 0\)</span>)</p></td>
         <td><p><strong>Preserved</strong></p></td>
         <td><p><strong>Preserved</strong></p></td>
         <td><p>Broken</p></td>
         <td><p>Broken</p></td>
         </tr>
-        <tr class="row-odd"><td><p><strong>Collinear Division Ratio</strong> $\frac{Q(A,B)}{Q(A,C)}$</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{1}{9}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{1}{9}$)</p></td>
-        <td><p>Broken ($\frac{25}{147}$)</p></td>
-        <td><p>Broken ($\frac{5}{27}$)</p></td>
+        <tr class="row-odd"><td><p><strong>Collinear Division Ratio</strong> <span class="math notranslate nohighlight">\(\frac{Q(A,B)}{Q(A,C)}\)</span></p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{1}{9}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{1}{9}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{25}{147}\)</span>)</p></td>
+        <td><p>Broken (<span class="math notranslate nohighlight">\(\frac{5}{27}\)</span>)</p></td>
         </tr>
-        <tr class="row-even"><td><p><strong>Collinear Cross-Ratio</strong> $(A, B; C, D)$</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{4}{3}$)</p></td>
+        <tr class="row-even"><td><p><strong>Collinear Cross-Ratio</strong> <span class="math notranslate nohighlight">\((A, B; C, D)\)</span></p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{4}{3}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{4}{3}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{4}{3}\)</span>)</p></td>
         <td><p><em>(On circle)</em></p></td>
         </tr>
-        <tr class="row-odd"><td><p><strong>4-Point Quadrance Cross-Ratio</strong> $\frac{Q_{AC} Q_{BD}}{Q_{AD} Q_{BC}}$</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
-        <td><p><strong>Preserved</strong> ($\frac{16}{9}$)</p></td>
+        <tr class="row-odd"><td><p><strong>4-Point Quadrance Cross-Ratio</strong> <span class="math notranslate nohighlight">\(\frac{Q_{AC} Q_{BD}}{Q_{AD} Q_{BC}}\)</span></p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{16}{9}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{16}{9}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{16}{9}\)</span>)</p></td>
+        <td><p><strong>Preserved</strong> (<span class="math notranslate nohighlight">\(\frac{16}{9}\)</span>)</p></td>
         </tr>
         </tbody>
         </table>
@@ -267,6 +267,8 @@
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
 </body>

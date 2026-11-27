@@ -75,7 +75,7 @@ Detailed Analytical Concordance Entries
 
 **Cross-Corpus Relations:**
 
-* **geometor/euclid** — *The Thirteen Books of Euclid's Elements (Heath, 1908)*, ``Book I, Postulates 1–3; Book II, Prop. 14; Book VI, Props. 12–13``: Klein's Fundamental Theorem (Hauptsatz) translates Euclid's Postulates 1–3 into the analytic closure of rational operations $(+, -, \cdot, /)$ and square roots $\sqrt{R}$.
+* **geometor/euclid** — *The Thirteen Books of Euclid's Elements (Heath, 1908)*, ``Book I, Postulates 1–3; Book II, Prop. 14; Book VI, Props. 12–13``: Klein's Fundamental Theorem (Hauptsatz) translates Euclid's Postulates 1–3 into the analytic closure of rational operations :math:`(+, -, \cdot, /)` and square roots :math:`\sqrt{R}`.
 * **geometor/petersen** — *Methods and Theories for the Solution of Problems of Geometrical Constructions (1879)*, ``Algebraic Appendix & Theorie der algebraischen Gleichungen (1878)``: Klein explicitly singles out Julius Petersen in the Introduction (EN p. 2 / DE S. 2) as the sole textbook author presenting elementary algebraic impossibility proofs for geometric constructions.
 * **geometor/hilbert** — *Grundlagen der Geometrie (1899 / 1902)*, ``Chapter VII (§§ 36–39: Geometrical Constructions Based Upon Axioms I–V)``: Hilbert refines Klein's quadratic-tower criterion by isolating the Pythagorean subfield (sqrt(1 + omega^2), solvable with straightedge and segment-transferrer Eichmass) inside the full Euclidean square-root field.
 

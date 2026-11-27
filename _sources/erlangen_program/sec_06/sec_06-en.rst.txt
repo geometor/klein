@@ -8,8 +8,8 @@
 .. _ep-sec-06-en:
 .. _ep-sec-06-07-inversion-lie-spheres-en:
 
-§ 6. The Geometry of Reciprocal Radii. Interpretation of $x + iy$
------------------------------------------------------------------
+§ 6. The Geometry of Reciprocal Radii. Interpretation of :math:`x + iy`
+-----------------------------------------------------------------------
 
 .. rubric:: *A Comparative Review of Recent Researches in Geometry* — § 6 (Trans. :person:`M. W. Haskell <haskell>`, 1893, pp. 226–228)
 
@@ -36,7 +36,7 @@ and, similarly:
 
 By means of the geometry of reciprocal radii space geometry is thus brought into exactly the same connection with a manifoldness of four dimensions as by means of ``[``\ line\ ``]`` geometry with a manifoldness of five dimensions.
 
-The geometry of reciprocal radii in the plane, if we limit ourselves to *real* transformations, admits of an interesting interpretation, or application, in still another direction. For, representing the complex variable $x + iy$ in the plane in the usual way, to its linear transformations corresponds the group of geometric inversion, with the above-mentioned restriction to real operations [#ep_u4_en26]_. But the investigation of functions of a complex variable, regarded as subject to any linear transformations whatever, is merely what, under a somewhat different mode of representation, is called the theory of binary forms. In other words:
+The geometry of reciprocal radii in the plane, if we limit ourselves to *real* transformations, admits of an interesting interpretation, or application, in still another direction. For, representing the complex variable :math:`x + iy` in the plane in the usual way, to its linear transformations corresponds the group of geometric inversion, with the above-mentioned restriction to real operations [#ep_u4_en26]_. But the investigation of functions of a complex variable, regarded as subject to any linear transformations whatever, is merely what, under a somewhat different mode of representation, is called the theory of binary forms. In other words:
 
    *The theory of binary forms finds interpretation in the geometry of reciprocal radii in the real plane, and precisely in the way in which complex values of the variables are represented.*
 
@@ -53,5 +53,5 @@ I could not refrain from setting forth in a note [#ep_u4_en27]_ how admirably th
 
 .. [#ep_u4_en24] The geometry of reciprocal radii on the straight line is equivalent to the projective investigation of the line, as the transformations in question are the same. Thus in the geometry of reciprocal radii, also, we can speak of the *anharmonic ratio* of four points on a line and of four points on a circle.
 .. [#ep_u4_en25] See :cite:`Klein, *Über Liniengeometrie und metrische Geometrie*, Math. Ann. 5 (1872), 257–277 <klein:1872:linien>`.
-.. [#ep_u4_en26] ``[``\ The language of the text is inexact. To the linear transformations $z' = \frac{\alpha z + \beta}{\gamma z + \delta}$ (where $z' = x' + iy'$, $z = x + iy$) correspond only those operations of the group of geometric inversion by which no reversion of the angles takes place (in which the two circular points of the plane are not interchanged). If we wish to include the whole group of geometric inversion, we must, in addition to the transformations mentioned, take account of the other (not less important) ones given by the formula $z' = \frac{\alpha \bar{z} + \beta}{\gamma \bar{z} + \delta}$ (where again $z' = x' + iy'$, but $\bar{z} = x - iy$).\ ``]``
+.. [#ep_u4_en26] ``[``\ The language of the text is inexact. To the linear transformations :math:`z' = \frac{\alpha z + \beta}{\gamma z + \delta}` (where :math:`z' = x' + iy'`, :math:`z = x + iy`) correspond only those operations of the group of geometric inversion by which no reversion of the angles takes place (in which the two circular points of the plane are not interchanged). If we wish to include the whole group of geometric inversion, we must, in addition to the transformations mentioned, take account of the other (not less important) ones given by the formula :math:`z' = \frac{\alpha \bar{z} + \beta}{\gamma \bar{z} + \delta}` (where again :math:`z' = x' + iy'`, but :math:`\bar{z} = x - iy`).\ ``]``
 .. [#ep_u4_en27] See :ref:`Note VII <ep-notes-i-vii-en>`.

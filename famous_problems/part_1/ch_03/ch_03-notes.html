@@ -11,11 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="canonical" href="https://geometor.github.io/klein/famous_problems/part_1/ch_03/ch_03-notes.html" />
-  <meta name="description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular $n$-gon ($n \ge 3$) is constructible with straightedge and compasses if and only if Euler’s totient $\varphi(n) =…" />
+  <meta name="description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular n-gon (n \ge 3) is constructible with straightedge and compasses if and only if Euler’s totient \varphi(n) = \deg…" />
   <meta property="og:site_name" content="GEOMETOR" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Ch. III: Part I, Chapter III — Critical &amp; Symbolic Notes — Famous Problems of Elementary Geometry • GEOMETOR" />
-  <meta property="og:description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular $n$-gon ($n \ge 3$) is constructible with straightedge and compasses if and only if Euler’s totient $\varphi(n) =…" />
+  <meta property="og:description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular n-gon (n \ge 3) is constructible with straightedge and compasses if and only if Euler’s totient \varphi(n) = \deg…" />
   <meta property="og:url" content="https://geometor.github.io/klein/famous_problems/part_1/ch_03/ch_03-notes.html" />
   <meta property="og:image" content="https://geometor.github.io/klein/_static/social/famous_problems.png" />
   <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@
   <meta property="og:image:alt" content="Felix Klein — GEOMETOR" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ch. III: Part I, Chapter III — Critical &amp; Symbolic Notes — Famous Problems of Elementary Geometry • GEOMETOR" />
-  <meta name="twitter:description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular $n$-gon ($n \ge 3$) is constructible with straightedge and compasses if and only if Euler’s totient $\varphi(n) =…" />
+  <meta name="twitter:description" content="Combining §§ 2, 7, and 8 yields the complete Gauss–Wantzel Theorem: a regular n-gon (n \ge 3) is constructible with straightedge and compasses if and only if Euler’s totient \varphi(n) = \deg…" />
   <meta name="twitter:image" content="https://geometor.github.io/klein/_static/social/famous_problems.png" />
   <meta name="twitter:image:alt" content="Felix Klein — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -122,11 +122,11 @@
         <p class="rubric">Real Cyclotomic Minimal Polynomials, Kepler’s Heptagon, and Fermat Number Status</p>
         <section class="level-2" id="exact-polygon-classifier-in-geometor-klein-constructibility">
         <h2>Exact Polygon Classifier in <code class="docutils literal notranslate"><span class="pre">geometor.klein.constructibility</span></code><a class="headerlink" href="#exact-polygon-classifier-in-geometor-klein-constructibility" title="Link to this heading">¶</a></h2>
-        <p>Combining §§ 2, 7, and 8 yields the complete <strong>Gauss–Wantzel Theorem</strong>: a regular $n$-gon ($n \ge 3$) is constructible with straightedge and compasses if and only if Euler’s totient $\varphi(n) = \deg \Phi_n(z)$ is a power of $2$:</p>
+        <p>Combining §§ 2, 7, and 8 yields the complete <strong>Gauss–Wantzel Theorem</strong>: a regular <span class="math notranslate nohighlight">\(n\)</span>-gon (<span class="math notranslate nohighlight">\(n \ge 3\)</span>) is constructible with straightedge and compasses if and only if Euler’s totient <span class="math notranslate nohighlight">\(\varphi(n) = \deg \Phi_n(z)\)</span> is a power of <span class="math notranslate nohighlight">\(2\)</span>:</p>
         <div class="math notranslate nohighlight">
         \[\varphi(n) = 2^k \iff n = 2^a p_1 p_2 \cdots p_r,\]</div>
-        <p>where $a \ge 0$ and $p_1 &lt; p_2 &lt; \dots &lt; p_r$ are <strong>distinct</strong> <a class="term-ref glossary-term" id="occ-term-fermat-prime-1" href="../../../glossary.html#term-fermat-prime" data-term="fermat-prime" title="Fermat prime (Gauss&#x27;sche Primzahl 2^(2^μ) + 1) (Prime number of the form p = 2^(2^μ) + 1 governing odd-prime cyclotomic constructibility): An odd prime p for which p - 1 is a power of 2, forcing p = 2^(2^mu) + 1; the five known Fermat primes correspond to mu = 0 (3), mu = 1 (5), mu = 2 (17), mu = 3 (257), and mu = 4 (65537).">Fermat primes</a> ($3, 5, 17, 257, 65537, \dots$).</p>
-        <p>In <a class="reference internal" href="../../../modules/api/geometor/klein/constructibility/index.html#geometor.klein.constructibility.cyclotomic_real_minimal_poly" title="geometor.klein.constructibility.cyclotomic_real_minimal_poly"><code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.klein.constructibility.cyclotomic_real_minimal_poly()</span></code></a>, we also compute the exact minimal polynomial $\psi_n(u) \in \mathbb{Q}[u]$ of the real chord coordinate $u = z + z^{-1} = 2\cos\!\left(\frac{2\pi}{n}\right)$ of degree $\frac{1}{2}\varphi(n)$:</p>
+        <p>where <span class="math notranslate nohighlight">\(a \ge 0\)</span> and <span class="math notranslate nohighlight">\(p_1 &lt; p_2 &lt; \dots &lt; p_r\)</span> are <strong>distinct</strong> <a class="term-ref glossary-term" id="occ-term-fermat-prime-1" href="../../../glossary.html#term-fermat-prime" data-term="fermat-prime" title="Fermat prime (Gauss&#x27;sche Primzahl 2^(2^μ) + 1) (Prime number of the form p = 2^(2^μ) + 1 governing odd-prime cyclotomic constructibility): An odd prime p for which p - 1 is a power of 2, forcing p = 2^(2^mu) + 1; the five known Fermat primes correspond to mu = 0 (3), mu = 1 (5), mu = 2 (17), mu = 3 (257), and mu = 4 (65537).">Fermat primes</a> (<span class="math notranslate nohighlight">\(3, 5, 17, 257, 65537, \dots\)</span>).</p>
+        <p>In <a class="reference internal" href="../../../modules/api/geometor/klein/constructibility/index.html#geometor.klein.constructibility.cyclotomic_real_minimal_poly" title="geometor.klein.constructibility.cyclotomic_real_minimal_poly"><code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.klein.constructibility.cyclotomic_real_minimal_poly()</span></code></a>, we also compute the exact minimal polynomial <span class="math notranslate nohighlight">\(\psi_n(u) \in \mathbb{Q}[u]\)</span> of the real chord coordinate <span class="math notranslate nohighlight">\(u = z + z^{-1} = 2\cos\!\left(\frac{2\pi}{n}\right)\)</span> of degree <span class="math notranslate nohighlight">\(\frac{1}{2}\varphi(n)\)</span>:</p>
         <table class="docutils align-default" id="id1">
         <caption><span class="caption-text">First Non-Constructible Regular Polygons Verified by <code class="docutils literal notranslate"><span class="pre">geometor.klein</span></code></span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
         <colgroup>
@@ -136,32 +136,32 @@
         <col style="width: 36.0%" />
         </colgroup>
         <thead>
-        <tr class="row-odd"><th class="head"><p>$n$</p></th>
-        <th class="head"><p>$\varphi(n)$</p></th>
-        <th class="head"><p>Cyclotomic $\Phi_n(z)$</p></th>
-        <th class="head"><p>Real Minimal Polynomial $\psi_n(u)$ ($u = 2\cos\frac{2\pi}{n}$)</p></th>
+        <tr class="row-odd"><th class="head"><p><span class="math notranslate nohighlight">\(n\)</span></p></th>
+        <th class="head"><p><span class="math notranslate nohighlight">\(\varphi(n)\)</span></p></th>
+        <th class="head"><p>Cyclotomic <span class="math notranslate nohighlight">\(\Phi_n(z)\)</span></p></th>
+        <th class="head"><p>Real Minimal Polynomial <span class="math notranslate nohighlight">\(\psi_n(u)\)</span> (<span class="math notranslate nohighlight">\(u = 2\cos\frac{2\pi}{n}\)</span>)</p></th>
         </tr>
         </thead>
         <tbody>
-        <tr class="row-even"><td><p><strong>$7$</strong></p></td>
-        <td><p>$6$</p></td>
-        <td><p>$z^6 + z^5 + z^4 + z^3 + z^2 + z + 1$</p></td>
-        <td><p>$u^3 + u^2 - 2u - 1$ (deg $3$)</p></td>
+        <tr class="row-even"><td><p><span class="math notranslate nohighlight">\(7\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(6\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(z^6 + z^5 + z^4 + z^3 + z^2 + z + 1\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(u^3 + u^2 - 2u - 1\)</span> (deg <span class="math notranslate nohighlight">\(3\)</span>)</p></td>
         </tr>
-        <tr class="row-odd"><td><p><strong>$9$</strong></p></td>
-        <td><p>$6$</p></td>
-        <td><p>$z^6 + z^3 + 1$</p></td>
-        <td><p>$u^3 - 3u + 1$ (deg $3$)</p></td>
+        <tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(9\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(6\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(z^6 + z^3 + 1\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(u^3 - 3u + 1\)</span> (deg <span class="math notranslate nohighlight">\(3\)</span>)</p></td>
         </tr>
-        <tr class="row-even"><td><p><strong>$11$</strong></p></td>
-        <td><p>$10$</p></td>
-        <td><p>$z^{10} + \dots + z + 1$</p></td>
-        <td><p>$u^5 + u^4 - 4u^3 - 3u^2 + 3u + 1$ (deg $5$)</p></td>
+        <tr class="row-even"><td><p><span class="math notranslate nohighlight">\(11\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(10\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(z^{10} + \dots + z + 1\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(u^5 + u^4 - 4u^3 - 3u^2 + 3u + 1\)</span> (deg <span class="math notranslate nohighlight">\(5\)</span>)</p></td>
         </tr>
-        <tr class="row-odd"><td><p><strong>$13$</strong></p></td>
-        <td><p>$12$</p></td>
-        <td><p>$z^{12} + \dots + z + 1$</p></td>
-        <td><p>$u^6 + u^5 - 5u^4 - 4u^3 + 6u^2 + 3u - 1$ (deg $6$)</p></td>
+        <tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(13\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(12\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(z^{12} + \dots + z + 1\)</span></p></td>
+        <td><p><span class="math notranslate nohighlight">\(u^6 + u^5 - 5u^4 - 4u^3 + 6u^2 + 3u - 1\)</span> (deg <span class="math notranslate nohighlight">\(6\)</span>)</p></td>
         </tr>
         </tbody>
         </table>
@@ -169,8 +169,8 @@
         <section class="level-2" id="historical-sister-corpus-notes">
         <h2>Historical &amp; Sister-Corpus Notes<a class="headerlink" href="#historical-sister-corpus-notes" title="Link to this heading">¶</a></h2>
         <ul class="simple">
-        <li><p><strong>Kepler’s *Inscibilis* Heptagon (`geometor/kepler`):</strong> Nearly two centuries before <a class="person-ref" id="occ-person-gauss-1" href="../../../people/gauss.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss</a> and <a class="person-ref" id="occ-person-wantzel-1" href="../../../people/wantzel.html#person-wantzel" data-person="wantzel" title="Pierre Laurent Wantzel (1814 – 1848) — French Mathematician &amp; Engineer">Wantzel</a>, <a class="person-ref" id="occ-person-kepler-1" href="../../../people/kepler.html#person-kepler" data-person="kepler" title="Johannes Kepler (1571 – 1630) — German Astronomer, Geometer &amp; Natural Philosopher">Johannes Kepler</a> argued in <a class="citation-ref" id="occ-cite-kepler-1619-1" href="../../../bibliography.html#cite-kepler-1619" data-cite="kepler:1619" title="Johannes Kepler — Harmonices Mundi, Liber I: De figuris regularibus harmonicis (Linz: Johann Planck (Props. XLV–XLVII))"><em>Harmonices Mundi</em>, Liber I, Props. XLV–XLVII (1619)</a> that the regular heptagon ($n = 7$) is <em>inscibilis</em> (“unknowable” by plane geometry) because its chord determination leads to an irreducible solid/cubic problem ($u^3 + u^2 - 2u - 1 = 0$) possessing no prior ground in planar bisections.</p></li>
-        <li><p><strong>Status of $F_\mu = 2^{2^\mu} + 1$ After 1895:</strong> In § 1, Klein notes that in 1895 $F_5, F_6, F_7$ were known to be composite while $F_8$ remained open ($F_7$ and $F_8$ were proved composite by Morehead and Western in 1905 and 1909; today $F_5$ through $F_{32}$ are all known to be composite, leaving Klein’s prophetic remark that <em>$\mu = 4$ may be the last prime case</em> completely unrefuted!).</p></li>
+        <li><p><strong>Kepler’s *Inscibilis* Heptagon (`geometor/kepler`):</strong> Nearly two centuries before <a class="person-ref" id="occ-person-gauss-1" href="../../../people/gauss.html#person-gauss" data-person="gauss" title="Carl Friedrich Gauss (1777 – 1855) — German Mathematician (Princeps Mathematicorum)">Gauss</a> and <a class="person-ref" id="occ-person-wantzel-1" href="../../../people/wantzel.html#person-wantzel" data-person="wantzel" title="Pierre Laurent Wantzel (1814 – 1848) — French Mathematician &amp; Engineer">Wantzel</a>, <a class="person-ref" id="occ-person-kepler-1" href="../../../people/kepler.html#person-kepler" data-person="kepler" title="Johannes Kepler (1571 – 1630) — German Astronomer, Geometer &amp; Natural Philosopher">Johannes Kepler</a> argued in <a class="citation-ref" id="occ-cite-kepler-1619-1" href="../../../bibliography.html#cite-kepler-1619" data-cite="kepler:1619" title="Johannes Kepler — Harmonices Mundi, Liber I: De figuris regularibus harmonicis (Linz: Johann Planck (Props. XLV–XLVII))"><em>Harmonices Mundi</em>, Liber I, Props. XLV–XLVII (1619)</a> that the regular heptagon (<span class="math notranslate nohighlight">\(n = 7\)</span>) is <em>inscibilis</em> (“unknowable” by plane geometry) because its chord determination leads to an irreducible solid/cubic problem (<span class="math notranslate nohighlight">\(u^3 + u^2 - 2u - 1 = 0\)</span>) possessing no prior ground in planar bisections.</p></li>
+        <li><p><strong>Status of</strong> <span class="math notranslate nohighlight">\(F_\mu = 2^{2^\mu} + 1\)</span> <strong>After 1895</strong>: In § 1, Klein notes that in 1895 <span class="math notranslate nohighlight">\(F_5, F_6, F_7\)</span> were known to be composite while <span class="math notranslate nohighlight">\(F_8\)</span> remained open (<span class="math notranslate nohighlight">\(F_7\)</span> and <span class="math notranslate nohighlight">\(F_8\)</span> were proved composite by Morehead and Western in 1905 and 1909; today <span class="math notranslate nohighlight">\(F_5\)</span> through <span class="math notranslate nohighlight">\(F_{32}\)</span> are all known to be composite, leaving Klein’s prophetic remark that <span class="math notranslate nohighlight">\(\mu = 4\)</span> <em>may be the last prime case</em> completely unrefuted!).</p></li>
         </ul>
         </section>
         </section>

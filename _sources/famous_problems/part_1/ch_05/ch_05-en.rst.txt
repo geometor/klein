@@ -36,17 +36,17 @@ or the biquadratic (quartic) equation
 
    x^4 + a x^3 + b x^2 + c x + d = 0.
 
-Setting $x^2 = y$ reduces the two equations respectively to
+Setting :math:`x^2 = y` reduces the two equations respectively to
 
 .. math::
 
    x y + a y + b x + c = 0 \qquad \text{and} \qquad y^2 + a x y + b y + c x + d = 0.
 
-In both cases the roots $x$ are the abscissas of the intersections of **two conics**:
+In both cases the roots :math:`x` are the abscissas of the intersections of **two conics**:
 
-* The fixed **parabola** $x^2 = y$ with vertical axis.
-* For the **cubic** (Fig. 10), the **hyperbola** $xy + ay + bx + c = 0$, whose asymptotes are parallel to the coordinate axes. Of the four intersections required by Bézout's theorem, one lies at infinity on the $Y$-axis, leaving **three finite intersections** whose abscissas are the three roots of the cubic.
-* For the **biquadratic** (Fig. 11), the hyperbola $y^2 + axy + by + cx + d = 0$ retains the horizontal asymptote while its second asymptote is inclined; all **four intersections** with $x^2 = y$ now lie at finite distance.
+* The fixed **parabola** :math:`x^2 = y` with vertical axis.
+* For the **cubic** (Fig. 10), the **hyperbola** :math:`xy + ay + bx + c = 0`, whose asymptotes are parallel to the coordinate axes. Of the four intersections required by Bézout's theorem, one lies at infinity on the :math:`Y`-axis, leaving **three finite intersections** whose abscissas are the three roots of the cubic.
+* For the **biquadratic** (Fig. 11), the hyperbola :math:`y^2 + axy + by + cx + d = 0` retains the horizontal asymptote while its second asymptote is inclined; all **four intersections** with :math:`x^2 = y` now lie at finite distance.
 
 (For the historical methods of the Greek geometers, see M. Cantor, *Geschichte der Mathematik*, Leipzig, 1894, 2nd ed.; H. G. Zeuthen, *Die Kegelschnitte im Altertum*, Copenhagen, 1886; and R. Baltzer, *Analytische Geometrie*, Leipzig, 1882.)
 
@@ -55,19 +55,19 @@ In both cases the roots $x$ are the abscissas of the intersections of **two coni
 
 **3.** Besides conic sections, the ancients invented higher algebraic curves expressly to solve solid problems, notably the :term:`cissoid <cissoid>` and the :term:`conchoid <conchoid>`.
 
-The **cissoid of** :person:`Diocles <diocles>` (c. 150 B.C., Fig. 12) is traced from a circle of unit diameter tangent at $(1, 0)$ to the vertical line $x = 1$ and passing through the origin $O(0, 0)$. Through the vertex $O$ draw any ray at angle $\theta$ to the $X$-axis, meeting the circle at distance $\cos\theta$ and the vertical tangent $x = 1$ at distance $\frac{1}{\cos\theta}$, and lay off from $O$ along the ray the difference $r$ of those two segments:
+The **cissoid of** :person:`Diocles <diocles>` (c. 150 B.C., Fig. 12) is traced from a circle of unit diameter tangent at :math:`(1, 0)` to the vertical line :math:`x = 1` and passing through the origin :math:`O(0, 0)`. Through the vertex :math:`O` draw any ray at angle :math:`\theta` to the :math:`X`-axis, meeting the circle at distance :math:`\cos\theta` and the vertical tangent :math:`x = 1` at distance :math:`\frac{1}{\cos\theta}`, and lay off from :math:`O` along the ray the difference :math:`r` of those two segments:
 
 .. math::
 
    r = \frac{1}{\cos\theta} - \cos\theta = \frac{\sin^2\theta}{\cos\theta}.
 
-Passing to Cartesian coordinates ($x = r\cos\theta$, $y = r\sin\theta$) yields the cubic equation
+Passing to Cartesian coordinates (:math:`x = r\cos\theta`, :math:`y = r\sin\theta`) yields the cubic equation
 
 .. math::
 
    (x^2 + y^2)x - y^2 = 0.
 
-The cissoid is an algebraic curve of the **third order**, symmetric about the $X$-axis, with a **cusp** at the origin $O$, having the vertical line $x = 1$ as asymptote, and cutting the line at infinity in the two imaginary **circular points**.
+The cissoid is an algebraic curve of the **third order**, symmetric about the :math:`X`-axis, with a **cusp** at the origin :math:`O`, having the vertical line :math:`x = 1` as asymptote, and cutting the line at infinity in the two imaginary **circular points**.
 
 .. picture:: /_static/figures/fig_conchoid_cissoid.svg
    :alt: Classical Higher Curves: Cissoid of Diocles for Cube Duplication and Conchoid of Nicomedes for Angle Trisection
@@ -79,35 +79,35 @@ To solve the :term:`Delian problem <delian-problem>` by means of the cissoid, re
 
    \left(\frac{y}{x}\right)^3 = \frac{y}{1 - x}.
 
-A ray $\frac{y}{x} = \lambda$ through the origin cuts off the ordinate $\lambda$ on the vertical asymptote $x = 1$, and meets the cissoid at a point satisfying $\frac{y}{1 - x} = \lambda^3$. Now $\frac{y}{1 - x} = \lambda^3$ is the equation of the straight line joining $(1, 0)$ to that cissoid point, which cuts off on the $Y$-axis ($x = 0$) the intercept $\lambda^3$! Reversing the steps constructs $\sqrt[3]{2}$ immediately:
+A ray :math:`\frac{y}{x} = \lambda` through the origin cuts off the ordinate :math:`\lambda` on the vertical asymptote :math:`x = 1`, and meets the cissoid at a point satisfying :math:`\frac{y}{1 - x} = \lambda^3`. Now :math:`\frac{y}{1 - x} = \lambda^3` is the equation of the straight line joining :math:`(1, 0)` to that cissoid point, which cuts off on the :math:`Y`-axis (:math:`x = 0`) the intercept :math:`\lambda^3`! Reversing the steps constructs :math:`\sqrt[3]{2}` immediately:
 
-1. Lay off the intercept $2$ on the $Y$-axis at $(0, 2)$ and join $(0, 2)$ to $(1, 0)$.
-2. Mark the intersection $P$ of that segment with the cissoid.
-3. Draw the ray $OP$ from the origin to the vertical tangent $x = 1$: the ordinate cut off on $x = 1$ equals $\sqrt[3]{2}$.
+1. Lay off the intercept :math:`2` on the :math:`Y`-axis at :math:`(0, 2)` and join :math:`(0, 2)` to :math:`(1, 0)`.
+2. Mark the intersection :math:`P` of that segment with the cissoid.
+3. Draw the ray :math:`OP` from the origin to the vertical tangent :math:`x = 1`: the ordinate cut off on :math:`x = 1` equals :math:`\sqrt[3]{2}`.
 
 § 4. The Conchoid of Nicomedes and Angle Trisection
 ---------------------------------------------------
 
-**4.** The **conchoid of** :person:`Nicomedes <nicomedes>` (c. 150 B.C., Fig. 13) is generated from a fixed pole $O(0, 0)$ at perpendicular distance $a$ from a fixed line $x = a$. Through $O$ pass a pencil of rays and lay off on each ray, in both directions from its intersection with $x = a$, a constant segment $b$. Depending on whether $b > a$, $b < a$, or $b = a$, the origin $O$ is a **node** (looped branch), an **isolated conjugate point**, or a **cusp**. From the proportion $r : x = \pm b : (x - a)$ we obtain the Cartesian equation
+**4.** The **conchoid of** :person:`Nicomedes <nicomedes>` (c. 150 B.C., Fig. 13) is generated from a fixed pole :math:`O(0, 0)` at perpendicular distance :math:`a` from a fixed line :math:`x = a`. Through :math:`O` pass a pencil of rays and lay off on each ray, in both directions from its intersection with :math:`x = a`, a constant segment :math:`b`. Depending on whether :math:`b > a`, :math:`b < a`, or :math:`b = a`, the origin :math:`O` is a **node** (looped branch), an **isolated conjugate point**, or a **cusp**. From the proportion :math:`r : x = \pm b : (x - a)` we obtain the Cartesian equation
 
 .. math::
 
    (x^2 + y^2)(x - a)^2 - b^2 x^2 = 0.
 
-The conchoid is thus of the **fourth order**, has a double point at the origin $O$ and two branches asymptotic to $x = a$, and—by virtue of the factor $(x^2 + y^2)$—passes through the **circular points at infinity**.
+The conchoid is thus of the **fourth order**, has a double point at the origin :math:`O` and two branches asymptotic to :math:`x = a`, and—by virtue of the factor :math:`(x^2 + y^2)`—passes through the **circular points at infinity**.
 
-To **trisect any given angle** $\varphi = \angle MOY$:
+To **trisect any given angle** :math:`\varphi = \angle MOY`:
 
-1. On the inclined side $OM$, lay off an arbitrary length $OM = b$.
-2. With center $M$ and radius $b$, describe a circle, and through $M$ draw the vertical line $x = a$ ($a = b\sin\varphi$) perpendicular to the $X$-axis as asymptote of the conchoid with pole $O$ and interval $b$.
-3. Connect $O$ to the intersection $A$ of the circle and the outer branch of the conchoid: then $\angle AOY = \frac{1}{3}\varphi$! (Indeed, if $N$ is where $OA$ meets the vertical line $x = a$, then $NA = b = MA$ and $\triangle NMA$ is isosceles while $\angle OMN = 90^\circ$ gives the exterior-angle relation $\varphi = 3\,\angle AOY$.)
+1. On the inclined side :math:`OM`, lay off an arbitrary length :math:`OM = b`.
+2. With center :math:`M` and radius :math:`b`, describe a circle, and through :math:`M` draw the vertical line :math:`x = a` (:math:`a = b\sin\varphi`) perpendicular to the :math:`X`-axis as asymptote of the conchoid with pole :math:`O` and interval :math:`b`.
+3. Connect :math:`O` to the intersection :math:`A` of the circle and the outer branch of the conchoid: then :math:`\angle AOY = \frac{1}{3}\varphi`! (Indeed, if :math:`N` is where :math:`OA` meets the vertical line :math:`x = a`, then :math:`NA = b = MA` and :math:`\triangle NMA` is isosceles while :math:`\angle OMN = 90^\circ` gives the exterior-angle relation :math:`\varphi = 3\,\angle AOY`.)
 
-**Algebraic Counting of Intersections:** Our earlier Galois analysis showed that angle trisection is an irreducible problem of the **third degree**, admitting the three roots $\frac{\varphi}{3}, \frac{\varphi + 2\pi}{3}, \frac{\varphi + 4\pi}{3}$. Every algebraic curve construction must necessarily furnish *all three* roots simultaneously—otherwise the trisection cubic would split! Let us verify this in the figure:
+**Algebraic Counting of Intersections:** Our earlier Galois analysis showed that angle trisection is an irreducible problem of the **third degree**, admitting the three roots :math:`\frac{\varphi}{3}, \frac{\varphi + 2\pi}{3}, \frac{\varphi + 4\pi}{3}`. Every algebraic curve construction must necessarily furnish *all three* roots simultaneously—otherwise the trisection cubic would split! Let us verify this in the figure:
 
-* The circle (degree $2$) and conchoid (degree $4$) intersect in $2 \times 4 = 8$ points.
-* **Two** intersections fall at the double point $O(0, 0)$, and **two** fall at the imaginary circular points at infinity—none of which solve our problem, leaving $8 - 2 - 2 = 4$ finite intersections.
-* Among these four finite points lies the collinear point $B$ on ray $OM$ extended ($OMB = 2b$), which is constructible rationally beforehand without the curve.
-* Removing $B$ leaves **precisely $3$ intersections**, corresponding to the three algebraic roots $\frac{\varphi}{3}, \frac{\varphi + 2\pi}{3}, \frac{\varphi + 4\pi}{3}$!
+* The circle (degree :math:`2`) and conchoid (degree :math:`4`) intersect in :math:`2 \times 4 = 8` points.
+* **Two** intersections fall at the double point :math:`O(0, 0)`, and **two** fall at the imaginary circular points at infinity—none of which solve our problem, leaving :math:`8 - 2 - 2 = 4` finite intersections.
+* Among these four finite points lies the collinear point :math:`B` on ray :math:`OM` extended (:math:`OMB = 2b`), which is constructible rationally beforehand without the curve.
+* Removing :math:`B` leaves **precisely** :math:`3` **intersections**, corresponding to the three algebraic roots :math:`\frac{\varphi}{3}, \frac{\varphi + 2\pi}{3}, \frac{\varphi + 4\pi}{3}`!
 
 § 5. Continuous Mechanical Instruments vs. Pointwise Approximation
 ------------------------------------------------------------------

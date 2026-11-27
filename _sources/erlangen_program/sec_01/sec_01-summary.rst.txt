@@ -16,11 +16,11 @@
 -----------------------------------------------------------------------------
 
 1. **Axiomatic Group Closure (and Inverses):**
-   Klein defines a :term:`transformation group <transformation-group>` $G$ on space (or on an $n$-dimensional :term:`manifold <manifold>` $M$) as a family of transformations closed under composition—adding in his famous 1893 bracketed footnote that for infinite families one must explicitly stipulate closure under inverses ($g \in G \implies g^{-1} \in G$). While dualities (correlations) alone do not form a group because the product of two dualities is a collineation, the union of collineations and dualities forms an index-$2$ group extension.
+   Klein defines a :term:`transformation group <transformation-group>` :math:`G` on space (or on an :math:`n`-dimensional :term:`manifold <manifold>` :math:`M`) as a family of transformations closed under composition—adding in his famous 1893 bracketed footnote that for infinite families one must explicitly stipulate closure under inverses (:math:`g \in G \implies g^{-1} \in G`). While dualities (correlations) alone do not form a group because the product of two dualities is a collineation, the union of collineations and dualities forms an index-:math:`2` group extension.
 2. **The Principal Group (*Hauptgruppe*):**
-   Elementary Euclidean properties depend neither on absolute spatial position (translations and rotations), nor on absolute scale (homotheties), nor on chiral orientation (mirror reflections). Their composite group is the $7$-parameter spatial (or $4$-parameter planar) :term:`Principal Group <principal-group>` of similarities. Elementary geometry is *defined* by invariance under the Principal Group.
+   Elementary Euclidean properties depend neither on absolute spatial position (translations and rotations), nor on absolute scale (homotheties), nor on chiral orientation (mirror reflections). Their composite group is the :math:`7`-parameter spatial (or :math:`4`-parameter planar) :term:`Principal Group <principal-group>` of similarities. Elementary geometry is *defined* by invariance under the Principal Group.
 3. **The Erlangen Problem:**
-   Abstracting from physical space to any manifold $M$ equipped with an arbitrarily chosen transformation group $G$, Klein states the universal program of modern geometry:
+   Abstracting from physical space to any manifold :math:`M` equipped with an arbitrarily chosen transformation group :math:`G`, Klein states the universal program of modern geometry:
 
    .. math::
 
