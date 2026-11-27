@@ -15,15 +15,15 @@ Textual Variants Between Deichert (1872) and Haskell (1893)
 -----------------------------------------------------------
 
 * **1893 Author's Prefatory Note & Square Brackets:**
-  In his 1893 *Prefatory Note*, :person:`Klein <klein>` explicitly flags every post-1872 clarification inside square brackets ``[ ]``. In the Introduction itself, the 1872 German text and 1893 English translation stand in strict paragraph-for-paragraph correspondence; the substantive bracketed additions appear in § 1 (explicitly requiring inverses for infinite groups), § 3 (generalizing *Chasles* to *[the French school]*), § 5 (excluding normal/self-conjugate stabilizers from faithful group-bodies), § 6 (distinguishing holomorphic $z' = \frac{\alpha z + \beta}{\gamma z + \delta}$ from anti-conformal $\bar{z}$ inversions), §§ 7–8 (tetracyclic/pentaspherical coordinates and canonical abelian curves), and Note V (philosophical vs. mathematical foundations).
+  In his 1893 *Prefatory Note*, :person:`Klein <klein>` explicitly flags every post-1872 clarification inside square brackets ``[ ]``. In the Introduction itself, the 1872 German text and 1893 English translation stand in strict paragraph-for-paragraph correspondence; the substantive bracketed additions appear in § 1 (explicitly requiring inverses for infinite groups), § 3 (generalizing *Chasles* to *[the French school]*), § 5 (excluding normal/self-conjugate stabilizers from faithful group-bodies), § 6 (distinguishing holomorphic :math:`z' = \frac{\alpha z + \beta}{\gamma z + \delta}` from anti-conformal :math:`\bar{z}` inversions), §§ 7–8 (tetracyclic/pentaspherical coordinates and canonical abelian curves), and Note V (philosophical vs. mathematical foundations).
 * **Terminology of the Absolute (*der unendlich ferne Kugelkreis*):**
-  Klein's German phrase *der unendlich ferne Kugelkreis* literally means "the infinitely distant sphere-circle," rendered by :person:`Haskell <haskell>` with precision as *"the imaginary circle at infinity common to all spheres."* In homogeneous spatial coordinates $(x : y : z : w)$, every sphere
+  Klein's German phrase *der unendlich ferne Kugelkreis* literally means "the infinitely distant sphere-circle," rendered by :person:`Haskell <haskell>` with precision as *"the imaginary circle at infinity common to all spheres."* In homogeneous spatial coordinates :math:`(x : y : z : w)`, every sphere
 
   .. math::
 
      (x - a w)^2 + (y - b w)^2 + (z - c w)^2 - r^2 w^2 = 0
 
-  intersects the plane at infinity $w = 0$ in the same imaginary conic $x^2 + y^2 + z^2 = 0$. In the plane ($z = 0$), this reduces to :person:`Poncelet's <poncelet>` circular points at infinity $I = (1 : i : 0)$ and $J = (1 : -i : 0)$.
+  intersects the plane at infinity :math:`w = 0` in the same imaginary conic :math:`x^2 + y^2 + z^2 = 0`. In the plane (:math:`z = 0`), this reduces to :person:`Poncelet's <poncelet>` circular points at infinity :math:`I = (1 : i : 0)` and :math:`J = (1 : -i : 0)`.
 
 Cross-Corpus Links in GEOMETOR
 ------------------------------

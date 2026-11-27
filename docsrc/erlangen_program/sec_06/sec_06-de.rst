@@ -8,8 +8,8 @@
 .. _ep-sec-06-de:
 .. _ep-sec-06-07-inversion-lie-spheres-de:
 
-§. 6. Die Geometrie der reciproken Radien. Die Interpretation von $x + iy$
---------------------------------------------------------------------------
+§. 6. Die Geometrie der reciproken Radien. Die Interpretation von :math:`x + iy`
+--------------------------------------------------------------------------------
 
 .. rubric:: *Vergleichende Betrachtungen über neuere geometrische Forschungen* — §. 6 (Erlangen: A. Deichert, 1872, S. 20–23)
 
@@ -36,7 +36,7 @@ und ganz entsprechend:
 
 Die Raumgeometrie ist also durch die Geometrie der reciproken Radien in ganz dieselbe Verbindung mit einer Mannigfaltigkeit von vier Dimensionen gesetzt, wie vermöge der Liniengeometrie mit einer Mannigfaltigkeit von fünf Ausdehnungen.
 
-Die Geometrie der reciproken Radien in der Ebene gestattet, sofern man nur auf *reelle* Transformationen achten will, noch nach einer anderen Seite eine interessante Darstellung, resp. Verwendung. Breitet man nämlich eine complexe Variable $x + iy$ in gewöhnlicher Weise in der Ebene aus, so entspricht ihren linearen Transformationen die Gruppe der reciproken Radien, mit der erwähnten Beschränkung auf das Reelle. Die Untersuchung der Functionen einer complexen Veränderlichen, die beliebigen linearen Transformationen unterworfen gedacht ist, ist aber nichts Anderes, als was bei einer etwas abgeänderten Darstellungsweise Theorie der binären Formen genannt wird. Also:
+Die Geometrie der reciproken Radien in der Ebene gestattet, sofern man nur auf *reelle* Transformationen achten will, noch nach einer anderen Seite eine interessante Darstellung, resp. Verwendung. Breitet man nämlich eine complexe Variable :math:`x + iy` in gewöhnlicher Weise in der Ebene aus, so entspricht ihren linearen Transformationen die Gruppe der reciproken Radien, mit der erwähnten Beschränkung auf das Reelle. Die Untersuchung der Functionen einer complexen Veränderlichen, die beliebigen linearen Transformationen unterworfen gedacht ist, ist aber nichts Anderes, als was bei einer etwas abgeänderten Darstellungsweise Theorie der binären Formen genannt wird. Also:
 
    *Die Theorie der binären Formen findet ihre Darstellung durch die Geometrie der reciproken Radien in der reellen Ebene, so zwar, dass auch die complexen Werthe der Variabeln repräsentirt werden.*
 

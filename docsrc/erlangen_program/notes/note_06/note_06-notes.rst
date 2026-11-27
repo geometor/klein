@@ -18,6 +18,6 @@ Vanishing Cross-Ratios on the Boundary Quadric
 
 In Note VI, Klein explains the subtle metrical geometry of quadric surfaces and Plücker's line-space:
 
-* **Identical Vanishing of Cross-Ratio:** For any two points lying directly on the absolute quadric $\Omega = 0$, the ambient cross-ratio is identically zero (or indeterminate along a generator).
-* **Inducing Intrinsic Metrics:** To induce a genuine constant-curvature metric on $\Omega$, one must fix an external pole/polar plane.
-* **Line-Space Metric:** Line space admits a metric only upon fixing a linear line complex (a hyperplanar section of the Klein quadric in $\mathbb{P}^5$).
+* **Identical Vanishing of Cross-Ratio:** For any two points lying directly on the absolute quadric :math:`\Omega = 0`, the ambient cross-ratio is identically zero (or indeterminate along a generator).
+* **Inducing Intrinsic Metrics:** To induce a genuine constant-curvature metric on :math:`\Omega`, one must fix an external pole/polar plane.
+* **Line-Space Metric:** Line space admits a metric only upon fixing a linear line complex (a hyperplanar section of the Klein quadric in :math:`\mathbb{P}^5`).

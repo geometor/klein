@@ -31,7 +31,7 @@ Books in This Collection
 
       .. rubric:: First Editions · 1895 (Teubner) / tr. Beman & Smith 1897 · Parts I & II · 4 Tracks
 
-      **Famous Problems of Elementary Geometry (Vorträge über ausgewählte Fragen der Elementargeometrie)** — Klein's Göttingen holiday lectures resolving cube duplication, angle trisection, Gauss's constructible 17-gon (including Poncelet–Steiner single-circle construction), and Gordan's transcendence proofs for $e$ and $\pi$.
+      **Famous Problems of Elementary Geometry (Vorträge über ausgewählte Fragen der Elementargeometrie)** — Klein's Göttingen holiday lectures resolving cube duplication, angle trisection, Gauss's constructible 17-gon (including Poncelet–Steiner single-circle construction), and Gordan's transcendence proofs for :math:`e` and :math:`\pi`.
 
       .. container:: home-actions
 
@@ -74,7 +74,7 @@ Key Features
 
       **Symbolic Cyclotomy & Group Invariants**
 
-      The ``geometor.klein`` Python suite verifies Gauss–Wantzel constructibility, constructs the exact single-circle 17-gon over $K_{16}$, and checks Cayley–Klein cross-ratio additivity in SymPy.
+      The ``geometor.klein`` Python suite verifies Gauss–Wantzel constructibility, constructs the exact single-circle 17-gon over :math:`K_{16}`, and checks Cayley–Klein cross-ratio additivity in SymPy.
 
    .. container:: home-feature-card
 

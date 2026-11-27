@@ -13,4 +13,4 @@ Note VII: Summary
 
 .. rubric:: Analytical Synopsis of Klein's Appendix Note VII
 
-* **Note VII — Spherical Symmetry of Binary Cubics & Quartics:** Visualizes binary invariants on the Riemann sphere: a cubic $f$, its Hessian $\Delta$ (north/south poles), and cubic covariant $Q$ ($60^\circ$-rotated equator); and a quartic pencil $i H + \lambda j f$ as symmetric tetrahedra $(x,y,z), (x,-y,-z), (-x,y,-z), (-x,-y,z)$ whose opposite edges are bisected by the octahedral axes of the sextic covariant $T$—geometrically explaining Lagrange's/Galois's **cubic resolvent of the quartic**!
+* **Note VII — Spherical Symmetry of Binary Cubics & Quartics:** Visualizes binary invariants on the Riemann sphere: a cubic :math:`f`, its Hessian :math:`\Delta` (north/south poles), and cubic covariant :math:`Q` (:math:`60^\circ`-rotated equator); and a quartic pencil :math:`i H + \lambda j f` as symmetric tetrahedra :math:`(x,y,z), (x,-y,-z), (-x,y,-z), (-x,-y,z)` whose opposite edges are bisected by the octahedral axes of the sextic covariant :math:`T`—geometrically explaining Lagrange's/Galois's **cubic resolvent of the quartic**!

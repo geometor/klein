@@ -15,9 +15,9 @@
 § 7. Two Higher Circle/Sphere Extensions and Lie's Sphere Geometry
 ------------------------------------------------------------------
 
-Transferring planar circles to spatial planes cutting the unit sphere $x_1^2 + x_2^2 + x_3^2 + x_4^2 = 0$, Klein extends inversion geometry in two distinct ways:
+Transferring planar circles to spatial planes cutting the unit sphere :math:`x_1^2 + x_2^2 + x_3^2 + x_4^2 = 0`, Klein extends inversion geometry in two distinct ways:
 
-1. **Non-Contact Circle Geometry ($\operatorname{PGL}_4$ on Circles):**
-   Allowing *all* spatial collineations (dropping the sphere) induces planar circle transformations mapping pencils and orthogonal bundles of circles to pencils and bundles, isomorphic to ordinary $3$-space projective geometry (circles form a $3$-dimensional *Körper*, whereas points are no longer preserved).
-2. **Lie's Contact Sphere/Circle Geometry ($\operatorname{PO}_5$ / $\operatorname{PO}_6$):**
-   Introducing the oriented radius coordinate $i u_5 = \sqrt{u_1^2 + u_2^2 + u_3^2 + u_4^2}$ embeds oriented circles (including points as radius-$0$ circles and oriented lines) into the quadric $\sum_{k=1}^5 u_k^2 = 0$ (and spatial oriented spheres into $\sum_{k=1}^6 u_k^2 = 0$ in $\mathbb{P}^5$). Linear transformations preserving this quadric form :term:`Lie's sphere geometry <lie-sphere-geometry>`, a genuine group of :term:`contact-transformations <contact-transformation>` preserving oriented tangency of curves and surfaces while mixing points, lines/planes, and circles/spheres into a single transitive *Körper*.
+1. **Non-Contact Circle Geometry** (:math:`\operatorname{PGL}_4` **on Circles**):
+   Allowing *all* spatial collineations (dropping the sphere) induces planar circle transformations mapping pencils and orthogonal bundles of circles to pencils and bundles, isomorphic to ordinary :math:`3`-space projective geometry (circles form a :math:`3`-dimensional *Körper*, whereas points are no longer preserved).
+2. **Lie's Contact Sphere/Circle Geometry** (:math:`\operatorname{PO}_5` **/** :math:`\operatorname{PO}_6`):
+   Introducing the oriented radius coordinate :math:`i u_5 = \sqrt{u_1^2 + u_2^2 + u_3^2 + u_4^2}` embeds oriented circles (including points as radius-:math:`0` circles and oriented lines) into the quadric :math:`\sum_{k=1}^5 u_k^2 = 0` (and spatial oriented spheres into :math:`\sum_{k=1}^6 u_k^2 = 0` in :math:`\mathbb{P}^5`). Linear transformations preserving this quadric form :term:`Lie's sphere geometry <lie-sphere-geometry>`, a genuine group of :term:`contact-transformations <contact-transformation>` preserving oriented tangency of curves and surfaces while mixing points, lines/planes, and circles/spheres into a single transitive *Körper*.

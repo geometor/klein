@@ -13,4 +13,4 @@ Note IV: Summary
 
 .. rubric:: Analytical Synopsis of Klein's Appendix Note IV
 
-* **Note IV — $n$-Dimensional Manifolds Without Mysticism:** Sharply separates the mathematical theory of $n$-dimensional :term:`manifolds <manifold>` (:person:`Grassmann <grassmann>` 1844, :person:`Riemann <riemann>` 1854) and parameter spaces (:person:`Plücker <pluecker>`) from popular metaphysical or spiritualist claims about a fourth physical dimension.
+* **Note IV** — :math:`n`-**Dimensional Manifolds Without Mysticism**: Sharply separates the mathematical theory of :math:`n`-dimensional :term:`manifolds <manifold>` (:person:`Grassmann <grassmann>` 1844, :person:`Riemann <riemann>` 1854) and parameter spaces (:person:`Plücker <pluecker>`) from popular metaphysical or spiritualist claims about a fourth physical dimension.
