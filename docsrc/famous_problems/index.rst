@@ -46,10 +46,6 @@ Table of Contents
 .. collection::
    :sort: order
 
-   :doc: intro/intro-en
-   :doc: part_1/index
-   :doc: part_2/index
-
 Scholarly Apparatus
 -------------------
 
@@ -57,42 +53,6 @@ Scholarly Apparatus
 * :doc:`Bibliography </bibliography>` — Systematic bibliography of 36 primary imprints, editions, and sister treatises.
 * :doc:`Concordance </concordance>` — Cross-corpus concordance across nine GEOMETOR sister repositories.
 * :doc:`Glossary </glossary>` — Bilingual technical glossary defining foundational concepts.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: English Edition
-
-   intro/intro-en
-   part_1/index
-   part_2/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: German Edition
-
-   intro/intro-de
-   part_1/index
-   part_2/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Analytical Summaries
-
-   intro/intro-summary
-   part_1/index
-   part_2/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Critical & Symbolic Notes
-
-   intro/intro-notes
-   part_1/index
-   part_2/index
 
 .. toctree::
    :maxdepth: 1

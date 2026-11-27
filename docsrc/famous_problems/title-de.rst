@@ -39,7 +39,7 @@ Vorträge über ausgewählte Fragen der Elementargeometrie
 Inhaltsverzeichnis
 ------------------
 
-* :doc:`Einleitung <intro/intro-de>`
+* :doc:`Einleitung <intro/de>`
 * :doc:`Erster Teil <part_1/index>`
 * :doc:`Zweiter Teil <part_2/index>`
 

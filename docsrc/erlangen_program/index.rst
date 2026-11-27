@@ -46,19 +46,6 @@ Table of Contents
 .. collection::
    :sort: order
 
-   :doc: prefatory-intro/prefatory-intro-en
-   :doc: sec_01/sec_01-en
-   :doc: sec_02/sec_02-en
-   :doc: sec_03/sec_03-en
-   :doc: sec_04/sec_04-en
-   :doc: sec_05/sec_05-en
-   :doc: sec_06/sec_06-en
-   :doc: sec_07/sec_07-en
-   :doc: sec_08/sec_08-en
-   :doc: sec_09/sec_09-en
-   :doc: sec_10/sec_10-en
-   :doc: notes/index
-
 Scholarly Apparatus
 -------------------
 
@@ -66,78 +53,6 @@ Scholarly Apparatus
 * :doc:`Bibliography </bibliography>` — Systematic bibliography of 36 primary imprints, editions, and sister treatises.
 * :doc:`Concordance </concordance>` — Cross-corpus concordance across nine GEOMETOR sister repositories.
 * :doc:`Glossary </glossary>` — Bilingual technical glossary defining foundational concepts.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: English Edition
-
-   prefatory-intro/prefatory-intro-en
-   sec_01/sec_01-en
-   sec_02/sec_02-en
-   sec_03/sec_03-en
-   sec_04/sec_04-en
-   sec_05/sec_05-en
-   sec_06/sec_06-en
-   sec_07/sec_07-en
-   sec_08/sec_08-en
-   sec_09/sec_09-en
-   sec_10/sec_10-en
-   notes/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: German Edition
-
-   prefatory-intro/prefatory-intro-de
-   sec_01/sec_01-de
-   sec_02/sec_02-de
-   sec_03/sec_03-de
-   sec_04/sec_04-de
-   sec_05/sec_05-de
-   sec_06/sec_06-de
-   sec_07/sec_07-de
-   sec_08/sec_08-de
-   sec_09/sec_09-de
-   sec_10/sec_10-de
-   notes/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Analytical Summaries
-
-   prefatory-intro/prefatory-intro-summary
-   sec_01/sec_01-summary
-   sec_02/sec_02-summary
-   sec_03/sec_03-summary
-   sec_04/sec_04-summary
-   sec_05/sec_05-summary
-   sec_06/sec_06-summary
-   sec_07/sec_07-summary
-   sec_08/sec_08-summary
-   sec_09/sec_09-summary
-   sec_10/sec_10-summary
-   notes/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Critical & Symbolic Notes
-
-   prefatory-intro/prefatory-intro-notes
-   sec_01/sec_01-notes
-   sec_02/sec_02-notes
-   sec_03/sec_03-notes
-   sec_04/sec_04-notes
-   sec_05/sec_05-notes
-   sec_06/sec_06-notes
-   sec_07/sec_07-notes
-   sec_08/sec_08-notes
-   sec_09/sec_09-notes
-   sec_10/sec_10-notes
-   notes/index
 
 .. toctree::
    :maxdepth: 1
