@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 3: Projective Geometry &amp; The Absolute Conic — Critical &amp; Symbolic Notes — The Erlangen Program • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/klein/erlangen_program/sec_03/notes.html" />
+  <meta name="description" content="Group Inclusions &amp; Projective Extension: The projective group \operatorname{PGL}_4(\mathbb{R}) (15 parameters) encompasses the 7-parameter principal group \operatorname{Sim}(\mathbb{R}^3) by…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 3: Projective Geometry &amp; The Absolute Conic — Critical &amp; Symbolic Notes — The Erlangen Program • GEOMETOR" />
+  <meta property="og:description" content="Group Inclusions &amp; Projective Extension: The projective group \operatorname{PGL}_4(\mathbb{R}) (15 parameters) encompasses the 7-parameter principal group \operatorname{Sim}(\mathbb{R}^3) by…" />
+  <meta property="og:url" content="https://geometor.github.io/klein/erlangen_program/sec_03/notes.html" />
+  <meta property="og:image" content="https://geometor.github.io/klein/_static/social/erlangen_program.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="640" />
+  <meta property="og:image:alt" content="Felix Klein — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 3: Projective Geometry &amp; The Absolute Conic — Critical &amp; Symbolic Notes — The Erlangen Program • GEOMETOR" />
+  <meta name="twitter:description" content="Group Inclusions &amp; Projective Extension: The projective group \operatorname{PGL}_4(\mathbb{R}) (15 parameters) encompasses the 7-parameter principal group \operatorname{Sim}(\mathbb{R}^3) by…" />
+  <meta name="twitter:image" content="https://geometor.github.io/klein/_static/social/erlangen_program.png" />
+  <meta name="twitter:image:alt" content="Felix Klein — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=0b57331d" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR klein"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">klein</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../famous_problems/index.html"  >Famous Problems</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Erlangen Program</a>
+        </li>
+        <li>
+          <a href="../../people/index.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../sources/index.html"  >Sources</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >Concordance</a>
+        </li>
+        <li>
+          <a href="../../glossary.html"  >Glossary</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-pagename="erlangen_program/sec_03/notes" data-canonical-id="§ 3" data-outline-src="../outline-data.js" data-outline-url="../outline.html">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Erlangen Program</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="index.html">§ 3</a>
+          </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_02/notes.html" title="§ 2. Groups of Transformations, One of Which Includes the Other, Are Successively Adjoined. The Different Types of Geometrical Investigation and Their Relation to Each Other">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <div class="book-nav-center-row">
+              <nav class="book-tracks-nav" aria-label="Document Tracks">
+                <a class="book-track-item" href="index.html">English</a>
+                <span class="book-track-sep">&middot;</span>
+                <a class="book-track-item" href="de.html">German</a>
+                <span class="book-track-sep">&middot;</span>
+                <a class="book-track-item" href="summary.html">Summary</a>
+                <span class="book-track-sep">&middot;</span>
+                <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+              </nav>
+              <span class="book-track-divider" aria-hidden="true">|</span>
+              <a class="book-outline-trigger" href="../outline.html" data-outline-toggle aria-expanded="false" aria-controls="book-outline-drawer" title="View full book outline">Outline</a>
+            </div>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_04/notes.html" title="§ 4. Transfer of Properties by Representation (Abbildung)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="projective-geometry-the-absolute-conic-critical-symbolic-notes">
+        <span id="ep-sec-03-05-projective-transference-notes"></span><span id="id1"></span><span id="ep-sec-03-notes"></span><h1>§ 3: Projective Geometry &amp; The Absolute Conic — Critical &amp; Symbolic Notes<a class="headerlink" href="#projective-geometry-the-absolute-conic-critical-symbolic-notes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Group Extensions, The Conic at Infinity, and French Synthetic Precursors</p>
+        <ul class="simple">
+        <li><p><strong>Group Inclusions &amp; Projective Extension:</strong>
+        The projective group <span class="math notranslate nohighlight">\(\operatorname{PGL}_4(\mathbb{R})\)</span> (<span class="math notranslate nohighlight">\(15\)</span> parameters) encompasses the <span class="math notranslate nohighlight">\(7\)</span>-parameter principal group <span class="math notranslate nohighlight">\(\operatorname{Sim}(\mathbb{R}^3)\)</span> by adjoining transformations that move the plane at infinity <span class="math notranslate nohighlight">\(\Pi_\infty\)</span> to finite positions.</p></li>
+        <li><p><strong>Cayley’s Absolute:</strong>
+        Metric Euclidean geometry is recovered by adjoining to <span class="math notranslate nohighlight">\(\operatorname{PGL}_4\)</span> the invariant specification of the plane at infinity and <a class="term-ref glossary-term" id="occ-term-the-absolute-1" href="../../glossary.html#term-the-absolute" data-term="the-absolute" title="the Absolute (das Fundamentalgebilde / Unendlichferne) (Distinguished invariant conic or quadric defining a Cayley–Klein metric subgroup): The fixed quadric locus whose stabilizer inside the projective group yields a constant-curvature metric geometry: the imaginary spherical circle at infinity yields Euclidean similarity geometry, an imaginary non-degenerate quadric yields elliptic geometry, and a real non-degenerate quadric yields Lobachevskian hyperbolic geometry.">the Absolute</a> (the degenerate imaginary circle at infinity <span class="math notranslate nohighlight">\(\Omega_\infty\)</span>).</p></li>
+        <li><p><strong>Footnote 14 (1872</strong> <em>Chasles</em> <span class="math notranslate nohighlight">\(\to\)</span> <strong>1893</strong> <em>[the French school]</em><strong>):</strong>
+        In the 1872 Erlangen pamphlet (fn. 13), Klein attributed the interpretation of metric properties via the imaginary spherical circle at infinity solely to <a class="person-ref" id="occ-person-chasles-1" href="../../people/chasles.html#person-chasles" data-person="chasles" title="Michel Chasles (1793 – 1880) — French Projective Geometer">Michel Chasles</a>. Recognizing the earlier foundational priority of <a class="person-ref" id="occ-person-poncelet-1" href="../../people/poncelet.html#person-poncelet" data-person="poncelet" title="Jean-Victor Poncelet (1788 – 1867) — French Geometer &amp; Engineer, Revivalist of Projective Geometry">Jean-Victor Poncelet</a> (<a class="citation-ref" id="occ-cite-poncelet-1822-1" href="../../bibliography.html#cite-poncelet-1822" data-cite="poncelet:1822" title="Jean-Victor Poncelet — Traité des propriétés projectives des figures (Paris: Bachelier)">1822</a>) and Edmond Laguerre (1853, angle via logarithm of cross-ratio with <span class="math notranslate nohighlight">\(I, J\)</span>), Klein broadened the 1893 wording to <code class="docutils literal notranslate"><span class="pre">[the</span> <span class="pre">French</span> <span class="pre">school]</span></code>.</p></li>
+        <li><p><strong>Pappus &amp; Projective Cross-Ratio (`geometor/pappus`):</strong> See <a class="citation-ref" id="occ-cite-pappus-collection-1" href="../../bibliography.html#cite-pappus-collection" data-cite="pappus:collection" title="Pappus of Alexandria — Synagoge (Collection), Books III, IV &amp; VII (Hultsch ed. (1876–1878))">Pappus, <em>Collection</em> Book VII</a> for the ancient root of projective invariance and <a class="person-ref" id="occ-person-staudt-1" href="../../people/staudt.html#person-staudt" data-person="staudt" title="Karl Georg Christian von Staudt (1798 – 1867) — German Synthetic Projective Geometer">von Staudt's</a> <em>Geometrie der Lage</em> discussed in § 3.</p></li>
+        </ul>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_02/notes.html" title="§ 2. Groups of Transformations, One of Which Includes the Other, Are Successively Adjoined. The Different Types of Geometrical Investigation and Their Relation to Each Other">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <div class="book-nav-center-row">
+              <a class="book-toc-link" href="../index.html">Erlangen Program</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-toc-link book-outline-footer-link" href="../outline.html" data-outline-toggle>Outline</a>
+            </div>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_04/notes.html" title="§ 4. Transfer of Properties by Representation (Abbildung)"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+      <div class="book-outline-backdrop" data-outline-close hidden></div>
+      <aside id="book-outline-drawer" class="book-outline-drawer" aria-label="Full Book Outline" hidden>
+        <div class="book-outline-drawer-header">
+          <div class="book-outline-drawer-heading">
+            <span class="book-outline-drawer-kicker">Book Outline</span>
+            <strong class="book-outline-drawer-title">Erlangen Program</strong>
+          </div>
+          <div class="book-outline-drawer-actions">
+            <a class="book-outline-fullpage-link" href="../outline.html" title="Open full-page outline">Full Page &nearr;</a>
+            <button type="button" class="book-outline-close-btn" data-outline-close aria-label="Close outline">&times;</button>
+          </div>
+        </div>
+        <div class="book-outline-controls">
+          <input type="search" class="book-outline-search" placeholder="Filter sections, chapters, propositions..." aria-label="Filter book outline" />
+          <div class="book-outline-btn-group">
+            <button type="button" class="book-outline-ctrl-btn" data-outline-expand>Expand all</button>
+            <button type="button" class="book-outline-ctrl-btn" data-outline-collapse>Collapse all</button>
+          </div>
+        </div>
+        <nav class="book-outline-drawer-body" aria-label="Complete Book Hierarchy"></nav>
+      </aside>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+        <li><a href="../../types/book_title.html">book_title</a></li>
+        <li><a href="../../types/de.html">de</a></li>
+        <li><a href="../../types/notes.html">notes</a></li>
+        <li><a href="../../types/person.html">person</a></li>
+        <li><a href="../../types/section.html">section</a></li>
+        <li><a href="../../types/source_record.html">source_record</a></li>
+        <li><a href="../../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../usage/index.html"  >Usage</a></li>
+        <li><a href="https://github.com/geometor/klein" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://github.com/geometor/klein/issues" target="_blank" rel="noopener">Support</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1872 A. Deichert · 1893 NYMS · 1895 B. G. Teubner · 1897 Ginn & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=360bc84d"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/collection_directory.js?v=0928c9d3"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script src="../../_static/js/book_outline.js?v=aca1ae7c"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -56,8 +56,8 @@ Books in This Collection
       .. container:: home-actions
 
          * :doc:`Open The Erlangen Program → <erlangen_program/index>`
-         * :doc:`§ 1: Groups of Transformations → <erlangen_program/sec_01/sec_01-en>`
-         * :doc:`§ 5: Transfer Principles → <erlangen_program/sec_05/sec_05-en>`
+         * :doc:`§ 1: Groups of Transformations → <erlangen_program/sec_01/index>`
+         * :doc:`§ 5: Transfer Principles → <erlangen_program/sec_05/index>`
 
 Key Features
 ------------

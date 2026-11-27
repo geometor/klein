@@ -37,17 +37,17 @@ Das Erlanger Programm
 Inhaltsverzeichnis
 ------------------
 
-* :doc:`Einleitung <prefatory-intro/prefatory-intro-de>`
-* :doc:`§ 1 <sec_01/sec_01-de>`
-* :doc:`§ 2 <sec_02/sec_02-de>`
-* :doc:`§ 3 <sec_03/sec_03-de>`
-* :doc:`§ 4 <sec_04/sec_04-de>`
-* :doc:`§ 5 <sec_05/sec_05-de>`
-* :doc:`§ 6 <sec_06/sec_06-de>`
-* :doc:`§ 7 <sec_07/sec_07-de>`
-* :doc:`§ 8 <sec_08/sec_08-de>`
-* :doc:`§ 9 <sec_09/sec_09-de>`
-* :doc:`§ 10 <sec_10/sec_10-de>`
+* :doc:`Einleitung <prefatory-intro/de>`
+* :doc:`§ 1 <sec_01/de>`
+* :doc:`§ 2 <sec_02/de>`
+* :doc:`§ 3 <sec_03/de>`
+* :doc:`§ 4 <sec_04/de>`
+* :doc:`§ 5 <sec_05/de>`
+* :doc:`§ 6 <sec_06/de>`
+* :doc:`§ 7 <sec_07/de>`
+* :doc:`§ 8 <sec_08/de>`
+* :doc:`§ 9 <sec_09/de>`
+* :doc:`§ 10 <sec_10/de>`
 * :doc:`Anmerkungen <notes/index>`
 
 ----
